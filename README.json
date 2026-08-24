@@ -99,7 +99,7 @@
                 "last_commit": "2026-01-30T13:27:32Z",
                 "owner": "gbadev-org",
                 "repo": "awesome-gbadev",
-                "stars": 1332
+                "stars": 1334
               }
             },
             {
@@ -141,7 +141,7 @@
                 "archived": false,
                 "id": 99400117,
                 "language": "C++",
-                "last_commit": "2026-08-24T05:40:01Z",
+                "last_commit": "2026-08-24T14:05:08Z",
                 "owner": "GerbilSoft",
                 "repo": "rom-properties",
                 "stars": 654
@@ -318,6 +318,28 @@
                 "repo": "Inazuma-Eleven-GO-Modding",
                 "stars": 1
               }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "retrore",
+                  "description": "Curated list of original and reverse-engineered vintage 6502 game source code, tracking disassembly projects across many classic 8-bit titles.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 284252918,
+                    "language": null,
+                    "last_commit": "2026-08-15T15:48:17Z",
+                    "owner": "realdmx",
+                    "repo": "retrore",
+                    "stars": 72
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "🎥 Video Tutorials"
             }
           ],
           "description": null,
@@ -343,10 +365,10 @@
                     "archived": false,
                     "id": 648332,
                     "language": "C++",
-                    "last_commit": "2026-08-22T17:27:39Z",
+                    "last_commit": "2026-08-24T11:32:24Z",
                     "owner": "assimp",
                     "repo": "assimp",
-                    "stars": 13157
+                    "stars": 13160
                   }
                 },
                 {
@@ -792,7 +814,7 @@
                     "archived": false,
                     "id": 629080475,
                     "language": "C#",
-                    "last_commit": "2026-08-24T05:05:35Z",
+                    "last_commit": "2026-08-24T12:23:56Z",
                     "owner": "BoBoBaSs84",
                     "repo": "DDS.Tools",
                     "stars": 19
@@ -1010,7 +1032,7 @@
                     "archived": false,
                     "id": 132937083,
                     "language": "C",
-                    "last_commit": "2025-11-25T02:51:40Z",
+                    "last_commit": "2026-08-24T07:33:08Z",
                     "owner": "bbbbbr",
                     "repo": "gimp-rom-bin",
                     "stars": 102
@@ -1125,6 +1147,28 @@
               "description": null,
               "node_type": "group",
               "title": "Sprites, Tiles & Tilemaps"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "fntlib",
+                  "description": "Python library for reading and writing AngelCode BMFont bitmap .fnt font files, a format used by many game engines (cocos2d-x, Geometry Dash, and others) for in-game text rendering.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 530618871,
+                    "language": "Python",
+                    "last_commit": "2022-08-30T19:57:58Z",
+                    "owner": "JaanDev",
+                    "repo": "fntlib",
+                    "stars": 2
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Fonts"
             },
             {
               "children": [
@@ -1287,7 +1331,7 @@
                 "last_commit": "2026-08-11T15:27:34Z",
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14261
+                "stars": 14264
               }
             },
             {
@@ -1347,7 +1391,7 @@
                 "last_commit": "2026-06-16T10:18:25Z",
                 "owner": "keirf",
                 "repo": "greaseweazle",
-                "stars": 1379
+                "stars": 1380
               }
             },
             {
@@ -1377,7 +1421,7 @@
                 "last_commit": "2025-05-15T20:51:52Z",
                 "owner": "XboxDev",
                 "repo": "extract-xiso",
-                "stars": 1133
+                "stars": 1132
               }
             },
             {
@@ -1467,7 +1511,7 @@
                 "last_commit": "2026-08-05T20:24:49Z",
                 "owner": "mholt",
                 "repo": "archives",
-                "stars": 438
+                "stars": 440
               }
             },
             {
@@ -1497,7 +1541,7 @@
                 "last_commit": "2026-08-01T10:56:31Z",
                 "owner": "wattostudios",
                 "repo": "GameExtractor",
-                "stars": 315
+                "stars": 316
               }
             },
             {
@@ -2176,7 +2220,7 @@
                 "archived": false,
                 "id": 11415199,
                 "language": "C++",
-                "last_commit": "2026-08-24T05:56:43Z",
+                "last_commit": "2026-08-24T14:09:13Z",
                 "owner": "vgmtrans",
                 "repo": "vgmtrans",
                 "stars": 1259
@@ -3148,7 +3192,7 @@
                 "last_commit": "2026-08-22T18:46:26Z",
                 "owner": "FanTranslatorsInternational",
                 "repo": "Kuriimu2",
-                "stars": 431
+                "stars": 432
               }
             },
             {
@@ -3233,6 +3277,21 @@
         },
         {
           "children": [
+            {
+              "node_type": "item",
+              "title": "ImHex",
+              "description": "Modern, open-source hex editor with pattern language for reverse engineering file formats (free).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 311683390,
+                "language": "C++",
+                "last_commit": "2026-08-24T00:22:03Z",
+                "owner": "WerWolv",
+                "repo": "ImHex",
+                "stars": 54549
+              }
+            },
             {
               "children": [
                 {
@@ -3611,10 +3670,10 @@
                     "archived": false,
                     "id": 173228436,
                     "language": "Java",
-                    "last_commit": "2026-08-20T13:07:30Z",
+                    "last_commit": "2026-08-24T08:41:59Z",
                     "owner": "NationalSecurityAgency",
                     "repo": "ghidra",
-                    "stars": 72720
+                    "stars": 72739
                   }
                 },
                 {
@@ -3629,7 +3688,7 @@
                     "last_commit": "2026-08-22T19:13:16Z",
                     "owner": "rizinorg",
                     "repo": "cutter",
-                    "stars": 19555
+                    "stars": 19559
                   }
                 },
                 {
@@ -3674,7 +3733,7 @@
                     "last_commit": "2024-03-30T05:21:19Z",
                     "owner": "atom0s",
                     "repo": "Steamless",
-                    "stars": 4981
+                    "stars": 4982
                   }
                 },
                 {
@@ -3704,7 +3763,7 @@
                     "last_commit": "2026-08-17T08:45:21Z",
                     "owner": "icedland",
                     "repo": "iced",
-                    "stars": 3553
+                    "stars": 3555
                   }
                 },
                 {
@@ -4018,7 +4077,7 @@
                     "last_commit": "2020-12-20T23:55:15Z",
                     "owner": "dnSpy",
                     "repo": "dnSpy",
-                    "stars": 29686
+                    "stars": 29687
                   }
                 },
                 {
@@ -4033,7 +4092,7 @@
                     "last_commit": "2026-07-17T04:48:36Z",
                     "owner": "Konloch",
                     "repo": "bytecode-viewer",
-                    "stars": 15615
+                    "stars": 15614
                   }
                 },
                 {
@@ -4063,7 +4122,7 @@
                     "last_commit": "2026-08-22T01:53:52Z",
                     "owner": "Col-E",
                     "repo": "Recaf",
-                    "stars": 7350
+                    "stars": 7349
                   }
                 },
                 {
@@ -4078,7 +4137,7 @@
                     "last_commit": "2026-08-08T06:55:35Z",
                     "owner": "jindrapetrik",
                     "repo": "jpexs-decompiler",
-                    "stars": 5821
+                    "stars": 5822
                   }
                 },
                 {
@@ -4175,7 +4234,7 @@
                     "last_commit": "2026-08-17T21:22:45Z",
                     "owner": "encounter",
                     "repo": "objdiff",
-                    "stars": 522
+                    "stars": 523
                   }
                 },
                 {
@@ -4572,7 +4631,7 @@
                     "last_commit": "2026-08-19T19:53:10Z",
                     "owner": "ran-j",
                     "repo": "PS2Recomp",
-                    "stars": 3193
+                    "stars": 3195
                   }
                 },
                 {
@@ -4587,7 +4646,7 @@
                     "last_commit": "2026-08-21T22:13:43Z",
                     "owner": "rexglue",
                     "repo": "rexglue-sdk",
-                    "stars": 794
+                    "stars": 795
                   }
                 },
                 {
@@ -4644,7 +4703,7 @@
                     "archived": false,
                     "id": 1172059725,
                     "language": "C++",
-                    "last_commit": "2026-08-24T00:29:17Z",
+                    "last_commit": "2026-08-24T08:01:25Z",
                     "owner": "mstan",
                     "repo": "psxrecomp",
                     "stars": 152
@@ -5306,7 +5365,7 @@
                     "last_commit": "2024-02-18T13:37:21Z",
                     "owner": "corkami",
                     "repo": "pics",
-                    "stars": 11474
+                    "stars": 11475
                   }
                 },
                 {
@@ -5460,7 +5519,7 @@
                     "archived": false,
                     "id": 52111486,
                     "language": "Python",
-                    "last_commit": "2026-08-15T09:09:11Z",
+                    "last_commit": "2026-08-24T12:47:20Z",
                     "owner": "korcankaraokcu",
                     "repo": "PINCE",
                     "stars": 3067
@@ -6067,7 +6126,7 @@
                 "last_commit": "2026-03-12T17:36:37Z",
                 "owner": "hedge-dev",
                 "repo": "XenosRecomp",
-                "stars": 489
+                "stars": 490
               }
             },
             {
@@ -6079,7 +6138,7 @@
                 "archived": false,
                 "id": 642852605,
                 "language": "C#",
-                "last_commit": "2026-08-01T13:11:15Z",
+                "last_commit": "2026-08-24T08:58:29Z",
                 "owner": "HexaEngine",
                 "repo": "Hexa.NET.ImGui",
                 "stars": 342
@@ -6706,7 +6765,7 @@
                     "last_commit": "2026-08-23T17:27:44Z",
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4242
+                    "stars": 4243
                   }
                 },
                 {
@@ -6785,7 +6844,7 @@
                     "archived": false,
                     "id": 1358940,
                     "language": "C++",
-                    "last_commit": "2026-08-23T19:13:53Z",
+                    "last_commit": "2026-08-24T14:14:51Z",
                     "owner": "scummvm",
                     "repo": "scummvm",
                     "stars": 2791
@@ -7131,7 +7190,7 @@
                     "archived": false,
                     "id": 1312984205,
                     "language": "JavaScript",
-                    "last_commit": "2026-08-24T05:55:58Z",
+                    "last_commit": "2026-08-24T13:58:21Z",
                     "owner": "Fabulu",
                     "repo": "Mixup",
                     "stars": 0
@@ -7328,7 +7387,7 @@
                     "last_commit": "2026-07-11T10:40:21Z",
                     "owner": "marcrobledo",
                     "repo": "RomPatcher.js",
-                    "stars": 1179
+                    "stars": 1180
                   }
                 },
                 {
@@ -7470,7 +7529,7 @@
                     "last_commit": "2026-08-18T17:46:27Z",
                     "owner": "TASEmulators",
                     "repo": "BizHawk",
-                    "stars": 2731
+                    "stars": 2732
                   }
                 },
                 {
@@ -7557,7 +7616,7 @@
                     "archived": false,
                     "id": 1335432664,
                     "language": "C",
-                    "last_commit": "2026-08-23T21:11:53Z",
+                    "last_commit": "2026-08-24T06:57:00Z",
                     "owner": "rhakka303",
                     "repo": "Hypdroid",
                     "stars": 2
@@ -7609,10 +7668,10 @@
                     "archived": false,
                     "id": 740175107,
                     "language": "C#",
-                    "last_commit": "2026-08-24T01:17:19Z",
+                    "last_commit": "2026-08-24T14:11:26Z",
                     "owner": "vawser",
                     "repo": "Smithbox",
-                    "stars": 697
+                    "stars": 698
                   }
                 },
                 {
@@ -8066,7 +8125,7 @@
                 "last_commit": "2026-08-24T02:24:29Z",
                 "owner": "UnderminersTeam",
                 "repo": "UndertaleModTool",
-                "stars": 2008
+                "stars": 2010
               }
             },
             {
@@ -8345,7 +8404,7 @@
                     "last_commit": "2026-08-23T17:27:44Z",
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4242
+                    "stars": 4243
                   }
                 },
                 {
@@ -8360,7 +8419,7 @@
                     "last_commit": "2026-08-23T17:27:44Z",
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4242
+                    "stars": 4243
                   }
                 },
                 {
@@ -8375,7 +8434,7 @@
                     "last_commit": "2026-08-23T15:18:32Z",
                     "owner": "FWGS",
                     "repo": "xash3d-fwgs",
-                    "stars": 2734
+                    "stars": 2735
                   }
                 },
                 {
@@ -8387,10 +8446,10 @@
                     "archived": false,
                     "id": 42366054,
                     "language": "C#",
-                    "last_commit": "2026-08-24T01:04:43Z",
+                    "last_commit": "2026-08-24T07:57:43Z",
                     "owner": "ValveResourceFormat",
                     "repo": "ValveResourceFormat",
-                    "stars": 2384
+                    "stars": 2385
                   }
                 },
                 {
@@ -8435,7 +8494,7 @@
                     "last_commit": "2026-08-08T16:55:44Z",
                     "owner": "ZeqMacaw",
                     "repo": "Crowbar",
-                    "stars": 812
+                    "stars": 813
                   }
                 },
                 {
@@ -8511,7 +8570,7 @@
                     "last_commit": "2026-08-23T23:38:18Z",
                     "owner": "FWGS",
                     "repo": "hlsdk-portable",
-                    "stars": 396
+                    "stars": 395
                   }
                 },
                 {
@@ -8764,7 +8823,7 @@
                     "archived": false,
                     "id": 834902743,
                     "language": "Python",
-                    "last_commit": "2026-08-22T15:43:05Z",
+                    "last_commit": "2026-08-24T14:00:23Z",
                     "owner": "dertwist",
                     "repo": "Hammer5Tools",
                     "stars": 58
@@ -9815,7 +9874,7 @@
                     "last_commit": "2026-08-10T21:19:30Z",
                     "owner": "craftablescience",
                     "repo": "VPKEdit",
-                    "stars": 733
+                    "stars": 734
                   }
                 },
                 {
@@ -9954,7 +10013,7 @@
                     "archived": false,
                     "id": 52661787,
                     "language": "C#",
-                    "last_commit": "2026-08-08T20:36:48Z",
+                    "last_commit": "2026-08-24T10:08:30Z",
                     "owner": "ValveResourceFormat",
                     "repo": "ValveKeyValue",
                     "stars": 192
@@ -10216,6 +10275,28 @@
               "children": [
                 {
                   "node_type": "item",
+                  "title": "source-wrench",
+                  "description": "Application to compile models to the Source Engine 1 MDL format.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 802597967,
+                    "language": "Rust",
+                    "last_commit": "2026-08-11T10:42:22Z",
+                    "owner": "NameIsJakob",
+                    "repo": "source-wrench",
+                    "stars": 9
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Legacy Tools & Downloads (ModDB)"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
                   "title": "GameTracking-Dota2",
                   "description": "Continuously-updated tracker of Dota 2's client-facing data extracted from each game update, including Source 2 protobuf network/GC message schemas (demo.proto, netmessages, GC messages) and dumped client schemas/module metadata, with full version history across patches.",
                   "children": [],
@@ -10238,7 +10319,7 @@
                     "archived": false,
                     "id": 1306659309,
                     "language": "JavaScript",
-                    "last_commit": "2026-08-24T05:54:05Z",
+                    "last_commit": "2026-08-24T09:38:43Z",
                     "owner": "TheFleece",
                     "repo": "dota2-mod-manager",
                     "stars": 14
@@ -10352,7 +10433,7 @@
                     "last_commit": "2026-08-23T17:27:44Z",
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4242
+                    "stars": 4243
                   }
                 },
                 {
@@ -10382,7 +10463,7 @@
                     "last_commit": "2022-01-14T21:53:29Z",
                     "owner": "mafaca",
                     "repo": "UtinyRipper",
-                    "stars": 3093
+                    "stars": 3092
                   }
                 },
                 {
@@ -10427,7 +10508,7 @@
                     "last_commit": "2025-10-15T19:38:12Z",
                     "owner": "aelurum",
                     "repo": "AssetStudioMod",
-                    "stars": 2028
+                    "stars": 2029
                   }
                 },
                 {
@@ -10457,7 +10538,7 @@
                     "last_commit": "2026-08-01T19:02:55Z",
                     "owner": "K0lb3",
                     "repo": "UnityPy",
-                    "stars": 1407
+                    "stars": 1408
                   }
                 },
                 {
@@ -10599,7 +10680,7 @@
                     "last_commit": "2024-08-18T17:01:30Z",
                     "owner": "Perfare",
                     "repo": "Il2CppDumper",
-                    "stars": 9327
+                    "stars": 9329
                   }
                 },
                 {
@@ -10629,7 +10710,7 @@
                     "last_commit": "2026-08-19T10:56:29Z",
                     "owner": "SamboyCoding",
                     "repo": "Cpp2IL",
-                    "stars": 2587
+                    "stars": 2589
                   }
                 },
                 {
@@ -10816,7 +10897,7 @@
                     "last_commit": "2026-07-24T00:16:26Z",
                     "owner": "bbepis",
                     "repo": "XUnity.AutoTranslator",
-                    "stars": 3355
+                    "stars": 3357
                   }
                 },
                 {
@@ -10905,6 +10986,50 @@
               "description": null,
               "node_type": "group",
               "title": "Texture Decoders"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "unity-es3-cracker",
+                  "description": "Recovers the encryption password of Unity Easy Save 3 (.es3) save files by harvesting password candidates from the game's DLLs/.assets files and brute-forcing the AES key; includes a bilingual (EN/ZH) Tkinter GUI.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1304827279,
+                    "language": "Python",
+                    "last_commit": "2026-07-18T11:28:11Z",
+                    "owner": "Chaobs",
+                    "repo": "unity-es3-cracker",
+                    "stars": 1
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Save File Tools"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "UVCT",
+                  "description": "Unity VideoClip Transcoder; re-encodes a Unity game's VideoClip assets to reduce their resource size.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1095484611,
+                    "language": "C#",
+                    "last_commit": "2025-11-13T23:22:47Z",
+                    "owner": "bungaku-moe",
+                    "repo": "UVCT",
+                    "stars": 0
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "VideoClip Transcoding"
             }
           ],
           "description": null,
@@ -10939,7 +11064,7 @@
                     "archived": false,
                     "id": 317931014,
                     "language": "C++",
-                    "last_commit": "2026-08-24T01:47:59Z",
+                    "last_commit": "2026-08-24T13:40:05Z",
                     "owner": "dpjudas",
                     "repo": "SurrealEngine",
                     "stars": 1094
@@ -11084,7 +11209,7 @@
                     "last_commit": "2025-06-25T00:50:10Z",
                     "owner": "jorgenpt",
                     "repo": "uasset-rs",
-                    "stars": 119
+                    "stars": 120
                   }
                 },
                 {
@@ -11286,7 +11411,7 @@
                     "last_commit": "2026-03-06T10:33:53Z",
                     "owner": "jashking",
                     "repo": "UnrealPakViewer",
-                    "stars": 1452
+                    "stars": 1453
                   }
                 },
                 {
@@ -11316,7 +11441,7 @@
                     "last_commit": "2026-02-20T19:41:42Z",
                     "owner": "trumank",
                     "repo": "repak",
-                    "stars": 557
+                    "stars": 558
                   }
                 },
                 {
@@ -11488,7 +11613,7 @@
                     "last_commit": "2026-08-06T20:21:03Z",
                     "owner": "Encryqed",
                     "repo": "Dumper-7",
-                    "stars": 2193
+                    "stars": 2194
                   }
                 },
                 {
@@ -11914,7 +12039,7 @@
                     "last_commit": "2026-08-24T05:39:25Z",
                     "owner": "UE4SS-RE",
                     "repo": "RE-UE4SS",
-                    "stars": 2824
+                    "stars": 2827
                   }
                 },
                 {
@@ -11944,7 +12069,7 @@
                     "last_commit": "2026-06-10T10:41:47Z",
                     "owner": "Dmgvol",
                     "repo": "UE_Modding",
-                    "stars": 580
+                    "stars": 581
                   }
                 },
                 {
@@ -12165,7 +12290,7 @@
                 "last_commit": "2024-04-09T19:46:16Z",
                 "owner": "StrongPC123",
                 "repo": "Far-Cry-1-Source-Full",
-                "stars": 967
+                "stars": 968
               }
             },
             {
@@ -12610,6 +12735,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "io_pragma_engine",
+              "description": "Blender plugin for importing and exporting Pragma Engine models.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 237503817,
+                "language": "Python",
+                "last_commit": "2020-04-02T16:07:28Z",
+                "owner": "REDxEYE",
+                "repo": "io_pragma_engine",
+                "stars": 5
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Pragma Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Raze",
               "description": "GZDoom-derived source port for Build engine games including Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, Exhumed/Powerslave and Ion Fury, reading each game's original GRP/RFF/ART assets.",
               "children": [],
@@ -12777,6 +12924,176 @@
           "description": null,
           "node_type": "group",
           "title": "Build Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "cobra-tools",
+              "description": "Suite of GUI tools for extracting and modifying OVL and OVS archives, as well as editing associated file formats and models for the Cobra Engine (Frontier Developments).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 225604792,
+                "language": "Python",
+                "last_commit": "2026-08-23T10:30:37Z",
+                "owner": "OpenNaja",
+                "repo": "cobra-tools",
+                "stars": 152
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Cobra Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AtiSushi",
+              "description": "UniLoader plugin for importing AtiSushi engine files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 720111180,
+                "language": "Python",
+                "last_commit": "2023-11-22T22:43:20Z",
+                "owner": "REDxEYE",
+                "repo": "AtiSushi",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "AtiSushi Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "geniedoc",
+              "description": "Documentation of Age of Empires II .dat files (Genie Engine formats).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 87318780,
+                "language": null,
+                "last_commit": "2017-04-14T13:25:18Z",
+                "owner": "aap",
+                "repo": "geniedoc",
+                "stars": 16
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Genie Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "brunsdec",
+              "description": "Decryptor for Bruns Engine encrypted assets (magic number ), deriving a per-file XOR key from the file header to recover encrypted PNG images.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 166752255,
+                "language": "Haxe",
+                "last_commit": "2019-01-29T10:39:16Z",
+                "owner": "Bioruebe",
+                "repo": "brunsdec",
+                "stars": 9
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Bruns Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "StargazeUnpack",
+              "description": "Extracts files from the .pack archives used by games running the Stargaze engine (Mountain Crime: Requital, Psycho Train).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 494838552,
+                "language": "Python",
+                "last_commit": "2022-05-25T23:02:22Z",
+                "owner": "TheIndra55",
+                "repo": "StargazeUnpack",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Stargaze Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "I3DShapesTool",
+              "description": "Tool for extracting the binary .i3d.shapes mesh/shape files used by the GIANTS engine (Farming Simulator) to OBJ.",
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "See also I3dShapes",
+                  "description": "for a .NET/C# library port (published on NuGet) supporting shape types 1-3 for programmatic use.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 239105781,
+                    "language": "C#",
+                    "last_commit": "2020-02-15T10:39:49Z",
+                    "owner": "VirRus77",
+                    "repo": "I3dShapes",
+                    "stars": 3
+                  }
+                }
+              ],
+              "repo_info": {
+                "archived": false,
+                "id": 102278758,
+                "language": "C#",
+                "last_commit": "2022-08-12T18:54:20Z",
+                "owner": "Donkie",
+                "repo": "I3DShapesTool",
+                "stars": 28
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "GIANTS Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "B3DDecomp",
+              "description": "Disassembler and decompiler for games built with the Blitz3D and BlitzPlus engines.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 658551828,
+                "language": "C#",
+                "last_commit": "2026-01-11T02:08:04Z",
+                "owner": "juanjp600",
+                "repo": "B3DDecomp",
+                "stars": 23
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Blitz3D / BlitzPlus"
         },
         {
           "children": [
@@ -13077,7 +13394,7 @@
                 "last_commit": "2026-08-08T11:57:34Z",
                 "owner": "Cytlan",
                 "repo": "openbgi",
-                "stars": 70
+                "stars": 71
               }
             },
             {
@@ -13099,6 +13416,28 @@
           "description": "Visual novel engine (Ethornell) used by many Japanese visual novels.",
           "node_type": "group",
           "title": "BGI (Buriko General Interpreter)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "rlvm",
+              "description": "Open-source RealLive engine clone for Linux and macOS, reading original RealLive visual novel game data.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 91986,
+                "language": "C++",
+                "last_commit": "2024-09-08T20:53:05Z",
+                "owner": "eglaysher",
+                "repo": "rlvm",
+                "stars": 166
+              }
+            }
+          ],
+          "description": "Visual novel engine used by Key (Clannad, Kanon, Little Busters!), Circus, and other Japanese publishers.",
+          "node_type": "group",
+          "title": "RealLive"
         },
         {
           "children": [
@@ -13167,6 +13506,72 @@
           "description": "Visual novel engine (KAG/TJS scripting) used by many Japanese visual novels.",
           "node_type": "group",
           "title": "Kirikiri"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenARC",
+              "description": "Decoder/encoder for the .arc archive format used by the ONScripter visual novel engine, based on the archive codebase from ONScripter-EN.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 799319224,
+                "language": "C++",
+                "last_commit": "2024-08-04T15:35:26Z",
+                "owner": "Nyarstot",
+                "repo": "OpenARC",
+                "stars": 1
+              }
+            }
+          ],
+          "description": "Visual novel engine (NScripter-compatible) used by many freeware/doujin visual novels.",
+          "node_type": "group",
+          "title": "ONScripter"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Light.vnTools",
+              "description": "Unpack/decrypt and repack/encrypt tool for games made with the Light.vn visual novel engine (.vndat/.mcdat files).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 856888408,
+                "language": "C#",
+                "last_commit": "2025-09-25T07:07:39Z",
+                "owner": "bungaku-moe",
+                "repo": "Light.vnTools",
+                "stars": 27
+              }
+            }
+          ],
+          "description": "Visual novel engine (lightvn.net).",
+          "node_type": "group",
+          "title": "Light.vn"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CSystemTools",
+              "description": "Script and image unpacking/repacking tool for the Cyberworks \"C,system\" visual novel engine (Arc00-Arc09.dat index/content files); images convert automatically to/from PNG. See also VNTranslationTools for translating the extracted scenario scripts.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 438780207,
+                "language": "C#",
+                "last_commit": "2022-07-16T22:25:12Z",
+                "owner": "arcusmaximus",
+                "repo": "CSystemTools",
+                "stars": 54
+              }
+            }
+          ],
+          "description": "Visual novel engine (\"C,system\") by Cyberworks, used in various Japanese visual novels.",
+          "node_type": "group",
+          "title": "C,system Engine"
         },
         {
           "children": [
@@ -13428,7 +13833,7 @@
                     "archived": false,
                     "id": 1011345,
                     "language": "C",
-                    "last_commit": "2026-04-01T19:40:01Z",
+                    "last_commit": "2026-08-24T11:30:36Z",
                     "owner": "DavidKinder",
                     "repo": "Windows-Frotz",
                     "stars": 117
@@ -13739,6 +14144,50 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Magnetic",
+              "description": "Interpreter for the Magnetic Scrolls text-adventure games (1985-1991) by the UK studio of the same name, playing the original .mag story files; written by Niclas Karlsson with additional code by David Kinder.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1011360,
+                "language": "C",
+                "last_commit": "2026-02-12T18:43:09Z",
+                "owner": "DavidKinder",
+                "repo": "Magnetic",
+                "stars": 21
+              }
+            }
+          ],
+          "description": "Custom virtual machine format used by Magnetic Scrolls' text adventures (The Pawn, Guild of Thieves, Wonderland, etc.), a UK studio whose parser games rivaled Infocom's in the 1980s.",
+          "node_type": "group",
+          "title": "Magnetic Scrolls VM (Interactive Fiction)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Windows AGiliTy",
+              "description": "Windows port of Robert Masenten's AGiliTy interpreter for AGT (Adventure Game Toolkit) games, playing the original AGT game-data files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1011342,
+                "language": "C",
+                "last_commit": "2026-02-26T17:56:49Z",
+                "owner": "DavidKinder",
+                "repo": "Windows-AGiliTy",
+                "stars": 8
+              }
+            }
+          ],
+          "description": "Text-adventure authoring system popular on Compuserve in the late 1980s; AGT games compile to a custom game-data format read by the AGiliTy interpreter.",
+          "node_type": "group",
+          "title": "AGT (Adventure Game Toolkit)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Level9-Public",
               "description": "Preservation archive of roughly 500 recovered Level 9 floppy disks (of about 1000 originally produced), dumped mainly via Atari ST emulation between 2021-2024; source material for reconstructing original Level 9 game-data files.",
               "children": [],
@@ -13845,6 +14294,116 @@
           "description": "Adventure Development & Runner Interactive Fiction Toolkit, a point-and-click-authored text-adventure format with its own closed-source runner/VM.",
           "node_type": "group",
           "title": "ADRIFT VM (Interactive Fiction)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Alan",
+              "description": "Official compiler and interpreter for the Alan interactive-fiction authoring language, playing the original Alan game-data format.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 197318970,
+                "language": "Assembly",
+                "last_commit": "2026-08-18T19:31:58Z",
+                "owner": "alan-if",
+                "repo": "alan",
+                "stars": 19
+              }
+            }
+          ],
+          "description": "Text-adventure authoring language designed by Thomas Nilsson, compiling to its own bytecode format read by the Alan interpreter.",
+          "node_type": "group",
+          "title": "Alan VM (Interactive Fiction)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "twine-specs",
+              "description": "Format specifications for Twine, covering the Twee passage-map format, the HTML story-archive format, and the story-format JavaScript API.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 102548885,
+                "language": null,
+                "last_commit": "2024-07-04T02:10:53Z",
+                "owner": "iftechfoundation",
+                "repo": "twine-specs",
+                "stars": 101
+              }
+            }
+          ],
+          "description": "Hypertext/choice-based interactive fiction tool; Twine stories are HTML files embedding Twee-format passage data, run by a story-format-specific JavaScript runtime (Harlowe, SugarCube, Chapbook, etc.).",
+          "node_type": "group",
+          "title": "Twine (Interactive Fiction)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Yarn Spinner",
+              "description": "Core compiler and engine-agnostic runtime for Yarn Spinner, compiling dialogue scripts to a bytecode/JSON format consumed by game engines (Unity, Godot, etc.). See also YSRun-Single, a single-turn GlkOte wrapper for running the compiled dialogue JSON from the command line.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 43618365,
+                "language": "C#",
+                "last_commit": "2026-08-11T02:36:15Z",
+                "owner": "YarnSpinnerTool",
+                "repo": "YarnSpinner",
+                "stars": 2828
+              }
+            }
+          ],
+          "description": "Engine-agnostic dialogue scripting system used by many indie and commercial games; Yarn scripts compile to a bytecode/JSON format executed at runtime.",
+          "node_type": "group",
+          "title": "Yarn Spinner (Dialogue Middleware)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "G7Reader",
+              "description": "Small utility to read Rawthrills G7 Engine archive files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 821467569,
+                "language": "C++",
+                "last_commit": "2024-06-29T21:13:34Z",
+                "owner": "Surasia",
+                "repo": "G7Reader",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Rawthrills G7 Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "dzip-rs",
+              "description": "Pure-Rust library and CLI for reading, extracting, creating, and inspecting Dzip resource archives used by Marmalade SDK games, compatible with the original dzip.exe (split volumes, DZ/Bzip/LZMA compression).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1110752890,
+                "language": "Rust",
+                "last_commit": "2026-08-20T11:27:08Z",
+                "owner": "LambdaEd1th",
+                "repo": "dzip-tools",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Marmalade SDK"
         },
         {
           "children": [
@@ -14123,6 +14682,28 @@
           "description": null,
           "node_type": "group",
           "title": "Adventure Game Studio (AGS)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "xoreos",
+              "description": "Open-source reimplementation of BioWare's Aurora engine and its derivatives, targeting full portability of all Aurora-based games.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 827722,
+                "language": "C++",
+                "last_commit": "2026-08-23T12:24:58Z",
+                "owner": "xoreos",
+                "repo": "xoreos",
+                "stars": 1165
+              }
+            }
+          ],
+          "description": "Used in Neverwinter Nights, Star Wars: Knights of the Old Republic, Jade Empire, and other BioWare titles.",
+          "node_type": "group",
+          "title": "BioWare Aurora Engine"
         },
         {
           "children": [
@@ -14411,6 +14992,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "utagedec",
+              "description": "Decryptor for UTAGE visual novel engine encrypted assets (.utage), reversing the engine's modified XOR encryption scheme.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 80326644,
+                "language": "Haxe",
+                "last_commit": "2019-01-29T10:46:39Z",
+                "owner": "Bioruebe",
+                "repo": "utagedec",
+                "stars": 4
+              }
+            }
+          ],
+          "description": "Unity-based Japanese visual-novel/ADV plugin.",
+          "node_type": "group",
+          "title": "UTAGE"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Ruffle",
               "description": "Flash Player emulator written in Rust that parses and executes SWF files and ActionScript bytecode, used to preserve and play thousands of Flash-based web games.",
               "children": [],
@@ -14421,7 +15024,7 @@
                 "last_commit": "2026-08-24T00:07:50Z",
                 "owner": "ruffle-rs",
                 "repo": "ruffle",
-                "stars": 18444
+                "stars": 18450
               }
             },
             {
@@ -14458,6 +15061,28 @@
           "description": null,
           "node_type": "group",
           "title": "Adobe Flash (SWF)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "gdsdecomp",
+              "description": "Godot reverse engineering toolkit for game file format recovery, GDScript bytecode decompilation, and PCK archive extraction (Godot 2.x, 3.x, 4.x).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 163965465,
+                "language": "C++",
+                "last_commit": "2026-08-16T19:24:40Z",
+                "owner": "GDRETools",
+                "repo": "gdsdecomp",
+                "stars": 4101
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Godot"
         },
         {
           "children": [
@@ -14516,7 +15141,7 @@
                 "last_commit": "2026-08-23T17:27:44Z",
                 "owner": "magcius",
                 "repo": "noclip.website",
-                "stars": 4242
+                "stars": 4243
               }
             },
             {
@@ -14531,7 +15156,7 @@
                 "last_commit": "2026-08-06T01:42:48Z",
                 "owner": "rt64",
                 "repo": "rt64",
-                "stars": 1577
+                "stars": 1578
               }
             },
             {
@@ -14658,6 +15283,28 @@
           "description": "SGI's microcode format for defining 3D graphics on the Nintendo 64. Used in Super Mario 64, Paper Mario 64, Banjo-Kazooie, and many other N64 titles.",
           "node_type": "group",
           "title": "Fast3d/F3dex (N64)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "GraniteTextureReader",
+              "description": "Texture reader/extractor for Granite SDK files (.gts/.gtp).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 754336580,
+                "language": "C#",
+                "last_commit": "2026-07-13T20:46:59Z",
+                "owner": "Nenkai",
+                "repo": "GraniteTextureReader",
+                "stars": 25
+              }
+            }
+          ],
+          "description": "Texture streaming middleware (.gts/.gtp files) used across multiple titles.",
+          "node_type": "group",
+          "title": "Granite SDK"
         },
         {
           "children": [
@@ -14890,7 +15537,7 @@
                 "last_commit": "2026-08-23T17:27:44Z",
                 "owner": "magcius",
                 "repo": "noclip.website",
-                "stars": 4242
+                "stars": 4243
               }
             },
             {
@@ -15517,6 +16164,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "sead",
+              "description": "Decompilation of the sead engine/library developed by Nintendo EAD (now EPD), present in New Super Mario Bros. U and other titles. Includes the graphics library and an wrapper for NintendoWareForCafe's Eft particle library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 236265236,
+                "language": "C++",
+                "last_commit": "2026-07-25T06:59:44Z",
+                "owner": "aboood40091",
+                "repo": "sead",
+                "stars": 54
+              }
+            }
+          ],
+          "description": "Decompilation of Nintendo EAD/EPD's internal engine and standard library, used across many first-party Wii U and Switch titles including New Super Mario Bros. U.",
+          "node_type": "group",
+          "title": "SEAD (Nintendo EAD/EPD Engine)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "FFL-Testing",
               "description": "Mii rendering sample and renderer server built on the FFL decompilation. Fork of aboood40091/FFL-Testing with added rendering server functionality.",
               "children": [],
@@ -15579,6 +16248,28 @@
           "description": "Nintendo's Mii avatar creation/rendering libraries, used across the Wii, Wii U, 3DS, and Switch.",
           "node_type": "group",
           "title": "Mii (RFL/FFL Face Library)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Project-G1M",
+              "description": "Native C++ Noesis plugin for G1M model, G1T texture, and G1A/G2A skeletal animation files. Used across Nioh, Dead or Alive 5/6, the Warriors series (Dynasty/Samurai Warriors, Hyrule Warriors, Fire Emblem Warriors), Atelier, Toukiden, Fire Emblem: Three Houses, and Persona 5 Scramble. Supersedes the same author's Python-based fmt_g1m.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 304436547,
+                "language": "C++",
+                "last_commit": "2026-02-09T11:19:35Z",
+                "owner": "Joschuka",
+                "repo": "Project-G1M",
+                "stars": 92
+              }
+            }
+          ],
+          "description": "Koei Tecmo's in-house engine and asset formats (G1M models, G1T texture archives, G1A/G2A skeletal animations), used across Team Ninja, Omega Force, and Gust titles as well as several external collaborations.",
+          "node_type": "group",
+          "title": "Katana Engine (Koei Tecmo)"
         },
         {
           "children": [
@@ -15666,6 +16357,43 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Murder Engine, a 2D game engine/framework used by several indie titles.",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 556157877,
+                "language": "C#",
+                "last_commit": "2026-08-24T00:26:05Z",
+                "owner": "isadorasophia",
+                "repo": "murder",
+                "stars": 3312
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "murder-unpack",
+              "description": "Reverse-engineers exported Murder Engine games back into editor-openable projects.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1208877537,
+                "language": "Python",
+                "last_commit": "2026-07-13T10:43:54Z",
+                "owner": "yuna0x0",
+                "repo": "murder-unpack",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Murder Engine"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "netlizard",
               "description": "Parser utility and Qt4 GUI tool for NETLizard 3D J2ME game resource files (models, textures, fonts, text, sprites), reversed from decompiled Java source.",
               "children": [],
@@ -15698,6 +16426,28 @@
           "description": null,
           "node_type": "group",
           "title": "NETLizard (J2ME Game Engine)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "nebula2-assets-extractor",
+              "description": "Extracts and converts asset packs for the Nebula Device 2 engine.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 448145864,
+                "language": "Java",
+                "last_commit": "2026-05-03T22:29:33Z",
+                "owner": "vinceh121",
+                "repo": "nebula2-assets-extractor",
+                "stars": 9
+              }
+            }
+          ],
+          "description": "The Nebula Device/Nebula2 engine, used by Project Nomads and other early-2000s titles.",
+          "node_type": "group",
+          "title": "Nebula Engine"
         },
         {
           "children": [
@@ -15750,6 +16500,50 @@
           "description": "Freeware animation program and its associated model and motion formats (.pmx, .pmd, .vmd).",
           "node_type": "group",
           "title": "MikuMikuDance"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Cal3d-Noesis",
+              "description": "Noesis addon for Cal3D models and animations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1115405591,
+                "language": "Python",
+                "last_commit": "2026-03-27T20:17:15Z",
+                "owner": "ExIfDev",
+                "repo": "Cal3d-Noesis",
+                "stars": 2
+              }
+            }
+          ],
+          "description": "Cal3D, an open-source skeletal-based 3D character animation library used by several early-2000s indie games.",
+          "node_type": "group",
+          "title": "Cal3D"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Spine Magic Builder",
+              "description": "Windows toolkit for reconstructing scattered or mislabeled Spine skeleton/atlas/texture assets by scanning a directory tree at the byte level and matching candidates, with a GUI picker for visual validation against SpineViewer.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1318701333,
+                "language": "Python",
+                "last_commit": "2026-08-16T13:34:03Z",
+                "owner": "Randombirdnoise",
+                "repo": "Spine_Magic_Builder",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Spine (2D Skeletal Animation Middleware)"
         },
         {
           "children": [
@@ -16012,7 +16806,7 @@
                 "last_commit": "2026-07-31T14:09:23Z",
                 "owner": "Youjose",
                 "repo": "CriCodecs",
-                "stars": 103
+                "stars": 105
               }
             },
             {
@@ -16139,6 +16933,28 @@
           "description": "CRI Middleware formats (CPK archives, ADX audio, etc.) used in many Japanese games across multiple platforms.",
           "node_type": "group",
           "title": "CRI"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "psbfile",
+              "description": "Decompiler and rebuilder for the galgame PSB file format.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 47054257,
+                "language": "C",
+                "last_commit": "2022-07-02T10:15:48Z",
+                "owner": "number201724",
+                "repo": "psbfile",
+                "stars": 72
+              }
+            }
+          ],
+          "description": "Serialized data/archive format used by many Japanese visual novel and mobile game engines (M2/Emote, CatSystem2, and others).",
+          "node_type": "group",
+          "title": "PSB (Persistent Serialized Binary)"
         },
         {
           "children": [
@@ -16398,21 +17214,6 @@
             },
             {
               "node_type": "item",
-              "title": "libbink",
-              "description": "GPL-licensed RAD Bink 1 video encoder/decoder reimplementation.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "id": 1315916026,
-                "language": "C#",
-                "last_commit": "2026-08-01T03:48:48Z",
-                "owner": "jmarshall23",
-                "repo": "libbink",
-                "stars": 14
-              }
-            },
-            {
-              "node_type": "item",
               "title": "Knit",
               "description": "Fully managed C# reader for Granny 2 files used in many games.",
               "children": [],
@@ -16522,7 +17323,7 @@
                     "last_commit": "2026-08-20T17:55:26Z",
                     "owner": "XorTroll",
                     "repo": "Goldleaf",
-                    "stars": 3022
+                    "stars": 3023
                   }
                 },
                 {
@@ -16896,7 +17697,7 @@
                     "last_commit": "2026-08-23T17:27:44Z",
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4242
+                    "stars": 4243
                   }
                 },
                 {
@@ -17115,7 +17916,7 @@
                         "last_commit": "2024-08-13T21:07:36Z",
                         "owner": "ihaveamac",
                         "repo": "3dsconv",
-                        "stars": 635
+                        "stars": 636
                       }
                     },
                     {
@@ -18342,7 +19143,7 @@
                         "last_commit": "2026-08-23T16:58:47Z",
                         "owner": "dolphin-emu",
                         "repo": "dolphin",
-                        "stars": 15431
+                        "stars": 15432
                       }
                     },
                     {
@@ -18357,7 +19158,7 @@
                         "last_commit": "2026-08-23T17:27:44Z",
                         "owner": "magcius",
                         "repo": "noclip.website",
-                        "stars": 4242
+                        "stars": 4243
                       }
                     },
                     {
@@ -18636,7 +19437,7 @@
                     "archived": false,
                     "id": 667594804,
                     "language": "Java",
-                    "last_commit": "2026-08-24T05:45:40Z",
+                    "last_commit": "2026-08-24T07:21:44Z",
                     "owner": "turtleisaac",
                     "repo": "Nds4j",
                     "stars": 9
@@ -18796,7 +19597,7 @@
                     "last_commit": "2026-05-27T05:21:25Z",
                     "owner": "N64Recomp",
                     "repo": "N64Recomp",
-                    "stars": 8045
+                    "stars": 8060
                   }
                 },
                 {
@@ -18968,7 +19769,7 @@
                     "last_commit": "2013-06-07T09:49:39Z",
                     "owner": "andrewrk",
                     "repo": "jamulator",
-                    "stars": 622
+                    "stars": 623
                   }
                 },
                 {
@@ -19247,7 +20048,7 @@
                         "last_commit": "2026-08-05T03:36:45Z",
                         "owner": "arcanite24",
                         "repo": "gb-recompiled",
-                        "stars": 423
+                        "stars": 424
                       }
                     },
                     {
@@ -20616,7 +21417,7 @@
                         "last_commit": "2026-04-05T19:47:12Z",
                         "owner": "XorTroll",
                         "repo": "emuiibo",
-                        "stars": 1392
+                        "stars": 1391
                       }
                     },
                     {
@@ -20805,7 +21606,7 @@
                 "last_commit": "2025-01-28T13:42:53Z",
                 "owner": "Lameguy64",
                 "repo": "PSn00bSDK",
-                "stars": 1106
+                "stars": 1107
               }
             },
             {
@@ -21135,7 +21936,7 @@
                 "last_commit": "2025-12-16T14:43:09Z",
                 "owner": "hippie68",
                 "repo": "pkgrename",
-                "stars": 27
+                "stars": 28
               }
             },
             {
@@ -21524,7 +22325,7 @@
                 "last_commit": "2026-08-09T14:31:50Z",
                 "owner": "WinDurango",
                 "repo": "WinDurango",
-                "stars": 1293
+                "stars": 1294
               }
             },
             {
@@ -21663,6 +22464,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "sega2asm",
+              "description": "Sega Genesis/Mega Drive disassembler and splitter written in Golang, producing reassemblable, annotated source from ROM images.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 64888246,
+                "language": "Go",
+                "last_commit": "2026-04-01T07:44:30Z",
+                "owner": "hansbonini",
+                "repo": "sega2asm",
+                "stars": 32
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Sega SDKs & Hardware"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "python-fsb5",
               "description": "Python library and command-line tool for extracting audio from FMOD FSB5 (FMOD Sample Bank) files. Decodes samples to WAV/OGG depending on codec.",
               "children": [],
@@ -21741,6 +22564,28 @@
           "description": "Audio middleware used in thousands of games for sound bank management and streaming.",
           "node_type": "group",
           "title": "FMOD"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Spt2Fbx",
+              "description": "Converts SpeedTree files (up to v4.1) to static meshes. Drag-and-drop tool that preserves UV sets for diffuse, leaf card dimensions, pivot data, and leaf dimming.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 267794394,
+                "language": "C++",
+                "last_commit": "2020-06-01T12:03:40Z",
+                "owner": "VenoMKO",
+                "repo": "Spt2Fbx",
+                "stars": 14
+              }
+            }
+          ],
+          "description": "Procedural vegetation middleware used in many AAA games.",
+          "node_type": "group",
+          "title": "SpeedTree"
         },
         {
           "children": [
@@ -21843,6 +22688,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Prism3D-file-formats",
+              "description": "File formats and tools for games built on the Prism3D engine.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 250972388,
+                "language": "Python",
+                "last_commit": "2020-05-11T06:25:01Z",
+                "owner": "AlexKimov",
+                "repo": "Prism3D-file-formats",
+                "stars": 10
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Prism3D"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "SteamKit",
               "description": ".NET library implementing Valve's Steam network protocol, providing programmatic access to Steam services (CDN/depot downloads, game coordinator messages, etc.).",
               "children": [],
@@ -21882,6 +22749,57 @@
     {
       "description": null,
       "items": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "RQ.TOC.Tool",
+                  "description": "Tool for extracting archives from Royal Quest Online game files.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 907402476,
+                    "language": "C#",
+                    "last_commit": "2025-01-02T00:38:34Z",
+                    "owner": "Ekey",
+                    "repo": "RQ.TOC.Tool",
+                    "stars": 2
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Royal Quest Online"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "cb-file-formats",
+                  "description": "010 Editor templates describing the file formats of Adventures of Captain Blood (Приключения Капитана Блада).",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 582782523,
+                    "language": "Python",
+                    "last_commit": "2024-04-14T11:26:56Z",
+                    "owner": "AlexKimov",
+                    "repo": "cb-file-formats",
+                    "stars": 1
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Adventures of Captain Blood"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "1C Company / Best Way"
+        },
         {
           "children": [
             {
@@ -22164,21 +23082,6 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "DukeSharp",
-                  "description": "Complete C# Unity port of Duke Nukem 3D's Build engine and game code from the original 1.4 Atomic Edition source, including a CON-to-C# (DukeScript) converter for existing mods.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "id": 312702362,
-                    "language": "C#",
-                    "last_commit": "2022-05-30T08:21:14Z",
-                    "owner": "jmarshall23",
-                    "repo": "DukeSharp",
-                    "stars": 36
-                  }
-                },
-                {
-                  "node_type": "item",
                   "title": "duke3d",
                   "description": "icculus.org's Linux port of Duke Nukem 3D, built from the officially released source code, reading the original game's GRP/ART/MAP data.",
                   "children": [],
@@ -22206,26 +23109,33 @@
                     "repo": "clean-duke3d",
                     "stars": 6
                   }
-                },
-                {
-                  "node_type": "item",
-                  "title": "DukeMapT3D",
-                  "description": "Converts Duke Nukem 3D (Build engine) maps to Unreal Engine T3D format.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "id": 500290471,
-                    "language": "C#",
-                    "last_commit": "2022-06-14T02:57:24Z",
-                    "owner": "jmarshall23",
-                    "repo": "DukeMapT3D",
-                    "stars": 5
-                  }
                 }
               ],
               "description": null,
               "node_type": "group",
               "title": "Duke Nukem 3D"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "DukeNukemZeroHour",
+                  "description": "Decompilation of Duke Nukem: Zero Hour (N64).",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 535043776,
+                    "language": "C",
+                    "last_commit": "2025-11-06T10:14:35Z",
+                    "owner": "Gillou68310",
+                    "repo": "DukeNukemZeroHour",
+                    "stars": 270
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Duke Nukem: Zero Hour"
             },
             {
               "children": [
@@ -22300,6 +23210,28 @@
               "description": null,
               "node_type": "group",
               "title": "Shadow Warrior"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "cosmodoc",
+                  "description": "Semi-complete teardown and technical documentation of Cosmo's Cosmic Adventure, complementing the cosmore decompilation above.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 438053057,
+                    "language": "HTML",
+                    "last_commit": "2026-07-24T01:34:33Z",
+                    "owner": "smitelli",
+                    "repo": "cosmodoc",
+                    "stars": 21
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "The Outforce"
             }
           ],
           "description": null,
@@ -22312,6 +23244,50 @@
               "children": [
                 {
                   "node_type": "item",
+                  "title": "XeenTools",
+                  "description": "Open-source C library and CLI tools for resource files of Might & Magic IV: Clouds of Xeen and Might & Magic IV: Darkside of Xeen. Supports CC archive containers, MAZExxxx.DAT/.MOB maps, ATT/OBJ/MON/GND/SKY sprite formats, PAL palettes, FNT fonts, and CFG/CHR/FAC/FWL/RAW files.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 36285775,
+                    "language": "C",
+                    "last_commit": "2019-04-11T21:38:12Z",
+                    "owner": "HiPhish",
+                    "repo": "XeenTools",
+                    "stars": 13
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Might and Magic: World of Xeen"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "fheroes2",
+                  "description": "Recreation of Heroes of Might and Magic II game engine that requires and parses original .AGG archive format, providing high-resolution graphics and improved AI.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 205404938,
+                    "language": "C++",
+                    "last_commit": "2026-08-22T13:42:22Z",
+                    "owner": "ihhub",
+                    "repo": "fheroes2",
+                    "stars": 3444
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Heroes of Might and Magic II"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
                   "title": "vcmi",
                   "description": "Open-source reimplementation of the Heroes of Might and Magic III engine, loading and reading the original game's data files (H3sprite.lod, Heroes3.exe resources, maps, campaigns).",
                   "children": [],
@@ -22319,7 +23295,7 @@
                     "archived": false,
                     "id": 18490421,
                     "language": "C++",
-                    "last_commit": "2026-08-23T10:57:18Z",
+                    "last_commit": "2026-08-24T09:56:38Z",
                     "owner": "vcmi",
                     "repo": "vcmi",
                     "stars": 5802
@@ -22390,6 +23366,101 @@
         {
           "children": [
             {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "MetroTC",
+                  "description": "Universal texture converter for all Metro games (2033, Last Light, Exodus) by 4A Games.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 180683980,
+                    "language": "C++",
+                    "last_commit": "2019-08-13T00:34:07Z",
+                    "owner": "iOrange",
+                    "repo": "MetroTC",
+                    "stars": 7
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Metro"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "4A Games"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "pksgnpa",
+              "description": "Tool for creating NPA archives used by the visual novel Steins;Gate, built for a Chinese fan translation. Bundles asmodean's exsgnpa NPA archive extractor/creator for the same format.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 38726633,
+                "language": "C++",
+                "last_commit": "2018-09-26T07:08:25Z",
+                "owner": "lennylxx",
+                "repo": "pksgnpa",
+                "stars": 9
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "5pb. / Nitroplus (Steins;Gate)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "europa1400-tools",
+              "description": "Python tools to decode, convert, and export game assets for Europa 1400: The Guild / Die Gilde.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 648818160,
+                "language": "Python",
+                "last_commit": "2024-02-02T13:23:42Z",
+                "owner": "europa1400-community",
+                "repo": "europa1400-tools",
+                "stars": 5
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "4Head Studios"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "locksmith (decomp)",
+              "description": "Matching decompilation of Lock's Quest.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 839074707,
+                "language": null,
+                "last_commit": "2024-08-07T21:12:41Z",
+                "owner": "redraincatching",
+                "repo": "locksmith",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "5th Cell"
+        },
+        {
+          "children": [
+            {
               "node_type": "item",
               "title": "ZXSpectrumChuckieEgg",
               "description": "Fully documented, reverse engineered source code to A&F Software's ZX Spectrum Chuckie Egg.",
@@ -22438,6 +23509,28 @@
           "description": null,
           "node_type": "group",
           "title": "A&F Software (Chuckie Egg)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "DPRecomp",
+              "description": "Deadly Premonition native PC port via static recompilation of the Xbox 360 binary.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1269663771,
+                "language": "C++",
+                "last_commit": "2026-06-27T09:59:49Z",
+                "owner": "LittleBitUA",
+                "repo": "DPRecomp",
+                "stars": 120
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Access Games (Deadly Premonition)"
         },
         {
           "children": [
@@ -23164,11 +24257,55 @@
                   "description": null,
                   "node_type": "group",
                   "title": "Modding Kits & Client Tools"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "COD-Save-Manipulator",
+                      "description": "Tool for manipulating Call of Duty savegames, supporting a wide range of titles across the IW/MWX/Ghosts save formats.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 81544902,
+                        "language": "C#",
+                        "last_commit": "2017-05-07T02:59:06Z",
+                        "owner": "HunterStanton",
+                        "repo": "COD-Save-Manipulator",
+                        "stars": 11
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "Save Tools"
                 }
               ],
               "description": null,
               "node_type": "group",
               "title": "Call of Duty"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "civctp2",
+                  "description": "Community-maintained source port of Call to Power II, built from the officially released source code and reading the original game's data files.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 152506474,
+                    "language": "C",
+                    "last_commit": "2026-08-10T18:35:20Z",
+                    "owner": "civctp2",
+                    "repo": "civctp2",
+                    "stars": 111
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Call to Power II"
             },
             {
               "children": [
@@ -23331,6 +24468,50 @@
               "children": [
                 {
                   "node_type": "item",
+                  "title": "Gibbed.Ghostbusters",
+                  "description": "Tools and code for use with Ghostbusters: The Video Game (2009).",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 91307337,
+                    "language": "C#",
+                    "last_commit": "2017-05-15T07:24:07Z",
+                    "owner": "gibbed",
+                    "repo": "Gibbed.Ghostbusters",
+                    "stars": 3
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Ghostbusters"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "resPack",
+                  "description": "Extractor for Xbox A Series of Unfortunate Events archive files.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 726389161,
+                    "language": "C#",
+                    "last_commit": "2023-12-02T08:46:04Z",
+                    "owner": "XAYRGA",
+                    "repo": "resPack",
+                    "stars": 0
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "A Series of Unfortunate Events"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
                   "title": "spidey-decomp",
                   "description": "Decompilation of Neversoft's Spider-Man (PC port), useful for studying formats and game internals.",
                   "children": [],
@@ -23338,7 +24519,7 @@
                     "archived": false,
                     "id": 624554691,
                     "language": "C",
-                    "last_commit": "2026-08-23T23:29:34Z",
+                    "last_commit": "2026-08-24T11:25:09Z",
                     "owner": "krystalgamer",
                     "repo": "spidey-decomp",
                     "stars": 122
@@ -23363,6 +24544,94 @@
               "description": null,
               "node_type": "group",
               "title": "Spider-Man (Neversoft)"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "open-tobey",
+                  "description": "Partial decompilation of Treyarch's Spider-Man: The Movie (PC), a separate 2002 game unrelated to Neversoft's Spider-Man.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1060323339,
+                    "language": "C++",
+                    "last_commit": "2025-12-05T15:30:13Z",
+                    "owner": "krystalgamer",
+                    "repo": "open-tobey",
+                    "stars": 19
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Spider-Man: The Movie (Treyarch)"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "PC_Spiderman_WOS",
+                  "description": "Mesh importer for models from Spider-Man: Web of Shadows (PC), with both a Blender 3.x add-on and a 3ds Max 2016+ MaxScript.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1002400877,
+                    "language": "MAXScript",
+                    "last_commit": "2025-06-15T12:44:15Z",
+                    "owner": "coreynguyen",
+                    "repo": "PC_Spiderman_WOS",
+                    "stars": 0
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Spider-Man: Web of Shadows (Treyarch)"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Wolfenstein-SPK-Tool",
+                  "description": "Extract and repack tool for Wolfenstein (2009) .spk files.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1181835135,
+                    "language": "Python",
+                    "last_commit": "2026-03-14T17:38:53Z",
+                    "owner": "dortkoldantaciz",
+                    "repo": "Wolfenstein-SPK-Tool",
+                    "stars": 0
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Wolfenstein (2009)"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "gRLE",
+                  "description": "Viewer/editor/creator for *.rle files used in PSX Activision games.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 35161496,
+                    "language": "C#",
+                    "last_commit": "2015-05-06T16:46:38Z",
+                    "owner": "gdkchan",
+                    "repo": "gRLE",
+                    "stars": 4
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "PSX Activision Games"
             }
           ],
           "description": null,
@@ -23499,6 +24768,50 @@
           "children": [
             {
               "node_type": "item",
+              "title": "quiver_ripper",
+              "description": "Resource extractor for Quiver (1997, DOS).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 146003535,
+                "language": "C",
+                "last_commit": "2018-09-24T16:41:50Z",
+                "owner": "Yagotzirck",
+                "repo": "quiver_ripper",
+                "stars": 4
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "ADvertainment Software (Quiver)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "rivals-modding-tool",
+              "description": "Modding tool for Rivals of Aether (GameMaker-based fighting game).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 112062062,
+                "language": "C#",
+                "last_commit": "2018-09-15T15:02:25Z",
+                "owner": "jam1garner",
+                "repo": "rivals-modding-tool",
+                "stars": 4
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Aether Studios (Rivals of Aether)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "WCWvsNWOWorldTourRecomp",
               "description": "Native PC port of WCW vs. nWo World Tour (N64) via static recompilation, with a companion WCWSyms repo of reverse-engineered function/data symbol TOMLs for the N64Recomp toolchain.",
               "children": [],
@@ -23539,7 +24852,7 @@
                 "last_commit": "2026-08-09T18:03:47Z",
                 "owner": "jessetbh",
                 "repo": "AkiLauncher",
-                "stars": 14
+                "stars": 15
               }
             },
             {
@@ -23554,7 +24867,7 @@
                 "last_commit": "2026-08-15T15:11:18Z",
                 "owner": "jessetbh",
                 "repo": "WWFNoMercyRecomp",
-                "stars": 12
+                "stars": 13
               }
             },
             {
@@ -23569,7 +24882,7 @@
                 "last_commit": "2026-08-15T15:11:15Z",
                 "owner": "jessetbh",
                 "repo": "WWFWrestleMania2000Recomp",
-                "stars": 7
+                "stars": 8
               }
             },
             {
@@ -23640,6 +24953,72 @@
         {
           "children": [
             {
+              "node_type": "item",
+              "title": "nge_2_re",
+              "description": "Reverse-engineering and Simplified Chinese localization project for Neon Genesis Evangelion 2: Tsukurareshi Sekai -Another Cases- (PSP); parses and repacks the game's HGPT, TEXT, and BIND file formats, dynamically patches the EBOOT executable, and builds a full translation import/export toolchain.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 788822935,
+                "language": "Python",
+                "last_commit": "2026-08-24T07:08:08Z",
+                "owner": "EVA-zh-Hans",
+                "repo": "nge_2_re",
+                "stars": 15
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Alfa System (Neon Genesis Evangelion 2)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "phun-js-box2d",
+              "description": "Parser and work-in-progress web player for Phun/Algodoo physics sandbox scene files, including a ThymeScript-to-JavaScript transpiler and Box2D-based physics playback.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 128640056,
+                "language": "JavaScript",
+                "last_commit": "2023-04-24T00:32:37Z",
+                "owner": "EJTH",
+                "repo": "phun-js-box2d",
+                "stars": 17
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Algoryx (Algodoo / Phun)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "amber-file-formats",
+              "description": "File formats and viewer plugins for Amber Studio games.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 771128930,
+                "language": "Python",
+                "last_commit": "2026-02-02T18:27:59Z",
+                "owner": "AlexKimov",
+                "repo": "amber-file-formats",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Amber Studio"
+        },
+        {
+          "children": [
+            {
               "children": [
                 {
                   "node_type": "item",
@@ -23690,11 +25069,77 @@
               "description": null,
               "node_type": "group",
               "title": "Anodyne"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Anodyne-2-Open-Source",
+                  "description": "Official source code and assets release for Anodyne 2: Return to Dust.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 840584167,
+                    "language": "C#",
+                    "last_commit": "2024-08-14T05:53:08Z",
+                    "owner": "analgesicproductions",
+                    "repo": "Anodyne-2-Open-Source",
+                    "stars": 157
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Anodyne 2"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Even-The-Ocean-Open-Source",
+                  "description": "Official source code release for Even the Ocean.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 692660129,
+                    "language": "Haxe",
+                    "last_commit": "2024-06-21T01:13:28Z",
+                    "owner": "analgesicproductions",
+                    "repo": "Even-The-Ocean-Open-Source",
+                    "stars": 117
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Even the Ocean"
             }
           ],
           "description": null,
           "node_type": "group",
           "title": "Analgesic Productions"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "noclip.website (Neon White)",
+              "description": "In-browser Neon White viewer.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 70195624,
+                "language": "TypeScript",
+                "last_commit": "2026-08-23T17:27:44Z",
+                "owner": "magcius",
+                "repo": "noclip.website",
+                "stars": 4243
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Angel Matrix (Neon White)"
         },
         {
           "children": [
@@ -23725,7 +25170,7 @@
                 "last_commit": "2025-04-11T04:16:44Z",
                 "owner": "dexyfex",
                 "repo": "CodeWalker",
-                "stars": 735
+                "stars": 737
               }
             },
             {
@@ -24126,6 +25571,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "GhostsAndGraves (decomp)",
+              "description": "Matching decompilation of Ghosts And Graves (NES, 100%).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 902652486,
+                "language": "Assembly",
+                "last_commit": "2025-11-22T01:40:45Z",
+                "owner": "AnthonyBongers",
+                "repo": "GhostsAndGraves",
+                "stars": 20
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Anthony Bongers"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "ebsrc",
               "description": "Source recreation of EarthBound (SNES), disassembled and reorganized into buildable C/asm source.",
               "children": [],
@@ -24240,6 +25707,79 @@
               "children": [
                 {
                   "node_type": "item",
+                  "title": "UNIB.Data.Tool",
+                  "description": "Archive extractor for Under Night In-Birth II Sys:Celes game data files.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 748865907,
+                    "language": "C#",
+                    "last_commit": "2024-01-26T22:51:48Z",
+                    "owner": "Ekey",
+                    "repo": "UNIB.Data.Tool",
+                    "stars": 9
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Under Night In-Birth"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "AMLUnpacker_TrueRemembrance",
+                  "description": "Unpacker for True Remembrance's (Nintendo 3DS) imageArcive.arc archive format, extracting images to PNG.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 268325180,
+                    "language": "C#",
+                    "last_commit": "2020-05-31T18:09:05Z",
+                    "owner": "infval",
+                    "repo": "AMLUnpacker_TrueRemembrance",
+                    "stars": 5
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "True Remembrance"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Arc System Works"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "OpenCrystalCaves",
+                  "description": "Unofficial open-source engine reimplementation of the Crystal Caves trilogy (1991, Apogee Software), reading the original game's assets.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 100921713,
+                    "language": "C++",
+                    "last_commit": "2026-08-23T10:44:10Z",
+                    "owner": "OpenCrystalCaves",
+                    "repo": "OpenCrystalCaves",
+                    "stars": 89
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Crystal Caves"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
                   "title": "Duke2Reconstructed (decomp)",
                   "description": "Reconstructed source code for Duke Nukem II (1993, Apogee Software), based on disassembly of the original executable and reading the game's original data files.",
                   "children": [],
@@ -24272,6 +25812,28 @@
               "description": null,
               "node_type": "group",
               "title": "Duke Nukem II"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "BStone",
+                  "description": "Unofficial source port for Blake Stone series (Aliens of Gold and Planet Strike) with support for original game asset formats including external textures.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 11468258,
+                    "language": "C",
+                    "last_commit": "2026-08-08T20:23:29Z",
+                    "owner": "bibendovsky",
+                    "repo": "bstone",
+                    "stars": 364
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Blake Stone (Aliens of Gold, Planet Strike)"
             }
           ],
           "description": null,
@@ -24446,6 +26008,44 @@
           "children": [
             {
               "node_type": "item",
+              "title": "ArgentumOnlineGodot",
+              "description": "Port of the original Argentum Online 0.13.3 client (released by Shak) to the Godot engine.",
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "See also pyao-server",
+                  "description": "for a compatible Python/asyncio server reimplementation, which includes tooling to extract and convert the original VB6 client's files into JSON for runtime use.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1071509641,
+                    "language": "Python",
+                    "last_commit": "2026-06-27T05:17:39Z",
+                    "owner": "cavazquez",
+                    "repo": "pyao-server",
+                    "stars": 7
+                  }
+                }
+              ],
+              "repo_info": {
+                "archived": false,
+                "id": 943372301,
+                "language": "GDScript",
+                "last_commit": "2025-09-30T00:00:54Z",
+                "owner": "brian-christopher",
+                "repo": "ArgentumOnlineGodot",
+                "stars": 5
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Argentum Online"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "PS1-BRender-Reverse",
               "description": "Reverse engineering tools for PlayStation 1 BRender engine games like Harry Potter and Croc 2.",
               "children": [],
@@ -24583,7 +26183,7 @@
                 "last_commit": "2024-08-22T17:58:15Z",
                 "owner": "arx",
                 "repo": "ArxLibertatis",
-                "stars": 1079
+                "stars": 1080
               }
             },
             {
@@ -24650,6 +26250,28 @@
           "description": null,
           "node_type": "group",
           "title": "Arkane Studios"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "BAOB.ARA.Tool",
+              "description": "Tool for extracting ARA archives from Batman: Arkham Origins Blackgate.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 527685078,
+                "language": "C#",
+                "last_commit": "2022-08-23T13:28:38Z",
+                "owner": "Ekey",
+                "repo": "BAOB.ARA.Tool",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Armature Studio (Batman: Arkham Origins Blackgate)"
         },
         {
           "children": [
@@ -24754,6 +26376,50 @@
           "description": null,
           "node_type": "group",
           "title": "Ascaron Entertainment (Sacred)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "superplexed",
+              "description": "Supaplex level and graphics editing suite.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 556325904,
+                "language": "C++",
+                "last_commit": "2022-12-14T21:21:20Z",
+                "owner": "kaimitai",
+                "repo": "superplexed",
+                "stars": 21
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Assembly Line (Supaplex)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "lsddecomp (decomp)",
+              "description": "Matching decompilation of LSD: Dream Emulator (PS1).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 850514518,
+                "language": "C",
+                "last_commit": "2024-09-13T15:54:30Z",
+                "owner": "FirecatFG",
+                "repo": "lsddecomp",
+                "stars": 10
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Asmik Ace Entertainment (LSD: Dream Emulator)"
         },
         {
           "children": [
@@ -24961,6 +26627,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Raiders2600",
+              "description": "Fully reverse-engineered and commented disassembly source code for the Atari 2600 classic Raiders of the Lost Ark (1982).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 880060144,
+                "language": "Assembly",
+                "last_commit": "2026-03-03T05:49:10Z",
+                "owner": "halkuncode",
+                "repo": "Raiders2600",
+                "stars": 172
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Atari, Inc. (Raiders of the Lost Ark)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "noclip.website (Tokyo Mirage Sessions ♯FE)",
               "description": "In-browser Tokyo Mirage Sessions ♯FE (Wii U) map viewer. Parses APAK archives plus BFRES models and BNTX textures, with lightmap, gimmick, and map-layout support.",
               "children": [],
@@ -24971,7 +26659,7 @@
                 "last_commit": "2026-08-23T17:27:44Z",
                 "owner": "magcius",
                 "repo": "noclip.website",
-                "stars": 4242
+                "stars": 4243
               }
             },
             {
@@ -25091,7 +26779,7 @@
                 "last_commit": "2026-08-24T03:21:47Z",
                 "owner": "WhiteLeer",
                 "repo": "my-assets-studio",
-                "stars": 27
+                "stars": 29
               }
             },
             {
@@ -25425,6 +27113,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "GuJian3Manager",
+              "description": "Extracts, repacks, and decrypts Gujian 3 (古剑奇谭三) data files (Oodle-compressed, XXTEA-encrypted .xxx files).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 228031034,
+                "language": "C#",
+                "last_commit": "2024-09-03T21:32:46Z",
+                "owner": "Kaplas80",
+                "repo": "GuJian3Manager",
+                "stars": 33
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Aurogon (Gujian)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Gibbed.JustCause4",
               "description": "File unpacking and asset extraction tool for Just Cause 4.",
               "children": [],
@@ -25517,7 +27227,7 @@
                 "last_commit": "2026-08-23T17:27:44Z",
                 "owner": "magcius",
                 "repo": "noclip.website",
-                "stars": 4242
+                "stars": 4243
               }
             },
             {
@@ -25532,7 +27242,7 @@
                 "last_commit": "2026-08-23T17:27:44Z",
                 "owner": "magcius",
                 "repo": "noclip.website",
-                "stars": 4242
+                "stars": 4243
               }
             },
             {
@@ -25905,7 +27615,7 @@
                     "archived": false,
                     "id": 284902955,
                     "language": "C#",
-                    "last_commit": "2026-08-23T11:27:08Z",
+                    "last_commit": "2026-08-24T11:57:20Z",
                     "owner": "LazyBone152",
                     "repo": "XV2-Tools",
                     "stars": 51
@@ -26075,6 +27785,72 @@
           "children": [
             {
               "node_type": "item",
+              "title": "mxs_bakemonogatari_psp",
+              "description": "MaxScript for importing / mesh and texture files from Bakemonogatari Portable (PSP), extracted from the game's CRIWare CPK archives.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 872032199,
+                "language": "MAXScript",
+                "last_commit": "2024-10-13T20:34:33Z",
+                "owner": "coreynguyen",
+                "repo": "mxs_bakemonogatari_psp",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Bakemonogatari"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "mxs_battle_raper_pc",
+              "description": "MaxScript for importing / 3D models and textures from Battle Raper (PC).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 872135392,
+                "language": "MAXScript",
+                "last_commit": "2024-10-13T21:46:23Z",
+                "owner": "coreynguyen",
+                "repo": "mxs_battle_raper_pc",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Battle Raper"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "TarkinItemExporter",
+              "description": "Escape from Tarkov item data exporter.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 932225926,
+                "language": "C#",
+                "last_commit": "2026-04-09T13:55:02Z",
+                "owner": "bmpq",
+                "repo": "TarkinItemExporter",
+                "stars": 12
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Battlestate Games (Escape from Tarkov)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Blender-JBeam-Editor",
               "description": "Official Blender plugin to import, modify, and export BeamNG.drive's JBeam vehicle-part format using Blender's modelling tools.",
               "children": [],
@@ -26107,6 +27883,28 @@
           "description": null,
           "node_type": "group",
           "title": "BeamNG GmbH (BeamNG.drive)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "beetle_crazy_cup",
+              "description": "Model converter for the INF model format used in Beetle Crazy Cup.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 622682833,
+                "language": "C++",
+                "last_commit": "2023-04-02T20:26:48Z",
+                "owner": "coreynguyen",
+                "repo": "beetle_crazy_cup",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Beetle Crazy Cup"
         },
         {
           "children": [
@@ -26346,7 +28144,7 @@
                     "archived": false,
                     "id": 285722,
                     "language": "C++",
-                    "last_commit": "2026-08-23T20:58:04Z",
+                    "last_commit": "2026-08-24T14:26:31Z",
                     "owner": "OpenMW",
                     "repo": "openmw",
                     "stars": 6523
@@ -26364,7 +28162,7 @@
                     "last_commit": "2026-08-23T17:27:44Z",
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4242
+                    "stars": 4243
                   }
                 },
                 {
@@ -26376,7 +28174,7 @@
                     "archived": false,
                     "id": 28884050,
                     "language": "C#",
-                    "last_commit": "2026-06-30T22:23:57Z",
+                    "last_commit": "2026-08-24T06:59:53Z",
                     "owner": "Interkarma",
                     "repo": "daggerfall-unity",
                     "stars": 3472
@@ -26652,7 +28450,7 @@
                 "language": "Python",
                 "last_commit": "2025-09-24T22:10:38Z",
                 "owner": "DSO-Reconstruction",
-                "repo": "dro_client-decomp",
+                "repo": "dro_client-ghidra",
                 "stars": 1
               }
             }
@@ -26826,11 +28624,84 @@
               "description": null,
               "node_type": "group",
               "title": "Dragon Age: Origins"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Granny2-Plug-In-Blender-2.8x",
+                  "description": "Add-on for Blender 2.8 through 5.0 that imports/exports Star Wars: The Old Republic's Granny2 (.gr2) model files and adds SWTOR-compatible materials.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 292698365,
+                    "language": "Python",
+                    "last_commit": "2026-07-19T11:44:20Z",
+                    "owner": "SWTOR-Slicers",
+                    "repo": "Granny2-Plug-In-Blender-2.8x",
+                    "stars": 32
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Star Wars: The Old Republic"
             }
           ],
           "description": null,
           "node_type": "group",
           "title": "BioWare"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "ChaosEngine",
+                  "description": "Reimplementation of the Chaos Engine (CD32) engine that reads original CD32 game data files to run the game on modern systems.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 14964984,
+                    "language": "D",
+                    "last_commit": "2017-07-29T08:13:08Z",
+                    "owner": "GitExl",
+                    "repo": "ChaosEngine",
+                    "stars": 3
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "The Chaos Engine"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "speedball2-re-amiga",
+                  "description": "Reverse engineering of Speedball 2 for the Commodore Amiga, following up on the same author's Mega Drive/Genesis reversing.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 624807042,
+                    "language": "Assembly",
+                    "last_commit": "2023-05-05T22:45:09Z",
+                    "owner": "simon-frankau",
+                    "repo": "speedball2-re-amiga",
+                    "stars": 17
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Speedball 2"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Bitmap Brothers"
         },
         {
           "children": [
@@ -26861,7 +28732,7 @@
                 "last_commit": "2026-08-22T11:24:42Z",
                 "owner": "ladislav-zezula",
                 "repo": "CascLib",
-                "stars": 487
+                "stars": 488
               }
             },
             {
@@ -26923,7 +28794,7 @@
                     "last_commit": "2026-08-23T17:27:44Z",
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4242
+                    "stars": 4243
                   }
                 },
                 {
@@ -26935,10 +28806,10 @@
                     "archived": false,
                     "id": 1148587428,
                     "language": "C++",
-                    "last_commit": "2026-08-23T06:46:02Z",
+                    "last_commit": "2026-08-24T13:39:36Z",
                     "owner": "Kelsidavis",
                     "repo": "WoWee",
-                    "stars": 675
+                    "stars": 676
                   }
                 },
                 {
@@ -27249,6 +29120,28 @@
               "children": [
                 {
                   "node_type": "item",
+                  "title": "Prometheus",
+                  "description": "Research and reverse-engineering project documenting Overwatch game internals including managers, ECS, STU, data structures, game messages, and components.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1123922965,
+                    "language": "C++",
+                    "last_commit": "2026-05-15T00:59:58Z",
+                    "owner": "saturn-xvi",
+                    "repo": "prometheus",
+                    "stars": 591
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Overwatch"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
                   "title": "mdx-m3-viewer",
                   "description": "WebGL viewer for MDX and M3 model files used by Warcraft III and StarCraft II respectively.",
                   "children": [],
@@ -27388,7 +29281,7 @@
                         "last_commit": "2026-08-24T01:28:57Z",
                         "owner": "diasurgical",
                         "repo": "DevilutionX",
-                        "stars": 9700
+                        "stars": 9701
                       }
                     },
                     {
@@ -27403,7 +29296,7 @@
                         "last_commit": "2025-09-15T02:01:36Z",
                         "owner": "diasurgical",
                         "repo": "devilution",
-                        "stars": 8991
+                        "stars": 8992
                       }
                     },
                     {
@@ -27710,7 +29603,7 @@
                         "last_commit": "2026-07-29T11:47:24Z",
                         "owner": "ThePhrozenKeep",
                         "repo": "D2MOO",
-                        "stars": 168
+                        "stars": 169
                       }
                     },
                     {
@@ -28069,6 +29962,116 @@
           "children": [
             {
               "node_type": "item",
+              "title": "mxs_bloody_roar_3_ps2",
+              "description": "Work-in-progress MaxScript to extract assets from / files and import TTM models from Bloody Roar 3 (PS2).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 872158247,
+                "language": "MAXScript",
+                "last_commit": "2024-10-13T23:39:08Z",
+                "owner": "coreynguyen",
+                "repo": "mxs_bloody_roar_3_ps2",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Bloody Roar"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "freeserf",
+              "description": "Open-source re-implementation of The Settlers I / Serf City (1993, Blue Byte), reading the original DOS or Amiga game data files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1931730,
+                "language": "C++",
+                "last_commit": "2024-02-14T06:55:32Z",
+                "owner": "freeserf",
+                "repo": "freeserf",
+                "stars": 337
+              }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "ualbion",
+                  "description": "Remake of the 1995 RPG Albion (Blue Byte), reading data from an original game installation.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 235252160,
+                    "language": "C#",
+                    "last_commit": "2026-05-10T07:54:03Z",
+                    "owner": "csinkers",
+                    "repo": "ualbion",
+                    "stars": 166
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Albion"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Blue Byte (The Settlers)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Reverse1999-Anarchist",
+              "description": "Encoder/decoder for Reverse: 1999 game assets, handling the game's bundle, BNK/WEM audio, and WinRX-encrypted files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 735192045,
+                "language": "C#",
+                "last_commit": "2024-01-21T16:12:02Z",
+                "owner": "kiraio-moe",
+                "repo": "Reverse1999-Anarchist",
+                "stars": 15
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "BLUEPOCH (Reverse: 1999)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "hypercycles-sdl",
+              "description": "Modern SDL port of the 1995 DOS game Hypercycles, built from its released original source. Loads the original game's PCX/RAW/MDI graphics and audio assets and .DAT/.DEF level and object data files directly.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 151344538,
+                "language": "C++",
+                "last_commit": "2018-10-12T17:46:34Z",
+                "owner": "Herschel",
+                "repo": "hypercycles-sdl",
+                "stars": 6
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Bob Hays (Hypercycles)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "CWR",
               "description": "Arma: Cold War Assault (Operation Flashpoint: Cold War Crisis) Remastered - official modernized C++20 engine and game source release, reading the original game's native PBO/config data formats.",
               "children": [],
@@ -28173,6 +30176,50 @@
           "children": [
             {
               "node_type": "item",
+              "title": "mxs_bonetown",
+              "description": "MaxScript that imports DWC character models from Bone Town into 3ds Max.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 625079819,
+                "language": "Python",
+                "last_commit": "2026-04-21T05:23:16Z",
+                "owner": "coreynguyen",
+                "repo": "mxs_bonetown",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Bone Town"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "noclip.website (Top Gear Rally)",
+              "description": "In-browser Top Gear Rally (N64) track viewer covering all five tracks plus mirrored variants, with a Python extractor for pulling track data out of the ROM. Renders spline-animated scenery, animated textures, and reflections on top of an F3DEX display-list interpreter.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 70195624,
+                "language": "TypeScript",
+                "last_commit": "2026-08-23T17:27:44Z",
+                "owner": "magcius",
+                "repo": "noclip.website",
+                "stars": 4243
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Boss Game Studios (Top Gear Rally)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "dadtool",
               "description": "Offline beat-sync and song importer for the rhythm game Dead as Disco.",
               "children": [],
@@ -28205,6 +30252,79 @@
           "description": null,
           "node_type": "group",
           "title": "Brain Jar Games (Dead as Disco)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "krtekex",
+              "description": "Command-line unpacker for the indie game Brno Transit's krtek.dat asset pack file.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1128097760,
+                "language": "C++",
+                "last_commit": "2026-07-18T03:51:26Z",
+                "owner": "iOrange",
+                "repo": "krtekex",
+                "stars": 1
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Brno Transit"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "lode_runner_reveng",
+                  "description": "Reverse engineering of Lode Runner for the Apple II.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 507593845,
+                    "language": "TeX",
+                    "last_commit": "2026-07-09T03:24:46Z",
+                    "owner": "XekriRedmane",
+                    "repo": "lode_runner_reveng",
+                    "stars": 94
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Lode Runner"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "karateka-decompiled",
+                  "description": "Buildable decompiled source code of the MS-DOS version of Karateka by Jordan Mechner.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 807868306,
+                    "language": "Assembly",
+                    "last_commit": "2024-05-30T00:19:25Z",
+                    "owner": "ergonomy-joe",
+                    "repo": "karateka-decompiled",
+                    "stars": 1
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Karateka"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Brøderbund"
         },
         {
           "children": [
@@ -28275,6 +30395,94 @@
         },
         {
           "children": [
+            {
+              "node_type": "item",
+              "title": "team6tool",
+              "description": "Tool for extracting models and textures from Team6 engine games.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 308973926,
+                "language": "C++",
+                "last_commit": "2025-09-30T17:50:05Z",
+                "owner": "ermaccer",
+                "repo": "team6tool",
+                "stars": 7
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Bugbear Entertainment (Team6 Engine - FlatOut 3)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "BuggyBunny",
+              "description": "Unpacker and repacker for .bzz game archives from Bugs Bunny Lost in Time, extracting sound, text, and image data.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 195129280,
+                "language": "C#",
+                "last_commit": "2019-07-09T16:54:37Z",
+                "owner": "hadashisora",
+                "repo": "BuggyBunny",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Bugs Bunny: Lost in Time"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "wreckfest_toolbox",
+              "description": "Blender addon for importing and exporting Wreckfest game formats (SCNE, VHCL, BMAP).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 394423948,
+                "language": "Python",
+                "last_commit": "2026-05-11T15:42:04Z",
+                "owner": "gmazy",
+                "repo": "wreckfest_toolbox",
+                "stars": 6
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Bugbear Entertainment (Wreckfest)"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "powermonger-terrain",
+                  "description": "Investigation with code into the terrain generation used by PowerMonger (1990).",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 666991739,
+                    "language": null,
+                    "last_commit": "2023-07-16T11:04:00Z",
+                    "owner": "jankfactor",
+                    "repo": "powermonger-terrain",
+                    "stars": 5
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "PowerMonger"
+            },
             {
               "children": [
                 {
@@ -28421,6 +30629,28 @@
               "children": [
                 {
                   "node_type": "item",
+                  "title": "Syndicate Wars Port",
+                  "description": "Open-source reverse-engineered port of Bullfrog's Syndicate Wars, reading the original game's data files.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 39679479,
+                    "language": "C",
+                    "last_commit": "2026-07-29T11:58:07Z",
+                    "owner": "swfans",
+                    "repo": "syndwarsfx",
+                    "stars": 239
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Syndicate Wars"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
                   "title": "Populous-The-Beginning-Public",
                   "description": "Reverse-engineering and reimplementation work on Populous: The Beginning (C++).",
                   "children": [],
@@ -28480,7 +30710,7 @@
                     "archived": false,
                     "id": 803461849,
                     "language": "C++",
-                    "last_commit": "2026-08-23T07:03:02Z",
+                    "last_commit": "2026-08-24T10:46:26Z",
                     "owner": "woalexan",
                     "repo": "hi-octane202x",
                     "stars": 13
@@ -28490,6 +30720,50 @@
               "description": null,
               "node_type": "group",
               "title": "Hi-Octane"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "creation_tk",
+                  "description": "Utility for reading, extracting, and converting files from Bullfrog's cancelled game Creation.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 148562103,
+                    "language": "C",
+                    "last_commit": "2018-10-19T16:56:04Z",
+                    "owner": "hogsy",
+                    "repo": "creation_tk",
+                    "stars": 4
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Creation"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "ThemeParkResourceViewer",
+                  "description": "Resource viewer/extractor for Theme Park (1994).",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 24062610,
+                    "language": "C#",
+                    "last_commit": "2025-11-30T23:48:51Z",
+                    "owner": "tigrouind",
+                    "repo": "ThemeParkResourceViewer",
+                    "stars": 9
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Theme Park"
             },
             {
               "children": [
@@ -28505,7 +30779,7 @@
                     "last_commit": "2026-08-22T00:46:20Z",
                     "owner": "CorsixTH",
                     "repo": "CorsixTH",
-                    "stars": 4526
+                    "stars": 4528
                   }
                 },
                 {
@@ -28586,7 +30860,7 @@
                     "last_commit": "2026-08-20T18:55:26Z",
                     "owner": "praydog",
                     "repo": "REFramework",
-                    "stars": 5350
+                    "stars": 5351
                   }
                 },
                 {
@@ -28766,10 +31040,10 @@
                     "archived": false,
                     "id": 587231098,
                     "language": "Python",
-                    "last_commit": "2026-07-24T17:23:15Z",
+                    "last_commit": "2026-08-24T10:01:36Z",
                     "owner": "dtlnor",
                     "repo": "REMSG_Converter",
-                    "stars": 44
+                    "stars": 43
                   }
                 },
                 {
@@ -28938,7 +31212,7 @@
                     "archived": false,
                     "id": 48864537,
                     "language": "Python",
-                    "last_commit": "2026-08-23T20:09:16Z",
+                    "last_commit": "2026-08-24T12:28:50Z",
                     "owner": "Brachi",
                     "repo": "albam",
                     "stars": 23
@@ -29035,7 +31309,7 @@
                     "archived": false,
                     "id": 832900297,
                     "language": "C",
-                    "last_commit": "2026-08-23T19:45:37Z",
+                    "last_commit": "2026-08-24T12:45:54Z",
                     "owner": "AshfordFamily",
                     "repo": "recvx-decomp",
                     "stars": 215
@@ -29150,7 +31424,7 @@
                     "last_commit": "2025-01-05T19:03:35Z",
                     "owner": "AsteriskAmpersand",
                     "repo": "Mod3-MHW-Importer",
-                    "stars": 118
+                    "stars": 119
                   }
                 },
                 {
@@ -29300,7 +31574,7 @@
                     "last_commit": "2024-05-25T05:22:15Z",
                     "owner": "Silvris",
                     "repo": "MH-Tools-and-Scripts",
-                    "stars": 34
+                    "stars": 35
                   }
                 },
                 {
@@ -29984,6 +32258,28 @@
               "children": [
                 {
                   "node_type": "item",
+                  "title": "gotcha-afs-tool",
+                  "description": "Unpacker and repacker for Gotcha Force's AFS format (tested on GameCube version).",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 441848134,
+                    "language": "Python",
+                    "last_commit": "2021-12-26T10:35:12Z",
+                    "owner": "RenolY2",
+                    "repo": "gotcha-afs-tool",
+                    "stars": 1
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Gotcha Force"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
                   "title": "pwaa1 (decomp)",
                   "description": "Matching decompilation of Phoenix Wright: Ace Attorney (Gyakuten Saiban, Japan).",
                   "children": [],
@@ -30031,6 +32327,72 @@
               "description": null,
               "node_type": "group",
               "title": "Phoenix Wright: Ace Attorney"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Dragon's Dogma Research",
+                  "description": "File format research and documentation for Dragon's Dogma.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 49604827,
+                    "language": "Python",
+                    "last_commit": "2017-03-28T19:21:22Z",
+                    "owner": "Atvaark",
+                    "repo": "DragonsDogma.Research",
+                    "stars": 4
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Dragon's Dogma"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Gibbed.DragonsDogma2",
+                  "description": "File format extraction and modding tools for Dragon's Dogma 2 (RE Engine).",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 768939519,
+                    "language": "C#",
+                    "last_commit": "2025-03-04T12:57:36Z",
+                    "owner": "gibbed",
+                    "repo": "Gibbed.DragonsDogma2",
+                    "stars": 4
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Dragon's Dogma 2"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "HG-TEX",
+                  "description": "Extracts textures from Haunting Ground (Capcom, PS2) .TEX files to editable .BMP and imports modified .BMP images back into .TEX files.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 892229787,
+                    "language": "Python",
+                    "last_commit": "2024-11-21T18:41:29Z",
+                    "owner": "316austin316",
+                    "repo": "HG-TEX",
+                    "stars": 2
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Haunting Ground"
             },
             {
               "children": [
@@ -30168,6 +32530,72 @@
           "children": [
             {
               "node_type": "item",
+              "title": "AirMech-AMF-file-blender-import",
+              "description": "Blender import script for AirMech's AMF model format.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 66163760,
+                "language": "Python",
+                "last_commit": "2016-08-20T19:34:21Z",
+                "owner": "curly-brace",
+                "repo": "AirMech-AMF-file-blender-import",
+                "stars": 5
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Carbon Games (AirMech)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "The-Ham-Sandwich",
+              "description": "Browses WildStar's index files, renders all maps, and exports them to Blender.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1132194922,
+                "language": "C++",
+                "last_commit": "2026-08-21T15:41:36Z",
+                "owner": "adarec1994",
+                "repo": "The-Ham-Sandwich",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Carbine Studios (WildStar)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "yretenai/Jackdaw",
+              "description": "Research project for Carbon Engine file formats used in EVE Online.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 622226059,
+                "language": "C#",
+                "last_commit": "2026-05-09T17:37:22Z",
+                "owner": "neptuwunium",
+                "repo": "Jackdaw",
+                "stars": 5
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "CCP Games (EVE Online)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "RF Online Addon",
               "description": "Blender 4.3 importer/exporter for RF Online , , , and formats.",
               "children": [],
@@ -30281,10 +32709,10 @@
                     "archived": false,
                     "id": 79343641,
                     "language": "C#",
-                    "last_commit": "2026-08-23T14:41:44Z",
+                    "last_commit": "2026-08-24T12:43:37Z",
                     "owner": "WolvenKit",
                     "repo": "WolvenKit",
-                    "stars": 1180
+                    "stars": 1181
                   }
                 },
                 {
@@ -30299,7 +32727,7 @@
                     "last_commit": "2026-06-09T10:23:34Z",
                     "owner": "jac3km4",
                     "repo": "redscript",
-                    "stars": 511
+                    "stars": 510
                   }
                 },
                 {
@@ -30314,7 +32742,7 @@
                     "last_commit": "2026-03-09T18:49:57Z",
                     "owner": "wopss",
                     "repo": "RED4ext",
-                    "stars": 437
+                    "stars": 436
                   }
                 },
                 {
@@ -30359,7 +32787,7 @@
                     "last_commit": "2026-08-20T06:34:59Z",
                     "owner": "psiberx",
                     "repo": "cp2077-tweak-xl",
-                    "stars": 123
+                    "stars": 122
                   }
                 },
                 {
@@ -30374,7 +32802,7 @@
                     "last_commit": "2026-08-20T06:40:51Z",
                     "owner": "psiberx",
                     "repo": "cp2077-archive-xl",
-                    "stars": 117
+                    "stars": 116
                   }
                 },
                 {
@@ -30555,6 +32983,79 @@
         {
           "children": [
             {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "bermuda",
+                  "description": "Reimplementation of the engine used in Bermuda Syndrome, reading the original DOS release's data files; ports to Emscripten, libretro, and SDL2.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 141692939,
+                    "language": "C++",
+                    "last_commit": "2020-05-29T13:17:00Z",
+                    "owner": "cyxx",
+                    "repo": "bermuda",
+                    "stars": 28
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Bermuda Syndrome"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Century Interactive"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "machines",
+              "description": "GL port of Machines: Wired for War (1999), released as free software with permission from rights holder Night Dive Studios; loads and reads the original game's data files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 305177841,
+                "language": "C++",
+                "last_commit": "2022-08-02T21:44:24Z",
+                "owner": "markol",
+                "repo": "machines",
+                "stars": 66
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Charybdis (Machines: Wired for War)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "game-save-android-halls-of-torment",
+              "description": "Guide to decrypting, modifying, and re-encrypting Halls of Torment: Premium (Android) save files, covering the Godot 4.6 GDEC format with AES-256-CFB encryption.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1200360024,
+                "language": "Python",
+                "last_commit": "2026-04-03T14:04:01Z",
+                "owner": "VdustR",
+                "repo": "game-save-android-halls-of-torment",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Chasing Carrots (Halls of Torment)"
+        },
+        {
+          "children": [
+            {
               "node_type": "item",
               "title": "OpenTTD",
               "description": "Open-source reimplementation of Chris Sawyer's Transport Tycoon Deluxe, able to load the original game's GRF graphics/sound data files and pioneering the widely-used NewGRF format for custom vehicle/graphics data.",
@@ -30566,7 +33067,7 @@
                 "last_commit": "2026-08-24T05:21:44Z",
                 "owner": "OpenTTD",
                 "repo": "OpenTTD",
-                "stars": 8198
+                "stars": 8202
               }
             },
             {
@@ -30638,6 +33139,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "freegish",
+              "description": "Official open-source release of Gish (Chronic Logic, 2004), a physics-based puzzle-platformer.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 15619847,
+                "language": "C",
+                "last_commit": "2026-08-13T02:54:45Z",
+                "owner": "freegish",
+                "repo": "freegish",
+                "stars": 85
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Chronic Logic (Gish)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Lexy's Labyrinth",
               "description": "Browser-based reimplementation of Chip's Challenge 1 and 2, able to load the original MS Chip's Challenge DAT/CCL level files and Steam Chip's Challenge 2 C2G/C2M files, with a built-in level editor and demo/replay recording.",
               "children": [],
@@ -30670,6 +33193,72 @@
           "description": null,
           "node_type": "group",
           "title": "Chuck Sommerville (Chip's Challenge)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "DCGF-Tool",
+              "description": "Extractor/compressor for Da Capo: Girl's Symphony *.PAK archives, with text and arts editing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 31283568,
+                "language": "Visual Basic",
+                "last_commit": "2015-02-24T21:45:51Z",
+                "owner": "gdkchan",
+                "repo": "DCGF-Tool",
+                "stars": 3
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "CIRCUS (Da Capo)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "RK.ARC.Tool",
+              "description": "Tool for extracting ARC archives from Rocket Knight (2010).",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 581676955,
+                "language": "C#",
+                "last_commit": "2022-12-24T22:23:46Z",
+                "owner": "Ekey",
+                "repo": "RK.ARC.Tool",
+                "stars": 0
+              }
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Sudeki_Extractor",
+                  "description": "Experimental extractor and 010 Editor templates for Sudeki's BAF archive format, resolving filenames via the game's checksum scheme, plus SOL data file parsing.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 191234747,
+                    "language": "JavaScript",
+                    "last_commit": "2019-06-16T17:57:10Z",
+                    "owner": "Helco",
+                    "repo": "Sudeki_Extractor",
+                    "stars": 0
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Sudeki"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Climax Studios (Rocket Knight)"
         },
         {
           "children": [
@@ -30737,7 +33326,7 @@
                 "last_commit": "2026-08-23T17:27:44Z",
                 "owner": "magcius",
                 "repo": "noclip.website",
-                "stars": 4242
+                "stars": 4243
               }
             },
             {
@@ -30759,13 +33348,137 @@
           "description": null,
           "node_type": "group",
           "title": "Clover Studio (Okami)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "creat-file-formats",
+              "description": "File formats and viewer plugins for Creat Studio games.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 776499440,
+                "language": "Python",
+                "last_commit": "2024-03-23T17:25:51Z",
+                "owner": "AlexKimov",
+                "repo": "creat-file-formats",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Creat Studio"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "reverse_inotia4",
+                  "description": "Local reverse-engineering toolkit for Inotia4 (Com2uS) Android APK resources; extracts and parses maps, text, images, and audio from the APK and generates a web-viewable dataset via a built-in viewer.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1203816383,
+                    "language": "Python",
+                    "last_commit": "2026-04-09T06:12:23Z",
+                    "owner": "sunflower9264",
+                    "repo": "reverse_inotia4",
+                    "stars": 3
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Inotia4"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "noesis-smon",
+                  "description": "Noesis plugin for importing Summoners War: Sky Arena models.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 632998738,
+                    "language": "Python",
+                    "last_commit": "2025-08-02T23:47:16Z",
+                    "owner": "Ilemni",
+                    "repo": "noesis-smon",
+                    "stars": 1
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Summoners War: Sky Arena"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Com2uS"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "karakurism-unscrambler",
+              "description": "Asset unscrambler for Hyperdimension Neptunia: The App, a mobile spin-off title.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 25709517,
+                "language": "Java",
+                "last_commit": "2014-10-27T13:47:51Z",
+                "owner": "ElementW",
+                "repo": "karakurism-unscrambler",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Compile Heart (Hyperdimension Neptunia)"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "ExponentialIdle-SaveGameEditor",
+                  "description": "Save game editor for the mobile idle game Exponential Idle, with",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 370989571,
+                    "language": "Vue",
+                    "last_commit": "2023-03-14T16:03:47Z",
+                    "owner": "UnknownCollections",
+                    "repo": "ExponentialIdle-SaveGameEditor",
+                    "stars": 16
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Exponential Idle"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Conic Games"
         }
       ],
       "title": "Game & Studio Tools"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T05:57:06.560Z",
+    "last_updated": "2026-08-24T14:37:06.707Z",
     "original_repository": "VelocityRa/awesome-game-file-format-reversing",
     "original_repository_id": 1123242354,
     "original_repository_sha": "579d6a3f168a7f6c8be6f2eaa7e8835154ed1f69",
