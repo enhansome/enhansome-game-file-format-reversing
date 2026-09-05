@@ -1,6 +1,6 @@
 # 🎮 Awesome Game File Format Reversing with stars
 
-[Awesome](https://github.com/sindresorhus/awesome) ⭐ 502,839 | 🐛 106 | 📅 2026-09-02
+[Awesome](https://github.com/sindresorhus/awesome) ⭐ 503,117 | 🐛 106 | 📅 2026-09-02
 [License: CC0-1.0](LICENSE)
 [Website](https://velocityra.github.io/awesome-game-file-format-reversing/)
 
@@ -122,10 +122,15 @@ This list is for developers and modders working with such formats. It provides t
   * [Stargaze Engine](#stargaze-engine)
   * [GIANTS Engine](#giants-engine)
   * [Blitz3D / BlitzPlus](#blitz3d--blitzplus)
+  * [StepMania](#stepmania)
   * [RPG Maker](#rpg-maker)
+  * [Wolf RPG Editor](#wolf-rpg-editor)
+  * [SRPG Studio](#srpg-studio)
   * [Ren'Py](#renpy)
   * [AliceSoft (Alice/System 4 Engine)](#alicesoft-alicesystem-4-engine)
   * [Aquaplus (Leaf)](#aquaplus-leaf)
+    * [ToHeart2 DX PLUS](#toheart2-dx-plus)
+    * [Utawarerumono](#utawarerumono)
   * [Escude](#escude)
   * [Eushully](#eushully)
   * [Mware](#mware)
@@ -140,25 +145,56 @@ This list is for developers and modders working with such formats. It provides t
   * [Propeller Engine](#propeller-engine)
   * [Whale Engine](#whale-engine)
   * [AaruSystem Engine](#aarusystem-engine)
+  * [ADVSYS3 Engine](#advsys3-engine)
   * [AILSystem Engine](#ailsystem-engine)
+  * [Artemis Engine](#artemis-engine)
+  * [AVG32](#avg32)
+  * [AVGEngine V2 / GxEngine V3](#avgengine-v2--gxengine-v3)
   * [Bishop Engine](#bishop-engine)
+  * [Circus (Mes Engine)](#circus-mes-engine)
   * [CIS Engine](#cis-engine)
+  * [DDSystem](#ddsystem)
+  * [Debonosu Works Engine](#debonosu-works-engine)
   * [Edoire](#edoire)
+  * [elf / Silky's](#elf--silkys)
   * [EntisGLS](#entisgls)
+  * [FamilyAdvSystem Engine](#familyadvsystem-engine)
   * [Famous Writer](#famous-writer)
+  * [FFA System Engine](#ffa-system-engine)
   * [FVP Engine](#fvp-engine)
   * [GSIWin](#gsiwin)
+  * [GsPack4](#gspack4)
+  * [GXC Engine](#gxc-engine)
+  * [InnocentGrey](#innocentgrey)
   * [Kaguya](#kaguya)
+  * [Kurumi Engine](#kurumi-engine)
+  * [Liar-soft / raiL-soft](#liar-soft--rail-soft)
+  * [LiLiM / Sugar Engine](#lilim--sugar-engine)
+  * [LiveMaker](#livemaker)
   * [LucaSystem](#lucasystem)
+  * [Lucifen](#lucifen)
   * [Majiro](#majiro)
   * [Malie](#malie)
+  * [Marble Engine](#marble-engine)
   * [NekoGameSDK](#nekogamesdk)
   * [NeXAS](#nexas)
+  * [PJADV Engine](#pjadv-engine)
+  * [RioShiina](#rioshiina)
+  * [rUGP (AGES Player)](#rugp-ages-player)
   * [Siglus](#siglus)
+  * [Silky Engine (AI6WIN)](#silky-engine-ai6win)
+  * [SLG System](#slg-system)
+  * [SofthouseChara Aoi](#softhousechara-aoi)
+  * [Softpal](#softpal)
+  * [Sogna Engine](#sogna-engine)
   * [Tactics ADV/Script Engine](#tactics-advscript-engine)
+  * [Tanuki Soft / Kaeru Soft (BCS)](#tanuki-soft--kaeru-soft-bcs)
   * [Tmr-Hiro ADV System](#tmr-hiro-adv-system)
+  * [TS System](#ts-system)
+  * [Valkyria's Engine](#valkyrias-engine)
   * [WildBug](#wildbug)
   * [WillPlus/AdvHD](#willplusadvhd)
+  * [Xuse / Eternal](#xuse--eternal)
   * [Yuka System](#yuka-system)
   * [YU-RIS](#yu-ris)
   * [Glulx VM (Interactive Fiction)](#glulx-vm-interactive-fiction)
@@ -211,6 +247,7 @@ This list is for developers and modders working with such formats. It provides t
   * [XNA](#xna)
   * [Sappy (GBA Audio)](#sappy-gba-audio)
   * [RAD Game Tools](#rad-game-tools)
+  * [Virtools](#virtools)
   * [Nintendo SDKs & Hardware](#nintendo-sdks--hardware)
     * [Switch](#switch)
     * [iQue Player](#ique-player)
@@ -244,6 +281,7 @@ This list is for developers and modders working with such formats. It provides t
   * [PlayStation SDKs & Hardware](#playstation-sdks--hardware)
   * [WonderSwan SDKs & Hardware](#wonderswan-sdks--hardware)
   * [Xbox SDKs & Hardware](#xbox-sdks--hardware)
+  * [Games for Windows Live (GFWL)](#games-for-windows-live-gfwl)
   * [Tamagotchi (Bandai) Hardware](#tamagotchi-bandai-hardware)
     * [Tamagotchi Paradise](#tamagotchi-paradise)
   * [Digimon Color (Bandai) Hardware](#digimon-color-bandai-hardware)
@@ -254,6 +292,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Prism3D](#prism3d)
   * [Steam (Valve) Platform Tools](#steam-valve-platform-tools)
 * [Game & Studio Tools](#game--studio-tools)
+  * [0verflow (School Days)](#0verflow-school-days)
   * [11 bit studios (Frostpunk)](#11-bit-studios-frostpunk)
   * [1C Company / Best Way](#1c-company--best-way)
     * [Men of War](#men-of-war)
@@ -280,6 +319,7 @@ This list is for developers and modders working with such formats. It provides t
   * [4A Games](#4a-games)
     * [Metro](#metro)
   * [5pb. / Nitroplus (Steins;Gate)](#5pb--nitroplus-steinsgate)
+    * [Re:Zero: -Starting Life in Another World- Death or Kiss](#rezero--starting-life-in-another-world--death-or-kiss)
     * [Memories Off: -Innocent Fille-](#memories-off--innocent-fille-)
   * [4Head Studios](#4head-studios)
   * [5th Cell](#5th-cell)
@@ -290,6 +330,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Accolade (Eradicator)](#accolade-eradicator)
   * [Acornsoft](#acornsoft)
     * [Elite](#elite)
+  * [Acquire (Akiba's Trip)](#acquire-akibas-trip)
   * [Akella](#akella)
   * [Action Forms (Chasm: The Rift)](#action-forms-chasm-the-rift)
   * [Activ Pub (Rival Realms)](#activ-pub-rival-realms)
@@ -346,6 +387,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Argonaut Games](#argonaut-games)
   * [Arkane Studios](#arkane-studios)
   * [Armature Studio (Batman: Arkham Origins Blackgate)](#armature-studio-batman-arkham-origins-blackgate)
+  * [Armonica (Detective Instinct)](#armonica-detective-instinct)
   * [Arrowhead Game Studios (Helldivers 2)](#arrowhead-game-studios-helldivers-2)
   * [Ascaron Entertainment (Sacred)](#ascaron-entertainment-sacred)
   * [Assembly Line (Supaplex)](#assembly-line-supaplex)
@@ -361,6 +403,8 @@ This list is for developers and modders working with such formats. It provides t
     * [Jump Force](#jump-force)
     * [Mobile Suit Gundam: Extreme Vs. Series](#mobile-suit-gundam-extreme-vs-series)
     * [THE iDOLM@STER Cinderella Girls Starlight Stage](#the-idolmster-cinderella-girls-starlight-stage)
+    * [Gakuen iDOLM@STER](#gakuen-idolmster)
+    * [THE iDOLM@STER: SHINY COLORS Song for Prism](#the-idolmster-shiny-colors-song-for-prism)
     * [Dragon Ball](#dragon-ball)
     * [Tales Of](#tales-of)
   * [Bakemonogatari](#bakemonogatari)
@@ -371,10 +415,12 @@ This list is for developers and modders working with such formats. It provides t
   * [BeamNG GmbH (BeamNG.drive)](#beamng-gmbh-beamngdrive)
   * [Beetle Crazy Cup](#beetle-crazy-cup)
   * [BeeWorks (Mushroom Garden Neo)](#beeworks-mushroom-garden-neo)
+  * [Behaviour Interactive (Dead by Daylight)](#behaviour-interactive-dead-by-daylight)
   * [Bethesda](#bethesda)
     * [Elder Scrolls](#elder-scrolls)
     * [Fallout](#fallout)
   * [Bigpoint (Drakensang Online)](#bigpoint-drakensang-online)
+  * [Big Boat Interactive (Battlezone: Combat Commander)](#big-boat-interactive-battlezone-combat-commander)
   * [BioWare](#bioware)
     * [Mass Effect](#mass-effect)
     * [Dragon Age: Origins](#dragon-age-origins)
@@ -397,9 +443,12 @@ This list is for developers and modders working with such formats. It provides t
   * [Blue Byte (The Settlers)](#blue-byte-the-settlers)
     * [Albion](#albion)
     * [Anno 1602](#anno-1602)
+  * [Bluehole Studio (TERA)](#bluehole-studio-tera)
   * [BLUEPOCH (Reverse: 1999)](#bluepoch-reverse-1999)
   * [Bob Hays (Hypercycles)](#bob-hays-hypercycles)
   * [Bohemia Interactive](#bohemia-interactive)
+  * [Bokura](#bokura)
+    * [Blue Protocol: Star Resonance](#blue-protocol-star-resonance)
   * [Blueside (Kingdom Under Fire II)](#blueside-kingdom-under-fire-ii)
   * [Bone Town](#bone-town)
   * [Boss Game Studios (Top Gear Rally)](#boss-game-studios-top-gear-rally)
@@ -455,6 +504,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Chris Sawyer (Transport Tycoon & Locomotion)](#chris-sawyer-transport-tycoon--locomotion)
   * [Chronic Logic (Gish)](#chronic-logic-gish)
   * [Chuck Sommerville (Chip's Challenge)](#chuck-sommerville-chips-challenge)
+  * [Chucklefish (Starbound)](#chucklefish-starbound)
   * [CIRCUS (Da Capo)](#circus-da-capo)
   * [Climax Entertainment (Landstalker)](#climax-entertainment-landstalker)
   * [Climax Studios (Rocket Knight)](#climax-studios-rocket-knight)
@@ -578,6 +628,8 @@ This list is for developers and modders working with such formats. It provides t
   * [Evil Dog Games (Punk-O-Matic 2)](#evil-dog-games-punk-o-matic-2)
   * [Factor 5](#factor-5)
     * [Turrican](#turrican)
+  * [Failbetter Games](#failbetter-games)
+    * [Sunless Skies](#sunless-skies)
   * [FAKT Software (Crazy Machines)](#fakt-software-crazy-machines)
   * [Falcom (Ys)](#falcom-ys)
   * [Fallen Princess Knight](#fallen-princess-knight)
@@ -602,6 +654,7 @@ This list is for developers and modders working with such formats. It provides t
     * [Spy vs Spy III](#spy-vs-spy-iii)
   * [Fred Haslam (Dragon Court)](#fred-haslam-dragon-court)
   * [Fishlabs (Galaxy on Fire)](#fishlabs-galaxy-on-fire)
+  * [Flying Shine (Cross†Channel)](#flying-shine-crosschannel)
   * [Free Radical Design (TimeSplitters)](#free-radical-design-timesplitters)
   * [Frictional Games (Amnesia, Soma)](#frictional-games-amnesia-soma)
   * [FromSoftware](#fromsoftware)
@@ -704,9 +757,11 @@ This list is for developers and modders working with such formats. It provides t
   * [Human Entertainment (Tadaima Yuusha Boshuuchuu Okawari)](#human-entertainment-tadaima-yuusha-boshuuchuu-okawari)
   * [Human Head Studios](#human-head-studios)
     * [Prey](#prey)
+  * [HuneX (Arcana Famiglia)](#hunex-arcana-famiglia)
   * [Hypergryph](#hypergryph)
     * [Arknights](#arknights)
     * [Arknights: Endfield](#arknights-endfield)
+  * [Hypixel Studios (Hytale)](#hypixel-studios-hytale)
   * [id Software](#id-software)
     * [Commander Keen](#commander-keen)
     * [Catacomb 3-D & Adventure Series](#catacomb-3-d--adventure-series)
@@ -736,6 +791,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Xatrix Entertainment (Kingpin)](#xatrix-entertainment-kingpin)
   * [Ice-Pick Lodge](#ice-pick-lodge)
   * [Idea Factory](#idea-factory)
+    * [Date A Live](#date-a-live)
     * [Hidamari Sketch: Dokodemo Sugoroku x 365](#hidamari-sketch-dokodemo-sugoroku-x-365)
   * [Illusion](#illusion)
   * [Impressions Games](#impressions-games)
@@ -754,6 +810,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Innerloop Studios](#innerloop-studios)
   * [Innocent Grey](#innocent-grey)
   * [Intelligent Systems](#intelligent-systems)
+    * [Panel de Pon](#panel-de-pon)
     * [Fire Emblem: Three Houses](#fire-emblem-three-houses)
     * [Paper Mario 64](#paper-mario-64)
     * [Paper Mario: TTYD / Super Paper Mario](#paper-mario-ttyd--super-paper-mario)
@@ -794,6 +851,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Jupiter](#jupiter)
   * [Keen Games (Enshrouded, Portal Knights)](#keen-games-enshrouded-portal-knights)
   * [Keen Software House](#keen-software-house)
+  * [KeroQ](#keroq)
   * [KID](#kid)
   * [King of Route 66](#king-of-route-66)
   * [KingsIsle Entertainment (Wizard101)](#kingsisle-entertainment-wizard101)
@@ -802,6 +860,7 @@ This list is for developers and modders working with such formats. It provides t
     * [Fatal Frame](#fatal-frame)
     * [Nioh](#nioh)
   * [Konami](#konami)
+    * [BEMANI](#bemani)
     * [Yu-Gi-Oh](#yu-gi-oh)
     * [Boktai](#boktai)
     * [Metal Gear Solid](#metal-gear-solid)
@@ -830,6 +889,8 @@ This list is for developers and modders working with such formats. It provides t
     * [Divine Divinity / Beyond Divinity](#divine-divinity--beyond-divinity)
   * [Leaf (White Album 2)](#leaf-white-album-2)
   * [LEGO Media (Junkbot)](#lego-media-junkbot)
+  * [LEGOLAND (Krisalis Software)](#legoland-krisalis-software)
+  * [LEGO Racers](#lego-racers)
   * [LEGO Universe](#lego-universe)
   * [Level-5](#level-5)
     * [Mobile Suit Gundam AGE](#mobile-suit-gundam-age)
@@ -883,6 +944,7 @@ This list is for developers and modders working with such formats. It provides t
     * [Gorky 17](#gorky-17)
   * [Microids](#microids)
     * [Still Life 2](#still-life-2)
+    * [Syberia](#syberia)
   * [MicroProse](#microprose)
     * [X-COM (UFO Defense / Terror from the Deep)](#x-com-ufo-defense--terror-from-the-deep)
     * [XCOM Apocalypse](#xcom-apocalypse)
@@ -891,6 +953,7 @@ This list is for developers and modders working with such formats. It provides t
     * [Darklands](#darklands)
     * [MPS Show](#mps-show)
     * [Master of Magic](#master-of-magic)
+    * [RollerCoaster Tycoon](#rollercoaster-tycoon)
   * [Microsoft Studios / Bungie / Turn 10](#microsoft-studios--bungie--turn-10)
     * [SkiFree](#skifree)
     * [Hover!](#hover)
@@ -952,6 +1015,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Natsume (Harvest Moon)](#natsume-harvest-moon)
     * [Telefang](#telefang)
   * [NCSoft](#ncsoft)
+    * [Aion](#aion)
     * [Blade & Soul](#blade--soul)
   * [Neople (Dungeon Fighter Online)](#neople-dungeon-fighter-online)
   * [NetDevil (Dungeon Runners)](#netdevil-dungeon-runners)
@@ -1032,9 +1096,11 @@ This list is for developers and modders working with such formats. It provides t
   * [Nippon Ichi Software](#nippon-ichi-software)
     * [Disgaea](#disgaea)
     * [Yomawari](#yomawari)
+    * [Process of Elimination](#process-of-elimination)
   * [Nitroplus](#nitroplus)
     * [Chaos;Head](#chaoshead)
   * [Ntreev Soft](#ntreev-soft)
+  * [O2Jam](#o2jam)
   * [Obsidian Entertainment](#obsidian-entertainment)
     * [Neverwinter Nights 2](#neverwinter-nights-2)
   * [Ocean Software (Chase H.Q.)](#ocean-software-chase-hq)
@@ -1042,6 +1108,10 @@ This list is for developers and modders working with such formats. It provides t
     * [Head Over Heels](#head-over-heels)
     * [Cobra](#cobra)
   * [Oddworld Inhabitants](#oddworld-inhabitants)
+  * [Omega Star (ωstar)](#omega-star-ωstar)
+    * [Bishoujo Mangekyou series](#bishoujo-mangekyou-series)
+  * [OMOCAT (OMORI)](#omocat-omori)
+  * [Orange\_Juice (100% Orange Juice)](#orange_juice-100-orange-juice)
   * [Origin Systems](#origin-systems)
     * [Ultima IV](#ultima-iv)
     * [Ultima V](#ultima-v)
@@ -1055,6 +1125,7 @@ This list is for developers and modders working with such formats. It provides t
     * [Descent 3](#descent-3)
   * [Owlcat Games](#owlcat-games)
   * [Pajamas Soft (Prism Ark)](#pajamas-soft-prism-ark)
+  * [Pan Studio (Duet Night Abyss)](#pan-studio-duet-night-abyss)
   * [Pangea Software (Bugdom)](#pangea-software-bugdom)
   * [Panic (Playdate)](#panic-playdate)
   * [Panik Arcade (CloverPit)](#panik-arcade-cloverpit)
@@ -1070,6 +1141,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Petroglyph Games](#petroglyph-games)
   * [Phenomic](#phenomic)
     * [SpellForce](#spellforce)
+    * [BattleForge](#battleforge)
   * [Piranha Bytes](#piranha-bytes)
     * [Gothic 3](#gothic-3)
     * [Elex 2](#elex-2)
@@ -1092,6 +1164,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Probe Entertainment (Forsaken)](#probe-entertainment-forsaken)
   * [Procedural Arts](#procedural-arts)
     * [Façade](#façade)
+  * [Prototype (console ports of Key visual novels)](#prototype-console-ports-of-key-visual-novels)
   * [Psygnosis](#psygnosis)
     * [WipeOut](#wipeout)
   * [Pterodon (Vietcong)](#pterodon-vietcong)
@@ -1099,6 +1172,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Quantic Dream](#quantic-dream)
   * [Racjin](#racjin)
     * [Busin 0: Wizardry Alternative Neo](#busin-0-wizardry-alternative-neo)
+  * [Radica Games (U.B. Funkeys)](#radica-games-ub-funkeys)
   * [Radical Entertainment](#radical-entertainment)
   * [Rare](#rare)
     * [Battletoads](#battletoads)
@@ -1173,6 +1247,7 @@ This list is for developers and modders working with such formats. It provides t
   * [Sega](#sega)
     * [Homebrew & Audio/Video Format Tools](#homebrew--audiovideo-format-tools)
     * [Model 2 Arcade Games](#model-2-arcade-games)
+    * [maimai](#maimai)
     * [Crazy Taxi](#crazy-taxi)
     * [Ryu Ga Gotoku Studio (Dragon Engine)](#ryu-ga-gotoku-studio-dragon-engine)
     * [Shenmue](#shenmue)
@@ -1216,6 +1291,7 @@ This list is for developers and modders working with such formats. It provides t
   * [SoftClub](#softclub)
     * [Treasure Island (2005)](#treasure-island-2005)
   * [SoftLab-NN](#softlab-nn)
+  * [SoftStar Entertainment](#softstar-entertainment)
   * [Software Projects](#software-projects)
     * [Manic Miner](#manic-miner)
     * [Jet Set Willy](#jet-set-willy)
@@ -1307,6 +1383,7 @@ This list is for developers and modders working with such formats. It provides t
   * [SynSophia (PriPara)](#synsophia-pripara)
   * [Taito](#taito)
     * [Densha de Go! Final](#densha-de-go-final)
+    * [Groove Coaster](#groove-coaster)
   * [Take-Two Interactive](#take-two-interactive)
     * [Ripper](#ripper)
   * [TaleWorlds Entertainment](#taleworlds-entertainment)
@@ -1318,6 +1395,8 @@ This list is for developers and modders working with such formats. It provides t
     * [N.U.D.E.@](#nude)
   * [Team17](#team17)
   * [Team Bondi (L.A. Noire)](#team-bondi-la-noire)
+  * [Team Cherry (Hollow Knight: Silksong)](#team-cherry-hollow-knight-silksong)
+  * [Team Salvato (Doki Doki Literature Club)](#team-salvato-doki-doki-literature-club)
   * [Team Shanghai Alice (Touhou)](#team-shanghai-alice-touhou)
   * [Techland](#techland)
   * [Telltale Games](#telltale-games)
@@ -1372,7 +1451,9 @@ This list is for developers and modders working with such formats. It provides t
     * [Sonic R](#sonic-r)
   * [Turbine](#turbine)
   * [Type-Moon](#type-moon)
+    * [Tsukihime](#tsukihime)
     * [Witch on the Holy Night](#witch-on-the-holy-night)
+    * [Fate/stay night (Remastered)](#fatestay-night-remastered)
   * [Ubisoft](#ubisoft)
     * [OpenSpace](#openspace-1)
     * [Anvil / Scimitar](#anvil--scimitar)
@@ -1405,6 +1486,7 @@ This list is for developers and modders working with such formats. It provides t
     * [Mighty Switch Force: Hyper Drive Edition](#mighty-switch-force-hyper-drive-edition)
     * [A Boy and His Blob](#a-boy-and-his-blob)
     * [Double Dragon Neon](#double-dragon-neon)
+    * [Shantae (GBC, unreleased prototype)](#shantae-gbc-unreleased-prototype)
   * [Webzen (Archlord 2)](#webzen-archlord-2)
   * [강림2:제천대성 (Descent 2: Jecheondaeseong)](#강림2제천대성-descent-2-jecheondaeseong)
   * [Westwood Studios](#westwood-studios)
@@ -1412,18 +1494,27 @@ This list is for developers and modders working with such formats. It provides t
     * [Command & Conquer](#command--conquer)
     * [Nox](#nox)
     * [Dune II](#dune-ii)
+  * [Whirlpool (Relirium - Iseki to Deai to Bouken to)](#whirlpool-relirium---iseki-to-deai-to-bouken-to)
   * [Whoopee Camp (Tomba!)](#whoopee-camp-tomba)
   * [Williams Electronics](#williams-electronics)
+  * [WoGa (Hana Awase)](#woga-hana-awase)
+  * [Wolfire Games (Overgrowth)](#wolfire-games-overgrowth)
   * [Wolfpack Studios (Shadowbane)](#wolfpack-studios-shadowbane)
   * [Working Designs (Lunar)](#working-designs-lunar)
+  * [Wube Software (Factorio)](#wube-software-factorio)
   * [WWE Raw 2](#wwe-raw-2)
   * [Yacht Club Games](#yacht-club-games)
     * [Shovel Knight](#shovel-knight)
+  * [Yeti (Root Double: Before Crime \* After Days)](#yeti-root-double-before-crime--after-days)
+  * [Yogho Yogho](#yogho-yogho)
   * [Yostar](#yostar)
     * [Azur Lane](#azur-lane)
+    * [Azur Promilia](#azur-promilia)
     * [Revived Witch](#revived-witch)
+    * [Stella Sora](#stella-sora)
   * [Youthcat Studio](#youthcat-studio)
     * [Dyson Sphere Program](#dyson-sphere-program)
+  * [Zachtronics](#zachtronics)
   * [Z-Axis](#z-axis)
   * [Zyrinx (Scorcher)](#zyrinx-scorcher)
 * [🔗 Related Lists](#-related-lists)
@@ -1454,7 +1545,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Knowledge Bases & Format Databases
 
-* [RetroReversing](https://github.com/RetroReversing/retroReversing) ⭐ 691 | 🐛 19 | 🌐 JavaScript | 📅 2026-08-10 - Curated list of retro game development and reverse-engineering resources, tools, and documentation, published as the RetroReversing.com website/wiki.
+* [RetroReversing](https://github.com/RetroReversing/retroReversing) ⭐ 692 | 🐛 19 | 🌐 JavaScript | 📅 2026-08-10 - Curated list of retro game development and reverse-engineering resources, tools, and documentation, published as the RetroReversing.com website/wiki.
+* [Galgame-Engine-Collect (galWiki)](https://github.com/2439905184/Galgame-Engine-Collect) ⭐ 659 | 🐛 9 | 📅 2026-06-21 - Extensive community knowledge base cataloging Japanese visual novel/galgame engines, their file formats, and associated extraction/translation tools.
+* [arcade-docs](https://codeberg.org/shiz/arcade-docs) - Open documentation repository for arcade system hardware, network protocols, and file formats across many manufacturers. Migrated from the archived [GitHub mirror](https://github.com/shizmob/arcade-docs) ⚠️ Archived.
 * [XeNTaXBackup](https://github.com/XeNTaXBackup/XeNTaXBackup.github.io) ⭐ 72 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2024-01-21 - Public backup of the XeNTaX game file format reverse engineering forum and wiki, preserving community knowledge on game format documentation, QuickBMS scripts, and format research.
 * [oldgamescracking.github.io](https://github.com/OldGamesCracking/oldgamescracking.github.io) ⭐ 1 | 🐛 0 | 🌐 C | 📅 2026-08-29 - Community knowledge base documenting cracking and format-preservation notes for old games.
 * [Just Solve the File Format Problem](http://fileformats.archiveteam.org/wiki/Game_data_files) - ArchiveTeam's wiki for file formats.
@@ -1463,18 +1556,19 @@ This list is for developers and modders working with such formats. It provides t
 ### Platform & SDK Documentation
 
 * [awesome-gbdev](https://github.com/gbdev/awesome-gbdev) ⭐ 4,496 | 🐛 21 | 📅 2026-07-22 - Curated list of Game Boy development resources, including reverse-engineering tools, hardware/format documentation, disassemblers, and emulators.
-* [Awesome PlayStation Vita](https://github.com/MuxaJlbl4/Awesome-PlayStation-Vita) ⭐ 1,806 | 🐛 0 | 🌐 Markdown | 📅 2026-08-03 - Comprehensive PS Vita resource list including reverse engineering tools, file format decompilers (.rco, .rcs), and RE utilities.
+* [Awesome PlayStation Vita](https://github.com/MuxaJlbl4/Awesome-PlayStation-Vita) ⭐ 1,807 | 🐛 0 | 🌐 Markdown | 📅 2026-08-03 - Comprehensive PS Vita resource list including reverse engineering tools, file format decompilers (.rco, .rcs), and RE utilities.
 * [awesome-gbadev](https://github.com/gbadev-org/awesome-gbadev) ⭐ 1,337 | 🐛 6 | 📅 2026-01-30 - Curated list of Game Boy Advance development resources, including documentation, tools, and libraries relevant to GBA file formats and homebrew.
 * [Architecture of consoles](https://github.com/flipacholas/Architecture-of-consoles) ⭐ 1,103 | 🐛 29 | 📅 2026-08-24 - Series of technical articles on console hardware architecture, covering CPU, graphics, and file/memory layout across many platforms.
 * [Pan Docs](https://github.com/gbdev/pandocs) ⭐ 781 | 🐛 138 | 🌐 Markdown | 📅 2026-06-09 - The single, most comprehensive technical reference to the Game Boy hardware available to the public, including cartridge header, memory bank controller, and save format documentation.
-* [rom-properties](https://github.com/GerbilSoft/rom-properties) ⭐ 656 | 🐛 97 | 🌐 C++ | 📅 2026-09-03 - Shell extension for Windows and Linux that shows information about ROM and disc image files. Supports over 500 game and system file formats across dozens of consoles and handhelds.
+* [rom-properties](https://github.com/GerbilSoft/rom-properties) ⭐ 656 | 🐛 97 | 🌐 C++ | 📅 2026-09-04 - Shell extension for Windows and Linux that shows information about ROM and disc image files. Supports over 500 game and system file formats across dozens of consoles and handhelds.
   * Features: Metadata viewing (title, publisher, region), icon/boxart extraction, save game management, and explorer integration.
 * [awesome-megadrive](https://github.com/And-0/awesome-megadrive) ⭐ 454 | 🐛 3 | 📅 2026-05-05 - Curated list of Sega Mega Drive/Genesis development resources, including hardware documentation, disassemblers, and format tools.
 * [gb-ctr](https://github.com/Gekkio/gb-ctr) ⭐ 435 | 🐛 3 | 🌐 Typst | 📅 2026-08-16 - Game Boy: Complete Technical Reference, an in-depth document covering Game Boy console hardware internals.
 * [PSVita-RE-tools](https://github.com/TeamFAPS/PSVita-RE-tools) ⭐ 383 | 🐛 14 | 🌐 C | 📅 2023-02-20 - Collection of PlayStation Vita reverse-engineering tools.
-* [psx-guide](https://github.com/simias/psx-guide) ⭐ 320 | 🐛 8 | 🌐 TeX | 📅 2023-03-21 - In-depth guide to writing a PlayStation emulator from scratch, covering the CPU/MIPS instruction set and memory interconnect, DMA ordering tables, GPU internals and rendering, and building a debugger with breakpoints/watchpoints.
-* [SiliconRE](https://github.com/furrtek/SiliconRE) ⭐ 229 | 🐛 23 | 🌐 Verilog | 📅 2026-08-22 - Traces, schematics, and technical writeups from silicon-level reverse engineering of custom game console/arcade chips.
+* [psx-guide](https://github.com/simias/psx-guide) ⭐ 319 | 🐛 8 | 🌐 TeX | 📅 2023-03-21 - In-depth guide to writing a PlayStation emulator from scratch, covering the CPU/MIPS instruction set and memory interconnect, DMA ordering tables, GPU internals and rendering, and building a debugger with breakpoints/watchpoints.
+* [SiliconRE](https://github.com/furrtek/SiliconRE) ⭐ 229 | 🐛 23 | 🌐 Verilog | 📅 2026-09-04 - Traces, schematics, and technical writeups from silicon-level reverse engineering of custom game console/arcade chips.
 * [Free60 Wiki Archive](https://github.com/Free60Project/wiki) ⭐ 149 | 🐛 7 | 🌐 Dockerfile | 📅 2026-04-02 - Archived MediaWiki dump of free60.org, the community reference for Xbox 360 hardware, firmware, and file format reverse engineering.
+* [awesome-dreamcast](https://github.com/dreamcastdevs/awesome-dreamcast) ⭐ 122 | 🐛 0 | 🌐 C | 📅 2026-05-29 - Curated list of Sega Dreamcast development resources, including tutorials, homebrew tools, engines, and frameworks; see also [dreamcast.wiki](https://dreamcast.wiki/Dreamcast.wiki) linked within for hardware/format documentation.
 * [ay-3-8910\_reverse\_engineered](https://github.com/lvd2/ay-3-8910_reverse_engineered) ⭐ 106 | 🐛 2 | 🌐 Verilog | 📅 2019-11-26 - Transistor-level reverse engineering of the AY-3-8910 sound chip used in many arcade and home computer systems, with transistor-level schematics, a Verilog model, and a testbench that renders register dumps into audio.
 * [ps4libdoc](https://github.com/idc/ps4libdoc) ⭐ 104 | 🐛 0 | 📅 2022-07-11 - PS4 library documentation for game development and reverse engineering reference.
 * [gbadoc](https://github.com/gbadev-org/gbadoc) ⭐ 64 | 🐛 9 | 🌐 CSS | 📅 2026-08-12 - Community-driven Game Boy Advance technical documentation effort.
@@ -1512,7 +1606,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### 🎥 Video Tutorials
 
-* [dsasmblr/game-hacking](https://github.com/dsasmblr/game-hacking) ⭐ 5,568 | 🐛 11 | 📅 2024-06-20 - Large curated collection of tutorials, tools, and resources for reverse engineering video games.
+* [dsasmblr/game-hacking](https://github.com/dsasmblr/game-hacking) ⭐ 5,569 | 🐛 11 | 📅 2024-06-20 - Large curated collection of tutorials, tools, and resources for reverse engineering video games.
 * [retrore](https://github.com/realdmx/retrore) ⭐ 73 | 🐛 0 | 📅 2026-08-30 - Curated list of original and reverse-engineered vintage 6502 game source code, tracking disassembly projects across many classic 8-bit titles.
 * [Binary File Format Engineering and Reverse Engineering](https://www.youtube.com/watch?v=8OxtBxXfJHw) - Peter Bindels - ACCU 2023 conference talk on binary file format analysis and reverse engineering techniques.
 * [Reverse engineering game formats for fun and profit! (or just fun)](https://www.youtube.com/watch?v=MXbo6y6MCPE) - Spencer Alves - !!Con West 2020 talk on reverse engineering game file formats.
@@ -1536,8 +1630,8 @@ This list is for developers and modders working with such formats. It provides t
 
 #### 3D Models & Viewers
 
-* [assimp](https://github.com/assimp/assimp) ⭐ 13,175 | 🐛 536 | 🌐 C++ | 📅 2026-09-03 - The Open Asset Import Library, loading 40+ 3D model formats into one unified data structure. Widely used as the backend for game-format model converters and viewers. See also [Assimp.Net](https://github.com/StirlingLabs/Assimp.Net) ⭐ 49 | 🐛 4 | 🌐 C# | 📅 2023-10-18 below for a .NET wrapper.
-* [vengi](https://github.com/vengi-voxel/vengi) ⭐ 1,406 | 🐛 133 | 🌐 C | 📅 2026-09-03 - Free, open-source, actively maintained voxel editor, thumbnailer, and command-line format converter.
+* [assimp](https://github.com/assimp/assimp) ⭐ 13,177 | 🐛 534 | 🌐 C++ | 📅 2026-09-04 - The Open Asset Import Library, loading 40+ 3D model formats into one unified data structure. Widely used as the backend for game-format model converters and viewers. See also [Assimp.Net](https://github.com/StirlingLabs/Assimp.Net) ⭐ 49 | 🐛 4 | 🌐 C# | 📅 2023-10-18 below for a .NET wrapper.
+* [vengi](https://github.com/vengi-voxel/vengi) ⭐ 1,407 | 🐛 133 | 🌐 C | 📅 2026-09-03 - Free, open-source, actively maintained voxel editor, thumbnailer, and command-line format converter.
   * Formats: MagicaVoxel VOX/XRAW, Qubicle QB/QBT/QEF/QBCL, Sandbox VoxEdit VXM/VXR/VXC/VXB/VXT, Ace of Spades KV6/VXL, Build engine KVX, Minecraft schematic/mcworld/region/level.dat/skin, CubeWorld, Goxel, BinVox, Tiberian Sun VXL, StarMade, and 30+ more voxel and mesh formats (glTF, FBX, Quake BSP/MDL/MD2/MD3, STL, PLY, and others).
   * Features: standalone GUI editor (VoxEdit), thumbnail generator, and CLI converter (VoxConvert) sharing one format backend.
 * [NifSkope](https://github.com/niftools/nifskope) ⭐ 630 | 🐛 125 | 🌐 C++ | 📅 2024-06-03 - Tool for opening and editing the NetImmerse/Gamebryo NIF format used by Morrowind, Oblivion, Skyrim, Fallout 3/NV/4, and more. See also [hexabits' fork](https://github.com/hexabits/nifskope) ⭐ 259 | 🐛 50 | 🌐 C++ | 📅 2024-08-20 with Starfield support.
@@ -1545,6 +1639,7 @@ This list is for developers and modders working with such formats. It provides t
 * [psx-modding-toolchain](https://github.com/mateusfavarin/psx-modding-toolchain) ⭐ 194 | 🐛 9 | 🌐 C | 📅 2026-02-21 - Toolchain for PlayStation 1 modding including model and texture tools.
 * [Noesis-Plugins (leeao)](https://github.com/leeao/Noesis-Plugins) ⭐ 40 | 🐛 1 | 🌐 Python | 📅 2023-08-17 - Collection of Noesis Python scripts for various game models and textures.
   * Games: Evil Dead: Regeneration, Harry Potter and the Chamber of Secrets (PS2), Haunting Ground (PS2), Kingdom Under Fire 2, Pokémon Master, Trapt (PS2), Artifex Mundi games, Mega Man Zero/ZX Legacy Collection (PC), Onimusha 3, Patapon 2 (PSP), The Punisher (Xbox), Eastward, Tales of Symphonia (Xbox 360), Angry Birds Star Wars (Wii), Angry Birds Trilogy (Wii/Wii U), Beat Down: Fists of Vengeance (PS2), BishiBashi Online, Double Dragon II: Wander of the Dragons (Xbox 360), Dream League Soccer, JoJo's Bizarre Adventure, Just Dance (Wii), Keyboard Mania (Arcade), Lost Kingdoms 2 (GameCube), Manhunt (PC), Manhunt 2 (Wii), Monster Hunter Explore (Android), Moshi Monsters Village (iOS), Mortal Kombat Mythologies: Sub-Zero (PSX), Mortal Kombat: Special Forces (PSX), Need for Speed: Hot Pursuit (Wii), Naruto: Uzumaki Chronicles 2, Para Para Paradise, Road Trip Adventure (PS2), Star Wars: Bounty Hunter (GameCube), Twisted Metal: Black (PS2), Vector Unit games (Android), Yu Yu Hakusho Forever (PS2), Tony Hawk's Pro Skater series (PS2).
+* [tmd2obj](https://github.com/taedixon/tmd2obj) ⭐ 24 | 🐛 0 | 🌐 Java | 📅 2025-09-25 - Command-line converter from PlayStation 1 TMD models to Wavefront OBJ, extracting material colors and texture mapping.
 * [SEAnim-Docs](https://github.com/SE2Dev/SEAnim-Docs) ⭐ 24 | 🐛 1 | 📅 2018-03-19 - Specification and documentation for the SEModel/SEAnim formats used by CastImporter and related tools.
 * [Noesis-Py](https://github.com/atrzaska/noesis_py) ⭐ 21 | 🐛 2 | 🌐 Python | 📅 2026-09-02 - Cross-platform (Linux/macOS) reimplementation of Noesis able to load plugins written for the original Noesis, aiming for API compatibility so existing Noesis plugins work unmodified.
 * [tmd](https://github.com/roblouie/tmd) ⭐ 15 | 🐛 0 | 🌐 TypeScript | 📅 2020-06-12 - JavaScript application for viewing PlayStation 1 TMD models in the browser. Features orbit controls, wireframe mode, and texture support.
@@ -1570,6 +1665,7 @@ This list is for developers and modders working with such formats. It provides t
   * Features: Texture decompression, pixel format conversion.
 * [Texture64](https://github.com/queueRAM/Texture64) ⭐ 101 | 🐛 6 | 🌐 C# | 📅 2021-01-02 - N64 texture ripper and editor, complementing Motex above with editing support.
 * [Rainbow](https://github.com/marco-calautti/Rainbow) ⭐ 98 | 🐛 14 | 🌐 C# | 📅 2021-04-07 - Texture format converter for different consoles' graphics formats, supporting TIM2, Super Robot Wars MX, The 3rd Birthday, and more.
+* [RygsDXTc](https://github.com/Cyan4973/RygsDXTc) ⭐ 98 | 🐛 0 | 🌐 C | 📅 2021-11-28 - Real-time DXT1/DXT5 texture compressor in C, based on Fabian "ryg" Giesen's farbrausch demoscene work; used as a fast encoder in many game asset pipelines.
 * [AnyPalette.js](https://github.com/1j01/anypalette.js) ⭐ 74 | 🐛 12 | 🌐 JavaScript | 📅 2024-06-11 - JavaScript/Node library reading and writing a wide range of color palette file formats through one unified interface, including game formats such as StarCraft's .pal/.wpe terrain palettes alongside DCC formats (GIMP GPL, Adobe ACO/ASE/ACT, Paint Shop Pro, Paint.NET).
 * [tim2view](https://github.com/lab313ru/tim2view) ⭐ 70 | 🐛 6 | 🌐 Pascal | 📅 2016-08-09 - Viewer, converter, searcher, editor, and scanner/ripper for PS2 TIM/TM2 texture formats, complementing Rainbow's TIM2 conversion support.
 * [texgenpack](https://github.com/hglm/texgenpack) ⭐ 62 | 🐛 12 | 🌐 C | 📅 2018-02-05 - Compresses, decompresses, and converts texture files using a genetic algorithm. Supports KTX, DDS, ETC2, BC6/BC7, and more.
@@ -1590,6 +1686,7 @@ This list is for developers and modders working with such formats. It provides t
 * [swizzleinator](https://github.com/v4nguard/swizzleinator) ⭐ 2 | 🐛 0 | 🌐 Rust | 📅 2025-09-08 - Library for detiling/deswizzling various image formats. `no_std`-friendly. Supports PS3, PS4, and X360 texture swizzling/unswizzling.
 * [BCDec](https://github.com/neptuwunium/bcdec) ⭐ 1 | 🐛 0 | 🌐 C | 📅 2026-05-19 - All-in-one C++ texture decoding library and tool for BC1-BC7, ETC1/2, and ASTC formats.
 * [DXTAnalyzer](https://github.com/LittleBitUA/DXTAnalyzer) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2025-10-30 - PyQt5 utility for viewing DDS headers and identifying pixel formats (DXT1/3/5, BC4/5/6H/7, RGBA8/BGRA8), with experimental PS3 swizzle/unswizzle (Morton Z-order) support for RGBA8 and BC1/2/3.
+* [GtfDdsSharp](https://github.com/Udaya-X2/GtfDdsSharp) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2025-11-07 - Converts PS3 GTF (Graphics Texture Format) textures to/from DDS, used across many PS3 games.
 * [PyNVTT](https://github.com/Hancapo/PyNVTT) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2025-07-01 - Python wrapper for NVIDIA Texture Tools (NVTT). Enables DDS texture format conversion and compression for game asset extraction and modding.
 * [RAW pixels viewer](https://www.kernellabs.com/rawpixels/) - Web-based tool for analyzing raw image data. Displays memory dumps of frame buffers, video buffers, and uncompressed video files. Allows interactive exploration of color formats and image parameters (width, height, offset, flip, invert, zoom) to help identify unknown pixel formats.
 
@@ -1598,7 +1695,7 @@ This list is for developers and modders working with such formats. It provides t
 * [Tilemap Studio](https://github.com/Rangi42/tilemap-studio) ⭐ 531 | 🐛 26 | 🌐 C++ | 📅 2026-05-02 - Tilemap editor for Game Boy, GBC, GBA, NDS, SNES, Genesis, and TG16.
   * Support: pret disassemblies, Pokemon ROM hacks
 * [tmxlite](https://github.com/fallahn/tmxlite) ⭐ 466 | 🐛 12 | 🌐 C++ | 📅 2026-04-27 - Lightweight C++14 parser for Tiled Map Editor's TMX/TSX tilemap format, used by many indie and hobbyist games.
-* [NitroPaint](https://github.com/Garhoogin/NitroPaint) ⭐ 108 | 🐛 6 | 🌐 C | 📅 2026-08-30 - Graphics editor for Nintendo DS image formats.
+* [NitroPaint](https://github.com/Garhoogin/NitroPaint) ⭐ 110 | 🐛 6 | 🌐 C | 📅 2026-08-30 - Graphics editor for Nintendo DS image formats.
   * See also [ptexconv](https://github.com/Garhoogin/ptexconv) ⭐ 16 | 🐛 0 | 🌐 C | 📅 2026-09-02 for a command-line-only version of its texture and background converter.
   * Formats: NCLR, NCGR, NSCR
   * Compression: LZ, RLE, Huffman, LZX
@@ -1638,19 +1735,19 @@ This list is for developers and modders working with such formats. It provides t
 
 ### 📦 Archive Extractors
 
-* [binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,306 | 🐛 93 | 🌐 Rust | 📅 2026-08-11 - Firmware analysis tool for identifying and extracting embedded files and data. The Rust version (v3) provides significant speed and accuracy improvements over the original Python version.
-* [AssetRipper](https://github.com/AssetRipper/AssetRipper) ⭐ 8,259 | 🐛 152 | 🌐 C# | 📅 2026-09-03 - GUI tool for extracting assets from Unity serialized files (*CAB-*\\*, *\\*.assets*, etc.) and asset bundles (*\\*.unity3d\*, *\\*.bundle\*, etc.) and converting them into the native Unity engine format.
+* [binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,312 | 🐛 93 | 🌐 Rust | 📅 2026-08-11 - Firmware analysis tool for identifying and extracting embedded files and data. The Rust version (v3) provides significant speed and accuracy improvements over the original Python version.
+* [AssetRipper](https://github.com/AssetRipper/AssetRipper) ⭐ 8,269 | 🐛 152 | 🌐 C# | 📅 2026-09-03 - GUI tool for extracting assets from Unity serialized files (*CAB-*\\*, *\\*.assets*, etc.) and asset bundles (*\\*.unity3d\*, *\\*.bundle\*, etc.) and converting them into the native Unity engine format.
 * [Universal Extractor 2](https://github.com/Bioruebe/UniExtract2) ⭐ 4,413 | 🐛 123 | 🌐 AutoIt | 📅 2024-07-06 - Generic tool to extract files from any type of archive or installer, commonly used to unpack game installers (NSIS, InstallShield, Wise, and many more) before further asset processing.
-* [GARbro](https://github.com/morkt/GARbro) ⭐ 3,277 | 🐛 276 | 🌐 C# | 📅 2024-07-08 - Visual novels resource browser and extractor supporting many formats. See also [crskycode's fork](https://github.com/crskycode/GARbro) ⭐ 774 | 🐛 6 | 🌐 C# | 📅 2026-08-28, which is actively maintained with additional format support.
+* [GARbro](https://github.com/morkt/GARbro) ⭐ 3,280 | 🐛 276 | 🌐 C# | 📅 2024-07-08 - Visual novels resource browser and extractor supporting many formats. See also [crskycode's fork](https://github.com/crskycode/GARbro) ⭐ 775 | 🐛 7 | 🌐 C# | 📅 2026-08-28, which is actively maintained with additional format support; [nanami5270's fork](https://github.com/nanami5270/GARbro-Mod) ⭐ 137 | 🐛 3 | 🌐 C# | 📅 2026-09-01, another actively maintained fork with additional format/game support; and [UserUnknownFactor's GARbro2](https://github.com/UserUnknownFactor/GARbro2) ⭐ 60 | 🐛 3 | 🌐 C# | 📅 2026-02-23, which adds ImageMagick-based format support, sprite-sheet animation, and an in-app playback mode.
 * [cartreader](https://github.com/sanni/cartreader) ⚠️ Archived - Open Source Cartridge Reader (OSCR) firmware/software for dumping ROMs and save data from game cartridges across dozens of retro systems: NES, SNES, N64, Genesis/Mega Drive, Game Boy/GBA, PC Engine/TurboGrafx-16, WonderSwan, NeoGeo Pocket, Virtual Boy, Pokémon Mini, Game Gear, Intellivision, ColecoVision, Atari 2600/5200/7800/Lynx, MSX, Commodore, Vectrex, and CPS3, among others. Archived by its author in favor of active redevelopment under the [oscartreader](https://github.com/oscartreader) org, though this repo remains the maintainers' own recommended firmware for most users.
-* [Greaseweazle](https://github.com/keirf/greaseweazle) ⭐ 1,392 | 🐛 80 | 🌐 Python | 📅 2026-06-16 - Hardware and tools for reading/writing floppy disks at the raw flux level, widely used for archiving copy-protected game floppies.
+* [Greaseweazle](https://github.com/keirf/greaseweazle) ⭐ 1,392 | 🐛 81 | 🌐 Python | 📅 2026-06-16 - Hardware and tools for reading/writing floppy disks at the raw flux level, widely used for archiving copy-protected game floppies.
 * [innoextract](https://github.com/dscharrer/innoextract) ⭐ 1,355 | 🐛 72 | 🌐 C++ | 📅 2025-02-06 - Extracts installers created by Inno Setup without running them, commonly used to unpack game installers before further asset processing.
-* [extract-xiso](https://github.com/XboxDev/extract-xiso) ⭐ 1,142 | 🐛 41 | 🌐 C | 📅 2025-05-15 - Xbox ISO (XISO) creation, modification, and extraction utility for original Xbox disc images.
-* [OmniDrive](https://github.com/RibShark/OmniDrive) ⭐ 1,105 | 🐛 22 | 🌐 Assembly | 📅 2026-07-18 - Firmware modification for MediaTek MT1959-based Hitachi-LG optical disc drives, enabling raw sector and lead-in/lead-out reading of CD/DVD/BD media including proprietary game discs.
+* [extract-xiso](https://github.com/XboxDev/extract-xiso) ⭐ 1,145 | 🐛 41 | 🌐 C | 📅 2025-05-15 - Xbox ISO (XISO) creation, modification, and extraction utility for original Xbox disc images.
+* [OmniDrive](https://github.com/RibShark/OmniDrive) ⭐ 1,110 | 🐛 22 | 🌐 Assembly | 📅 2026-07-18 - Firmware modification for MediaTek MT1959-based Hitachi-LG optical disc drives, enabling raw sector and lead-in/lead-out reading of CD/DVD/BD media including proprietary game discs.
 * [UWPDumper](https://github.com/Wunkolo/UWPDumper) ⭐ 954 | 🐛 40 | 🌐 C++ | 📅 2024-09-03 - DLL and Injector for dumping UWP applications at run-time to bypass encrypted file system protection.
 * [Aaru](https://github.com/aaru-dps/Aaru) ⭐ 620 | 🐛 215 | 🌐 C# | 📅 2026-09-02 - Data Preservation Suite for dumping and analyzing media (optical, magnetic, and solid-state) into forensic disc images, with format identification, checksumming, and decoding across a huge range of game and computer platforms. See also [libaaruformat](https://github.com/aaru-dps/libaaruformat) ⭐ 26 | 🐛 3 | 🌐 C | 📅 2026-09-01, the C implementation of the Aaru image format.
 * [maxcso](https://github.com/unknownbrackets/maxcso) ⭐ 514 | 🐛 28 | 🌐 C | 📅 2024-06-30 - Fast CSO compression utility for PSP and PS2 game ISO files used with emulators.
-* [redumper](https://github.com/superg/redumper) ⭐ 492 | 🐛 107 | 🌐 C++ | 📅 2026-08-25 - Low-level CD dumper utility for bit-perfect optical disc preservation, used by the Redump.org preservation community.
+* [redumper](https://github.com/superg/redumper) ⭐ 492 | 🐛 108 | 🌐 C++ | 📅 2026-08-25 - Low-level CD dumper utility for bit-perfect optical disc preservation, used by the Redump.org preservation community.
 * [archives](https://github.com/mholt/archives) ⭐ 441 | 🐛 10 | 🌐 Go | 📅 2026-08-05 - Cross-platform archive library for Go supporting many formats. Provides unified API and virtual file systems compatible with `io/fs`.
   * Formats: .zip, .tar (including compressed variants), .rar (read-only), .7z (read-only), brotli, bzip2, gzip, lz4, lzip, minlz, snappy/S2, xz, zlib, zstandard.
   * Features: Stream-oriented APIs, automatic format identification, password-protected 7-Zip/RAR support, insert into .tar/.zip without recreating, multithreaded Gzip, DeepFS for traversing archives transparently.
@@ -1666,7 +1763,7 @@ This list is for developers and modders working with such formats. It provides t
 * [SabreTools](https://github.com/SabreTools/SabreTools) ⭐ 143 | 🐛 10 | 🌐 C# | 📅 2026-08-31 - DAT-based ROM/disc image management tool with advanced editing and sorting features.
 * [EasyExtractUnitypackage](https://github.com/HakuSystems/EasyExtractUnitypackage) ⭐ 123 | 🐛 1 | 🌐 C# | 📅 2026-08-27 - Extracts files from a Unity `.unitypackage` archive without needing to import it into the Unity Editor first.
 * [DiskImageTool](https://github.com/Digitoxin1/DiskImageTool) ⭐ 116 | 🐛 7 | 🌐 Visual Basic .NET | 📅 2026-08-30 - Floppy disk image manager with built-in bitstream analysis, Greaseweazle support, and optional Kryoflux integration.
-* [RVWorld (RomVault)](https://github.com/RomVault/RVWorld) ⭐ 103 | 🐛 14 | 🌐 C# | 📅 2026-09-03 - DAT-file-driven ROM set organizer/verifier for identifying, sorting, and repairing game ROM and disc image collections.
+* [RVWorld (RomVault)](https://github.com/RomVault/RVWorld) ⭐ 103 | 🐛 14 | 🌐 C# | 📅 2026-09-05 - DAT-file-driven ROM set organizer/verifier for identifying, sorting, and repairing game ROM and disc image collections.
 * [SAMdisk](https://github.com/simonowen/samdisk) ⭐ 98 | 🐛 6 | 🌐 C++ | 📅 2026-05-30 - Portable disk image utility specializing in copy-protected PC-compatible floppy formats, commonly used to preserve original game floppy disks.
 * [dreamcast-cdi-burner](https://github.com/alex-free/dreamcast-cdi-burner) ⭐ 88 | 🐛 1 | 🌐 Shell | 📅 2025-01-28 - Open-source, portable Linux tool for burning Sega Dreamcast .CDI disc images to physical media.
 * [iPoPS](https://github.com/julianxhokaxhiu/iPoPS) ⭐ 85 | 🐛 3 | 🌐 C | 📅 2025-09-19 - Converts PSX discs and ISOs into PBP format for playback on PSP.
@@ -1680,12 +1777,17 @@ This list is for developers and modders working with such formats. It provides t
   * Formats: AIMS (.p), AdvHD (.arc), Artemis (.pfs), CatSystem2 (.int), HyPack (.pak), Majiro Arc (.arc), NekoPack (.pak), Ren'Py (.rpa), CriWare (.cpk, initial support).
 * [akaibu](https://github.com/Forlos/akaibu) ⭐ 34 | 🐛 0 | 🌐 Rust | 📅 2021-10-23 - Visual novel archive extractor and resource converter with GUI and CLI, supporting dozens of proprietary Japanese VN engine archive/image formats (ACV1, CPZ7, and many more).
 * [powerpacker\_src](https://github.com/lab313ru/powerpacker_src) ⭐ 31 | 🐛 1 | 🌐 C++ | 📅 2020-08-10 - Decompiled source of Nico François' PowerPacker, an Amiga-era compression format used by many Amiga games. See also [AmigaImploder](https://github.com/lab313ru/AmigaImploder) ⭐ 17 | 🐛 0 | 🌐 C | 📅 2018-05-31, decompiled source of another common Amiga game compression tool.
+* [Visual-novel-archive-tools](https://github.com/Cosetto/Visual-novel-archive-tools) ⭐ 30 | 🐛 2 | 🌐 C# | 📅 2022-12-26 - Collection of archive read/write tools for numerous visual novel engines.
+  * Engines: AMUSE, AVG\_Engine, Ai6Win/Silky, EAGLS, Escude, Lilim, NEJII, NEKOSDK, Nexas, TmrHiro, Unity, Valkyria, codeX RScript.
 * [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) ⭐ 28 | 🐛 2 | 📅 2026-03-20 - Collection of QuickBMS scripts for various games.
+* [ae (AE - VN Tools)](https://github.com/niksaak/ae) ⭐ 28 | 🐛 1 | 🌐 Pascal | 📅 2017-04-24 - Multipurpose Delphi utility for common visual novel archive, image, and misc data formats: an archiver, an image manipulation/conversion tool (EDGE), and a raw image data reader (GrapS).
 * [edccchk](https://github.com/claunia/edccchk) ⭐ 25 | 🐛 0 | 🌐 C | 📅 2025-03-09 - EDC/ECC checker for raw (2352 bytes/sector) CD images, used to verify game disc dump integrity.
 * [AssetRipper CLI](https://github.com/MeikoMei16/AssetRipper-CLI) ⭐ 25 | 🐛 0 | 🌐 C# | 📅 2026-04-07 - Command-line front-end built on AssetRipper for batch-exporting CG, character portraits, backgrounds, and audio from Unity visual-novel/gacha games via reusable extraction profiles.
 * [ps4tools](https://github.com/harlequin/ps4tools) ⭐ 24 | 🐛 3 | 🌐 C | 📅 2019-05-21 - Tools for extracting PS4 file formats including PUP, PKG, PFS, and trophy files.
 * [IPFBrowser](https://github.com/exectails/IPFBrowser) ⭐ 17 | 🐛 1 | 🌐 C# | 📅 2026-01-03 - Tool to extract and browse the contents of IPF archive files, used by several NHN/Webzen MMO titles.
 * [spoondec](https://github.com/Bioruebe/spoondec) ⭐ 12 | 🐛 1 | 🌐 C# | 📅 2023-10-16 - Extractor for Spoon (Xenocode) virtualized installer packages, used to extract game data bundled by that installer format.
+* [VNTools](https://github.com/redfoxymoon/vntools) ⭐ 11 | 🐛 0 | 🌐 C | 📅 2026-07-07 - Collection of portable ISO C99 utilities for unpacking/packing/converting various visual novel engine archive formats (formerly published under the account hiirotsuki).
+  * Engines/formats: Cromwell (`.opk`/`.pak`), IkuraGDL (`.GGP`/SM2MPX10), Studio Neko Punch, Studio-Sakura, Succubus, Silky's (`.IFL`), Carriere (`.CGD` to BMP), BasiL (`.MIF`), ARCX (`.arc`), Pinpai (`.hiz`).
 * [flux-analyze](https://github.com/kristomu/flux-analyze) ⭐ 11 | 🐛 0 | 🌐 C++ | 📅 2026-04-24 - Analysis and recovery tool for IBM MFM floppy flux image data.
 * [innounpy](https://github.com/lkraider/innounpy) ⭐ 10 | 🐛 0 | 🌐 Python | 📅 2013-01-21 - Multiplatform Python unpacker for Inno Setup installers, a pure-Python alternative to innoextract for extracting game installer contents.
 * [mdsx](https://github.com/Marisa-Chan/mdsx) ⭐ 8 | 🐛 0 | 🌐 C | 📅 2025-12-16 - Decompressor/decrypter for MDS v2 / MDX disc image formats (DAEMON Tools).
@@ -1698,6 +1800,8 @@ This list is for developers and modders working with such formats. It provides t
 * [gogextract](https://github.com/e-m-h/gogextract) ⭐ 2 | 🐛 0 | 🌐 Shell | 📅 2024-11-19 - Shell script for extracting game files from GOG/innoextract archives.
 * [uwpdumper-rs](https://github.com/coconutbird/uwpdumper-rs) ⭐ 1 | 🐛 0 | 🌐 Rust | 📅 2026-02-11 - Rust reimplementation of UWPDumper for extracting files from sandboxed UWP applications (including Xbox Game Pass games) via DLL injection into the running process.
 * [unPAKer](https://github.com/mxtherfxcker/unPAKer) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2026-05-26 - Generic PAK archive unpacker for game asset extraction.
+* [GalArc](https://github.com/lunaswd/GalArc) ⭐ 0 | 🐛 0 | 📅 2024-10-25 - GUI archive extraction/repacking tool covering 20+ visual novel engines (formerly published under the account detached64).
+  * Engines/formats: AdvHD (`arc`/`pna`), Ai5Win (`arc`/`dat`/`VSD`), Ai6Win (`arc`), Artemis (`pfs`), BiShop (`bsa`), Cmvs (`cpz`), EntisGLS (`noa`), InnocentGray (`iga`/`dat`), KID (`dat`), Kirikiri (`xp3`), Majiro (`arc`), NekoSDK (`pak`), NeXAS (`pac`), NextonLikeC (`lst`), Nitro+ (`pak`), NScripter (`ns2`/`nsa`), Palette (`pak`), PJADV (`dat`/`pak`), RPG Maker (`rgssad`/`rgss2a`/`rgss3a`), Softpal (`pac`), SystemNNN (`gpk`/`vpk`), Triangle (`CG`/`SUD`/`CGF`), Yuris (`ypf`).
 * [L.A.V.E. (Linear Archive Viewer and Extractor)](https://github.com/RobseK101/lave) ⭐ 0 | 🐛 0 | 🌐 C++ | 📅 2026-07-06 - Views and extracts game asset archives, with bidirectional sorting by filename, offset, size, or extension.
   * Formats: .img archives from Davilex "Raser" titles (Autobahn Raser II, London Racer, Paris-Marseille Racing) and GTA III / Vice City / San Andreas.
 * [universal-explorer](https://github.com/Vulae/universal-explorer) ⭐ 0 | 🐛 0 | 🌐 Rust | 📅 2025-08-16 - Viewer/unpacker for a variety of game archive and texture formats across multiple engines.
@@ -1710,30 +1814,31 @@ This list is for developers and modders working with such formats. It provides t
 
 ### 🔊 Audio Tools
 
-* [vgmstream](https://github.com/vgmstream/vgmstream) ⭐ 2,243 | 🐛 20 | 🌐 C | 📅 2026-09-01 - Audio playback library supporting 1000+ game audio formats including looping, multi-channel streams, and console-specific codecs. Works as a standalone player or Winamp/foobar2000 plugin. If a game audio file exists, vgmstream probably plays it.
+* [vgmstream](https://github.com/vgmstream/vgmstream) ⭐ 2,243 | 🐛 21 | 🌐 C | 📅 2026-09-01 - Audio playback library supporting 1000+ game audio formats including looping, multi-channel streams, and console-specific codecs. Works as a standalone player or Winamp/foobar2000 plugin. If a game audio file exists, vgmstream probably plays it.
 * [FamiStudio](https://github.com/BleuBleu/FamiStudio) ⭐ 1,938 | 🐛 38 | 🌐 C# | 📅 2026-08-10 - NES/Famicom music editor and tracker with cycle-accurate APU/expansion-audio emulation. Imports/exports NSF, FamiTracker (FTM), and FTI instrument files, and can export finished music directly for use in NES games/ROMs.
-* [vgmtrans](https://github.com/vgmtrans/vgmtrans) ⭐ 1,268 | 🐛 93 | 🌐 C++ | 📅 2026-09-04 - Video Game Music Translator; converts proprietary game audio sequence/soundfont formats from many games/consoles into standard MIDI/DLS/SF2.
+* [vgmtrans](https://github.com/vgmtrans/vgmtrans) ⭐ 1,268 | 🐛 87 | 🌐 C++ | 📅 2026-09-04 - Video Game Music Translator; converts proprietary game audio sequence/soundfont formats from many games/consoles into standard MIDI/DLS/SF2.
 * [BassoonTracker](https://github.com/steffest/BassoonTracker) ⭐ 1,168 | 🐛 31 | 🌐 JavaScript | 📅 2026-08-05 - Web-based old-school Amiga music tracker in plain JavaScript. Plays and edits Amiga Mod files and FastTracker XM files.
 * [Wwise-Unpacker](https://github.com/Vextil/Wwise-Unpacker) ⭐ 794 | 🐛 37 | 🌐 Batchfile | 📅 2026-07-18 - Windows tool for extracting audio from Wwise PCK and BNK containers to OGG or MP3 format. Works with any game using Wwise audio middleware.
-* [jpsxdec](https://github.com/m35/jpsxdec) ⭐ 599 | 🐛 47 | 🌐 Java | 📅 2026-05-17 - Cross-platform PlayStation 1 audio and video converter.
+* [jpsxdec](https://github.com/m35/jpsxdec) ⭐ 600 | 🐛 47 | 🌐 Java | 📅 2026-05-17 - Cross-platform PlayStation 1 audio and video converter.
 * [impulse-tracker](https://github.com/jthlim/impulse-tracker) ⭐ 444 | 🐛 1 | 🌐 Assembly | 📅 2024-10-20 - Original source code release for Impulse Tracker, the DOS music tracker behind the widely-used IT module format found in many games' soundtracks.
   * Chips: YM2151/2203/2413/2608/2610/2612, OPL2/3, QSound, C140/C352, Konami K005289/007232/051649/053260/054539, SegaPCM, MultiPCM, RF5C68/400, ES5506, BSMT2000, Williams DCS/DAC/CVSD, and more.
 * [ww2ogg](https://github.com/hcs64/ww2ogg) ⭐ 397 | 🐛 8 | 🌐 C++ | 📅 2024-10-12 - Converts Wwise RIFF/RIFX Vorbis audio (.wem files) to standard Ogg Vorbis format. Command-line tool with packed codebook support for various encoding variants. Note: vgmstream is recommended for playback, but ww2ogg is useful when Ogg Vorbis output is specifically required.
-* [ymfm](https://github.com/aaronsgiles/ymfm) ⭐ 376 | 🐛 13 | 🌐 C++ | 📅 2026-07-27 - BSD-licensed emulation cores for Yamaha FM sound chips (OPM, OPN, OPL, and others) widely used across arcade and console game audio.
+* [ymfm](https://github.com/aaronsgiles/ymfm) ⭐ 377 | 🐛 13 | 🌐 C++ | 📅 2026-07-27 - BSD-licensed emulation cores for Yamaha FM sound chips (OPM, OPN, OPL, and others) widely used across arcade and console game audio.
 * [wwiser](https://github.com/bnnm/wwiser) ⭐ 367 | 🐛 3 | 🌐 Python | 📅 2026-08-23 - Wwise .bnk explorer and audio simulator. Python tool for parsing Wwise soundbank files, viewing HIRC audio scripting data, generating TXTP files for vgmstream playback, and dumping bank contents. Works with any game using Wwise audio middleware.
 * [nsfplay](https://github.com/bbbradsmith/nsfplay) ⭐ 324 | 🐛 4 | 🌐 C++ | 📅 2025-02-04 - NSF (Nintendo Sound Format) player and library for NES/Famicom game-music rips, including expansion-audio chip emulation and command-line WAV rendering/metadata utilities.
-* [C700](https://github.com/osoumen/C700) ⭐ 316 | 🐛 14 | 🌐 C | 📅 2023-03-06 - AU/VST software sampler plugin emulating the SNES's SPC700/DSP sound engine. Directly loads and plays SPC dumps and AddmusicM-format raw BRR sample files (also AIFF/WAV), with up to 128 waveforms across 4 banks and real-hardware sync via a G.I.M.I.C. board.
+* [C700](https://github.com/osoumen/C700) ⭐ 316 | 🐛 15 | 🌐 C | 📅 2023-03-06 - AU/VST software sampler plugin emulating the SNES's SPC700/DSP sound engine. Directly loads and plays SPC dumps and AddmusicM-format raw BRR sample files (also AIFF/WAV), with up to 128 waveforms across 4 banks and real-hardware sync via a G.I.M.I.C. board.
 * [VGMusicStudio](https://github.com/Kermalis/VGMusicStudio) ⭐ 309 | 🐛 50 | 🌐 C# | 📅 2024-07-13 - Music player and visualizer for GBA (MP2K format, SDAT) and NDS handheld game audio. Supports playback and extraction with SoundFont2 support, built on the same author's [SoundFont2](https://github.com/Kermalis/SoundFont2) ⭐ 33 | 🐛 0 | 🌐 C# | 📅 2022-08-31, [KMIDI](https://github.com/Kermalis/KMIDI) ⭐ 4 | 🐛 1 | 🌐 C# | 📅 2023-05-17, [KFLP](https://github.com/Kermalis/KFLP) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2023-07-05, and [DLS2](https://github.com/Kermalis/DLS2) ⭐ 7 | 🐛 0 | 🌐 C# | 📅 2022-09-01 libraries for reading/writing SF2, MIDI, FL Studio project, and DLS files.
-* [VGAudio](https://github.com/Thealexbarney/VGAudio) ⭐ 260 | 🐛 28 | 🌐 C# | 📅 2023-02-12 - .NET library for encoding, decoding, and manipulating audio files from video games.
+* [VGAudio](https://github.com/Thealexbarney/VGAudio) ⭐ 262 | 🐛 28 | 🌐 C# | 📅 2023-02-12 - .NET library for encoding, decoding, and manipulating audio files from video games.
   * Formats: BRSTM, BCSTM, BFSTM, IDSP, HPS, DSP (Nintendo formats).
 * [snestracker](https://github.com/bazz1tv/snestracker) ⭐ 243 | 🐛 105 | 🌐 C++ | 📅 2022-05-02 - Super Nintendo Entertainment System (Super Famicom) music tracker software.
-* [LoopingAudioConverter](https://github.com/libertyernie/LoopingAudioConverter) ⭐ 215 | 🐛 14 | 🌐 C# | 📅 2026-06-30 - Tool for converting many game audio formats to looping WAV, OGG, or FLAC files. Supports many console formats through VGAudio and vgmstream.
+* [LoopingAudioConverter](https://github.com/libertyernie/LoopingAudioConverter) ⭐ 217 | 🐛 14 | 🌐 C# | 📅 2026-06-30 - Tool for converting many game audio formats to looping WAV, OGG, or FLAC files. Supports many console formats through VGAudio and vgmstream.
+* [adplug](https://github.com/adplug/adplug) ⭐ 185 | 🐛 23 | 🌐 C++ | 📅 2026-09-03 - Hardware-independent AdLib/OPL sound player library used by many DOS-era games' music formats (.sng, .lds, .rol, .cmf, .imf, .amd, .rad, .hsc, and dozens more).
 * [OPL3BankEditor](https://github.com/Wohlstand/OPL3BankEditor) ⭐ 174 | 🐛 24 | 🌐 C++ | 📅 2026-08-28 - Cross-platform editor for OPL3 FM instrument bank formats used by numerous DOS-era games and sound drivers (IBK, OP2/GENMIDI, TMB, WOPL, and others).
 * [wwiseutil](https://github.com/hpxro7/wwiseutil) ⭐ 151 | 🐛 27 | 🌐 Go | 📅 2018-10-17 - Tool for manipulating Wwise SoundBank and File Package files. Works with any game using Wwise audio middleware.
   * Formats: .bnk, .nbnk (SoundBank), .pck, .npck (File Package), WEM (audio).
   * Features: Unpacking WEM audio, audio replacement with metadata updates, loop point editing.
 * [vgmtools](https://github.com/vgmrips/vgmtools) ⭐ 149 | 🐛 4 | 🌐 C | 📅 2026-08-16 - Collection of tools for the VGM (Video Game Music) file format, including conversion and inspection utilities.
-* [gbsplay](https://github.com/mmitch/gbsplay) ⭐ 122 | 🐛 13 | 🌐 C | 📅 2026-09-01 - Game Boy sound player for GBS (Game Boy Sound) format music rips.
+* [gbsplay](https://github.com/mmitch/gbsplay) ⭐ 123 | 🐛 13 | 🌐 C | 📅 2026-09-01 - Game Boy sound player for GBS (Game Boy Sound) format music rips.
 * [archive-follin](https://github.com/breakintoprogram/archive-follin) ⭐ 103 | 🐛 0 | 🌐 Python | 📅 2025-08-13 - Recovered assembler music source code and drivers written by Tim and Geoff Follin for NES/SNES/Genesis games at Software Creations (Silver Surfer, Plok, Solstice, and others), preserved from original 3" floppy disks.
   * Components: SymbTool, InfoTool, Nitro Studio GUI
 * [adpcm](https://github.com/superctr/adpcm) ⭐ 102 | 🐛 0 | 🌐 C | 📅 2025-12-15 - ADPCM encoder/decoder library and CLI covering game/arcade sound-chip codecs: Yamaha ADPCM-A/B (YM2610/Y8950/YM2608), Yamaha AICA (Dreamcast), Oki/Dialogic VOX (MSM6295 arcade sound chip, MSM6258 X68000), Brian Schmidt BSMT2000/QSound (arcade), and YMZ280B.
@@ -1797,28 +1902,39 @@ This list is for developers and modders working with such formats. It provides t
 
 ### 🌐 Translation & Localization
 
-* [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2) ⭐ 436 | 🐛 165 | 🌐 C# | 📅 2026-08-28 - Next-gen version of Kuriimu.
+* [LunaTranslator](https://github.com/HIllya51/LunaTranslator) ⭐ 13,039 | 🐛 70 | 🌐 C++ | 📅 2026-09-05 - Full-featured visual novel translator application combining game text extraction with translation, OCR, and TTS.
+  * Features: HOOK-based text extraction covering most common and niche VN engines, HOOK emulators for reading text from NS/PSP/PSV/PS2 games, embedded in-game translation overlay for supported games, built-in and pluggable OCR engines, broad translation API support (LLMs, offline MT), TTS and speech recognition, Japanese tokenization/furigana and AnkiConnect/Yomitan integration for language learners.
+* [Textractor](https://github.com/Artikash/Textractor) ⭐ 2,689 | 🐛 635 | 🌐 C++ | 📅 2024-03-15 - Highly extensible universal text hooker/extractor for video games and visual novels, widely used as the base for translation and OCR pipelines.
+* [GalTransl](https://github.com/GalTransl/GalTransl) ⭐ 2,258 | 🐛 40 | 🌐 Python | 📅 2026-09-05 - Automated translation pipeline for Japanese visual novels using LLMs (GPT-4, Claude, DeepSeek, Sakura), consuming the script/text JSON exported by engine-specific extraction tools (e.g. [msg-tool](https://github.com/lifegpc/msg-tool) ⭐ 56 | 🐛 3 | 🌐 Rust | 📅 2026-07-29) and re-inserting translated text. See also [GalTransl\_DumpInjector](https://github.com/GalTransl/GalTransl_DumpInjector) ⭐ 24 | 🐛 1 | 🌐 Python | 📅 2025-12-20, a companion GUI front-end wrapping VNTextPatch, msg-tool, or custom regex to dump/inject game text across many VN engines.
+* [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2) ⭐ 437 | 🐛 165 | 🌐 C# | 📅 2026-08-28 - Next-gen version of Kuriimu.
 * [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) ⚠️ Archived - VNTextPatch, a text extraction/translation/patching framework for Japanese visual novels, plus VNTextProxy, a companion DLL for injecting non-Japanese text rendering into VN engines that only support Shift-JIS.
   * Engines: AdvHD, ArcGameEngine, Artemis, BGI/Ethornell, CatSystem2, Cyberworks C,system, KaGuYa, Kirikiri, Majiro, Musica, Mware, Propeller/Stuff Script Engine, RealLive, Ren'Py, ShSystem, Silky's/AI6WIN, Qlie, Softpal, SystemNNN, TmrHiroAdvSystem, Whale, YU-RIS.
   * Features: Script text extraction/repacking, SJIS-tunneling text rendering proxy, Locale Emulator relaunching.
-* [Kuriimu](https://github.com/IcySon55/Kuriimu) ⭐ 375 | 🐛 111 | 🌐 C# | 📅 2023-08-04 - General purpose game translation toolkit.
+* [Kuriimu](https://github.com/IcySon55/Kuriimu) ⭐ 376 | 🐛 111 | 🌐 C# | 📅 2023-08-04 - General purpose game translation toolkit.
+* [agent](https://github.com/0xDC00/agent) ⭐ 355 | 🐛 12 | 📅 2024-04-25 - Universal script-based text hooker powered by Frida, for extracting in-memory text from Japanese games/visual novels across many engines.
+* [toolkit-Localization](https://github.com/YuriSizuku/toolkit-Localization) ⭐ 66 | 🐛 0 | 🌐 Python | 📅 2026-02-03 - Collection of generic galgame localization components: `ftext` text serialization format, text/image/font extraction utilities, and Windows console/file-I/O/redirect hooking libraries used to build engine-specific translation patchers.
+* [SimpleFontHook](https://github.com/SuQiandYing/SimpleFontHook) ⭐ 62 | 🐛 1 | 🌐 C++ | 📅 2026-08-24 - Hooks Galgame rendering to let the player freely substitute their own font, across many visual novel engines.
 * [jstrings](https://github.com/drojaazu/jstrings) ⭐ 43 | 🐛 0 | 🌐 C++ | 📅 2023-01-03 - Tool for finding JIS-based Japanese text strings in binary data, useful for locating text in Japanese game files.
+* [GalFontTool](https://github.com/SuQiandYing/GalFontTool) ⭐ 32 | 🐛 1 | 🌐 Python | 📅 2026-05-03 - Toolbox for Galgame translation and font adaptation, including font subsetting/patching utilities.
 * [TF3 (Translation Framework 3)](https://github.com/Kaplas80/TF3) ⭐ 22 | 🐛 12 | 🌐 C# | 📅 2024-09-03 - General-purpose game translation framework with per-game plugins, including [Yakuza](https://github.com/Kaplas80/TF3.YakuzaPlugins) ⭐ 5 | 🐛 1 | 🌐 C# | 📅 2023-04-01 and [Zwei](https://github.com/Kaplas80/TF3.ZweiPlugins) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2022-08-20 series plugins.
+* [Nepgear](https://github.com/SuQiandYing/Nepgear) ⭐ 22 | 🐛 0 | 🌐 C++ | 📅 2026-06-28 - Detours-based C++ process-hooking tool for Galgame translation work.
+* [CialloHook](https://github.com/Lite0812/CialloHook) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2026-08-30 - General-purpose text hooking tool for Windows Galgame executables.
 * [VWF\_Calculator](https://github.com/Bunkai9448/VWF_Calculator) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2025-03-23 - Variable Width Font (text size) calculator to help fit translated strings within a ROM hack's original space constraints.
 
 ### 🔍 Hex Editors
 
-* [ImHex](https://github.com/WerWolv/ImHex) ⭐ 54,682 | 🐛 391 | 🌐 C++ | 📅 2026-09-04 - Modern, open-source hex editor with pattern language for reverse engineering file formats (free).
+* [ImHex](https://github.com/WerWolv/ImHex) ⭐ 54,698 | 🐛 394 | 🌐 C++ | 📅 2026-09-05 - Modern, open-source hex editor with pattern language for reverse engineering file formats (free).
 * [010 Editor](https://www.sweetscape.com/010editor/) - Professional hex editor with powerful template system for analyzing binary file structures (paid).
 
 #### Scripts & Templates
 
-* [hexyl](https://github.com/sharkdp/hexyl) ⭐ 10,266 | 🐛 35 | 🌐 Rust | 📅 2026-04-30 - Command-line hex viewer with colored output.
+* [hexyl](https://github.com/sharkdp/hexyl) ⭐ 10,267 | 🐛 35 | 🌐 Rust | 📅 2026-04-30 - Command-line hex viewer with colored output.
 * [WpfHexEditorIDE](https://github.com/abbaye/WpfHexEditorIDE) ⭐ 932 | 🐛 15 | 🌐 C# | 📅 2026-06-29 - Full-featured binary analysis IDE for Windows built with WPF and .NET. Features VS-style docking, project system, and multiple specialized editors.
 * [hobbits](https://github.com/Mahlet-Inc/hobbits) ⭐ 749 | 🐛 33 | 🌐 Python | 📅 2025-04-16 - Multi-platform GUI for bit-based analysis, processing, and visualization of binary data, with a plugin system for custom parsers.
 * [hexerator](https://github.com/crumblingstatue/hexerator) ⭐ 369 | 🐛 26 | 🌐 Rust | 📅 2026-08-30 - Versatile GUI hex editor focused on binary file exploration and aiding pattern recognition. Written in Rust.
 * [binxelview](https://github.com/bbbradsmith/binxelview) ⭐ 249 | 🐛 5 | 🌐 C# | 📅 2026-08-18 - Binary image explorer that renders raw binary data as a bitmap at adjustable width/bit-depth/palette, for visually spotting embedded graphics data inside ROMs and other game files.
 * [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) ⭐ 188 | 🐛 6 | 🌐 Pascal | 📅 2022-02-11 - Plugin framework for HxD hex editor to support custom file formats.
+* [pytai](https://github.com/Dvd848/pytai) ⭐ 132 | 🐛 2 | 🌐 Python | 📅 2025-09-24 - Python-based interactive hex viewer and Kaitai Struct visualizer, rendering a binary file's parsed structure tree alongside its raw bytes.
 * [Alpha-Offset-Fixer](https://github.com/alphazolam/Alpha-Offset-Fixer) ⭐ 1 | 🐛 0 | 🌐 Roff | 📅 2021-10-04 - 010 Editor script to help with relative offsets in binary templates.
 * [hex](https://github.com/cosarara/hex) ⭐ 0 | 🐛 0 | 🌐 C++ | 📅 2014-09-26 - Simple hexadecimal editor with vi-like modal interface.
 * [xcd-rgb](https://anongit.hacktivis.me/git/xcd-rgb.git) - Command-line hexdump with colored output, based on [xcd](https://git.sr.ht/~breadbox/xcd).
@@ -1827,11 +1943,11 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Binary Templates & Format Descriptions
 
-* [fq](https://github.com/wader/fq) ⭐ 10,587 | 🐛 61 | 🌐 Go | 📅 2026-09-03 - "jq for binary formats" - command-line tool, language, and decoder collection for querying and inspecting binary and text formats, useful for ad-hoc exploration of unfamiliar game file formats.
-* [ImHex-Patterns](https://github.com/WerWolv/ImHex-Patterns) ⭐ 1,009 | 🐛 50 | 🌐 ImHex Pattern Language | 📅 2026-09-03 - Binary format pattern database for ImHex hex editor, with game file format definitions and reverse-engineering templates.
+* [fq](https://github.com/wader/fq) ⭐ 10,588 | 🐛 61 | 🌐 Go | 📅 2026-09-03 - "jq for binary formats" - command-line tool, language, and decoder collection for querying and inspecting binary and text formats, useful for ad-hoc exploration of unfamiliar game file formats.
+* [ImHex-Patterns](https://github.com/WerWolv/ImHex-Patterns) ⭐ 1,012 | 🐛 50 | 🌐 ImHex Pattern Language | 📅 2026-09-03 - Binary format pattern database for ImHex hex editor, with game file format definitions and reverse-engineering templates.
 * [bitfield](https://github.com/wavedrom/bitfield) ⭐ 394 | 🐛 19 | 🌐 JavaScript | 📅 2024-02-22 - Tool for rendering bit field diagrams from JSON descriptions, useful for documenting binary formats.
 * [010-Editor-Templates](https://github.com/tge-was-taken/010-Editor-Templates) ⭐ 54 | 🐛 3 | 🌐 C++ | 📅 2026-03-01 - Collection of 010 Editor binary templates for game file format analysis.
-* [010GameTemplates](https://github.com/Nenkai/010GameTemplates) ⭐ 44 | 🐛 0 | 🌐 C# | 📅 2026-06-18 - Collection of 010 Editor templates for various games including Gran Turismo, Forza, Project Cars, Ridge Racer 7, Tales of Vesperia, Xenoblade Chronicles, Granblue Fantasy: Relink, Driveclub, WWE 2K, and many others.
+* [010GameTemplates](https://github.com/Nenkai/010GameTemplates) ⭐ 45 | 🐛 0 | 🌐 C# | 📅 2026-06-18 - Collection of 010 Editor templates for various games including Gran Turismo, Forza, Project Cars, Ridge Racer 7, Tales of Vesperia, Xenoblade Chronicles, Granblue Fantasy: Relink, Driveclub, WWE 2K, and many others.
 * [hogsy/formats](https://github.com/hogsy/formats) ⭐ 10 | 🐛 0 | 🌐 Assembly | 📅 2025-12-03 - Collection of reversed binary format specifications in [Rehex](https://github.com/solemnwarning/rehex) ⭐ 2,478 | 🐛 26 | 🌐 C++ | 📅 2026-07-23 Binary Template format, covering games from many studios.
   * Features: Templates are easily translatable to C/C++; related loader implementations in the [Hei library](https://github.com/QuartermindGames/hei) ⭐ 23 | 🐛 4 | 🌐 C | 📅 2026-08-19.
   * Studios/Games: Acclaim (Vista 3D engine: Turok Evolution; Unknown engine: Burnout?), Blitz Games/BlitzTech 1 (Glover, Chicken Run, Frogger 2, Action Man), BottleRocket (The Mark of Kri, Rise of the Kasai, Xiaolin Showdown), Core Design (Project Eden, Herdy Gerdy), Computer Artworks (The Thing, Evolva), Creative Reality (Martian Gothic: Unification), Gee Whiz! (Zombie Wars), Guerrilla Cambridge / Millennium Interactive (C-12: Final Resistance), Infogrames/Gremlin Interactive (Hogs of War), Lucasfilm Games (Ares Engine), Midway Studios Austin / Inevitable Entertainment (The Hobbit 2003, Area 51), nStigate/Nihilistic (Vampire: The Masquerade – Redemption), Oddworld Inhabitants (Stranger's Wrath), SCE Studio Cambridge (Primal), SingleTrac (Outwars), Tate Interactive, Team Ico, Traveller's Tales (Haven: Call of the King), Appeal S.A. (Outcast).
@@ -1851,18 +1967,20 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Disassemblers, Decompilers & Analysis Frameworks
 
-* [Ghidra](https://github.com/NationalSecurityAgency/ghidra) ⭐ 74,353 | 🐛 1,933 | 🌐 Java | 📅 2026-09-02 - NSA's software reverse engineering (SRE) framework. Includes disassembly, assembly, decompilation, graphing, and scripting. Extensible through Java and Python plugins.
-* [Cutter](https://github.com/rizinorg/cutter) ⭐ 19,664 | 🐛 493 | 🌐 C++ | 📅 2026-08-22 - Free and open-source GUI-based reverse engineering platform powered by Rizin, for analyzing game binaries and file formats.
-* [RetDec](https://github.com/avast/retdec) ⭐ 8,618 | 🐛 458 | 🌐 C++ | 📅 2026-05-26 - Retargetable machine-code decompiler based on LLVM, supporting multiple architectures and file formats — useful for reverse engineering game binaries. Currently in limited maintenance.
-* [qiling](https://github.com/qilingframework/qiling) ⭐ 6,088 | 🐛 121 | 🌐 Python | 📅 2026-09-01 - Advanced binary emulation framework. Emulates multi-platforms (Windows, macOS, Linux, Android, BSD, UEFI, DOS) and multi-architectures (x86, ARM, MIPS, RISC-V, PowerPC). Supports PE, Mach-O, ELF formats with fine-grain instrumentation, cross-architecture debugging, and dynamic hot patching.
-* [Steamless](https://github.com/atom0s/Steamless) ⭐ 5,005 | 🐛 25 | 🌐 C# | 📅 2024-03-30 - DRM remover for the SteamStub packer variants, unpacking Steam-protected game executables to enable further static/dynamic analysis of the underlying binary.
-* [diaphora](https://github.com/joxeankoret/diaphora) ⭐ 4,385 | 🐛 34 | 🌐 Python | 📅 2026-09-04 - Advanced binary diffing tool (IDA/Binary Ninja/Ghidra) for comparing game binaries across versions/patches, widely used in game reverse engineering workflows.
-* [iced](https://github.com/icedland/iced) ⭐ 3,559 | 🐛 61 | 🌐 Rust | 📅 2026-09-04 - Blazing fast and correct x86/x64 disassembler, assembler, decoder, and encoder. Available for Rust, .NET, Java, Python, and Lua. Useful for reverse engineering game binaries.
-* [SafeDiscShim](https://github.com/RibShark/SafeDiscShim) ⭐ 568 | 🐛 38 | 🌐 C++ | 📅 2025-09-29 - Compatibility tool that allows SafeDisc-protected games relying on the insecure Macrovision Security Driver (secdrv.sys) to run on modern versions of Windows, enabling further analysis of the underlying game binaries.
+* [Ghidra](https://github.com/NationalSecurityAgency/ghidra) ⭐ 74,402 | 🐛 1,939 | 🌐 Java | 📅 2026-09-02 - NSA's software reverse engineering (SRE) framework. Includes disassembly, assembly, decompilation, graphing, and scripting. Extensible through Java and Python plugins.
+* [Cutter](https://github.com/rizinorg/cutter) ⭐ 19,672 | 🐛 493 | 🌐 C++ | 📅 2026-08-22 - Free and open-source GUI-based reverse engineering platform powered by Rizin, for analyzing game binaries and file formats.
+* [RetDec](https://github.com/avast/retdec) ⭐ 8,620 | 🐛 458 | 🌐 C++ | 📅 2026-05-26 - Retargetable machine-code decompiler based on LLVM, supporting multiple architectures and file formats — useful for reverse engineering game binaries. Currently in limited maintenance.
+* [qiling](https://github.com/qilingframework/qiling) ⭐ 6,087 | 🐛 116 | 🌐 Python | 📅 2026-09-05 - Advanced binary emulation framework. Emulates multi-platforms (Windows, macOS, Linux, Android, BSD, UEFI, DOS) and multi-architectures (x86, ARM, MIPS, RISC-V, PowerPC). Supports PE, Mach-O, ELF formats with fine-grain instrumentation, cross-architecture debugging, and dynamic hot patching.
+* [Steamless](https://github.com/atom0s/Steamless) ⭐ 5,010 | 🐛 25 | 🌐 C# | 📅 2024-03-30 - DRM remover for the SteamStub packer variants, unpacking Steam-protected game executables to enable further static/dynamic analysis of the underlying binary.
+* [diaphora](https://github.com/joxeankoret/diaphora) ⭐ 4,389 | 🐛 35 | 🌐 Python | 📅 2026-09-04 - Advanced binary diffing tool (IDA/Binary Ninja/Ghidra) for comparing game binaries across versions/patches, widely used in game reverse engineering workflows.
+* [iced](https://github.com/icedland/iced) ⭐ 3,560 | 🐛 61 | 🌐 Rust | 📅 2026-09-04 - Blazing fast and correct x86/x64 disassembler, assembler, decoder, and encoder. Available for Rust, .NET, Java, Python, and Lua. Useful for reverse engineering game binaries.
+* [SafeDiscShim](https://github.com/RibShark/SafeDiscShim) ⭐ 569 | 🐛 38 | 🌐 C++ | 📅 2025-09-29 - Compatibility tool that allows SafeDisc-protected games relying on the insecure Macrovision Security Driver (secdrv.sys) to run on modern versions of Windows, enabling further analysis of the underlying game binaries.
 * [ProjectorRays](https://github.com/ProjectorRays/ProjectorRays) ⭐ 292 | 🐛 13 | 🌐 C++ | 📅 2025-11-13 - Decompiler for Adobe/Macromedia Shockwave and Director movies (.dcr/.dir), used across many CD-ROM-era multimedia and point-and-click games.
-* [Ouroboros](https://github.com/Hexorg/Ouroboros) ⭐ 259 | 🐛 2 | 🌐 Rust | 📅 2025-12-02 - Symbolic-execution decompiler written in Rust. Recovers high-level structure from binaries using symbolic execution and constraint tracking. Features CFG recovery, structural reconstruction (if/else, loops), calling convention inference, and beautiful UI with egui.
+* [Ouroboros](https://github.com/Hexorg/Ouroboros) ⭐ 258 | 🐛 2 | 🌐 Rust | 📅 2025-12-02 - Symbolic-execution decompiler written in Rust. Recovers high-level structure from binaries using symbolic execution and constraint tracking. Features CFG recovery, structural reconstruction (if/else, loops), calling convention inference, and beautiful UI with egui.
 * [DirectorCastRipper](https://github.com/n0samu/DirectorCastRipper) ⭐ 96 | 🐛 7 | 🌐 LiveScript | 📅 2026-08-25 - Exports assets and information from Adobe/Macromedia Director movies and casts, complementing ProjectorRays above.
+* [Ruri.ShaderDecompiler](https://github.com/ShiyumeMeguri/Ruri.ShaderDecompiler) ⭐ 91 | 🐛 0 | 🌐 C# | 📅 2026-09-05 - Cross-engine shader decompiler that restores compiled DXBC/DXIL/SPIR-V shader binaries to readable HLSL, re-injecting variable-name symbol information recovered from engine-side metadata (AssetRipper for Unity, CUE4Parse for Unreal Engine).
 * [Mizuchi](https://github.com/macabeus/mizuchi) ⭐ 73 | 🐛 9 | 🌐 TypeScript | 📅 2026-08-17 - Automatic decompilation tool using plugin-based pipeline to convert assembly to C source code matching binary targets.
+* [Senbei](https://github.com/Momoko-Ayase/Senbei) ⭐ 61 | 🐛 0 | 🌐 Rust | 📅 2026-09-01 - Static unpacker for binaries protected by CrackProof DRM (used by games such as Street Fighter V and Umamusume: Pretty Derby), enabling further static analysis of the underlying executable.
 * [Pattern16](https://github.com/Dasaav-dsv/Pattern16) ⭐ 53 | 🐛 4 | 🌐 C++ | 📅 2024-01-07 - Fastest x86-64 signature matching library. Optimized for reverse engineering with speeds up to 25 GB/s. Uses AVX1, SSE4.1, SSE2, CMOVE, BMI2, and BMI1. Header-only C++ library for pattern scanning in memory regions.
 * [Shockky](https://github.com/PaulusParssinen/Shockky) ⭐ 53 | 🐛 4 | 🌐 C# | 📅 2026-05-12 - .NET library for disassembling and assembling Adobe/Macromedia Shockwave files, complementing ProjectorRays and DirectorCastRipper above.
 * [zoltan](https://github.com/jac3km4/zoltan) ⭐ 17 | 🐛 0 | 🌐 Rust | 📅 2026-04-30 - Generates DWARF debug symbols and headers on the fly for reverse engineering game executables, by matching annotated C/C++ pattern signatures against a target binary.
@@ -1886,27 +2004,29 @@ This list is for developers and modders working with such formats. It provides t
 #### Managed & Bytecode Decompilers (.NET / Java / Script)
 
 * [dnSpy](https://github.com/dnSpy/dnSpy) ⚠️ Archived - .NET debugger and assembly editor. Essential for inspecting and editing .NET game binaries (Unity games, etc.) even without source code. Supports decompilation to C#.
-* [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) ⭐ 15,629 | 🐛 103 | 🌐 Java | 📅 2026-07-17 - A Java 8+ Jar & Android APK reverse engineering suite. Includes multiple decompilers (FernFlower, Procyon, CFR), bytecode assemblers, and a keyword search feature.
-* [jd-gui](https://github.com/java-decompiler/jd-gui) ⭐ 15,190 | 🐛 248 | 🌐 Java | 📅 2024-07-08 - A standalone graphical utility that decompile and displays Java source codes of .class files. Supports Drag and Drop and Zip/Jar files.
-* [Recaf](https://github.com/Col-E/Recaf) ⭐ 7,370 | 🐛 66 | 🌐 Java | 📅 2026-08-22 - Modern Java bytecode editor. Easy-to-use interface for editing Java bytecode with decompiler integration, built-in compiler, bytecode assembler, and support for standard Java and Android applications.
-* [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) ⭐ 5,841 | 🐛 5 | 🌐 Java | 📅 2026-08-08 - Free Flash (SWF) decompiler/editor for viewing and modifying ActionScript 1/2/3 bytecode, shapes, sprites, sounds, and other tags in SWF files, widely used for reverse-engineering Flash-based games.
-* [hermes-dec](https://github.com/P1sec/hermes-dec) ⭐ 1,167 | 🐛 7 | 🌐 Python | 📅 2026-08-11 - Decompiler and disassembler for React Native Hermes bytecode (HBC).
+* [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) ⭐ 15,630 | 🐛 103 | 🌐 Java | 📅 2026-07-17 - A Java 8+ Jar & Android APK reverse engineering suite. Includes multiple decompilers (FernFlower, Procyon, CFR), bytecode assemblers, and a keyword search feature.
+* [jd-gui](https://github.com/java-decompiler/jd-gui) ⭐ 15,192 | 🐛 248 | 🌐 Java | 📅 2024-07-08 - A standalone graphical utility that decompile and displays Java source codes of .class files. Supports Drag and Drop and Zip/Jar files.
+* [Recaf](https://github.com/Col-E/Recaf) ⭐ 7,373 | 🐛 66 | 🌐 Java | 📅 2026-08-22 - Modern Java bytecode editor. Easy-to-use interface for editing Java bytecode with decompiler integration, built-in compiler, bytecode assembler, and support for standard Java and Android applications.
+* [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) ⭐ 5,847 | 🐛 5 | 🌐 Java | 📅 2026-08-08 - Free Flash (SWF) decompiler/editor for viewing and modifying ActionScript 1/2/3 bytecode, shapes, sprites, sounds, and other tags in SWF files, widely used for reverse-engineering Flash-based games.
+* [hermes-dec](https://github.com/P1sec/hermes-dec) ⭐ 1,168 | 🐛 7 | 🌐 Python | 📅 2026-08-11 - Decompiler and disassembler for React Native Hermes bytecode (HBC).
+* [luajit-decompiler-v2](https://github.com/marsinator358/luajit-decompiler-v2) ⭐ 475 | 🐛 5 | 🌐 C++ | 📅 2026-05-14 - Decompiler for LuaJIT bytecode, with support for gotos and stripped bytecode (including locals/upvalues); used to recover scripts from various games embedding LuaJIT.
 * [JSC-PyDecrypt-Tool](https://github.com/bartlomiejduda/JSC-PyDecrypt-Tool) ⭐ 37 | 🐛 0 | 🌐 Python | 📅 2025-10-13 - Decrypts JSC (JavaScript Compiled) files from Cocos2d games. Requires valid encryption key extracted via Frida from running game instances.
+* [unluac](https://sourceforge.net/projects/unluac/) - A decompiler for Lua 5.1. Capability to decompile most Lua 5.1 binaries, including those with custom opcodes or modified headers found in various games. See also [UnluacNET](https://github.com/Fireboyd78/UnluacNET) ⭐ 35 | 🐛 0 | 🌐 C# | 📅 2018-11-20, a C# port of the original Java unluac.
 * [NutCracker](https://github.com/darknesswind/NutCracker) ⭐ 28 | 🐛 14 | 🌐 C++ | 📅 2020-09-22 - Decompiler for Squirrel 3 bytecode, updated from an earlier Squirrel decompiler for compatibility with games using the Squirrel scripting language.
 * [UnityDowngradingTools](https://github.com/efimandreev0/UnityDowngradingTools) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-05-22 - Utility tools for fixing and adapting AssetRipper decompiles to older Unity versions (e.g., PS Vita Sally Face port).
-* [unluac](https://sourceforge.net/projects/unluac/) - A decompiler for Lua 5.1. Capability to decompile most Lua 5.1 binaries, including those with custom opcodes or modified headers found in various games.
 
 #### Decompilation Project Toolchains
 
-* [Spice86](https://github.com/OpenRakis/Spice86) ⭐ 656 | 🐛 21 | 🌐 C# | 📅 2026-09-02 - Reverse engineers and rewrites real-mode DOS programs by running the original executable and progressively replacing its functions with C# overrides, for recreating early DOS-era games from their binaries.
+* [Spice86](https://github.com/OpenRakis/Spice86) ⭐ 656 | 🐛 22 | 🌐 C# | 📅 2026-09-05 - Reverse engineers and rewrites real-mode DOS programs by running the original executable and progressively replacing its functions with C# overrides, for recreating early DOS-era games from their binaries.
 * [m2c](https://github.com/matt-kempster/m2c) ⭐ 636 | 🐛 65 | 🌐 Python | 📅 2026-09-03 - MIPS and PowerPC decompiler.
-* [decomp.me](https://github.com/decompme/decomp.me) ⭐ 604 | 🐛 130 | 🌐 TypeScript | 📅 2026-09-04 - Collaborative decompilation and reverse engineering website, widely used to reverse game binaries function-by-function against a reference build.
-* [objdiff](https://github.com/encounter/objdiff) ⭐ 527 | 🐛 89 | 🌐 Rust | 📅 2026-08-29 - Local diffing tool for decompilation projects.
-* [splat](https://github.com/ethteck/splat) ⭐ 352 | 🐛 42 | 🌐 Python | 📅 2026-07-27 - Binary splitting tool to assist with decompilation and modding projects.
-* [decomp-toolkit](https://github.com/encounter/decomp-toolkit) ⭐ 279 | 🐛 31 | 🌐 Rust | 📅 2026-03-02 - GameCube & Wii decompilation toolkit.
+* [decomp.me](https://github.com/decompme/decomp.me) ⭐ 605 | 🐛 127 | 🌐 TypeScript | 📅 2026-09-04 - Collaborative decompilation and reverse engineering website, widely used to reverse game binaries function-by-function against a reference build.
+* [objdiff](https://github.com/encounter/objdiff) ⭐ 529 | 🐛 89 | 🌐 Rust | 📅 2026-08-29 - Local diffing tool for decompilation projects.
+* [splat](https://github.com/ethteck/splat) ⭐ 351 | 🐛 42 | 🌐 Python | 📅 2026-07-27 - Binary splitting tool to assist with decompilation and modding projects.
+* [decomp-toolkit](https://github.com/encounter/decomp-toolkit) ⭐ 280 | 🐛 31 | 🌐 Rust | 📅 2026-03-02 - GameCube & Wii decompilation toolkit.
 * [decomp-permuter](https://github.com/simonlindholm/decomp-permuter) ⭐ 217 | 🐛 50 | 🌐 Python | 📅 2026-09-03 - Randomly permute C files to better match a target binary.
 * [rabbitizer](https://github.com/Decompollaborate/rabbitizer) ⭐ 179 | 🐛 2 | 🌐 C | 📅 2026-05-29 - MIPS instruction decoder used across N64 decompilation projects to produce matching assembly.
-* [asm-differ](https://github.com/simonlindholm/asm-differ) ⭐ 167 | 🐛 34 | 🌐 Python | 📅 2026-08-25 - Diffing tool for comparing target and current assembly output, widely used alongside decomp-permuter in decompilation projects.
+* [asm-differ](https://github.com/simonlindholm/asm-differ) ⭐ 167 | 🐛 35 | 🌐 Python | 📅 2026-08-25 - Diffing tool for comparing target and current assembly output, widely used alongside decomp-permuter in decompilation projects.
+* [pdb-decompiler](https://github.com/camden-smallwood/pdb-decompiler) ⭐ 129 | 🐛 7 | 🌐 Rust | 📅 2026-07-09 - Decompiles MSVC PDB debug symbol files to C++ source code, with optional IDA pseudocode export, useful for recovering source structure from Windows game binaries with debug information.
 * [ccc](https://github.com/chaoticgd/ccc) ⭐ 106 | 🐛 3 | 🌐 C++ | 📅 2026-06-07 - Library and command-line tools for parsing debugging symbols from PS2 games, focused on STABS symbols embedded in .mdebug ELF sections; aids recovery of function/struct names for decompilation projects.
 * [ds-decomp](https://github.com/AetiasHax/ds-decomp) ⭐ 85 | 🐛 9 | 🌐 Rust | 📅 2026-09-03 - Toolkit for decompiling Nintendo DS games, with ROM extraction, building, symbol analysis, and asset handling tools.
 * [spimdisasm](https://github.com/Decompollaborate/spimdisasm) ⭐ 79 | 🐛 7 | 🌐 Python | 📅 2026-08-06 - MIPS disassembler used across N64 decompilation projects to produce matching assembly.
@@ -1914,43 +2034,49 @@ This list is for developers and modders working with such formats. It provides t
 * [dis86](https://github.com/xorvoid/dis86) ⭐ 59 | 🐛 3 | 🌐 Rust | 📅 2026-03-11 - Disassembler and decompiler for 8086 DOS binaries, useful for reverse engineering early DOS-era games.
 * [dwarf2cpp](https://github.com/seilc/dwarf2cpp) ⚠️ Archived - Converts DWARF v1 debug data from ELF files into C/C++ definitions including structs, enums, unions, and function definitions. Useful for reverse engineering games with DWARF debug information.
 * [dadosod](https://github.com/InusualZ/dadosod) ⭐ 23 | 🐛 3 | 🌐 Rust | 📅 2023-05-06 - Disassembles GameCube/Wii DOL executables to bootstrap a decompilation project: guesses/calculates section boundaries, splits the binary into per-section files (including `.bss`/`.sbss`/`.sbss2`), performs partial data-type detection, and generates a matching linker script.
-* [delink](https://github.com/HaydnTrigg/delink) ⭐ 18 | 🐛 0 | 🌐 Rust | 📅 2026-08-16 - Symbol splitting tool for decompilation projects, supporting ELF (DWARF), Mach-O (STABS/SYMTAB), and PE (PDB) binary formats.
+* [delink](https://github.com/HaydnTrigg/delink) ⭐ 20 | 🐛 0 | 🌐 Rust | 📅 2026-08-16 - Symbol splitting tool for decompilation projects, supporting ELF (DWARF), Mach-O (STABS/SYMTAB), and PE (PDB) binary formats.
 * [libgfxd](https://github.com/glankk/libgfxd) ⭐ 15 | 🐛 3 | 🌐 C | 📅 2025-10-29 - Display list decompiler library, the de facto N64 F3D/F3DEX display list disassembler underlying gfxd-rs above.
 * [transmuter](https://github.com/macabeus/transmuter) ⭐ 12 | 🐛 7 | 🌐 TypeScript | 📅 2026-08-07 - Automatically mutates C, C++, or Pascal source code to match a target binary's assembly (or refine code quality while preserving the match), for matching decompilation projects.
 * [objdiff-web](https://github.com/encounter/objdiff-web) ⭐ 11 | 🐛 1 | 🌐 TypeScript | 📅 2026-07-10 - Web interface and VS Code extension for objdiff, a local diffing tool for decompilation projects.
+* [ida-pdb-file-tree](https://github.com/camden-smallwood/ida-pdb-file-tree) ⭐ 10 | 🐛 0 | 🌐 Rust | 📅 2026-04-12 - IDA Pro plugin that groups symbols in a source file tree based on PDB debug data, easing navigation when reversing a Windows game binary with matching PDB symbols.
 * [research](https://github.com/ProjectDreamland/research) ⭐ 9 | 🐛 0 | 🌐 C | 📅 2016-02-24 - Research on game engine and decompiled game code.
 * [libgcc\_vr4300](https://github.com/Decompollaborate/libgcc_vr4300) ⭐ 8 | 🐛 4 | 🌐 C | 📅 2023-11-17 - Subset of GCC's libgcc rebuilt for the MIPS VR4300 CPU (Nintendo 64), used by N64 decompilation projects to match compiler-emitted intrinsic/runtime routines.
 * [pygfxd](https://github.com/Thar0/pygfxd) ⭐ 7 | 🐛 1 | 🌐 C | 📅 2026-03-14 - Python 3 bindings for libgfxd using ctypes.
 * [ModBase-Advance](https://github.com/kmeisthax/ModBase-Advance) ⭐ 6 | 🐛 0 | 🌐 Python | 📅 2018-07-01 - Basic template for split disassembly (decompilation) projects targeting the Game Boy Advance.
+* [vpk0](https://github.com/tehzz/vpk0) ⭐ 5 | 🐛 1 | 🌐 Rust | 📅 2022-01-15 - Rust encoder/decoder for Nintendo's vpk0 compression format, used in N64-era games.
 * [zea](https://github.com/Decompollaborate/zea) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2022-10-21 - Matching (de)compression implementations for Nintendo's MIO0, YAY0, and YAZ0 cartridge compression algorithms, used across N64/GameCube-era Mario and Zelda titles for decompilation and asset extraction.
 * [pdb-sdk](https://github.com/jac3km4/pdb-sdk) ⭐ 4 | 🐛 0 | 🌐 Rust | 📅 2026-05-30 - Rust library for reading and writing Microsoft PDB (Program Database) debug symbol files, useful for recovering symbol/type information from Windows game binaries.
 * [gnuv2\_demangle](https://github.com/Decompollaborate/gnuv2_demangle) ⭐ 3 | 🐛 0 | 🌐 Rust | 📅 2025-11-09 - Demangler for GNU v2 (GCC 2.x) C++ mangled symbol names, used when recovering readable symbol names in decompilation projects for games built with old GCC toolchains (e.g. N64/PS1-era titles).
 * [address\_space](https://github.com/Decompollaborate/address_space) ⭐ 3 | 🐛 0 | 🌐 Rust | 📅 2026-05-11 - Rust crate providing types for MIPS ROM and VRAM address spaces, sizes, and ranges, used by N64 decompilation tooling (e.g. alongside mapfile\_parser) for matching original compiled code.
+* [c2-rs](https://github.com/freeqaz/c2-rs) ⭐ 3 | 🐛 0 | 🌐 Rust | 📅 2026-08-30 - Clean-room native Rust port of `c2.dll`, the code generator backend of the MSVC compiler that shipped with the Xbox 360 XDK, verified byte-exact against the real compiler via a differential test harness; built to speed up and inform matching decompilation of Xbox 360 game binaries (e.g. alongside XenonRecomp-style projects).
 * [gfxd-rs](https://github.com/Decompollaborate/gfxd-rs) ⭐ 2 | 🐛 0 | 🌐 Rust | 📅 2025-11-16 - Safe Rust wrapper for glankk's libgfxd, the de facto N64 F3D/F3DEX display list disassembler, built on the gfxd-sys FFI bindings crate. Used in N64 decompilation projects to disassemble Fast3D graphics microcode.
 * [grapnel](https://github.com/jac3km4/grapnel) ⭐ 2 | 🐛 0 | 🌐 Rust | 📅 2026-05-08 - High-performance binary diffing and structural similarity engine, for comparing executables during decompilation/matching work.
+* [pe-clr-tools](https://github.com/camden-smallwood/pe-clr-tools) ⭐ 2 | 🐛 0 | 🌐 Rust | 📅 2026-03-08 - Command-line tool for working with mixed-mode (native + .NET) PE DLLs, useful when reverse engineering games with mixed managed/native binaries.
 * [ModBase-GB](https://github.com/kmeisthax/ModBase-GB) ⭐ 2 | 🐛 0 | 🌐 Makefile | 📅 2018-04-29 - Basic template for split disassembly (decompilation) projects targeting the Game Boy/Game Boy Color.
+* [decomp (agent)](https://github.com/bigyoshi51/decomp) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2026-05-07 - General-purpose, ROM-agnostic N64 decompilation agent; uses an LLM to iteratively read assembly, write candidate C, compile, diff, and refine until functions match byte-for-byte, wrapping splat, asm-differ, decomp-permuter, m2c, and ido-static-recomp.
 * [texture2c](https://github.com/Decompollaborate/texture2c) ⭐ 1 | 🐛 7 | 🌐 C | 📅 2023-04-26 - Converts Nintendo 64 texture formats to C source/data arrays for use in N64 decompilation and modding projects.
 
 #### Static Recompilation
 
-* [XenonRecomp](https://github.com/hedge-dev/XenonRecomp) ⭐ 6,464 | 🐛 92 | 🌐 C++ | 📅 2025-08-04 - Tool for recompiling Xbox 360 games to native executables. Converts Xbox 360 executables into C++ code that can be recompiled for any platform.
-* [PS2Recomp](https://github.com/ran-j/PS2Recomp) ⭐ 3,225 | 🐛 87 | 🌐 C++ | 📅 2026-09-02 - Static recompiler and runtime that converts PlayStation 2 ELF binaries into C++ to produce native PC ports.
-* [rexglue-sdk](https://github.com/rexglue/rexglue-sdk) ⭐ 842 | 🐛 25 | 🌐 C | 📅 2026-09-03 - Xbox 360 recompilation runtime and toolkit, used by static recompilation PC ports of Xbox 360 games.
-* [RecompOne](https://github.com/BlackLabelHQ/RecompOne) ⭐ 504 | 🐛 2 | 🌐 C# | 📅 2026-09-02 - Static recompiler and runtime for PlayStation 1 (MIPS) game code, converting binaries into native executables.
+* [XenonRecomp](https://github.com/hedge-dev/XenonRecomp) ⭐ 6,465 | 🐛 92 | 🌐 C++ | 📅 2025-08-04 - Tool for recompiling Xbox 360 games to native executables. Converts Xbox 360 executables into C++ code that can be recompiled for any platform.
+* [PS2Recomp](https://github.com/ran-j/PS2Recomp) ⭐ 3,225 | 🐛 90 | 🌐 C++ | 📅 2026-09-02 - Static recompiler and runtime that converts PlayStation 2 ELF binaries into C++ to produce native PC ports.
+* [skate3recomp](https://github.com/mchughalex/skate3recomp) ⭐ 1,288 | 🐛 73 | 🌐 C++ | 📅 2026-07-24 - Native recompilation of the Xbox 360 version of Skate 3 for Windows, Linux, and macOS, with a native Direct3D 12/Vulkan renderer replacing GPU emulation.
+* [rexglue-sdk](https://github.com/rexglue/rexglue-sdk) ⭐ 846 | 🐛 38 | 🌐 C | 📅 2026-09-04 - Xbox 360 recompilation runtime and toolkit, used by static recompilation PC ports of Xbox 360 games.
+* [RecompOne](https://github.com/BlackLabelHQ/RecompOne) ⭐ 507 | 🐛 2 | 🌐 C# | 📅 2026-09-02 - Static recompiler and runtime for PlayStation 1 (MIPS) game code, converting binaries into native executables.
 * [SR (Static Recompiler)](https://github.com/M-HT/SR) ⭐ 414 | 🐛 11 | 🌐 C | 📅 2026-08-27 - Static recompilation project that converts several classic DOS games into native Windows/Linux (x86/ARM) ports (Albion, Septerra Core, X-COM, Warcraft: Orcs & Humans, and others).
-* [psxrecomp](https://github.com/mstan/psxrecomp) ⭐ 199 | 🐛 5 | 🌐 C++ | 📅 2026-09-04 - Static recompiler for PlayStation 1 (MIPS) game code.
-* [DolRecomp](https://github.com/ExpansionPak/DolRecomp) ⭐ 176 | 🐛 6 | 🌐 C | 📅 2026-08-24 - Static recompiler for GameCube, Wii, and experimental Wii U CPU code.
-* [snesrecomp](https://github.com/mstan/snesrecomp) ⭐ 74 | 🐛 5 | 🌐 C | 📅 2026-09-04 - Static recompiler ecosystem for SNES games (part of the R.A.I.D. community), converting 65816 ROM code into portable native code.
-* [ndsrecomp](https://github.com/mstan/ndsrecomp) ⭐ 35 | 🐛 0 | 🌐 C++ | 📅 2026-09-04 - Early-stage static recompiler for Nintendo DS games.
+* [psxrecomp](https://github.com/mstan/psxrecomp) ⭐ 202 | 🐛 5 | 🌐 C++ | 📅 2026-09-05 - Static recompiler for PlayStation 1 (MIPS) game code.
+* [DolRecomp](https://github.com/ExpansionPak/DolRecomp) ⭐ 179 | 🐛 6 | 🌐 C | 📅 2026-08-24 - Static recompiler for GameCube, Wii, and experimental Wii U CPU code.
+* [snesrecomp](https://github.com/mstan/snesrecomp) ⭐ 75 | 🐛 6 | 🌐 C | 📅 2026-09-04 - Static recompiler ecosystem for SNES games (part of the R.A.I.D. community), converting 65816 ROM code into portable native code.
+* [ndsrecomp](https://github.com/mstan/ndsrecomp) ⭐ 35 | 🐛 1 | 🌐 C++ | 📅 2026-09-04 - Early-stage static recompiler for Nintendo DS games.
 * [NWiiRecomp](https://github.com/BlackLineInteractive/NWiiRecomp) ⭐ 24 | 🐛 0 | 🌐 C++ | 📅 2026-08-07 - Static recompilation and runtime toolkit for Nintendo GameCube and Wii binaries, for building native PC ports.
-* [segagenesisrecomp](https://github.com/mstan/segagenesisrecomp) ⭐ 22 | 🐛 0 | 🌐 C | 📅 2026-08-22 - Static recompiler for Sega Genesis/Mega Drive games.
-* [gbarecomp](https://github.com/mstan/gbarecomp) ⭐ 20 | 🐛 1 | 🌐 C++ | 📅 2026-08-31 - General-purpose static recompiler for the Game Boy Advance.
+* [segagenesisrecomp](https://github.com/mstan/segagenesisrecomp) ⭐ 24 | 🐛 0 | 🌐 C | 📅 2026-08-22 - Static recompiler for Sega Genesis/Mega Drive games.
+* [gbarecomp](https://github.com/mstan/gbarecomp) ⭐ 21 | 🐛 1 | 🌐 C++ | 📅 2026-08-31 - General-purpose static recompiler for the Game Boy Advance.
 * [ps1-recomp](https://github.com/PS1Recomp/ps1-recomp) ⭐ 14 | 🐛 0 | 🌐 C++ | 📅 2026-08-13 - Static recompiler translating PlayStation 1 MIPS R3000A machine code into native C++ executables for PC ports.
 * [gbrecompiled](https://github.com/mstan/gbrecompiled) ⭐ 6 | 🐛 0 | 🌐 C | 📅 2026-07-23 - Static recompiler for original Game Boy ROMs.
 * [nWiiURecomp](https://github.com/BlackLineInteractive/nWiiURecomp) ⭐ 5 | 🐛 0 | 🌐 C++ | 📅 2026-08-05 - Static recompilation and runtime toolkit for Nintendo Wii U binaries (based on NWiiRecomp), for building native PC ports.
 * [SHO-GTA-VCS-PS2Recomp](https://github.com/BlackLineInteractive/SHO-GTA-VCS-PS2Recomp) ⭐ 5 | 🐛 0 | 🌐 C++ | 📅 2026-08-05 - Application of PS2Recomp specifically tailored with function maps/configs to statically recompile Silent Hill Origins and GTA: Vice City Stories.
 * [smsggrecomp](https://github.com/mstan/smsggrecomp) ⭐ 5 | 🐛 0 | 🌐 C | 📅 2026-07-18 - Static recompiler translating Sega Master System and Game Gear Z80 code into native code.
-* [rexauto](https://github.com/xdzleo/rexauto) ⭐ 4 | 🐛 1 | 🌐 Python | 📅 2026-09-04 - Desktop orchestrator front-end for the ReXGlue static recompiler, automating the full Xbox 360-to-PC pipeline (extract from ISO/GoD/STFS containers, scaffold, recover jump tables via IDA, build, and self-heal missing functions) into a native x86-64 executable.
+* [rexauto](https://github.com/xdzleo/rexauto) ⭐ 4 | 🐛 1 | 🌐 Python | 📅 2026-09-05 - Desktop orchestrator front-end for the ReXGlue static recompiler, automating the full Xbox 360-to-PC pipeline (extract from ISO/GoD/STFS containers, scaffold, recover jump tables via IDA, build, and self-heal missing functions) into a native x86-64 executable.
 * [gcnlle](https://github.com/mstan/gcnlle) ⭐ 3 | 🐛 0 | 🌐 C | 📅 2026-08-31 - Experimental, LLE-first static recompiler for the Nintendo GameCube IPL (boot ROM).
 * [cdirecomp](https://github.com/mstan/cdirecomp) ⭐ 3 | 🐛 0 | 🌐 C | 📅 2026-07-31 - Static recompiler for Philips CD-i game code.
 * [vbrecomp](https://github.com/mstan/vbrecomp) ⭐ 2 | 🐛 0 | 🌐 C | 📅 2026-07-23 - Static V810-to-C recompiler for Virtual Boy games.
@@ -1961,9 +2087,9 @@ This list is for developers and modders working with such formats. It provides t
 
 * [Ghidra-Switch-Loader](https://github.com/Adubbz/Ghidra-Switch-Loader) ⭐ 366 | 🐛 9 | 🌐 Java | 📅 2026-08-31 - Ghidra loader extension for Nintendo Switch executable formats (NCA, XCI), enabling decompilation and reverse engineering of Switch games.
 * [ghidra\_psx\_ldr](https://github.com/lab313ru/ghidra_psx_ldr) ⭐ 330 | 🐛 14 | 🌐 Java | 📅 2026-09-03 - PlayStation 1 binary loader for Ghidra.
-* [Ghidra-GameCube-Loader](https://github.com/Cuyler36/Ghidra-GameCube-Loader) ⭐ 318 | 🐛 22 | 🌐 Java | 📅 2026-05-24 - Nintendo GameCube binary loader for Ghidra reverse engineering framework.
+* [Ghidra-GameCube-Loader](https://github.com/Cuyler36/Ghidra-GameCube-Loader) ⭐ 318 | 🐛 23 | 🌐 Java | 📅 2026-05-24 - Nintendo GameCube binary loader for Ghidra reverse engineering framework.
 * [GhidraBoy](https://github.com/Gekkio/GhidraBoy) ⚠️ Archived - Sharp SM83 / Game Boy processor extension for Ghidra. (Archived.)
-* [ghidra-emotionengine-reloaded](https://github.com/chaoticgd/ghidra-emotionengine-reloaded) ⭐ 233 | 🐛 11 | 🌐 Java | 📅 2026-08-25 - Ghidra extension adding PlayStation 2 (Emotion Engine) support, including the MIPS R5900 processor with VU macromode and PS2 ELF/IRX loaders.
+* [ghidra-emotionengine-reloaded](https://github.com/chaoticgd/ghidra-emotionengine-reloaded) ⭐ 235 | 🐛 11 | 🌐 Java | 📅 2026-08-25 - Ghidra extension adding PlayStation 2 (Emotion Engine) support, including the MIPS R5900 processor with VU macromode and PS2 ELF/IRX loaders.
 * [SwitchIDAProLoader](https://github.com/pgarba/SwitchIDAProLoader) ⭐ 226 | 🐛 4 | 📅 2025-06-12 - IDA Pro loader for Nintendo Switch NRO, MOD0, and NSO binaries, parsing sections, symbols, and imports/exports.
 * [idaxex](https://github.com/emoose/idaxex) ⭐ 213 | 🐛 8 | 🌐 C++ | 📅 2026-08-11 - XEX/XBE loader plugin for IDA 9, plus the xex1tool CLI, supporting most known Xbox and Xbox 360 executable file formats.
 * [XEXLoaderWV](https://github.com/zeroKilo/XEXLoaderWV) ⭐ 170 | 🐛 4 | 🌐 Java | 📅 2026-08-01 - Ghidra loader module for Xbox 360 XEX executable files.
@@ -1993,11 +2119,11 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Binary Visualization & Diffing
 
-* [pics](https://github.com/corkami/pics) ⭐ 11,480 | 🐛 5 | 🌐 Assembly | 📅 2024-02-18 - File formats dissections and visualizations for reverse engineering.
+* [pics](https://github.com/corkami/pics) ⭐ 11,479 | 🐛 5 | 🌐 Assembly | 📅 2024-02-18 - File formats dissections and visualizations for reverse engineering.
 * [binocle](https://github.com/sharkdp/binocle) ⭐ 1,320 | 🐛 25 | 🌐 Rust | 📅 2025-01-21 - Graphical binary data visualization tool. Colorizes bytes and renders them as pixels to identify patterns and image-like structures in game files.
 * [Veles](https://github.com/codilime/veles) ⚠️ Archived - Binary analysis and visualization tool for reverse engineering (open-source, archived; the codisec.com site is gone).
 * [biodiff](https://github.com/8051Enthusiast/biodiff) ⭐ 895 | 🐛 6 | 🌐 Rust | 📅 2024-08-07 - Hex diff viewer that uses alignment algorithms to show differences between binary files.
-* [DataExplorer](https://github.com/x64dbg/DataExplorer) ⭐ 93 | 🐛 0 | 🌐 C | 📅 2026-03-15 - Data explorer plugin for x64dbg debugger that integrates the pattern language from ImHex.
+* [DataExplorer](https://github.com/x64dbg/DataExplorer) ⭐ 94 | 🐛 0 | 🌐 C | 📅 2026-03-15 - Data explorer plugin for x64dbg debugger that integrates the pattern language from ImHex.
 * [binviz](https://github.com/VelocityRa/binviz) ⭐ 48 | 🐛 3 | 🌐 C++ | 📅 2021-08-05 - Binary visualization tool for identifying patterns and structure in unknown files. Creates visual representations showing potential compression/encryption, structured data and padding at a glance. Helpful for spotting where assets begin/end in unstructured archives.
 * [bdiff](https://github.com/ethteck/bdiff) ⭐ 25 | 🐛 17 | 🌐 Rust | 📅 2024-11-04 - Binary diff tool for decompilation and modding projects with hex viewing and symbol map integration.
 * [Monkey-Moore](https://github.com/rjricken/monkey-moore) ⭐ 20 | 🐛 1 | 🌐 C++ | 📅 2026-06-09 - High-performance pattern matching utility for ROM hacking and reverse engineering. Multi-threaded Boyer-Moore algorithm with wildcard support and endianness control for discovering non-standard text encodings.
@@ -2006,29 +2132,33 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Hooking, Memory & Runtime Tools
 
-* [PINCE](https://github.com/korcankaraokcu/PINCE) ⭐ 3,081 | 🐛 6 | 🌐 Python | 📅 2026-08-24 - GDB front-end/reverse engineering tool with a Cheat Engine-like interface for Linux.
+* [PINCE](https://github.com/korcankaraokcu/PINCE) ⭐ 3,081 | 🐛 7 | 🌐 Python | 📅 2026-08-24 - GDB front-end/reverse engineering tool with a Cheat Engine-like interface for Linux.
 * [Reloaded-II](https://github.com/Reloaded-Project/Reloaded-II) ⭐ 1,023 | 🐛 187 | 🌐 C# | 📅 2026-08-13 - Universal .NET Core powered modding framework for any native game (x86, x64). DLL injection based mod loader with mod management system, optional mod SDK, and extensive plugin support.
 * [ReClassEx](https://github.com/ajkhoury/ReClassEx) ⭐ 930 | 🐛 8 | 🌐 C++ | 📅 2021-07-05 - ReClass Extended, a fork of ReClass with additional features for reverse engineering in-memory class/struct layouts of running game processes, aiding recovery of file format structures.
 * [hooking](https://github.com/alphaSeclab/hooking) ⭐ 344 | 🐛 0 | 📅 2020-06-11 - Massive repository of resources about hooking for all platforms (Windows, Linux, Android, iOS). Includes 300+ tools and 600+ articles.
 * [Reloaded.Hooks](https://github.com/Reloaded-Project/Reloaded.Hooks) ⭐ 255 | 🐛 8 | 🌐 C# | 📅 2024-11-29 - Advanced native function hooks for x86 and x64. High-performance hooking library for .NET with support for unit testing hooks. Used in Reloaded modding framework.
+* [brainslug-wii](https://github.com/Chadderz121/brainslug-wii) ⭐ 56 | 🐛 11 | 🌐 C | 📅 2022-05-04 - BrainSlug, a Wii disc-loading and patching engine that links relocatable ELF "modules" into a running game, letting modders add C-based functionality without hand-assembling binary patches.
 * [ReClass.NET](https://github.com/FransBouma/ReClass.NET) ⭐ 3 | 🐛 0 | 🌐 C# | 📅 2023-07-04 - Advanced memory class layout reverse engineering tool widely used for analyzing in-memory game data structures, helping translate runtime structures into file format definitions.
 
 #### Console-specific RE (PlayStation / Xbox)
 
 * [pcsx-redux](https://github.com/grumpycoders/pcsx-redux) ⭐ 991 | 🐛 153 | 🌐 C++ | 📅 2026-09-04 - Collection of tools, research, hardware design, and libraries for PlayStation 1 development and reverse engineering, built around a fork of the PCSX emulator with an integrated debugger, assembler, and GPU/memory analysis tooling.
 * [Ghidra-Cpp-Class-Analyzer](https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer) ⚠️ Archived - Ghidra C++ Class and Run Time Type Information (RTTI) analyzer, useful for recovering class hierarchies in game binaries compiled from C++.
-* [psxprev](https://github.com/rickomax/psxprev) ⭐ 258 | 🐛 28 | 🌐 C# | 📅 2023-11-09 - Playstation (PSX) Files Previewer and Extractor. Supports various model, texture, and animation formats.
+* [psxprev](https://github.com/rickomax/psxprev) ⭐ 259 | 🐛 28 | 🌐 C# | 📅 2023-11-09 - Playstation (PSX) Files Previewer and Extractor. Supports various model, texture, and animation formats.
 * [Velocity](https://github.com/hetelek/Velocity) ⭐ 244 | 🐛 57 | 🌐 C++ | 📅 2025-10-21 - Cross-platform Xbox 360 file browser/editor (STFS containers, profiles, and more) built on the XboxInternals library.
 * [psxrev](https://github.com/emu-russia/psxrev) ⭐ 159 | 🐛 12 | 🌐 C# | 📅 2025-01-20 - Sony PlayStation PCB/chips reverse engineering documentation and resources.
 * [ida\_ps5\_elf\_plugin](https://github.com/flatz/ida_ps5_elf_plugin) ⭐ 151 | 🐛 0 | 🌐 Python | 📅 2026-01-07 - IDA Pro plugin/loader for PS5 ELF/SELF executables (IDA 7.5). See also [drakmor's fork](https://github.com/drakmor/ida_ps5_elf_plugin) ⭐ 17 | 🐛 0 | 🌐 Python | 📅 2026-02-13 with IDA 9+ support.
-* [ida\_gel](https://github.com/aerosoul94/ida_gel) ⭐ 106 | 🐛 2 | 🌐 C | 📅 2019-10-03 - Collection of IDA loaders for various game console ELF files (PS3, PS Vita, Wii U).
+* [ida\_gel](https://github.com/aerosoul94/ida_gel) ⭐ 106 | 🐛 2 | 🌐 C | 📅 2019-10-03 - Collection of IDA loaders for various game console ELF files (PS3, PS Vita, Wii U). See also [ps3\_aero\_loader](https://github.com/krystalgamer/ps3_aero_loader) ⭐ 6 | 🐛 0 | 🌐 C | 📅 2025-05-11, a port of the PS3 loader to modern IDA (9.1+).
+* [Xbox-360-Crypto](https://github.com/GoobyCorp/Xbox-360-Crypto) ⭐ 86 | 🐛 3 | 🌐 Python | 📅 2025-01-04 - Collection of Xbox 360 cryptography and file-format tools: XeCrypt library, shadowboot ROM builder/extractor, NAND image editor with ECC recalculation, KV encryption/fuse generation, and XDK/recovery image dumper.
 * [xbox-reversing](https://github.com/emoose/xbox-reversing) ⭐ 79 | 🐛 2 | 🌐 Python | 📅 2024-10-22 - Tools and documentation for reverse engineering Xbox 360 file formats. Includes IDA Pro loaders and 010 Editor templates for STFS, GDFX, XDBF, and XEX format analysis.
 * [xbox-winfsp](https://github.com/emoose/xbox-winfsp) ⭐ 78 | 🐛 11 | 🌐 C# | 📅 2024-02-27 - Brings native support for Xbox filesystems (FATX, STFS, GDFX/XGD/XDVDFS) to Windows via WinFsp.
+* [ps3ida](https://github.com/kakaroto/ps3ida) ⭐ 78 | 🐛 1 | 🌐 C++ | 📅 2012-08-25 - Collection of IDA scripts and plugins for PS3 executables.
 * [IPS-Peek](https://github.com/vector-man/IPS-Peek) ⭐ 69 | 🐛 14 | 🌐 C# | 📅 2026-08-14 - IPS patch exploration and testing tool.
 * [Up](https://github.com/landaire/Up) ⭐ 52 | 🐛 1 | 🌐 C++ | 📅 2015-03-12 - FATX file system (modified FAT variant used on the Xbox 360) explorer for Windows, Linux, and macOS.
 * [vitadump](https://github.com/xyzz/vitadump) ⭐ 45 | 🐛 0 | 🌐 Python | 📅 2017-11-30 - Tools to assist working with memory dumps obtained from PS Vita.
 * [SPRXPatcher](https://github.com/NotNite/SPRXPatcher) ⭐ 42 | 🐛 0 | 🌐 C# | 📅 2024-08-12 - Modern PlayStation 3 ELF patcher for loading SPRX plugin files into decrypted executables.
 * [vutrace](https://github.com/chaoticgd/vutrace) ⭐ 37 | 🐛 0 | 🌐 C | 📅 2024-06-22 - PlayStation 2 vector unit tracing debugger.
+* [vita-ida-physdump](https://github.com/xyzz/vita-ida-physdump) ⭐ 34 | 🐛 1 | 🌐 Python | 📅 2018-09-25 - IDA Pro loader for PS Vita physical memory dumps, detecting modules via import/export parsing and resolving NIDs against vitasdk's `db.yml`.
 * [ida-emotionengine](https://github.com/oct0xor/ida-emotionengine) ⭐ 34 | 🐛 0 | 🌐 Python | 📅 2022-07-11 - IDA Pro plugin that disassembles PlayStation 2 Emotion Engine COP2 (VU0) MIPS instructions.
 * [SNES-decompression-tools](https://github.com/ProtonNoir/SNES-decompression-tools) ⭐ 31 | 🐛 4 | 🌐 C++ | 📅 2026-03-30 - Collection of SNES graphics decompression tools.
 * [xbedump](https://github.com/XboxDev/xbedump) ⭐ 25 | 🐛 3 | 🌐 C | 📅 2020-09-27 - Tool for dumping and analyzing header information and signing original Xbox XBE (executable) files.
@@ -2037,7 +2167,10 @@ This list is for developers and modders working with such formats. It provides t
 * [XCompression](https://github.com/gibbed/XCompression) ⭐ 19 | 🐛 2 | 🌐 C# | 📅 2019-07-14 - .NET wrapper library for XMemCompress, the LZX-based compression scheme commonly found in Xbox 360 game data.
 * [sce-symbol-scanner](https://github.com/LostTemplarRH/sce-symbol-scanner) ⭐ 13 | 🐛 1 | 🌐 Kotlin | 📅 2026-04-20 - Detects SCE SDK functions in ELF files, primarily for PS2. Command-line interface and Ghidra plugin.
 * [sfc-comp](https://github.com/sfc-comp/sfc-comp) ⭐ 12 | 🐛 0 | 🌐 C++ | 📅 2026-01-26 - Collection of compression algorithm implementations used across SFC/SNES games.
+* [libxe](https://github.com/hayleyxyz/libxe) ⭐ 8 | 🐛 0 | 🌐 C | 📅 2026-08-09 - C++ library for Xbox 360 (Xenon) internals; implements shadowboot ROM, bootloader, and xboxupd.bin format parsing.
+* [stfstool](https://github.com/carrot-c4k3/stfstool) ⭐ 7 | 🐛 0 | 🌐 C++ | 📅 2025-02-27 - Command-line tool for Xbox 360 STFS packages, based on Velocity.
 * [XDBF-Manager](https://github.com/hetelek/XDBF-Manager) ⭐ 7 | 🐛 1 | 🌐 C++ | 📅 2012-07-10 - Browser/editor for Xbox 360 XDBF (dashboard/game-data) files.
+* [stfs-webjs](https://github.com/InvoxiPlayGames/stfs-webjs) ⭐ 6 | 🐛 0 | 🌐 JavaScript | 📅 2022-01-30 - Reads Xbox 360 STFS container files in the web browser.
 * [svod\_unpacker](https://github.com/landaire/svod_unpacker) ⭐ 6 | 🐛 0 | 🌐 C++ | 📅 2012-06-22 - Unpacks Xbox 360 SVOD packages (Games on Demand, Applications, and titles installed to hard disk).
 * [010-Templates](https://github.com/KillzXGaming/010-Templates) ⭐ 5 | 🐛 0 | 📅 2020-08-05 - Collection of 010 Editor binary templates for understanding the structure of various video game binary formats.
 * [xVerter](https://github.com/blank-query/xverter) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2026-09-02 - Xbox 360 and original Xbox game format converter; reads and converts between GoD containers, XDVDFS ISOs (bare or full redump), ZArchive .zar, STFS content packages (XBLA/DLC/title updates), CCI, CSO, CHD, and .zip/.7z archives or extracted game directories.
@@ -2053,39 +2186,42 @@ This list is for developers and modders working with such formats. It provides t
 
 ### 💻 Development Libraries
 
-* [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct) ⭐ 4,671 | 🐛 529 | 🌐 Shell | 📅 2026-08-31 - Declarative language and code generator for binary data parsers in C++, C#, Go, Java, JavaScript, Python, Rust, and more; widely used for documenting and parsing game file formats.
+* [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct) ⭐ 4,672 | 🐛 529 | 🌐 Shell | 📅 2026-08-31 - Declarative language and code generator for binary data parsers in C++, C#, Go, Java, JavaScript, Python, Rust, and more; widely used for documenting and parsing game file formats.
 * [binrw](https://github.com/jam1garner/binrw) ⭐ 851 | 🐛 40 | 🌐 Rust | 📅 2026-07-23 - Rust library for reading and writing binary file formats with derive macros. Successor to `binread`.
 * [WLA-DX](https://github.com/vhelin/wla-dx) ⭐ 608 | 🐛 27 | 🌐 C | 📅 2026-08-29 - Multi-target assembler/linker toolchain (Z80, 6502, 65816, SPC700, HuC6280, Game Boy) widely used across retro console ROM hacking and homebrew development.
 * [XenosRecomp](https://github.com/hedge-dev/XenosRecomp) ⭐ 493 | 🐛 8 | 🌐 C++ | 📅 2026-03-12 - Tool for converting Xbox 360 shaders to HLSL.
 * [armips](https://github.com/Kingcom/armips) ⭐ 411 | 🐛 31 | 🌐 C++ | 📅 2026-08-01 - General-purpose assembler for MIPS, Allegrex, ARM, and Nintendo DS/GBA-era instruction sets, widely used for ROM hacking, homebrew development, and reverse engineering across many retro console platforms.
 * [Hexa.NET.ImGui](https://github.com/HexaEngine/Hexa.NET.ImGui) ⭐ 349 | 🐛 26 | 🌐 C# | 📅 2026-08-24 - .NET wrapper for ImGui, useful for creating tools with graphical interfaces.
 * [mojoshader](https://github.com/icculus/mojoshader) ⭐ 217 | 🐛 20 | 🌐 C | 📅 2026-09-03 - Library for parsing and translating compiled Direct3D 8/9 shader bytecode to other shading languages (GLSL, ARB, etc.), widely used by Linux/macOS ports and reimplementations of Windows games to run their original shaders on OpenGL/Vulkan.
-* [ooz](https://github.com/powzix/ooz) ⭐ 205 | 🐛 5 | 🌐 C++ | 📅 2019-02-13 - Open-source decompressor for Oodle compression formats used in many modern games. Supports Kraken, Mermaid, Selkie, Leviathan, LZNA, Bitknit.
+* [ooz](https://github.com/powzix/ooz) ⭐ 206 | 🐛 5 | 🌐 C++ | 📅 2019-02-13 - Open-source decompressor for Oodle compression formats used in many modern games. Supports Kraken, Mermaid, Selkie, Leviathan, LZNA, Bitknit.
 * [bcdec](https://github.com/iOrange/bcdec) ⭐ 190 | 🐛 3 | 🌐 C | 📅 2026-09-02 - Small header-only C library to decompress any BC (block-compressed) texture format, widely used for game textures.
 * [BCnEncoder.NET](https://github.com/Nominom/BCnEncoder.NET) ⭐ 155 | 🐛 23 | 🌐 C# | 📅 2026-04-05 - Cross-platform .NET texture encoding library supporting BC1-3/DXT, BC4-5/RGTC, and BC6-7/BPTC block compression, outputting KTX or DDS files.
 * [Cast](https://github.com/dtzxporter/cast) ⭐ 151 | 🐛 9 | 🌐 Python | 📅 2026-09-04 - Open container format and libraries for models, animations, materials, and game world scenes.
   * Purpose: Designed to reproduce the same 3D scene identically across different DCC/3D software packages.
   * Usage: Adopted as a common interchange/export format by numerous game asset-extraction and conversion tools.
 * [XeNTaXTools-Legacy](https://github.com/XeNTaXTools/XeNTaXTools-Legacy) ⭐ 99 | 🐛 0 | 🌐 C++ | 📅 2023-12-15 - Legacy tools scraped from the XeNTaX forums.
-* [ndspy](https://github.com/RoadrunnerWMC/ndspy) ⭐ 87 | 🐛 3 | 🌐 Python | 📅 2026-08-29 - Python library for reading and modifying Nintendo DS file formats (BMG, SSEQ, LZ10, NSBMD).
+* [ndspy](https://github.com/RoadrunnerWMC/ndspy) ⭐ 88 | 🐛 3 | 🌐 Python | 📅 2026-08-29 - Python library for reading and modifying Nintendo DS file formats (BMG, SSEQ, LZ10, NSBMD).
 * [ReverseBox](https://github.com/bartlomiejduda/ReverseBox) ⭐ 51 | 🐛 2 | 🌐 Python | 📅 2026-09-02 - Python library for reverse engineering with utilities for checksums, compression, encryption, hashing, and image processing.
   * Features: Checksums (Adler32, CRC variants, Fletcher, XOR), compression (BZIP2, LZ4, LZMA, MIO0, PackBits, RLE variants), encryption (ROT13, XOR cipher), hashing (FNV, DJB2, MD5, SHA, Murmur3).
   * Formats: 100+ pixel formats including DXT, PVRTC, ETC, ASTC, BC formats, with swizzling support for multiple platforms.
 * [Assimp.Net](https://github.com/StirlingLabs/Assimp.Net) ⭐ 49 | 🐛 4 | 🌐 C# | 📅 2023-10-18 - C# .NET Core wrapper for the Open Asset Import Library (Assimp) for importing 3D models.
 * [DirectXTexNet](https://github.com/deng0/DirectXTexNet) ⭐ 33 | 🐛 0 | 🌐 C# | 📅 2024-05-22 - .NET wrapper for DirectXTex, a library for working with DirectX texture formats.
-* [ds-rom](https://github.com/AetiasHax/ds-rom) ⭐ 27 | 🐛 6 | 🌐 Rust | 📅 2026-07-21 - Rust library for parsing and manipulating Nintendo DS ROM file formats and components.
+* [ds-rom](https://github.com/AetiasHax/ds-rom) ⭐ 27 | 🐛 7 | 🌐 Rust | 📅 2026-07-21 - Rust library for parsing and manipulating Nintendo DS ROM file formats and components.
 * [tegra\_swizzle](https://github.com/ScanMountGoat/tegra_swizzle) ⭐ 23 | 🐛 3 | 🌐 Rust | 📅 2026-07-31 - Library implementing Tegra X1 block linear texture memory tiling, used by Switch game textures.
+* [linoodle](https://github.com/McSimp/linoodle) ⭐ 21 | 🐛 2 | 🌐 C++ | 📅 2022-07-23 - Linux wrapper for the (Windows-only) Oodle Data Compression library, letting Linux-native tools call into Oodle for decompressing modern game assets. Used by [Smithbox-For-Linux](https://github.com/SrDeTs/Smithbox-For-Linux) ⭐ 7 | 🐛 0 | 🌐 C# | 📅 2026-07-31 above for automated Oodle setup.
 * [GCNToolKit](https://github.com/Cuyler36/GCNToolKit) ⭐ 20 | 🐛 0 | 🌐 C# | 📅 2019-12-19 - Toolkit for modifying and creating GameCube file formats.
 * [GameFormatReader](https://github.com/lioncash/GameFormatReader) ⭐ 17 | 🐛 0 | 🌐 C# | 📅 2017-07-13 - Library for reading various game formats (mostly Nintendo ones).
 * [GL Editor Framework](https://github.com/jupahe64/GL_EditorFramework) ⭐ 16 | 🐛 0 | 🌐 C# | 📅 2022-05-01 - OpenGL-based framework for creating 3D game editors with hardware-accelerated graphics.
 * [Oodle-Tools](https://github.com/Tamely/Oodle-Tools) ⭐ 16 | 🐛 0 | 🌐 C# | 📅 2022-06-02 - Oodle compression and decompression bindings for C#. Useful for working with modern games that use Oodle.
 * [Amicitia.IO](https://github.com/tge-was-taken/Amicitia.IO) ⭐ 16 | 🐛 2 | 🌐 C# | 📅 2025-11-22 - High performance File IO library with full support for big endian and offsets.
+* [asset-importer](https://github.com/Latias94/asset-importer) ⭐ 13 | 🐛 0 | 🌐 Rust | 📅 2026-05-04 - Comprehensive Rust binding for Assimp (v6.0.5), covering 71+ import and 22+ export 3D formats (OBJ, FBX, glTF, DAE, etc.) with safe, idiomatic Rust wrappers over the C API.
 * [Orthrus](https://github.com/NWPlayer123/Orthrus) ⭐ 11 | 🐛 0 | 🌐 Rust | 📅 2026-08-22 - Work-in-progress modding toolkit for cross-system format interoperability.
   * Formats: Yay0/Yaz0 (Nintendo compression, N64/GameCube/Wii/Wii U/Switch), Panda3D Multifile archives and BAM/BOO binary models.
 * [DrSwizzler](https://github.com/Shadowth117/DrSwizzler) ⭐ 10 | 🐛 1 | 🌐 C# | 📅 2025-09-24 - Library for deswizzling and detiling texture data.
 * [SFGraphics](https://github.com/ScanMountGoat/SFGraphics) ⭐ 10 | 🐛 36 | 🌐 C# | 📅 2026-03-24 - OpenGL graphics library for rendering game formats, used in various format viewers.
 * [vmf](https://github.com/Galaco/vmf) ⭐ 8 | 🐛 0 | 🌐 Go | 📅 2019-02-12 - Go library for parsing Valve's Hammer Editor .vmf map files.
 * [CTLib](https://github.com/narahiero/CTLib) ⭐ 8 | 🐛 0 | 🌐 C++ | 📅 2022-10-05 - Utility library to create and convert various file formats used in Mario Kart Wii custom tracks.
+* [pyswizzle](https://github.com/Aclios/pyswizzle) ⭐ 7 | 🐛 0 | 🌐 Python | 📅 2024-11-06 - Python library to swizzle and deswizzle video game textures. Supports Nintendo Switch and PS4 platforms.
 * [tinybcdec](https://github.com/jandk/tinybcdec) ⭐ 6 | 🐛 0 | 🌐 Java | 📅 2026-07-26 - Small block compression decoder library in pure Java. Zero dependencies, focus on speed and accuracy with support for partial decodes.
   * Formats: BC1-DXT1, BC2-DXT3, BC3-DXT5, BC4-ATI1, BC5-ATI2, BC6H, BC7.
 * [mojodds](https://github.com/icculus/mojodds) ⭐ 6 | 🐛 2 | 🌐 C | 📅 2021-07-10 - Simple, dependency-free DirectDraw Surface (.DDS) texture decoder routines in portable C, commonly used for loading game textures without linking DirectX.
@@ -2117,9 +2253,9 @@ This list is for developers and modders working with such formats. It provides t
   * Games: Source Engine games (17 titles including Half-Life 2, Portal 1 & 2, Team Fortress 2, CS:GO, L4D2), GoldSrc games (Half-Life, Counter-Strike, TFC, Day of Defeat), Quake,
     Nintendo games (Mario 64, Mario Kart series, Zelda series, Pikmin, Luigi's Mansion, Super Mario Galaxy 1 & 2/Odyssey, Paper Mario series, Kirby, Smash Bros Melee/Brawl, Metroid Prime 1-3, Pokemon Snap/Platinum/HGSS, Pilotwings 64, Wii Sports), Rare games (Banjo-Kazooie, DKC), GTA series (III, Vice City, San Andreas), Crash Bandicoot, Spyro trilogy, Ratchet & Clank 1 & 2, Dark Souls, Katamari Damacy, Kingdom Hearts 1 & 2, Final Fantasy X, Dragon Quest VIII, Okami, Psychonauts, Need for Speed: Most Wanted, SpongeBob games, Jet Set Radio, Crazy Taxi, Sonic Colors, Ragnarok Online, Morrowind, World of Warcraft, Descent 1 & 2, Outer Wilds, Halo CE, and more.
   * Also covers oddities such as the Microsoft Plus! for Windows XP screensavers and Wii channel banners.
-* [diii4a](https://github.com/glKarin/com.n0n3m4.diii4a) ⭐ 598 | 🐛 167 | 🌐 C++ | 📅 2026-09-02 - Multi-engine Android/desktop port collection for idTech-derived games, reading each game's original assets.
+* [diii4a](https://github.com/glKarin/com.n0n3m4.diii4a) ⭐ 599 | 🐛 167 | 🌐 C++ | 📅 2026-09-02 - Multi-engine Android/desktop port collection for idTech-derived games, reading each game's original assets.
   * Games: DOOM 3, Quake 4, Prey (2006), Quake 1/2/3, RTCW, ETW, RealRTCW, GZDoom, OpenJK (Jedi Knight), Serious Sam, Icarus, Skin Deep, Quadrilateral Cowboy.
-* [MeltyTool](https://github.com/MeltyPlayer/MeltyTool) ⭐ 205 | 🐛 60 | 🌐 C# | 📅 2026-09-03 - Multitool for viewing/extracting assets from various N64/GCN/3DS/PC games.
+* [MeltyTool](https://github.com/MeltyPlayer/MeltyTool) ⭐ 206 | 🐛 60 | 🌐 C# | 📅 2026-09-05 - Multitool for viewing/extracting assets from various N64/GCN/3DS/PC games.
   * Games: Super Mario 64, Mario Artist (Polygon Studio, Talent Studio), Paper Mario TTYD, Super Paper Mario, Mario Kart Double Dash, Pikmin 1 & 2, Super Mario Sunshine, Chibi-Robo, Super Smash Bros. Melee, Battalion Wars 1 & 2, Super Mario 64 DS, Luigi's Mansion 3D, Majora's Mask 3D, Ocarina of Time 3D, Professor Layton vs. Phoenix Wright, Dead Space, Glover, Halo Wars, Celeste 64, Pokemon Colosseum, and more.
 * [BinaryDataExplorer](https://github.com/RayCarrot/BinaryDataExplorer) ⭐ 5 | 🐛 0 | 🌐 C# | 📅 2022-04-29 - Binary data explorer and analyzer supporting formats from Rayman, Klonoa, PS1, Game Boy, and GBA games with interactive structure visualization.
 * [psarc](https://github.com/ShadelessFox/psarc) ⭐ 1 | 🐛 0 | 🌐 Java | 📅 2026-01-25 - Viewer for PlayStation Archive (PSARC) archives. Supports listing and extracting files from PSARC archives with GUI and CLI interfaces.
@@ -2127,10 +2263,10 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Cross-Game Libraries & Extractors
 
-* [XXMI Launcher](https://github.com/SpectrumQT/XXMI-Launcher) ⭐ 2,842 | 🐛 8 | 🌐 Python | 📅 2026-06-11 - Modding platform/launcher for a shared 3dmigoto-based model-importer ecosystem spanning multiple unrelated gacha titles, installing and hot-loading custom 3D character models as mods.
-  * Components: [XXMI-Libs-Package](https://github.com/SpectrumQT/XXMI-Libs-Package) ⭐ 69 | 🐛 6 | 🌐 C++ | 📅 2026-09-04 (shared fork of [bo3b/3Dmigoto](https://github.com/bo3b/3Dmigoto) ⭐ 1,215 | 🐛 94 | 🌐 C++ | 📅 2026-08-19 packaged for the launcher), [XXMITools](https://github.com/leotorrez/XXMITools) ⭐ 142 | 🐛 63 | 🌐 Python | 📅 2026-08-10 (Blender add-on to import/export mod files for the supported games), [gui\_collect](https://github.com/Petrascyll/gui_collect) ⭐ 74 | 🐛 9 | 🌐 Python | 📅 2026-07-09 (GUI tool to collect/extract model data from 3dmigoto frame dumps for use with the importers).
+* [XXMI Launcher](https://github.com/SpectrumQT/XXMI-Launcher) ⭐ 2,845 | 🐛 8 | 🌐 Python | 📅 2026-06-11 - Modding platform/launcher for a shared 3dmigoto-based model-importer ecosystem spanning multiple unrelated gacha titles, installing and hot-loading custom 3D character models as mods.
+  * Components: [XXMI-Libs-Package](https://github.com/SpectrumQT/XXMI-Libs-Package) ⭐ 69 | 🐛 5 | 🌐 C++ | 📅 2026-09-04 (shared fork of [bo3b/3Dmigoto](https://github.com/bo3b/3Dmigoto) ⭐ 1,215 | 🐛 94 | 🌐 C++ | 📅 2026-08-19 packaged for the launcher), [XXMITools](https://github.com/leotorrez/XXMITools) ⭐ 142 | 🐛 63 | 🌐 Python | 📅 2026-09-04 (Blender add-on to import/export mod files for the supported games), [gui\_collect](https://github.com/Petrascyll/gui_collect) ⭐ 74 | 🐛 9 | 🌐 Python | 📅 2026-07-09 (GUI tool to collect/extract model data from 3dmigoto frame dumps for use with the importers).
   * Games: Genshin Impact (GIMI), Honkai: Star Rail (SRMI), Honkai Impact 3rd (HIMI), Zenless Zone Zero (ZZMI), Wuthering Waves (WWMI).
-* [ScummVM](https://github.com/scummvm/scummvm) ⭐ 2,800 | 🐛 47 | 🌐 C++ | 📅 2026-09-04 - The canonical multi-engine interpreter that reimplements dozens of classic adventure/RPG engines, reading each game's original data files instead of emulating a CPU.
+* [ScummVM](https://github.com/scummvm/scummvm) ⭐ 2,800 | 🐛 45 | 🌐 C++ | 📅 2026-09-04 - The canonical multi-engine interpreter that reimplements dozens of classic adventure/RPG engines, reading each game's original data files instead of emulating a CPU.
   * Engines/Studios: LucasArts SCUMM, Sierra AGI/SCI, Revolution's Virtual Theatre, Adventure Soft's AGOS, Delphine's Cinematique/Cruise, Coktel Vision's GOB, Westwood/Revolution's BS1/2 (Beneath a Steel Sky, Broken Sword), Wintermute, Grim Fandango's GrimE, Humongous Entertainment's SCUMM-derived titles, and 50+ other engines.
   * Formats: each engine's own resource/archive formats (e.g. SCUMM .SM/.LFL/.HE0, SCI resource maps, AGI VOL/DIR, and dozens more), parsed directly rather than through hardware/CPU emulation.
 * [3Dmigoto](https://github.com/bo3b/3Dmigoto) ⭐ 1,215 | 🐛 94 | 🌐 C++ | 📅 2026-08-19 - DirectX 11 modding wrapper that hooks the rendering pipeline to dump and inject shaders, textures, and mesh/buffer data at runtime, rather than reading on-disk archives. Originally built for fixing broken stereoscopic 3D effects; now the shared foundation for the XXMI gacha-game modding stack above, as well as countless other unrelated DX11 game shader/model mods.
@@ -2138,33 +2274,66 @@ This list is for developers and modders working with such formats. It provides t
   * Engines: AdvHD, AliceSoft (Ain), BGI, CatSystem2, DeboLua, EntisGLS, Eushully, ExHIBIT, FLATZ, Falcom, GIGA, InnocentGrey, Kirikiri, LC-ScriptEngine, Leaf, Majiro, Makura, Malie, Minato, Minori, NScript, NekoSDK, Nitro+, PJADV, QLIE, RahuEngine, Seven Wonder, SiglusEngine, Silky, Solfa, Tactics, YukaScript, Yuris, and others.
 * [arc\_unpacker](https://github.com/vn-tools/arc_unpacker) ⚠️ Archived - Command-line extractor for images, sounds, music, and other resources from dozens of visual novel (and some other Japanese game) archive/script formats, auto-detecting the format and dispatching to the right decoder (archived).
 * [XNALaraMesh](https://github.com/johnzero7/XNALaraMesh) ⭐ 595 | 🐛 38 | 🌐 Python | 📅 2023-11-15 - Blender addon to import/export XNALara/XPS model rips and poses, a format used to share fan-made model extractions across hundreds of unrelated games.
-* [GalgameReverse](https://github.com/YuriSizuku/GalgameReverse) ⭐ 465 | 🐛 2 | 🌐 C++ | 📅 2026-02-13 - Large collection of reverse-engineering scripts for Japanese visual novels/galgames across consoles and PC.
+* [SExtractor](https://github.com/satan53x/SExtractor) ⭐ 498 | 🐛 12 | 🌐 Python | 📅 2026-08-12 - Extracts and imports translated text to/from Japanese visual novel scripts, combining generic TXT/BIN/JSON pattern matching with dedicated presets for many engines.
+  * Engines: AZ System, Artemis, Black Rainbow, CScript, Cyberworks/CSystem, EAGLS, FVP, Kaguya, Krkr, MED, MoonHir, NekoSDK, RPG Maker MV/VX Ace, RealLive, Ren'Py, SystemC, WillPlus, Yu-ris, and generic regex-based extraction for unsupported engines.
+* [GalgameReverse](https://github.com/YuriSizuku/GalgameReverse) ⭐ 466 | 🐛 2 | 🌐 C++ | 📅 2026-02-13 - Large collection of reverse-engineering scripts for Japanese visual novels/galgames across consoles and PC.
   * Games: Sony PSP/PSV titles (tm2 textures), Koei (Kin'iro no Corda, Harukanaru Toki no Naka de), Konami (Tokimeki Memorial Girl's Side 3rd Story), KID (Omoi no Kakera), prototype PSV ports (Air, Clannad, Valpurugavo Uta, Flowers, Island), Eldia (Kanda Alice mo Suiri Suru, Switch), Majiro-engine PC titles (Sorairo, Ruri no Kasane, Winter Polaris), azsystem (Ramune), SystemNNN, WillPlus/AdvHD, Yuris engine, ffa (Amanomiko), nvl-cloud, CRIWare (Iwaihime), Hibiki (Natural Vacation), LiveMaker (Aikimi), Bruns engine, Innocent Gray, ExHIBIT, Hunex, and Unity/Kirikiri/Artemis/Ren'Py/TyranoBuilder/ONScripter cross-engine titles.
   * Formats: proprietary archive (.arc), image (rct/rc8/tm2/txp/nltx/dat), script/text (mjil, ws2, spt, asb, sn.bin, story.dat), and font formats spanning the above engines; also Unity AssetBundle/global-metadata.dat text extraction and krkr xp3/xp3-hxv4 (including CxEncryption/HxEncryption key dumping and static/dynamic hash calculation).
+* [chinesize](https://github.com/regomne/chinesize) ⭐ 321 | 🐛 1 | 🌐 C++ | 📅 2023-10-16 - Large collection of reverse-engineering tools/scripts for dozens of (mostly Chinese-market) visual novel engines.
+  * Engines: ACPX, AdvPlayer/AdvTry (AVG32 family), advwin32, ARDScript, Artemis, BGI (Buriko General Interpreter), CatSystem2, Circus (Mes), DeboPak, DxLib, Entis GLS, ExHIBIT, FAVORITE, FFDSystem, GameScripter, GsWin (GsPack4), InnocentGrey, ISM, Kirikiri2, Liar-soft, Lpg, Lucifen, Majiro, Malie, MgBase, Musica, N2System, NeXAS, Overflow, QLIE, RealLive, rUGP, Silky, System4, SystemC, Xuse, Yatagarasu, Yuka Script, YU-RIS.
 * [GameTracking](https://github.com/SteamTracking/GameTracking) ⭐ 303 | 🐛 0 | 🌐 Shell | 📅 2026-08-17 - Shared CI tooling behind the community's per-game Steam depot trackers, downloading and processing game update files across dozens of Valve titles (Dota 2, CS2, Half-Life, Portal, TF2, and more), including protobuf dumping and VPK content extraction.
+* [CNGALTools](https://github.com/YeLikesss/CNGALTools) ⭐ 303 | 🐛 0 | 🌐 C++ | 📅 2026-08-30 - Large toolkit of unpacking/decryption tools for domestic and officially-licensed Chinese-market Galgames, covering 25+ unrelated studios and custom engines.
+  * Studios/Engines: NVL/Navila Software Japan (BKEngine, NVLKrkr2, NVLUnity, NVLWeb), Strrationalism (Snowing), BlueAngel, Fontainebleau, ZixSolution (customized Ren'Py), iFAction, AsicxArt, XinYvanGames, SoraPlayer, Irregulars, Visual Novel Maker, Game Creator, OrangeStudio, SeparateHearts, YeTuGames, OurshowGames, CaramelMochaStudio, PygmaGame (modified Ren'Py, several sub-studios), Xso, XiangShe, YuriAVGEngine, SanHuaMiao, SugarRush, JveXingGames, PotatoFlowerProduction, and the SyawaseWorks/HikariField/NekoNyan Chinese localization publishers; also includes a universal Kirikiri XP3 decryption filter and Ren'Py/Unreal Engine unpackers.
+* [Niflheim](https://github.com/Yggdrasill-Moe/Niflheim) ⭐ 217 | 🐛 3 | 🌐 C | 📅 2023-08-28 - Collection of reverse-engineering tools/scripts for Nintendo Switch ports of Japanese visual novels, covering multiple unrelated engines.
+  * Engines: AliceSoft, CMVS, DDSystem, ExHIBIT, GPK2, Ivory, KaGuYa, Majiro, NEKOPACK, NeXAS, RioShiina, SOFTPAL ADV System, Studio Seldom Adventure System.
 * [bevy\_trenchbroom](https://github.com/Noxmore/bevy_trenchbroom) ⭐ 153 | 🐛 11 | 🌐 Rust | 📅 2026-08-13 - Quake level format support (.map, .bsp) and TrenchBroom integration for Bevy engine. Enables loading and rendering of Quake-based game levels.
-* [resource\_dasm](https://github.com/fuzziqersoftware/resource_dasm) ⭐ 152 | 🐛 10 | 🌐 C++ | 📅 2026-09-04 - Classic Mac OS resource fork disassembler and reverse-engineering toolkit, with format decoders for dozens of classic Macintosh games.
+* [resource\_dasm](https://github.com/fuzziqersoftware/resource_dasm) ⭐ 152 | 🐛 9 | 🌐 C++ | 📅 2026-09-04 - Classic Mac OS resource fork disassembler and reverse-engineering toolkit, with format decoders for dozens of classic Macintosh games.
 * [ReflectionHLE](https://github.com/ReflectionHLE/ReflectionHLE) ⭐ 136 | 🐛 6 | 🌐 C | 📅 2026-07-17 - Collection of source ports/reimplementations spanning multiple unrelated DOS studios, reading each game's original data files.
   * Games: id Software (Keen Dreams, Wolfenstein 3D and derived games), the 3D Catacomb Adventure series, Apogee Software (Bio Menace).
 * [zx-spectrum-games](https://github.com/mrcook/zx-spectrum-games) ⭐ 110 | 🐛 1 | 🌐 Assembly | 📅 2023-12-29 - Collection of annotated ZX Spectrum game source code disassemblies as SkoolKit `.skool` files, gathering and preserving disassembly efforts spread across many authors and studios.
   * Games: Ultimate Play the Game (Knight Lore, Alien 8), Beyond Software/Lunysoft (Tir Na Nog, Dun Darach), Bug-Byte (Through The Trap Door), Mikro-Gen (Stormbringer), Firebird (Spellbound, Knight Tyme), Mirrorsoft (Dynamite Dan 2), Faster Than Light (Atic Atac), and Chaos: The Battle of Wizards.
   * Also links out to the same author's other standalone disassemblies (JetPac, Lords of Midnight, Chuckie Egg) and related third-party disassembly collections (Skool Daze, Back to Skool, Manic Miner, Jet Set Willy, The Great Escape, and several Paul Maddern/Ritchie Swann works-in-progress).
+* [MyVisualNovelTransTools](https://github.com/julixian/MyVisualNovelTransTools) ⭐ 90 | 🐛 0 | 🌐 C++ | 📅 2026-08-03 - Large collection of translation-oriented extraction tools for many otherwise-unsupported visual novel engines.
+  * Engines: LiLiM, ACTGS, Studio Polaris, AGSI, Ai5Win, AIL, Ankh, Aoi, AZ System, and others.
+* [Tools](https://github.com/1F1E33-float32/Tools) ⭐ 85 | 🐛 0 | 🌐 Python | 📅 2025-10-25 - Large personal collection of extraction, unpacking, and text-cleaning tools spanning dozens of visual novel engines plus other unrelated engines/games. See also [Tools\_Boost](https://github.com/1F1E33-float32/Tools_Boost) ⭐ 2 | 🐛 0 | 🌐 C++ | 📅 2025-10-31, an accelerated native module for performance-critical parts of the pure-Python project.
+  * VN Engines: ADVPlayerHD, ArkEngine, ArtemisEngine, BGI, BSXScript, Black Cyc, BlackRainbow, CIRCUS (Mes), CatSystem2, DATE A LIVE engine, DXLib, Escude, Eushully, ExHIBIT, FSNr, HunX, IDEA FACTORY, Interheart, LiLiM, Liar-soft, Littlewitch, Malie, Mirai, NeXAS/NeXAS\_Unity, NekoSDK, PJADV, PRM, Propeller, RyuEngine, ShiinaRio, SiglusEngine, Talesshop, UTAGE, Xuse, YuRis, Kirikiri (krkr), Majiro; plus text-cleaning scripts for CMVS, Debonosu Works, FAVORITE, Genshin Impact/Honkai: Star Rail Chinese text, QLIE, Softpal, Will Co., AliceSoft, and minori-engine titles.
+  * Standalone VN Games: Gensou Manège, Guunmong, HUNDRED LINE -Saishuu Bouei Gakuen-, Kieta Sekai to Tsuki to Shoujo, Sora no Kiseki the 1st, Soushin no Ars Magna, Steam Prison, Taimanin Yukikaze 2, VIRTUAL GIRL @ WORLD'S END, VenusBlood Lagoon, and several Yuzusoft titles (Bra-Ban!, ExE, Noble★Works).
+  * Other: Telltale Games (Local single-player games), plus Unity- and Unreal Engine-based online games, and misc scripts for 2dfan/vndb metadata scraping and OggS audio stream cleanup.
 * [HyoutaTools](https://github.com/AdmiralCurtiss/HyoutaTools) ⭐ 74 | 🐛 8 | 🌐 C# | 📅 2025-12-14 - .NET CLI collection of tools for packing and unpacking video game archives. Includes functions for extracting data from and reinserting data into various games.
+* [clank](https://github.com/hashsploit/clank) ⭐ 59 | 🐛 24 | 🌐 Java | 📅 2022-08-30 - High-performance open-source server implementation of Sony's Medius (SCE-RT) online multiplayer protocol used by many PS2/PS3-era games, reverse engineering its network protocol and data structures.
+  * Tools: See also the author's [medius-wireshark](https://github.com/hashsploit/medius-wireshark) ⭐ 4 | 🐛 2 | 🌐 Lua | 📅 2022-01-10, a Wireshark dissector for the Medius protocol.
+  * Games: Ratchet & Clank: Up Your Arsenal, Jak X: Combat Racing, Killzone, Syphon Filter: Logan's Shadow, Amplitude, and other Sony-published online titles using Medius.
+* [msg-tool](https://github.com/lifegpc/msg-tool) ⭐ 56 | 🐛 3 | 🌐 Rust | 📅 2026-07-29 - Rust CLI for exporting and importing visual novel scripts, images, and archives, with output to GalTransl JSON, YAML, or Gettext PO for translation workflows.
+  * Engines: Artemis, BGI/Ethornell, CatSystem2, Circus, and many others (feature-gated, extensive per-engine script/archive/image support matrix).
+* [asmodean-tools](https://github.com/hiroshil/asmodean-tools) ⭐ 50 | 🐛 1 | 🌐 Batchfile | 📅 2023-10-03 - Mirror of asmodean's long-running collection of archive/image extraction tools for dozens of Japanese visual novel/eroge titles and engines.
+* [GameEngineTools](https://github.com/rewjx/GameEngineTools) ⭐ 44 | 🐛 3 | 🌐 C# | 📅 2022-07-27 - Tools for unpacking, editing, and repacking resources from several ADV game engines.
+  * Engines/Games: Comic3, CatSystem-for-Unity, Calcite, AQUAStyle (tested on Touhou Genso Wanderer), Cadath.
 * [vgio](https://github.com/joshuaskelly/vgio) ⭐ 42 | 🐛 13 | 🌐 Python | 📅 2026-02-13 - Python library for reading and writing game file formats. Supports Quake, Duke Nukem 3D, Quake II, Hexen II, HROT, and Devil Daggers (BSP, MAP, and related formats).
-* [ReVN](https://github.com/Dir-A/ReVN) ⚠️ Archived - Visual novel engine reverse-engineering toolkit with pack editors, script text editors, and image/data (de)cryptors for the GSD, PJADV, and Valkyria visual novel engines (archived).
+* [vn-packunpack](https://github.com/jpnoob/vn-packunpack) ⭐ 31 | 🐛 1 | 🌐 Python | 📅 2022-08-17 - Packers and unpackers for several visual novel file formats.
+* [ReVN](https://github.com/Dir-A/ReVN) ⚠️ Archived - Visual novel engine reverse-engineering toolkit with pack editors, script text editors, and image/data (de)cryptors for the GSD, PJADV, CMVS, and Valkyria visual novel engines (archived). See also [RxCMVS](https://github.com/ZQF-ReVN/RxCMVS) ⚠️ Archived and [RxGSD](https://github.com/ZQF-ReVN/RxGSD) ⚠️ Archived, the standalone successor tools for the CMVS and GSD engines respectively.
+* [VisualNoveltools](https://github.com/yy487/VisualNoveltools) ⭐ 28 | 🐛 0 | 🌐 Python | 📅 2026-09-04 - Actively-maintained personal grab-bag of unpacking/repacking, image, and script-extraction tools organized one folder per game/engine, with completeness varying by title.
+  * Engines: BGI, AI5WIN/AI6WIN, Kirikiri, Lucifen, NeXAS, PJADV, Liar-soft/raiL-soft, RealLive, rUGP, Silky, Xuse, Yuka, AVG32, GsPack, ACTGS, ADVWIN32, AZ System, Studio e.go! (ego), NitroPlus, Leaf, and dozens of other individually-named titles.
 * [libgamearchive](https://github.com/Malvineous/libgamearchive) ⭐ 26 | 🐛 2 | 🌐 C++ | 📅 2017-10-02 - Camoto C++ library and command-line utilities for examining, extracting, and editing archive/group file formats used by classic DOS games.
   * Games: Doom, Duke Nukem 3D, Blake Stone, Halloween Harry, Word Rescue, Cosmo's Cosmic Adventures, Crystal Caves, Monster Bash, God of Thunder, Jill of the Jungle, Xargon, Vinyl Goddess From Mars, and more.
 * [reamberPy](https://github.com/Eve-ning/reamberPy) ⭐ 25 | 🐛 4 | 🌐 Python | 📅 2024-11-08 - Vertical scrolling rhythm game (VSRG) mapping toolbox for data extraction, manipulation, and analysis.
   * Games: osu!mania, StepMania, BMS, and partially O2Jam.
   * Features: Map I/O, format conversion, map image generation, pattern extraction.
+* [gus](https://github.com/darkstar/gus) ⭐ 24 | 🐛 1 | 🌐 C# | 📅 2022-10-14 - "General Unpack Shell", a small extensible command-line tool to list, unpack, and (for some formats) repack archive/data files from games via a common syntax.
+  * Games: ElSword (KOM), Dungeon Siege 1 & 3 (Tank/OAF), Falcom's Farland Symphony (PAC), Legend of Grimrock, Plants vs. Zombies, Might & Magic/World of Xeen (LOD), Nippon Ichi Software titles (NISPACK DAT), Fairy Bloom Freesia (TGP), YS Online (YSF), Ren'Py (RPA) games, and other Trinigy/Havok Vision Engine titles.
+  * Formats: AFS, ARJ, CPK, GLB, PAC, YPAC (Yu-ris), ZIP, among others; see the project's `gus -ll` for the full supported-format list.
+* [galgame-script-tool](https://github.com/cssxsh/galgame-script-tool) ⭐ 22 | 🐛 0 | 🌐 C# | 📅 2025-09-05 - Script text extraction/import tool covering multiple visual novel engines.
+  * Engines: BGI/Ethornell, CatSystem2, Ikura GDL, Mutation, SYSTEM-ε, Tama-Soft, WILL.
 * [gamearchive.js](https://github.com/camoto-project/gamearchivejs) ⭐ 21 | 🐛 0 | 🌐 JavaScript | 📅 2022-10-31 - JavaScript library for reading and writing custom archive formats used by MS-DOS games from the 1990s, with a unified API across formats.
   * Games: Alien Carnage, Bio Menace, Blake Stone, Blood, Catacomb 3-D series, Commander Keen 4-6, Cosmo's Cosmic Adventures, Crystal Caves, Dangerous Dave, Death Rally, Descent, Doom, Duke Nukem 3D, Duke Nukem II, Halloween Harry, Hocus Pocus, Lost Vikings, Monster Bash, Raptor, Redneck Rampage, Shadow Warrior, Spear of Destiny, Stargunner, Terminal Velocity, Wolfenstein 3-D, Word Rescue, and more (55+ games total).
   * Formats: BNK, RFF, gamemaps (id RLEW/Carmack), VOL, STN, exe-embedded archives, WAD, GRP (BUILD), HOG, DLT, POD, GLB, BPA, EPF, DAT (various), GXLib, LBR, and others.
-* [UTPackage.js](https://github.com/bunnytrack/UTPackage.js) ⭐ 21 | 🐛 0 | 🌐 TypeScript | 📅 2026-09-03 - JavaScript library for reading Unreal Tournament 99 package format. Compatible with other Unreal Engine 1 games including Deus Ex, Rune, Harry Potter, Clive Barker's Undying, Nerf Arena Blast, and Wheel of Time.
+* [UTPackage.js](https://github.com/bunnytrack/UTPackage.js) ⭐ 21 | 🐛 0 | 🌐 TypeScript | 📅 2026-09-04 - JavaScript library for reading Unreal Tournament 99 package format. Compatible with other Unreal Engine 1 games including Deus Ex, Rune, Harry Potter, Clive Barker's Undying, Nerf Arena Blast, and Wheel of Time.
 * [Alexandria](https://github.com/Burton-Radons/Alexandria) ⭐ 16 | 🐛 1 | 🌐 C# | 📅 2014-08-11 - .NET library collection for viewing and processing data from many classic PC games, with a plugin-oriented architecture.
   * Games: Demon's Souls, Dark Souls, Dark Souls 2; Sierra AGI adventures; SSI Gold Box RPGs (most comprehensive Gold Box decoder available); Ultima I-IX, Ultima Underworld 1-2, System Shock; Morrowind; Outcast; Albion; Arcanum; Planets Edge; Nintendo DS and Wii games; Super Famicom games; Unreal engine games.
   * Features: Unified viewer/modifier interface, script visualizer for Gold Box games, Visual Studio plugin framework.
 * [porter-lib](https://github.com/dtzxporter/porter-lib) ⭐ 16 | 🐛 0 | 🌐 Rust | 📅 2026-08-28 - Rust library for extracting 3D models, animations, and game assets across multiple games. Cross-platform (Windows, Linux, macOS).
+* [miniTool](https://github.com/Chenx221/miniTool) ⭐ 15 | 🐛 0 | 🌐 C# | 📅 2025-07-04 - Collection of small standalone unpacking/decryption/patching utilities, each targeting a different unrelated Japanese visual novel/eroge title.
+  * Games: Imokone - Todoketai Koigokoro (`.arc` unpacker), Shirokuro ~~Iroshoujou no Osananajimi wo Sewa Suru Koto ni Natta, Kanojo ni Naisho de~~ (`.arc` unpacker), Iris Mysteria! (DMM/FANZA `.encrypted` archive decryptor), Nukige-jima 1 & 2 Remaster (Artemis-engine CG extractor), Koi to Senkyo to Chocolate Steam release (multi-language `.dat` unpacker), Tsuki ni Yorisou Otome no Sahou 2 Steam release (`.pac` unpacker), Nie no Hakoniwa (EXFS archive extractor), VIRTUAL GIRL @ WORLD'S END (unpacker).
+  * Also includes: a serial-verification patch for Triangle PIX GAME STUDIO engine games (tested on a dozen titles including the Mahou Senshi and Koushouken Hime Arc Braver series), a GUID-check patch for AdvHD.exe games, and a serial-check patch for Yu-Ris engine games.
 * [modId](https://github.com/owenmpierce/modId) ⭐ 13 | 🐛 2 | 🌐 C | 📅 2023-06-24 - Tool for generating EGAGRAPH/VGAGRAPH-style graphics archive files for the 16-bit DOS games made by id Software.
 * [retrocompress](https://github.com/bbitmaster/retrocompress) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-06-01 - Provably-optimal compressor/decompressor for the 3-bit-command/5-bit-length LZ-style compression format family shared by many 4th/5th-gen Nintendo, Capcom, Konami, and HAL Laboratory titles.
   * Games: Super Mario World, Kirby's Adventure (NES), Kirby Super Star (SNES), Super Metroid (SNES), The Legend of Zelda: A Link to the Past, Castlevania IV, Pokemon Gold/Silver, and other Capcom/Konami SNES titles using the "Konami block" variant.
@@ -2177,7 +2346,7 @@ This list is for developers and modders working with such formats. It provides t
   * Games: Harmonix titles (Frequency, Amplitude, Guitar Hero series, Rock Band series 1-4, Beatles, Green Day, Lego, VR, Karaoke Revolution, Disney Fantasia),
     Konami rhythm games (DDR Universe 1-3, DDR 2010, Dance Masters), FreeStyleGames (DJ Hero series, Guitar Hero Live, Sing Party), Psychonauts, Power Gig.
 * [TrbModelConverter](https://github.com/AdventureT/TrbModelConverter) ⭐ 2 | 🐛 0 | 🌐 C++ | 📅 2020-05-11 - Extracts 3D model data from .trb archive format to FBX. Supports Nicktoons series, Barnyard, de Blob, and other games.
-* [Mixup](https://github.com/Fabulu/Mixup) ⭐ 0 | 🐛 0 | 🌐 JavaScript | 📅 2026-09-03 - Hand-translates console game disassembly into readable, modifiable JavaScript (not emulation), verifying each translated routine frame-by-frame against the original ROM running in an emulator.
+* [Mixup](https://github.com/Fabulu/Mixup) ⭐ 0 | 🐛 0 | 🌐 JavaScript | 📅 2026-09-05 - Hand-translates console game disassembly into readable, modifiable JavaScript (not emulation), verifying each translated routine frame-by-frame against the original ROM running in an emulator.
   * Games: Batman: Return of the Joker (Game Boy, complete), Gradius (NES, all seven stages playable), DoDonPachi DaiOuJou (arcade, in progress).
 * [amuse](https://github.com/AxioDL/amuse) - Real-time MIDI/SFX sequencer and alternate runtime library for games using Factor 5/Nintendo's MusyX audio engine.
   * Games: Metroid Prime series, Star Fox Adventures, Paper Mario: The Thousand Year Door (GameCube), Indiana Jones and the Infernal Machine, Star Wars Episode I, and the Rogue Squadron series.
@@ -2200,6 +2369,9 @@ This list is for developers and modders working with such formats. It provides t
   * Games: Vib-Ribbon (PS1), Gitaroo Man (PS2), Silent Hill 2 & 3 (PS2), Kingdom Hearts series (PS2), Rule of Rose (PS2), Musashi: Samurai Legend (PS2).
 * [EdnessP/scripts](https://github.com/EdnessP/scripts) ⭐ 26 | 🐛 0 | 🌐 Python | 📅 2026-06-18 - Collection of scripts for various game file formats.
   * Games: Bully series, Burnout series (1, 2, 3, Legends, CRASH!), Call of Duty: Finest Hour, Jak & Daxter series (1, II, 3, X), Midnight Club series (2, 3), Saints Row series (2, Undercover), The Sims series (Bustin' Out, Urbz, 2, Pets, Castaway), The Simpsons Game, Tomb Raider (Wii), Need for Speed: Shift (PSP), Activision/Atari Anthology, Adventure Time, Bomberman Act:Zero, Big Rigs, Castle Strike, Driver: San Francisco, Epic Mickey, Exit, Freaky Flyers, Ready 2 Rumble Boxing, SpongeBob's Surf & Skate Roadtrip, Strike Suit Zero/Infinity, Yakuza 1 & 2 (PS2), and more.
+* [reconv](https://github.com/0xDC00/reconv) ⭐ 12 | 🐛 2 | 🌐 C# | 📅 2022-08-29 - Extractor/repacker library for localization-focused modding, despite a minimal README covering only a fraction of its actual scope.
+  * Games: The Evil Within 2, Drakengard 2, Catherine, Assassin's Creed II, Shadow of the Tomb Raider, NieR:Automata, Final Fantasy XV, God of War: Ghost of Sparta, Zero/Project Zero 2, and the PJADV visual novel engine.
+  * Formats: MSBT text, Nintendo LZ compression, and various per-game archive/text formats.
 * [dragon\_noesis](https://github.com/neptuwunium/dragon_noesis) ⚠️ Archived - Collection of Noesis plugins for various game formats including Dragon engine.
 * [Noesis Plugins](https://richwhitehouse.com/index.php?content=inc_projects.php\&showproject=91) - Community plugin collections extending Noesis support to hundreds more games.
   * See [6 major plugin collections](https://richwhitehouse.com/index.php?content=inc_projects.php#prjmp91) including Tales series, Midnight Club 2, Visceral Games titles, and many more formats.
@@ -2207,23 +2379,26 @@ This list is for developers and modders working with such formats. It provides t
 #### ROM/Save Extraction, Detection & Modding
 
 * [Zygisk-Il2CppDumper](https://github.com/Perfare/Zygisk-Il2CppDumper) ⭐ 3,282 | 🐛 173 | 🌐 C | 📅 2024-08-09 - Dumps IL2Cpp metadata from Unity games running on Android via Zygisk, enabling reverse-engineering of obfuscated game code and data.
-* [Archipelago](https://github.com/ArchipelagoMW/Archipelago) ⭐ 1,636 | 🐛 598 | 🌐 Python | 📅 2026-09-02 - Multi-game item randomizer and server, generating patched ROMs/mods and syncing item checks across game worlds.
+* [Archipelago](https://github.com/ArchipelagoMW/Archipelago) ⭐ 1,639 | 🐛 598 | 🌐 Python | 📅 2026-09-02 - Multi-game item randomizer and server, generating patched ROMs/mods and syncing item checks across game worlds.
   * Games: A Hat in Time, A Link to the Past, A Short Hike, Aquaria, Blasphemous, Bomb Rush Cyberfunk, Bumper Stickers, Castlevania - Circle of the Moon, Castlevania 64, Celeste 64, Celeste (Open World), ChecksFinder, Choo-Choo Charles, Civilization VI, Dark Souls III, DLCQuest, DOOM 1993, DOOM II, EarthBound, Factorio, Faxanadu, Final Fantasy, Final Fantasy Mystic Quest, Gauntlet Legends, Heretic, Hollow Knight, Hylics 2, Inscryption, Jak and Daxter, Kingdom Hearts, Kingdom Hearts 2, Kirby's Dream Land 3, Landstalker - The Treasures of King Nole, Lingo, Lufia II Ancient Cave, Mario & Luigi Superstar Saga, Mega Man 2, Mega Man 3, MegaMan Battle Network 3, Meritous, Muse Dash, Noita, Ocarina of Time, Old School Runescape, Overcooked! 2, Paint, Pokemon Emerald, Pokemon Red and Blue, Raft, Risk of Rain 2, Satisfactory, Saving Princess, Secret of Evermore, Shivers, SMZ3, Sonic Adventure 2 Battle, Starcraft 2, Subnautica, Super Mario 64, Super Mario Land 2, Super Mario World, Super Metroid, Terraria, The Legend of Zelda, The Messenger, The Wind Waker, The Witness, Timespinner, TUNIC, Undertale, VVVVVV, Wargroove, Yacht Dice, Yoshi's Island, Yu-Gi-Oh! 2006, Zillion.
-* [RomPatcher.js](https://github.com/marcrobledo/RomPatcher.js) ⭐ 1,187 | 🐛 19 | 🌐 JavaScript | 📅 2026-08-28 - JavaScript ROM patcher supporting IPS, BPS, UPS, APS, PPF, and other binary patch formats across many console ROM formats (used for Mario, Pokemon, Smash, and countless other ROM hacks).
+* [RomPatcher.js](https://github.com/marcrobledo/RomPatcher.js) ⭐ 1,188 | 🐛 19 | 🌐 JavaScript | 📅 2026-08-28 - JavaScript ROM patcher supporting IPS, BPS, UPS, APS, PPF, and other binary patch formats across many console ROM formats (used for Mario, Pokemon, Smash, and countless other ROM hacks).
 * [XGP-save-extractor](https://github.com/Z1ni/XGP-save-extractor) ⭐ 974 | 🐛 261 | 🌐 Python | 📅 2025-10-09 - Python script that extracts/backs up savefiles from Xbox Game Pass for PC (UWP/WGS container) games, producing a ZIP per save that can usually be dropped straight into the Steam/Epic version's save directory.
   * Games: 40+ titles including Forza Horizon 5, Starfield, Palworld, Persona 5 Royal/Tactica, Lies of P, Hades, Doom Eternal, Final Fantasy XV, Yakuza 0, Manor Lords, and more.
-* [apollo-ps4](https://github.com/bucanero/apollo-ps4) ⭐ 630 | 🐛 16 | 🌐 C | 📅 2026-05-02 - Apollo Save Tool for PS4, decrypting and editing save data for a wide range of games. See also [apollo-ps5](https://github.com/bucanero/apollo-ps5) ⭐ 33 | 🐛 1 | 📅 2026-05-22 for PS5 and [apollo-saves](https://github.com/bucanero/apollo-saves) ⭐ 167 | 🐛 15 | 🌐 C | 📅 2026-08-24, the online save-game database backing the Apollo Save Tool family (PS3/PS4/PS5).
-* [apollo-ps3](https://github.com/bucanero/apollo-ps3) ⭐ 593 | 🐛 21 | 🌐 C | 📅 2026-05-02 - Apollo Save Tool for PS3, decrypting and editing save data for a wide range of games. See also the author's [save-decrypters](https://github.com/bucanero/save-decrypters) ⭐ 131 | 🐛 5 | 🌐 C | 📅 2026-07-17 collection above.
-* [awesome-n64-development](https://github.com/command-tab/awesome-n64-development) ⭐ 575 | 🐛 2 | 🌐 Python | 📅 2026-07-12 - Curated list of Nintendo 64 development and reverse-engineering resources including decompilation projects (SM64, Zelda OOT, Paper Mario), ROM analysis tools (N64LoaderWV for Ghidra), disassemblers, and asset extraction utilities.
+* [apollo-ps4](https://github.com/bucanero/apollo-ps4) ⭐ 631 | 🐛 16 | 🌐 C | 📅 2026-05-02 - Apollo Save Tool for PS4, decrypting and editing save data for a wide range of games. See also [apollo-ps5](https://github.com/bucanero/apollo-ps5) ⭐ 33 | 🐛 1 | 📅 2026-05-22 for PS5 and [apollo-saves](https://github.com/bucanero/apollo-saves) ⭐ 167 | 🐛 15 | 🌐 C | 📅 2026-08-24, the online save-game database backing the Apollo Save Tool family (PS3/PS4/PS5).
+* [apollo-ps3](https://github.com/bucanero/apollo-ps3) ⭐ 594 | 🐛 21 | 🌐 C | 📅 2026-05-02 - Apollo Save Tool for PS3, decrypting and editing save data for a wide range of games. See also the author's [save-decrypters](https://github.com/bucanero/save-decrypters) ⭐ 131 | 🐛 5 | 🌐 C | 📅 2026-07-17 collection above.
+* [awesome-n64-development](https://github.com/command-tab/awesome-n64-development) ⭐ 576 | 🐛 2 | 🌐 Python | 📅 2026-07-12 - Curated list of Nintendo 64 development and reverse-engineering resources including decompilation projects (SM64, Zelda OOT, Paper Mario), ROM analysis tools (N64LoaderWV for Ghidra), disassemblers, and asset extraction utilities.
 * [N64-Tools](https://github.com/jombo23/N64-Tools) ⭐ 333 | 🐛 39 | 🌐 C++ | 📅 2026-07-26 - Collection of N64 romhacking tools spanning multiple unrelated games.
   * Games: GoldenEye 007 (asset decompressor, ObjToAn8 model/animation converter), Eternal Darkness (decompressor), Conker's Bad Fur Day (font ripper), Super Smash Bros (file injector), plus general N64 utilities.
   * Tools: `GEDecompressor` (Blitz/Bolt/BOFS format decoders), `objtoan8`, `N64MidiTool`, `N64SoundbankTool`, `N64SoundListTool`, MIPS disassembler, and Analog Controls Mod xdelta patches for various games.
-* [randovania](https://github.com/randovania/randovania) ⭐ 217 | 🐛 322 | 🌐 Python | 📅 2026-09-04 - A randomizer platform for a multitude of games, generating patched game files with randomized item/location placement.
+* [randovania](https://github.com/randovania/randovania) ⭐ 217 | 🐛 323 | 🌐 Python | 📅 2026-09-05 - A randomizer platform for a multitude of games, generating patched game files with randomized item/location placement.
 * [game-extraction-toolbox](https://github.com/shawngmc/game-extraction-toolbox) ⭐ 135 | 🐛 51 | 🌐 Python | 📅 2025-05-15 - Python CLI tools for extracting ROMs from game rereleases and investigating game files.
 * [save-decrypters](https://github.com/bucanero/save-decrypters) ⭐ 131 | 🐛 5 | 🌐 C | 📅 2026-07-17 - Collection of custom save-game decrypters and checksum fixers for PS3, PSP, and PS4.
   * Games: GTA5, The Last of Us, Uncharted series, Metal Gear Solid series, Resident Evil series, Final Fantasy XIII series, and many more.
 * [XblContainerReader](https://github.com/LukeFZ/XblContainerReader) ⭐ 48 | 🐛 1 | 🌐 C# | 📅 2024-01-24 - CLI tool and library (LibXblContainer) to parse and interact with UWP/Xbox Game Pass save game containers (`containers.index`), covering many different games that use this container format.
 * [CrateModLoader](https://github.com/TheBetaM/CrateModLoader) ⭐ 47 | 🐛 12 | 🌐 C# | 📅 2022-07-02 - Mod loader with game-specific format detection, extraction, modification, and rebuilding across multiple games.
+* [ModAPI](https://github.com/FluffyFishGames/ModAPI) ⭐ 24 | 🐛 7 | 🌐 C# | 📅 2026-08-10 - Desktop mod management tool for managed-code (Mono) Unity survival games, handling per-game mod loading, dependency resolution, and injection.
+  * Games: The Forest, Subnautica, RAFT, Escape The Pacific, Green Hell.
+* [arcadeutils](https://github.com/DragonMinded/arcadeutils) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2022-05-01 - Python utilities for working with various arcade binaries, including generic binary patching and compression helpers used across several arcade-game modding projects.
 * [FileDetectionRuleSets](https://github.com/neptuwunium/FileDetectionRuleSets) ⭐ 1 | 🐛 0 | 🌐 PHP | 📅 2025-11-19 - Rule sets for file format detection across various tools and platforms.
   * Supports extracting ROMs from collections like Capcom Arcade Stadium, Street Fighter 30th Anniversary Collection, Mega Man Legacy Collections, SNK 40th Anniversary Collection, and many more.
 * [TSERipper](https://github.com/BLiNXthetimesweeperGOD/TSERipper) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-06-15 - Asset ripping tool for Torus Games handheld titles. Converts sprites, maps, and assets from GBA, Nintendo DS, Leapster, and N-Gage games into usable formats.
@@ -2232,9 +2407,9 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Emulators & TAS Tools
 
-* [BizHawk](https://github.com/TASEmulators/BizHawk) ⭐ 2,746 | 🐛 805 | 🌐 C# | 📅 2026-09-03 - Multi-system emulator built for tool-assisted speedrunning, with full rerecording, RAM search/watch, Lua scripting, and debugging tools across 20+ systems (NES, SNES, Genesis, Game Boy/GBA, N64, PS1, and more).
-* [ld-decode](https://github.com/happycube/ld-decode) ⭐ 411 | 🐛 26 | 🌐 Jupyter Notebook | 📅 2026-09-03 - Software-defined LaserDisc RF decoder, used to digitize and preserve laserdisc arcade games for emulators such as hypseus-singe/DICE.
-* [hypseus-singe](https://github.com/DirtBagXon/hypseus-singe) ⭐ 235 | 🐛 0 | 🌐 C | 📅 2026-08-30 - SDL3-based continuation of Daphne/Singe, emulating laserdisc arcade games by reading their original laserdisc video/ROM data. Companion [hypseus\_singe\_data](https://github.com/DirtBagXon/hypseus_singe_data) ⭐ 50 | 🐛 1 | 📅 2026-08-23 package provides the LUA game-definition scripts for dozens of supported titles (Dragon's Lair, Space Ace, Cliff Hanger, M.A.C.H. 3, and more).
+* [BizHawk](https://github.com/TASEmulators/BizHawk) ⭐ 2,747 | 🐛 804 | 🌐 C# | 📅 2026-09-03 - Multi-system emulator built for tool-assisted speedrunning, with full rerecording, RAM search/watch, Lua scripting, and debugging tools across 20+ systems (NES, SNES, Genesis, Game Boy/GBA, N64, PS1, and more).
+* [ld-decode](https://github.com/happycube/ld-decode) ⭐ 411 | 🐛 27 | 🌐 Jupyter Notebook | 📅 2026-09-03 - Software-defined LaserDisc RF decoder, used to digitize and preserve laserdisc arcade games for emulators such as hypseus-singe/DICE.
+* [hypseus-singe](https://github.com/DirtBagXon/hypseus-singe) ⭐ 235 | 🐛 1 | 🌐 C | 📅 2026-08-30 - SDL3-based continuation of Daphne/Singe, emulating laserdisc arcade games by reading their original laserdisc video/ROM data. Companion [hypseus\_singe\_data](https://github.com/DirtBagXon/hypseus_singe_data) ⭐ 50 | 🐛 1 | 📅 2026-08-23 package provides the LUA game-definition scripts for dozens of supported titles (Dragon's Lair, Space Ace, Cliff Hanger, M.A.C.H. 3, and more).
 * [ScriptHawk](https://github.com/Isotarge/ScriptHawk) ⭐ 96 | 🐛 5 | 🌐 Lua | 📅 2025-02-21 - Collection of BizHawk Lua scripts for RAM watching, memory manipulation, and TAS tooling across dozens of games.
 * [GBAHawk](https://github.com/alyosha-tas/GBAHawk) ⭐ 21 | 🐛 12 | 🌐 C# | 📅 2026-09-01 - Game Boy Advance emulator core fork of BizHawk, focused on hardware-accurate behavior verified against real console tests.
 * [dice-libretro](https://github.com/mittonk/dice-libretro) ⭐ 9 | 🐛 1 | 🌐 C | 📅 2026-08-21 - Libretro/RetroArch port of DICE (Discrete Integrated Circuit Emulator), emulating early arcade systems built from discrete logic components with no CPU.
@@ -2246,26 +2421,26 @@ This list is for developers and modders working with such formats. It provides t
 
 * [savegame-editors](https://github.com/marcrobledo/savegame-editors) ⭐ 1,314 | 🐛 134 | 🌐 JavaScript | 📅 2026-08-21 - Compilation of browser-based (HTML5) console savegame editors.
   * Games: The Legend of Zelda (Tears of the Kingdom, Breath of the Wild), Super Smash Bros. Ultimate, Hyrule Warriors (Wii U, Age of Calamity), Kid Icarus: Uprising, Final Fantasy Explorers, Mario Kart 7, Kirby (Super Kirby Clash, Team Kirby Clash Deluxe, Kirby's Blowout Blast), Picross 3D Round 2, Sushi Striker, Pokémon Picross, Pokémon Shuffle, Rhythm Paradise Megamix, StreetPass Mii Plaza.
-* [Smithbox](https://github.com/vawser/Smithbox) ⭐ 710 | 🐛 3 | 🌐 C# | 📅 2026-09-02 - Comprehensive modding toolkit for modern FromSoftware games.
+* [Smithbox](https://github.com/vawser/Smithbox) ⭐ 711 | 🐛 3 | 🌐 C# | 📅 2026-09-02 - Comprehensive modding toolkit for modern FromSoftware games.
   * Games: Elden Ring, Elden Ring: Nightreign, Armored Core VI, Sekiro, Dark Souls 1-3, Bloodborne, Demon's Souls.
   * Features: Map editor, model editor (FLVER), param editor, text editor, graphics param editor (GPARAM), material editor (MTD/MATBIN), texture viewer, file browser.
-* [libultraship](https://github.com/Kenix3/libultraship) ⭐ 342 | 🐛 150 | 🌐 C++ | 📅 2026-09-02 - Shared reimplementation of libultra (the Nintendo 64 SDK) and the O2R asset packaging system powering the Ship of Harkinian family of N64 decompilation PC ports.
+* [libultraship](https://github.com/Kenix3/libultraship) ⭐ 342 | 🐛 155 | 🌐 C++ | 📅 2026-09-02 - Shared reimplementation of libultra (the Nintendo 64 SDK) and the O2R asset packaging system powering the Ship of Harkinian family of N64 decompilation PC ports.
   * Games: The Legend of Zelda: Ocarina of Time (Shipwright), The Legend of Zelda: Majora's Mask (2ship2harkinian), Star Fox 64 (Starship), Mario Kart 64 (SpaghettiKart).
 * [WitchyBND](https://github.com/ividyon/WitchyBND) ⭐ 261 | 🐛 7 | 🌐 C# | 📅 2026-07-06 - Unpacker/repacker for FromSoftware game formats.
   * Games: Dark Souls 1-3, Bloodborne, Sekiro, Elden Ring, Armored Core VI
   * Formats: BND3, BND4, FFXBND, DCX, BXF3, BXF4, FMG, GPARAM, LUAGNL, LUAINFO, TPF, FXR1, FXR3, MATBIN
 * [DSLuaDecompiler](https://github.com/katalash/DSLuaDecompiler) ⭐ 159 | 🐛 2 | 🌐 C# | 📅 2025-05-10 - Decompiler for Lua/HavokScript bytecode in Dark Souls, DS3, Bloodborne, and Sekiro. Actively maintained successor to garyttierney/DSLuaDecompiler.
-* [FrogLord](https://github.com/Kneesnap/FrogLord) ⭐ 144 | 🐛 16 | 🌐 Java | 📅 2026-07-26 - Modding suite supporting level creation, 3D model import, unused-content viewing, and general file editing.
+* [FrogLord](https://github.com/Kneesnap/FrogLord) ⭐ 144 | 🐛 16 | 🌐 Java | 📅 2026-09-04 - Modding suite supporting level creation, 3D model import, unused-content viewing, and general file editing.
   * Games: Frogger: He's Back, Frogger: The Great Quest, Frogger Beyond, Frogger Rescue, Frogger Ancient Shadow, Beast Wars: Transformers, C-12: Final Resistance, MediEvil, MediEvil II, Moon Warrior.
-* [StringReloads](https://github.com/marcussacana/StringReloads) ⭐ 125 | 🐛 6 | 🌐 C# | 📅 2026-07-22 - Universal tool for injecting translated strings into any game via low-level assembly patching, without needing to reverse the game's own package/encryption format. Supports non-ASCII characters, auto word-wrap, and font/glyph-spacing adjustments. See also [LSTXLSTool](https://github.com/marcussacana/LSTXLSTool) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2021-03-30 for batch-exporting/importing its LST translation files to/from a single XLSX spreadsheet.
+* [StringReloads](https://github.com/marcussacana/StringReloads) ⭐ 125 | 🐛 6 | 🌐 C# | 📅 2026-09-05 - Universal tool for injecting translated strings into any game via low-level assembly patching, without needing to reverse the game's own package/encryption format. Supports non-ASCII characters, auto word-wrap, and font/glyph-spacing adjustments. See also [LSTXLSTool](https://github.com/marcussacana/LSTXLSTool) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2021-03-30 for batch-exporting/importing its LST translation files to/from a single XLSX spreadsheet.
 * [DKDave/Scripts](https://github.com/DKDave/Scripts) ⭐ 58 | 🐛 0 | 🌐 Python | 📅 2026-05-24 - Collection of 250+ QuickBMS, Python, and Noesis scripts for extracting archives, textures, and audio from games across PC, PS1-PS4, PSP, Xbox/Xbox 360, GameCube, Wii, Switch, Nintendo DS, Dreamcast, Saturn, and mobile platforms; corrected/updated versions of scripts previously shared on Xentax and Zenhax.
   * Games: Metal Gear Solid series, Silent Hill 3 & Origins, Devil May Cry 4, Resident Evil 0 & 2, Jak & Daxter, Kingdom Hearts (Birth by Sleep, Remix), Prince of Persia: Sands of Time, Mass Effect 1 & 2, Control, Alan Wake 2, Ghost of Tsushima, Star Wars: The Force Unleashed, F-Zero GX, Dishonored 2, Splatoon 3, Tony Hawk's Pro Skater, and many more.
 * [EditorCore](https://github.com/exelix11/EditorCore) ⚠️ Archived - Archived, proof-of-concept extensible 3D level editor for Nintendo Switch games with a plugin architecture.
   * Features: 3D level editing with search, drag, raycast, and undo; path rendering; per-game plugin extensions (see [OdysseyEditor](https://github.com/exelix11/OdysseyEditor) ⚠️ Archived and [EditorCore-Examples](https://github.com/exelix11/EditorCore-Examples) ⚠️ Archived).
   * Games: Super Mario Odyssey, Mario Kart 8 Deluxe, Captain Toad: Treasure Tracker.
 * [Paramdex](https://github.com/soulsmods/Paramdex) ⭐ 44 | 🐛 1 | 📅 2026-03-06 - Parameter file format specifications for FromSoftware games (DS1-3, Bloodborne, Sekiro, Demon's Souls, Elden Ring, Armored Core VI). Actively maintained successor to garyttierney/Paramdex.
+* [Nuxe](https://github.com/JKAnderson/Nuxe) ⭐ 42 | 🐛 0 | 🌐 C# | 📅 2026-08-29 - Game data unpacker for FromSoftware titles (Dark Souls, Elden Ring, Sekiro).
 * [Supercell-Flat-Converter](https://github.com/Daniil-SV/Supercell-Flat-Converter) ⚠️ Archived - Converts Supercell game assets between optimized Flatbuffer format and standard glTF. Supports Brawl Stars, Clash of Clans, Clash Royale, Clash Mini, and Squad Busters.
-* [Nuxe](https://github.com/JKAnderson/Nuxe) ⭐ 41 | 🐛 0 | 🌐 C# | 📅 2026-08-29 - Game data unpacker for FromSoftware titles (Dark Souls, Elden Ring, Sekiro).
 * [SC2FLA-FOSS-Edition](https://github.com/GenericName1911/SC2FLA-FOSS-Edition) ⭐ 36 | 🐛 0 | 🌐 Python | 📅 2025-12-29 - Converts Supercell .sc asset format (2D sprites/animations) to Adobe Animate .fla files. Supports Brawl Stars, Clash of Clans, Clash Royale, Squad Busters with SCTX texture support and spritesheet generation.
 * [mapfile\_parser](https://github.com/Decompollaborate/mapfile_parser) ⭐ 30 | 🐛 0 | 🌐 Rust | 📅 2026-08-22 - Library for parsing linker map files, used across multiple N64 decompilation projects to assist with matching original compiled code during reverse engineering.
 * [SCTX Converter](https://github.com/Daniil-SV/SCTX-Converter) ⭐ 27 | 🐛 0 | 🌐 C++ | 📅 2026-05-11 - Converts Supercell Texture (.sctx) files to PNG with metadata extraction in JSON format. Supports texture streaming and mip-mapping data.
@@ -2297,9 +2472,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### GameMaker
 
-* [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) ⭐ 2,031 | 🐛 333 | 🌐 C# | 📅 2026-09-03 - Tool for modding/decompiling GameMaker games.
+* [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) ⭐ 2,034 | 🐛 334 | 🌐 C# | 📅 2026-09-03 - Tool for modding/decompiling GameMaker games.
 * [OpenGMK](https://github.com/OpenGMK/OpenGMK) ⭐ 405 | 🐛 31 | 🌐 Rust | 📅 2026-07-16 - Rewrite of the GameMaker Classic (8.x) engine runners with additional tooling, loading and executing original .gmk-derived game data.
-* [cinnamon](https://github.com/Project-Sunshine-Native/cinnamon) ⭐ 390 | 🐛 0 | 🌐 C | 📅 2026-09-03 - GameMaker runtime reimplementation ('Cinnamon') that loads original compiled GameMaker game data, in the tradition of phosphorvm and OpenGMK.
+* [cinnamon](https://github.com/Project-Sunshine-Native/cinnamon) ⭐ 390 | 🐛 1 | 🌐 C | 📅 2026-09-03 - GameMaker runtime reimplementation ('Cinnamon') that loads original compiled GameMaker game data, in the tradition of phosphorvm and OpenGMK.
 * [GM8Decompiler](https://github.com/OpenGMK/GM8Decompiler) ⭐ 200 | 🐛 10 | 📅 2024-02-12 - Decompiler for GameMaker 8.x executables, recovering the original game's assets and code from compiled `.exe` files.
 * [LateralGM](https://github.com/IsmAvatar/LateralGM) ⭐ 114 | 🐛 7 | 🌐 Java | 📅 2024-10-03 - Free Game Maker source file editor.
 * [UndertaleTools](https://github.com/fjay69/UndertaleTools) ⭐ 92 | 🐛 7 | 🌐 C# | 📅 2023-08-02 - GameMaker data.win unpacker/packer.
@@ -2323,27 +2498,28 @@ This list is for developers and modders working with such formats. It provides t
 * [halflife](https://github.com/ValveSoftware/halflife) ⭐ 4,363 | 🐛 2,124 | 🌐 C++ | 📅 2024-10-02 - Valve's official Half-Life 1 SDK source release, containing the client/server game-logic DLL source that defines GoldSrc's original data formats.
 * [noclip.website (Source Engine)](https://github.com/magcius/noclip.website/tree/main/src/SourceEngine) ⭐ 4,251 | 🐛 86 | 🌐 TypeScript | 📅 2026-08-26 - In-browser Source engine map viewer supporting Counter-Strike: Source, Day of Defeat: Source, Half-Life 2, Half-Life 2: Deathmatch, Half-Life 2: Lost Coast, Half-Life 2: Episode 1, Half-Life 2: Episode 2, Team Fortress 2, Portal, Portal 2, Counter-Strike: Global Offensive, Left 4 Dead 2, The Stanley Parable, Infra, Neo Tokyo, and Estranged: Act I.
 * [noclip.website (GoldSrc)](https://github.com/magcius/noclip.website/tree/main/src/GoldSrc) ⭐ 4,251 | 🐛 86 | 🌐 TypeScript | 📅 2026-08-26 - In-browser GoldSrc map viewer supporting Half-Life, Counter-Strike, Team Fortress Classic, and Day of Defeat.
-* [xash3d-fwgs](https://github.com/FWGS/xash3d-fwgs) ⭐ 2,758 | 🐛 445 | 🌐 C | 📅 2026-09-01 - Cross-platform reimplementation of the GoldSrc engine, loading original Half-Life BSP/WAD/MDL game data. Actively maintained; companion to hlsdk-portable.
-* [ValveResourceFormat](https://github.com/ValveResourceFormat/ValveResourceFormat) ⭐ 2,411 | 🐛 68 | 🌐 C# | 📅 2026-09-03 - Source 2 Viewer is a powerful tool that allows you to browse VPK archives, view, extract, and decompile Source 2 assets, including maps, models, materials, textures, sounds, and more. Also includes C# library for reading and writing Valve Source engine resource files.
-* [source-engine](https://github.com/nillerusr/source-engine) ⭐ 2,219 | 🐛 130 | 🌐 C++ | 📅 2025-11-25 - Modified Source engine (2017) developed by Valve and leaked in 2020. Not for commercial purposes.
-* [Kisak-Strike](https://github.com/SwagSoftware/Kisak-Strike) ⭐ 1,211 | 🐛 27 | 🌐 C++ | 📅 2025-07-25 - Open-source, fully buildable CS:GO port on Source 1; requires original game assets.
+* [xash3d-fwgs](https://github.com/FWGS/xash3d-fwgs) ⭐ 2,759 | 🐛 445 | 🌐 C | 📅 2026-09-04 - Cross-platform reimplementation of the GoldSrc engine, loading original Half-Life BSP/WAD/MDL game data. Actively maintained; companion to hlsdk-portable.
+* [ValveResourceFormat](https://github.com/ValveResourceFormat/ValveResourceFormat) ⭐ 2,413 | 🐛 68 | 🌐 C# | 📅 2026-09-03 - Source 2 Viewer is a powerful tool that allows you to browse VPK archives, view, extract, and decompile Source 2 assets, including maps, models, materials, textures, sounds, and more. Also includes C# library for reading and writing Valve Source engine resource files.
+* [source-engine](https://github.com/nillerusr/source-engine) ⭐ 2,221 | 🐛 130 | 🌐 C++ | 📅 2025-11-25 - Modified Source engine (2017) developed by Valve and leaked in 2020. Not for commercial purposes.
+* [Kisak-Strike](https://github.com/SwagSoftware/Kisak-Strike) ⭐ 1,212 | 🐛 27 | 🌐 C++ | 📅 2025-07-25 - Open-source, fully buildable CS:GO port on Source 1; requires original game assets.
 * [ReHLDS](https://github.com/rehlds/ReHLDS) ⭐ 850 | 🐛 305 | 🌐 C++ | 📅 2026-08-27 - Reverse-engineered, enhanced Half-Life Dedicated Server (HLDS) engine with bug fixes, security patches, and optimizations; GoldSrc engine companion to ReGameDLL\_CS above.
-* [Crowbar](https://github.com/ZeqMacaw/Crowbar) ⭐ 820 | 🐛 46 | 🌐 Visual Basic .NET | 📅 2026-08-08 - All-in-one GoldSource and Source Engine modding tool: decompile/compile MDL model files, unpack game packages, and publish addons to Steam Workshop.
+* [Crowbar](https://github.com/ZeqMacaw/Crowbar) ⭐ 821 | 🐛 46 | 🌐 Visual Basic .NET | 📅 2026-08-08 - All-in-one GoldSource and Source Engine modding tool: decompile/compile MDL model files, unpack game packages, and publish addons to Steam Workshop. See also [Crowbar-Command-Line](https://github.com/UltraTechX/Crowbar-Command-Line) ⭐ 23 | 🐛 1 | 🌐 Visual Basic .NET | 📅 2020-06-26, a command-line build of Crowbar's model decompiler for automation and integration into other tools/pipelines.
 * [ReGameDLL\_CS](https://github.com/rehlds/ReGameDLL_CS) ⭐ 779 | 🐛 130 | 🌐 C++ | 📅 2026-08-27 - Enhanced, cross-platform server-side GameDLL reimplementation for Counter-Strike 1.6 and Condition Zero, a GoldSrc-format companion to ReHLDS.
   * See also [FWGS's fork](https://github.com/FWGS/regamedll) ⚠️ Archived.
 * [awpy](https://github.com/pnxenopoulos/awpy) ⭐ 610 | 🐛 29 | 🌐 Python | 📅 2026-09-03 - Python library for parsing and analyzing Counter-Strike 2 .dem demo files (via a Rust demoparser backend) and CS2 .nav navigation-mesh files, exposing tick-level player/event data as dataframes.
 * [halflife-updated](https://github.com/twhl-community/halflife-updated) ⭐ 487 | 🐛 22 | 🌐 C++ | 📅 2026-08-02 - TWHL community-maintained, modernized fork of Valve's Half-Life 1 SDK with bug fixes and cross-platform build support.
-* [hlsdk-portable](https://github.com/FWGS/hlsdk-portable) ⭐ 400 | 🐛 49 | 🌐 C++ | 📅 2026-08-27 - Cross-platform, actively maintained continuation of the Half-Life SDK for GoldSource and Xash3D, used to build original HL1 mod DLLs on modern OSes.
+* [hlsdk-portable](https://github.com/FWGS/hlsdk-portable) ⭐ 401 | 🐛 49 | 🌐 C++ | 📅 2026-08-27 - Cross-platform, actively maintained continuation of the Half-Life SDK for GoldSource and Xash3D, used to build original HL1 mod DLLs on modern OSes.
 * [freehl](https://github.com/eukara/freehl) ⭐ 320 | 🐛 10 | 🌐 QuakeC | 📅 2025-11-12 - Clean-room reimplementation of Half-Life and Half-Life: Deathmatch in QuakeC, reading original GoldSrc game data. The same author maintains similar clean-room reimplementations of other GoldSrc-era mod SDKs (freecs for Counter-Strike 1.5, freesci for Science and Industry, freegunman for Gunman Chronicles, freehunger for They Hunger, freegearbox for Opposing Force, freetfc for Team Fortress Classic, freepoke646 for Poke646).
 * [GameTracking (SteamDatabase)](https://github.com/SteamDatabase/GameTracking) ⭐ 303 | 🐛 0 | 🌐 Shell | 📅 2026-08-17 - Automated CI system that dumps Source 2 network protobufs, entity schemas, ConVars, and console commands from official Steam depot builds whenever a tracked game updates, useful for demo-parsing and protocol reverse engineering.
-  * Per-game repos: [GameTracking-CS2](https://github.com/SteamTracking/GameTracking-CS2) ⭐ 943 | 🐛 0 | 🌐 Slang | 📅 2026-08-28, [GameTracking-Deadlock](https://github.com/SteamTracking/GameTracking-Deadlock) ⭐ 71 | 🐛 0 | 🌐 C++ | 📅 2026-08-22, [GameTracking-HalfLifeAlyx](https://github.com/SteamTracking/GameTracking-HalfLifeAlyx) ⭐ 24 | 🐛 0 | 🌐 CSS | 📅 2025-08-19.
+  * Per-game repos: [GameTracking-CS2](https://github.com/SteamTracking/GameTracking-CS2) ⭐ 944 | 🐛 0 | 🌐 Slang | 📅 2026-08-28, [GameTracking-Deadlock](https://github.com/SteamTracking/GameTracking-Deadlock) ⭐ 71 | 🐛 0 | 🌐 C++ | 📅 2026-08-22, [GameTracking-HalfLifeAlyx](https://github.com/SteamTracking/GameTracking-HalfLifeAlyx) ⭐ 24 | 🐛 0 | 🌐 CSS | 📅 2025-08-19.
 * [MetaHookSv](https://github.com/hzqst/MetaHookSv) ⭐ 248 | 🐛 36 | 🌐 C++ | 📅 2026-08-30 - Port of MetaHook to SvEngine (GoldSrc as modified by the Sven Co-op team), a client-side modding framework for Sven Co-op and other GoldSrc-based games.
+* [CSMoE](https://github.com/MoeMod/CSMoE) ⭐ 233 | 🐛 32 | 🌐 C++ | 📅 2024-05-14 - "Counter-Strike Mobile-oriented Edition", a cross-platform (Windows, Linux, Android, iOS, UWP) client/engine built on Xash3D that loads the original purchased Counter-Strike 1.6/Half-Life GoldSrc game data to restore CSO/CSN:Z-style gameplay (bots, zombie modes, custom HUD).
 * [PrimeXT](https://github.com/SNMetamorph/PrimeXT) ⭐ 172 | 🐛 61 | 🌐 C++ | 📅 2026-08-23 - Modernized toolkit/engine extension for the Xash3D FWGS engine (a GoldSrc reimplementation), based on XashXT and Spirit of Half-Life, adding enhanced graphics and physics for mod-makers.
 * [HalfMapper](https://github.com/gzalo/HalfMapper) ⭐ 164 | 🐛 4 | 🌐 C++ | 📅 2021-09-11 - Renderer that loads and displays all Half-Life maps simultaneously, exploring the Black Mesa Research Facility by parsing the game's original BSP map data.
 * [vitaXash3D](https://github.com/fgsfdsfgs/vitaXash3D) ⭐ 161 | 🐛 33 | 🌐 C | 📅 2023-06-14 - PS Vita port of Xash3D-FWGS, loading original GoldSrc BSP/WAD/MDL game data (Half-Life, Counter-Strike, and other GoldSrc titles) natively on the Vita.
 * [SourceUtils](https://github.com/Metapyziks/SourceUtils) ⭐ 144 | 🐛 37 | 🌐 C# | 📅 2026-01-23 - Source Engine file format exporting toolkit with a WebGL-based map viewer, converting BSP maps and their assets for in-browser rendering.
 * [nuclide](https://github.com/VeraVisions/nuclide) ⭐ 141 | 🐛 3 | 🌐 QuakeC | 📅 2025-11-12 - Software development kit for building new games and mods on id Tech, used by freehl and related clean-room GoldSrc-era reimplementations.
-* [sourcepp](https://github.com/craftablescience/sourcepp) ⭐ 138 | 🐛 14 | 🌐 C++ | 📅 2026-09-04 - C++20 library suite for parsing Source Engine file formats (VTF, MDL, VVD, VPK, BSP, etc.).
+* [sourcepp](https://github.com/craftablescience/sourcepp) ⭐ 138 | 🐛 13 | 🌐 C++ | 📅 2026-09-04 - C++20 library suite for parsing Source Engine file formats (VTF, MDL, VVD, VPK, BSP, etc.).
 * [Unity-Source-Tools](https://github.com/lewa-j/Unity-Source-Tools) ⭐ 111 | 🐛 13 | 🌐 C# | 📅 2021-01-04 - Unity plugin for importing and extracting Source Engine game resources (maps and models).
 * [sledge-formats](https://github.com/LogicAndTrick/sledge-formats) ⭐ 100 | 🐛 3 | 🌐 C# | 📅 2026-08-12 - C# parsers and formats for Half-Life 1 and related engines.
 * [uSource](https://github.com/DeadZoneLuna/uSource) ⭐ 92 | 🐛 9 | 🌐 C# | 📅 2022-11-21 - Unity plugin for importing Source Engine formats (MDL, BSP, VTF, VMT, VPK, VVD, VTX).
@@ -2351,28 +2527,36 @@ This list is for developers and modders working with such formats. It provides t
   * Formats: VMF, BSP, VPK.
 * [source1import](https://github.com/kristiker/source1import) ⭐ 71 | 🐛 17 | 🌐 Python | 📅 2025-02-28 - Python scripts for importing Source 1 game assets (materials, models, particle effects) into Source 2.
 * [cs2typescript](https://github.com/Ansimist/cs2typescript) ⭐ 63 | 🐛 2 | 🌐 C# | 📅 2025-09-16 - Converts Counter-Strike 2 map-scripting files from .vts (TypeScript source) to the compiled .vts\_c format.
-* [Hammer5Tools](https://github.com/dertwist/Hammer5Tools) ⭐ 58 | 🐛 1 | 🌐 Python | 📅 2026-09-01 - Suite of editors (SoundEvent, SmartProp, Hotkey, Loading) for Counter-Strike 2 / Source 2 Workshop Tools content creation, complementing Valve's official Hammer 5 editor.
+* [Hammer5Tools](https://github.com/dertwist/Hammer5Tools) ⭐ 58 | 🐛 0 | 🌐 Python | 📅 2026-09-04 - Suite of editors (SoundEvent, SmartProp, Hotkey, Loading) for Counter-Strike 2 / Source 2 Workshop Tools content creation, complementing Valve's official Hammer 5 editor.
 * [ps2-hl-tools](https://github.com/supadupaplex/ps2-hl-tools) ⭐ 45 | 🐛 3 | 🌐 C++ | 📅 2022-01-27 - Tools for extracting and converting PS2 Half-Life port resources, including .pak archives, .dol models, .spz sprites, .psi images, .psf fonts, .vag music, .nod AI nodes, .epc model precache lists.
 * [UntitledParser](https://github.com/UncraftedName/UntitledParser) ⭐ 35 | 🐛 6 | 🌐 C# | 📅 2026-02-10 - Command-line parser and analysis tool for Source engine .dem demo files (HL2, CS:S, TF2, etc.).
 * [vpulse-editor](https://github.com/LionDoge/vpulse-editor) ⭐ 33 | 🐛 0 | 🌐 Rust | 📅 2026-08-05 - Unofficial editor for Source 2's Pulse visual scripting graph files, used in Dota 2, CS2, and Deadlock, filling a gap left by the lack of official Valve tooling for this format.
+* [gchimp](https://github.com/khanghugo/gchimp) ⭐ 29 | 🐛 19 | 🌐 Rust | 📅 2026-09-02 - Collection of GoldSrc mapping tools in one GUI/CLI application.
+  * Features: JoinMDL (combines multiple Hammer models into one), S2G (Source-to-GoldSrc model converter), SkyMod (skybox model generator from images), TexTile (texture tiling), Waddy (WAD editor), Map2Mdl (.map to .mdl converter), BLBH (baked light model accessor), plus a scripting API and misc utilities (.wav looper, .smd splitter).
 * [Source2SchemaDumper](https://github.com/GAMMACASE/Source2SchemaDumper) ⭐ 26 | 🐛 0 | 🌐 Python | 📅 2026-07-26 - Metamod-source plugin that dumps live Source 2 schema definitions (entity classes, metatags, atomics, pulse bindings, module metadata) to JSON or KV3 from a running CS2, Deadlock, or Dota 2 server, complementing GameTracking's CI-based depot dumps.
+* [S2GConverter](https://github.com/mrglaster/S2GConverter) ⭐ 25 | 🐛 0 | 🌐 Python | 📅 2025-08-20 - Python utility converting 3D models (with any polygon count and animations) from the Source engine to the GoldSource engine, including pseudo-normal-map generation and texture fusion for GoldSrc's rendering pipeline.
 * [UEditingTools](https://github.com/adenexvfx/UEditingTools) ⭐ 19 | 🐛 0 | 📅 2024-11-22 - Unreal Engine 5 widget/pipeline for importing CS2, CS:GO, CS:S, TF2, and CS 1.6 player, weapon, and viewmodel assets with correct skeletons, cameras, and sequencer/level placement; companion to the same author's io\_scene\_CSGO Blender importer.
 * [IDA-GameDataTracker](https://github.com/K4ryuu/IDA-GameDataTracker) ⭐ 18 | 🐛 0 | 🌐 C++ | 📅 2026-03-13 - IDA Pro plugin for tracking Source engine game functions across binary updates, automatically relocating function signatures, vtable offsets, and mid-function patterns. Exports to CounterStrikeSharp and SwiftlyS2 gamedata formats for CS2/Source Engine plugin development.
+* [talent](https://github.com/cgdangelo/talent) ⭐ 17 | 🐛 1 | 🌐 TypeScript | 📅 2024-04-20 - TypeScript GoldSrc demo (.dem) parser built on fp-ts parser combinators, decoding all frame types and `SVC_` network messages into readable data structures for real-time or offline demo analysis.
+* [dem](https://github.com/khanghugo/dem) ⭐ 16 | 🐛 3 | 🌐 Rust | 📅 2026-05-13 - Complete GoldSrc demo (.dem) parser and writer library in Rust.
 * [SourceLoader](https://github.com/K0bin/sourceloader) ⭐ 15 | 🐛 0 | 🌐 C# | 📅 2018-04-28 - Source Engine map loader supporting BSP, VTF, and MDL formats with OBJ export.
 * [source2-asset-assembler](https://github.com/LionDoge/source2-asset-assembler) ⭐ 15 | 🐛 0 | 🌐 Python | 📅 2026-07-14 - Tool to manually assemble various Source 2 assets, by the author of vpulse-editor above.
 * [lambda-core](https://github.com/Galaco/lambda-core) ⚠️ Archived - Go library for parsing Source Engine asset formats (VMT, VTF, MDL, BSP) with filesystem and resource management.
+* [kdr](https://github.com/khanghugo/kdr) ⭐ 12 | 🐛 4 | 🌐 Rust | 📅 2026-04-04 - Cross-platform GoldSrc map and demo viewer/renderer (WIP), reading original .bsp map and .mdl model data with lightmaps, transparency, and bone-based model animation.
+* [demogobbler](https://github.com/lipsanen/demogobbler) ⭐ 7 | 🐛 0 | 🌐 C++ | 📅 2025-08-02 - C library and CLI tools for parsing and writing Source engine and GoldSrc .dem demo files.
 * [FreeTS](https://github.com/Frag-Net/FreeTS) ⭐ 5 | 🐛 0 | 🌐 QuakeC | 📅 2026-06-29 - Clean-room reimplementation of The Specialists, another GoldSrc-era Half-Life mod, built on Nuclide and freehl.
 * [DemoViewer](https://github.com/dertwist/DemoViewer) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2025-04-20 - Viewer for Counter-Strike 2 / Source 2 .dem demo/replay files.
 * [hvox](https://github.com/fgsfdsfgs/hvox) ⭐ 3 | 🐛 0 | 🌐 Nim | 📅 2020-02-10 - Standalone player for Half-Life's sentence system, loading the game's original voice-pack WAV files and synthesizing SENTENCES.TXT-style scripted lines with per-word pitch/volume/timing control codes.
 * [go-valve](https://github.com/handsomematt/go-valve) ⭐ 2 | 🐛 0 | 🌐 Go | 📅 2018-03-21 - Go library for querying A2S server information from Source servers.
+* [dod-tools](https://github.com/cgdangelo/dod-tools) ⭐ 2 | 🐛 12 | 🌐 Rust | 📅 2025-08-31 - GUI/CLI utility for analyzing Day of Defeat (GoldSrc) .dem demo files, producing per-player Markdown/JSON match reports from POV demo recordings.
 * [powerjack](https://github.com/cohaereo/powerjack) ⭐ 0 | 🐛 0 | 🌐 Rust | 📅 2025-12-06 - Team Fortress 2 asset viewer and demo player. Features improved rendering with direct lightmap sampling from BSP data.
 
 #### Maps & BSP
 
 * [bspsrc](https://github.com/ata4/bspsrc) ⭐ 866 | 🐛 39 | 🌐 Java | 📅 2026-08-13 - Java-based map decompiler for Source engine .bsp files, reconstructing editable .vmf sources for Hammer.
-* [GtkRadiant](https://github.com/TTimo/GtkRadiant) ⭐ 658 | 🐛 170 | 🌐 C | 📅 2024-08-18 - Open source, cross-platform level editor for id Tech and Source engine games.
+* [GtkRadiant](https://github.com/TTimo/GtkRadiant) ⭐ 659 | 🐛 170 | 🌐 C | 📅 2024-08-18 - Open source, cross-platform level editor for id Tech and Source engine games.
 * [Counter-Strike-JS](https://github.com/VadimDez/Counter-Strike-JS) ⭐ 295 | 🐛 12 | 🌐 TypeScript | 📅 2025-09-18 - Counter-Strike 1.6 client reimplementation in TypeScript that parses and renders the game's original .bsp (v30) maps and .mdl (v10) models in the browser; requires the original `cstrike` game folder.
-* [bspguy](https://github.com/wootguy/bspguy) ⭐ 179 | 🐛 11 | 🌐 C | 📅 2026-09-03 - Edits GoldSrc (Half-Life) BSP maps without decompiling. Also views .MDL models. See also [UnrealKaraulov's fork](https://github.com/UnrealKaraulov/newbspguy) ⭐ 126 | 🐛 36 | 🌐 C++ | 📅 2026-03-04 with additional viewer features.
+* [bspguy](https://github.com/wootguy/bspguy) ⭐ 179 | 🐛 12 | 🌐 C | 📅 2026-09-03 - Edits GoldSrc (Half-Life) BSP maps without decompiling. Also views .MDL models. See also [UnrealKaraulov's fork](https://github.com/UnrealKaraulov/newbspguy) ⭐ 126 | 🐛 36 | 🌐 C++ | 📅 2026-03-04 with additional viewer features.
 * [hlviewer.js](https://github.com/skyrim/hlviewer.js) ⭐ 179 | 🐛 8 | 🌐 TypeScript | 📅 2026-08-02 - Browser-based GoldSrc viewer that loads and renders the engine's original .bsp maps, .wad textures, and .dem demo replays.
 * [GodotGoldSrcBSP](https://github.com/DataPlusProgram/GodotGoldSrcBSP) ⭐ 159 | 🐛 3 | 🌐 GDScript | 📅 2021-10-20 - Godot plugin to load GoldSrc BSP map files, companion to the same author's Godot-GoldSrc-MDL-Importer.
 * [HammerAddons](https://github.com/TeamSpen210/HammerAddons) ⭐ 157 | 🐛 84 | 🌐 Python | 📅 2026-07-30 - Hammer editor addons for BSP file processing, entity support, and auto-packing Source Engine game assets.
@@ -2383,6 +2567,7 @@ This list is for developers and modders working with such formats. It provides t
 * [WifeRadiant](https://github.com/erysdren/WifeRadiant) ⭐ 121 | 🐛 8 | 🌐 C++ | 📅 2026-09-01 - Open-source, cross-platform level editor for idTech, Source Engine, and GoldSrc based games; modern fork of NetRadiant.
 * [valve-bsp-parser](https://github.com/ReactiioN1337/valve-bsp-parser) ⭐ 110 | 🐛 3 | 🌐 C++ | 📅 2024-01-05 - Parser for Valve BSP (Binary Space Partition) map files.
 * [LibBSP](https://github.com/wfowler1/LibBSP) ⭐ 107 | 🐛 5 | 🌐 C# | 📅 2026-04-19 - C# library for parsing BSP map files across Quake-derived engines, including Quake 1/2/3, GoldSrc, Source, and other idTech forks. Used by BSP Importer for Unity3D and BSP Decompiler.
+* [SDHLT](https://github.com/seedee/SDHLT) ⭐ 100 | 🐛 14 | 🌐 C++ | 📅 2026-09-02 - Half-Life engine map compile tools (compiling to the game's original .bsp/.wad formats), based on Vluzacn's ZHLT v34 with contributions from various mappers; adds shadows from studiomodels, new entities, additional tool textures, world size extensions, and J.A.C.K. portal-file optimization. See also [hltools](https://github.com/speedrun-16/hltools) ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2026-09-02, a from-scratch rewrite of the same toolchain focused on faster compilation and a unified CLI.
 * [hlbsp](https://github.com/rein4ce/hlbsp) ⭐ 97 | 🐛 2 | 🌐 JavaScript | 📅 2020-04-26 - Half-Life WebGL level and model viewer, loading and rendering the game's original .bsp and .mdl files.
 * [uQuake3](https://github.com/mikezila/uQuake3) ⭐ 83 | 🐛 1 | 🌐 C# | 📅 2015-06-09 - Unity3D importer for Quake 3 BSP map files, enabling Quake 3 levels to be loaded and used inside the Unity engine.
 * [corvid](https://github.com/KILLTUBE/corvid) ⭐ 75 | 🐛 2 | 🌐 Python | 📅 2024-10-26 - Source Engine level converter for Call of Duty.
@@ -2397,9 +2582,11 @@ This list is for developers and modders working with such formats. It provides t
 * [GldSrcBSPditor](https://github.com/Sergey-KoRJiK/GldSrcBSPditor) ⭐ 17 | 🐛 0 | 🌐 Pascal | 📅 2025-09-09 - GoldSrc BSP viewer and editor for Half-Life, supporting lightmap editing (import/export per face and style) and texture editing (import/export per mipmap, mass export to WAD3).
 * [vmflib-godot](https://github.com/craftablescience/vmflib-godot) ⭐ 13 | 🐛 0 | 🌐 GDScript | 📅 2023-03-10 - Godot 4 library for creating and exporting Source Engine VMF map files (targeted at Portal 2).
 * [Chisel.Import.Source](https://github.com/Henry00IS/Chisel.Import.Source) ⭐ 13 | 🐛 0 | 🌐 C# | 📅 2024-09-28 - Valve Map Format (VMF) importer for Unity's Chisel Editor, allowing Source Engine VMF maps to be imported and edited in Unity.
+* [hlbsp-viewer](https://github.com/r4v3n6101/hlbsp-viewer) ⭐ 10 | 🐛 3 | 🌐 Rust | 📅 2024-06-17 - Viewer for Half-Life (GoldSrc) .bsp maps.
 * [func\_godot\_docs](https://github.com/func-godot/func_godot_docs) ⭐ 9 | 🐛 8 | 🌐 HTML | 📅 2025-12-28 - Documentation for FuncGodot, a Godot plugin for building levels using the id Tech/Quake .MAP text-based map format.
 * [BSPUtils](https://github.com/Donkie/BSPUtils) ⭐ 6 | 🐛 1 | 🌐 C# | 📅 2026-04-14 - Command-line .NET Core programs and library for interacting with the Source Engine's Binary Space Partition (.bsp) file format, including lump extraction.
 * [VertAlert](https://github.com/ItEndsWithTens/VertAlert) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2013-03-28 - Finds, displays, and optionally rounds floating point plane coordinates in Source Engine .vmf map files.
+* [bsparchive](https://github.com/clintonbale/bsparchive) ⭐ 5 | 🐛 2 | 🌐 C | 📅 2022-10-26 - Reads a GoldSrc .bsp map file's embedded entity data to identify and archive all of its resource dependencies (textures, sounds, sprites, models), for backing up Half-Life mod maps.
 * [qbsp-gltf](https://github.com/JarrodDoyle/qbsp-gltf) ⭐ 3 | 🐛 0 | 🌐 Rust | 📅 2026-05-27 - CLI tool to convert Quake 2 BSP map files to binary glTF (.glb) models.
 * [vmfpy](https://github.com/lasa01/vmfpy) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2022-02-07 - Python parser for Valve Map Format (VMF) and Valve Material Type (VMT) files.
 * [TB-Utils](https://github.com/LeGlaconus/TB-Utils) ⭐ 2 | 🐛 0 | 🌐 C++ | 📅 2026-05-14 - Utilities for the TrenchBroom level editor to facilitate editing Source engine maps.
@@ -2410,7 +2597,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Models (MDL/SMD)
 
-* [VPhysics-Jolt](https://github.com/misyltoad/VPhysics-Jolt) ⭐ 1,438 | 🐛 113 | 🌐 C++ | 📅 2025-05-18 - Volt, a drop-in replacement for the Source Engine's VPhysics module built on Jolt Physics, parsing the engine's compiled VPhysics collision model (`.phy`) data to reconstruct rigid bodies, ragdolls, and constraints.
+* [VPhysics-Jolt](https://github.com/misyltoad/VPhysics-Jolt) ⭐ 1,439 | 🐛 113 | 🌐 C++ | 📅 2025-05-18 - Volt, a drop-in replacement for the Source Engine's VPhysics module built on Jolt Physics, parsing the engine's compiled VPhysics collision model (`.phy`) data to reconstruct rigid bodies, ragdolls, and constraints.
 * [HalfLifeAssetManager](https://github.com/SamVanheer/HalfLifeAssetManager) ⚠️ Archived - Tool to view and edit Half-Life 1 (GoldSrc) MDL models.
 * [web-hlmv](https://github.com/danakt/web-hlmv) ⭐ 123 | 🐛 18 | 🌐 TypeScript | 📅 2026-08-23 - WebGL implementation of the Half-Life Model Viewer, running GoldSrc .mdl model previews directly in the browser.
 * [source-engine-model-loader](https://github.com/gkjohnson/source-engine-model-loader) ⭐ 86 | 🐛 3 | 🌐 JavaScript | 📅 2024-06-18 - Three.js loader for parsing Source Engine model formats (MDL, VMT, VTF, VTX, VVD).
@@ -2442,11 +2629,11 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Packages & Filesystem (VPK/GCF/GMA/WAD)
 
-* [VPKEdit](https://github.com/craftablescience/VPKEdit) ⭐ 738 | 🐛 52 | 🌐 C++ | 📅 2026-08-10 - Cross-platform GUI and CLI tool for creating, reading, and writing many pack file formats used across Source, GoldSrc, and Quake-family games.
+* [VPKEdit](https://github.com/craftablescience/VPKEdit) ⭐ 739 | 🐛 52 | 🌐 C++ | 📅 2026-08-10 - Cross-platform GUI and CLI tool for creating, reading, and writing many pack file formats used across Source, GoldSrc, and Quake-family games.
   * Formats: VPK (Source 1/2), GCF, GMA, WAD (GoldSrc), PAK (Quake/HL1), PK3 (Quake II), PK4 (Quake IV/Doom 3), BSP (Source 1), XZP (Xbox HL2), VPP (Red Faction/Saints Row), PCK (Godot), ZIP, and more.
   * Features: In-pack preview of audio, images, VTF textures, and Source 1 models without extraction; available for Windows, macOS, and Linux.
 * [vpk](https://github.com/ValvePython/vpk) ⭐ 189 | 🐛 9 | 🌐 Python | 📅 2023-09-20 - Python library and CLI for opening, searching, extracting, and creating Valve VPK archives.
-* [ValvePak](https://github.com/ValveResourceFormat/ValvePak) ⭐ 151 | 🐛 0 | 🌐 C# | 📅 2026-08-08 - C# .NET library for reading and writing Source 2 VPK (Valve PacK) archives. Part of the ValveResourceFormat project.
+* [ValvePak](https://github.com/ValveResourceFormat/ValvePak) ⭐ 151 | 🐛 0 | 🌐 C# | 📅 2026-09-04 - C# .NET library for reading and writing Source 2 VPK (Valve PacK) archives. Part of the ValveResourceFormat project.
 * [WadMaker](https://github.com/pwitvoet/wadmaker) ⭐ 67 | 🐛 6 | 🌐 C# | 📅 2026-05-12 - Command-line tools for creating and extracting Half-Life (GoldSrc) texture WADs and sprites.
 * [vpk\_fuse](https://github.com/ElementW/vpk_fuse) ⭐ 17 | 🐛 0 | 🌐 C | 📅 2023-04-15 - FUSE filesystem for mounting and browsing the contents of Valve VPK package files.
 * [filesystem](https://github.com/Galaco/filesystem) ⭐ 16 | 🐛 1 | 🌐 Go | 📅 2025-11-06 - Go library for managing Source Engine VPK archives (Counter-Strike: Source, CS:GO, Team Fortress 2, etc.).
@@ -2468,7 +2655,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### DCC Plugins (Blender / 3ds Max / Maya / XSI)
 
-* [SourceIO](https://github.com/REDxEYE/SourceIO) ⭐ 962 | 🐛 16 | 🌐 Python | 📅 2026-09-02 - Blender 3.6+ addon for importing Source Engine assets (models, maps, textures, materials) for both Source 1 and Source 2.
+* [SourceIO](https://github.com/REDxEYE/SourceIO) ⭐ 963 | 🐛 16 | 🌐 Python | 📅 2026-09-02 - Blender 3.6+ addon for importing Source Engine assets (models, maps, textures, materials) for both Source 1 and Source 2.
   * Formats: Source 1 — MDL, BSP, VTF, VMT; Source 2 — VMDL, VMAP, VTEX, VMAT.
   * Games: CS:GO, TF2, Source Filmmaker, Garry's Mod, HL2 + episodes, Portal 1/2, L4D2, Black Mesa, Vindictus, Titanfall 1, CS2, Half-Life: Alyx, Aperture Desk Job, S\&Box.
 * [Plumber](https://github.com/lasa01/Plumber) ⭐ 501 | 🐛 33 | 🌐 Rust | 📅 2026-06-13 - Blender add-on for importing Source 1 engine maps, models, materials and textures from CS:GO, TF2, CS:S, and other titles. Built on [plumber\_core](https://github.com/lasa01/plumber_core) ⭐ 23 | 🐛 2 | 🌐 Rust | 📅 2026-06-13, a standalone Rust library for converting Source Engine VMF maps into a generic 3D format.
@@ -2521,9 +2708,9 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Dota 2
 
-* [GameTracking-Dota2](https://github.com/SteamTracking/GameTracking-Dota2) ⭐ 758 | 🐛 0 | 🌐 C++ | 📅 2026-09-03 - Continuously-updated tracker of Dota 2's client-facing data extracted from each game update, including Source 2 protobuf network/GC message schemas (demo.proto, netmessages, GC messages) and dumped client schemas/module metadata, with full version history across patches.
-* [dota2-mod-manager](https://github.com/TheFleece/dota2-mod-manager) ⭐ 22 | 🐛 6 | 🌐 JavaScript | 📅 2026-09-03 - Mod manager for Dota 2, working with the game's original VPK addon format.
-* [goldsrc-rs](https://github.com/goldsrc-rs/goldsrc-rs) ⭐ 2 | 🐛 2 | 🌐 Rust | 📅 2026-09-02 - Rust modding/format framework for GoldSrc (Half-Life) engine games.
+* [GameTracking-Dota2](https://github.com/SteamTracking/GameTracking-Dota2) ⭐ 758 | 🐛 0 | 🌐 C++ | 📅 2026-09-04 - Continuously-updated tracker of Dota 2's client-facing data extracted from each game update, including Source 2 protobuf network/GC message schemas (demo.proto, netmessages, GC messages) and dumped client schemas/module metadata, with full version history across patches.
+* [dota2-mod-manager](https://github.com/TheFleece/dota2-mod-manager) ⭐ 24 | 🐛 6 | 🌐 JavaScript | 📅 2026-09-05 - Mod manager for Dota 2, working with the game's original VPK addon format.
+* [goldsrc-rs](https://github.com/goldsrc-rs/goldsrc-rs) ⭐ 2 | 🐛 1 | 🌐 Rust | 📅 2026-09-04 - Rust modding/format framework for GoldSrc (Half-Life) engine games.
 
 #### Portal
 
@@ -2532,9 +2719,11 @@ This list is for developers and modders working with such formats. It provides t
 ### reSource Engine (Respawn Entertainment)
 
 * [Legion+](https://github.com/r-ex/LegionPlus) ⚠️ Archived - Asset extraction tool for Apex Legends and Titanfall 2.
-* [reSource Model Templates](https://github.com/IJARika/resource_model_templates) ⭐ 18 | 🐛 0 | 📅 2026-08-12 - 010 Editor binary templates for Respawn Entertainment's reSource engine (a Source engine fork used by Titanfall and Apex Legends), focused on studio model formats.
+* [RePak](https://github.com/r-ex/RePak) ⭐ 40 | 🐛 4 | 🌐 C++ | 📅 2026-06-28 - Builds Respawn Entertainment `.rpak`/`.starpak` asset pack files for Apex Legends and Titanfall 2, for repacking modded assets back into the engine's runtime asset format.
+* [reSource Model Templates](https://github.com/IJARika/resource_model_templates) ⭐ 18 | 🐛 0 | 📅 2026-09-04 - 010 Editor binary templates for Respawn Entertainment's reSource engine (a Source engine fork used by Titanfall and Apex Legends), focused on studio model formats.
   * Formats: MDL (v48/49/52/53/63), RMDL, RRIG, RSEQ, PHYS (Valve and Respawn variants), vertex data (VTX/VVD/VVC/VVW), VG (rev1-4), pakfile, DMX, VTF; legacy V47 structs including original Xbox variants.
 * [rmdlconv](https://github.com/r-ex/rmdlconv) ⭐ 17 | 🐛 0 | 🌐 C++ | 📅 2025-09-01 - Converts between different versions of Source Engine and Respawn MDL model files.
+* [fupa](https://github.com/McSimp/fupa) ⭐ 0 | 🐛 0 | 🌐 C++ | 📅 2019-04-26 - RPak extractor for Respawn Entertainment's Apex Legends/Titanfall 2 asset packs.
 
 ### Unity
 
@@ -2543,22 +2732,35 @@ This list is for developers and modders working with such formats. It provides t
 * [AssetStudio (Perfare)](https://github.com/Perfare/AssetStudio) ⚠️ Archived - Tool for exploring, extracting, and exporting assets and assetbundles (original version).
 * [noclip.website (Unity)](https://github.com/magcius/noclip.website/tree/main/src/Common/Unity) ⭐ 4,251 | 🐛 86 | 🌐 TypeScript | 📅 2026-08-26 - From-scratch TypeScript/Rust reader for Unity SerializedFile and AssetBundle data. Reconstructs GameObject hierarchies, meshes, textures (including Crunch), and materials for in-browser rendering; drives the A Short Hike, Neon White, and Outer Wilds viewers.
 * [Asset Bundle Extractor (UABE)](https://github.com/SeriousCache/UABE) ⚠️ Archived - Editor for .assets and AssetBundle files (archived; consider UABEA for active development).
-* [Unity Game Hacking Guide](https://github.com/imadr/Unity-game-hacking) ⭐ 3,461 | 🐛 16 | 📅 2022-11-14 - Guide covering Unity's on-disk game/asset file layout, extracting and editing compiled C#/UnityScript code, extracting assets, and memory hacking techniques.
-* [UtinyRipper](https://github.com/mafaca/UtinyRipper) ⭐ 3,092 | 🐛 892 | 🌐 C# | 📅 2022-01-14 - Extracts and exports Unity assets from serialized `.assets` files and AssetBundle files into Unity-importable project format. Supports a wide range of Unity versions.
+* [Unity Game Hacking Guide](https://github.com/imadr/Unity-game-hacking) ⭐ 3,460 | 🐛 16 | 📅 2022-11-14 - Guide covering Unity's on-disk game/asset file layout, extracting and editing compiled C#/UnityScript code, extracting assets, and memory hacking techniques.
+* [UtinyRipper](https://github.com/mafaca/UtinyRipper) ⭐ 3,093 | 🐛 892 | 🌐 C# | 📅 2022-01-14 - Extracts and exports Unity assets from serialized `.assets` files and AssetBundle files into Unity-importable project format. Supports a wide range of Unity versions.
 * [disunity](https://github.com/ata4/disunity) ⚠️ Archived - Early experimental Java command-line toolset for extracting and inspecting Unity asset and asset bundle files. Archived since 2018 and largely superseded by AssetStudio/UABEA, but historically significant.
-* [UABEA (Unity Asset Bundle Extractor Avalonia)](https://github.com/nesrak1/UABEA) ⭐ 2,414 | 🐛 146 | 🌐 C# | 📅 2026-05-11 - C# UABE for newer versions of Unity. Cross-platform Unity asset bundle and serialized file editor/extractor built with Avalonia.
+* [UABEA (Unity Asset Bundle Extractor Avalonia)](https://github.com/nesrak1/UABEA) ⭐ 2,413 | 🐛 146 | 🌐 C# | 📅 2026-05-11 - C# UABE for newer versions of Unity. Cross-platform Unity asset bundle and serialized file editor/extractor built with Avalonia.
 * [AssetStudio (aelurum fork)](https://github.com/aelurum/AssetStudio) ⭐ 2,042 | 🐛 52 | 🌐 C# | 📅 2025-10-15 - Actively maintained fork with UI optimization and enhancements.
 * [AssetStudio (zhangjiequan fork)](https://github.com/zhangjiequan/AssetStudio) ⭐ 1,849 | 🐛 29 | 🌐 C# | 📅 2024-03-04 - Continuation of Perfare's AssetStudio with support for new Unity versions and additional improvements.
-* [UnityPy](https://github.com/K0lb3/UnityPy) ⭐ 1,423 | 🐛 20 | 🌐 Python | 📅 2026-08-01 - Python module that makes it possible to extract/unpack and edit Unity assets.
-* [AssetsTools.NET](https://github.com/nesrak1/AssetsTools.NET) ⭐ 683 | 🐛 36 | 🌐 C# | 📅 2026-08-02 - Read and write Unity assets/bundle files, based on UABE.
+* [UnityPy](https://github.com/K0lb3/UnityPy) ⭐ 1,424 | 🐛 20 | 🌐 Python | 📅 2026-08-01 - Python module that makes it possible to extract/unpack and edit Unity assets.
+* [AnimeStudio](https://github.com/Escartem/AnimeStudio) ⭐ 1,130 | 🐛 23 | 🌐 C++ | 📅 2026-09-03 - Actively maintained "modded AssetStudio" fork with support for many encrypted Unity titles, including all HoYoverse games.
+* [UnityPack](https://github.com/HearthSim/UnityPack) ⭐ 750 | 🐛 48 | 🌐 Python | 📅 2022-01-06 - Earlier Python deserialization library for the Unity3D asset format, predating and unmaintained relative to UnityPy but still used as a lightweight dependency-free alternative.
+* [AssetsTools.NET](https://github.com/nesrak1/AssetsTools.NET) ⭐ 684 | 🐛 36 | 🌐 C# | 📅 2026-08-02 - Read and write Unity assets/bundle files, based on UABE.
 * [UABEANext](https://github.com/nesrak1/UABEANext) ⭐ 392 | 🐛 4 | 🌐 C# | 📅 2026-07-27 - Research and modding tool for SerializedFiles and Asset Bundles.
+* [AssetStudio\_Tuanjie](https://github.com/SiMaLaoShi/AssetStudio_Tuanjie) ⭐ 339 | 🐛 8 | 🌐 C# | 📅 2025-06-04 - AssetStudio fork adapted for Tuanjie (团结引擎), the China-specific fork/variant of the Unity engine.
+  * Lineage: succeeds [RazTools/Studio](https://github.com/RazTools/Studio) ⚠️ Archived (archived), whose own forks (e.g. [YarikStudio](https://github.com/yarik0chka/YarikStudio) ⚠️ Archived, discontinued) now point users to this repo as the actively maintained continuation.
 * [AddressablesTools](https://github.com/nesrak1/AddressablesTools) ⭐ 144 | 🐛 12 | 🌐 C# | 📅 2026-08-09 - Reads and writes Unity Addressables data without needing Unity itself. See also [LukeFZ's fork](https://github.com/LukeFZ/AddressablesTools) ⭐ 4 | 🐛 0 | 📅 2025-01-31.
 * [mikunyan](https://github.com/Ishotihadus/mikunyan) ⭐ 70 | 🐛 1 | 🌐 C++ | 📅 2026-01-10 - Scriptable Unity asset deserializer for Ruby.
+* [UTTDumper](https://github.com/Razmoth/UTTDumper) ⭐ 60 | 🐛 1 | 🌐 C++ | 📅 2024-12-12 - Tool to help dump Unity type trees.
 * [UnityLive2DExtractor](https://github.com/aelurum/UnityLive2DExtractor) ⭐ 58 | 🐛 0 | 🌐 C# | 📅 2025-09-08 - Extracts Live2D Cubism 3 assets from Unity AssetBundles. Handles moc3 models, motion3 animations, physics3 configuration, and other Live2D format files.
+* [UnityCN-Helper](https://github.com/AXiX-official/UnityCN-Helper) ⭐ 57 | 🐛 2 | 🌐 C# | 📅 2026-02-25 - Decrypts/encrypts AssetBundle files protected by the UnityCN encryption scheme used by many Chinese Unity titles.
+* [TypeTreeDumper](https://github.com/DaZombieKiller/TypeTreeDumper) ⭐ 56 | 🐛 5 | 🌐 C# | 📅 2026-02-06 - IL2CPP-based Unity TypeTree/serialization layout dumper, generating `.tpk` TypeTree databases for use with AssetsTools.NET and other Unity asset libraries.
 * [TypeTreeDumps](https://github.com/AssetRipper/TypeTreeDumps) ⭐ 46 | 🐛 8 | 🌐 Shell | 📅 2026-07-24 - Archive of Unity version struct layouts (type tree information) since version 3.4.0, essential for asset format understanding.
 * [TypeTreeRipper](https://github.com/DaZombieKiller/TypeTreeRipper) ⭐ 18 | 🐛 0 | 🌐 C++ | 📅 2026-09-03 - Experimental C++ Unity TypeTree/serialization dumper that does not require symbols, an alternative to TypeTreeDumper. See also [LukeFZ's fork](https://github.com/LukeFZ/TypeTreeRipper) ⭐ 6 | 🐛 0 | 📅 2026-01-21.
+* [ABRecompressor](https://github.com/AXiX-official/ABRecompressor) ⭐ 12 | 🐛 0 | 🌐 C++ | 📅 2025-01-19 - Recompresses Unity AssetBundle files (e.g. LZ4-to-LZMA or vice versa) to reduce size or restore compatibility.
+* [unity-asset](https://github.com/Latias94/unity-asset) ⭐ 12 | 🐛 0 | 🌐 Rust | 📅 2026-08-19 - Rust toolkit for inspecting, indexing, extracting, and making guarded, revision-bound edits to Unity YAML (scene/prefab) and binary serialized assets.
+* [UnityAsset.NET](https://github.com/AXiX-official/UnityAsset.NET) ⭐ 11 | 🐛 0 | 🌐 C# | 📅 2026-03-05 - Work-in-progress .NET library for parsing, serializing, and patching Unity asset files.
 * [UnityWebTools.NET](https://github.com/kiraio-moe/UnityWebTools.NET) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2023-09-21 - C# library for unpacking and repacking Unity WebGL `UnityWebData` (`.data`) files, complementing AssetsTools.NET for Unity WebGL builds.
+* [UnityAssetLib](https://github.com/akintos/UnityAssetLib) ⭐ 7 | 🐛 0 | 🌐 C# | 📅 2021-12-15 - C# library for reading and writing Unity serialized asset files (AssetBundle, `.assets`, scenes) across engine versions, independent of AssetsTools.NET.
+* [unitypatcher](https://github.com/synogen/unitypatcher) ⭐ 6 | 🐛 0 | 🌐 Java | 📅 2018-10-05 - Command-line tool for patching values inside Unity serialized asset files without needing to rebuild the whole AssetBundle.
 * [UnityBundleExtractor](https://github.com/lenzarchive/UnityBundleExtractor) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2025-08-03 - Python script for extracting assets (models, animations, audio, textures) from Unity3D asset bundle files, with intelligent naming, structured output, and detailed logging. See also [UBE-GUI](https://github.com/lenzarchive/UBE-GUI) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2025-08-27, a Flask-based web interface for the same extractor with async processing and selective extraction.
+* [UnityCNBurst](https://github.com/AXiX-official/UnityCNBurst) ⭐ 4 | 🐛 0 | 🌐 Zig | 📅 2025-10-31 - Brute-forces the UnityCN AssetBundle encryption key when it isn't already known, complementing UnityCN-Helper above.
 * [CC3Decrypt](https://github.com/tge-was-taken/CC3Decrypt) ⭐ 3 | 🐛 0 | 🌐 C# | 📅 2017-10-14 - Decrypts Unity asset bundle headers used by Chain Chronicle 3.
 * [UABS (Unity Asset Bundle Seeker)](https://github.com/PapayaModding/UABS) ⭐ 3 | 🐛 1 | 🌐 C# | 📅 2026-02-04 - Modding tool built on AssetsTools.NET for locating and extracting Unity Asset Bundle/`.bundle` contents to streamline mod-making workflows.
 * [Unity Asset Editor v0.2 (7 Days To Die)](https://www.moddb.com/games/7-days-to-die/downloads/unity-asset-editor) - Plugin-based asset editor, exporter, and importer for Unity Engine games. Can import and export assets in raw data format and be extended through plugins to support additional asset types (v0.2).
@@ -2566,29 +2768,51 @@ This list is for developers and modders working with such formats. It provides t
 
 #### IL2CPP & Managed-Code Reverse Engineering
 
-* [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) ⭐ 9,362 | 🐛 155 | 🌐 C# | 📅 2024-08-18 - Unity IL2CPP reverse engineer tool for extracting IL2CPP metadata and converting IL2CPP binaries.
+* [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) ⭐ 9,364 | 🐛 154 | 🌐 C# | 📅 2024-08-18 - Unity IL2CPP reverse engineer tool for extracting IL2CPP metadata and converting IL2CPP binaries. See also [bombaris34's fork](https://github.com/bombaris34/il2cpp-pdb) ⭐ 52 | 🐛 1 | 🌐 C# | 📅 2026-06-06 with a native Rust PDB generator for x64 PE (`GameAssembly.dll`) that writes function names, full struct types, and typed prototypes into a real Windows PDB, auto-loaded by IDA.
 * [Il2CppInspector](https://github.com/djkaty/Il2CppInspector) ⭐ 3,040 | 🐛 65 | 🌐 C | 📅 2022-05-13 - Powerful automated tool for reverse engineering Unity IL2CPP binaries. Outputs IL2CPP type definitions, metadata and method pointers as C# stub code, creates .NET assembly shim DLLs, and generates C++ scaffolding for all types, methods, function pointers and API functions.
 * [Cpp2IL](https://github.com/SamboyCoding/Cpp2IL) ⭐ 2,612 | 🐛 44 | 🌐 C# | 📅 2026-09-03 - Decompiler for Unity IL (Intermediate Language) code and assets.
-* [frida-il2cpp-bridge](https://github.com/vfsfitvnm/frida-il2cpp-bridge) ⭐ 1,734 | 🐛 38 | 🌐 TypeScript | 📅 2026-09-03 - TypeScript Frida module/library for dumping, tracing, or hijacking any IL2CPP application at runtime without needing the `global-metadata.dat` file; widely used as the base library for other Frida-based IL2CPP tooling, including frida-il2cpp-proto-dumper above.
-* [Il2CppInspectorRedux](https://github.com/LukeFZ/Il2CppInspectorRedux) ⭐ 698 | 🐛 9 | 🌐 C# | 📅 2026-08-25 - Actively maintained continuation of Il2CppInspector, kept up to date with newer IL2CPP/Unity metadata versions.
+* [frida-il2cpp-bridge](https://github.com/vfsfitvnm/frida-il2cpp-bridge) ⭐ 1,734 | 🐛 38 | 🌐 TypeScript | 📅 2026-09-04 - TypeScript Frida module/library for dumping, tracing, or hijacking any IL2CPP application at runtime without needing the `global-metadata.dat` file; widely used as the base library for other Frida-based IL2CPP tooling, including frida-il2cpp-proto-dumper above.
+* [Il2CppInspectorRedux](https://github.com/LukeFZ/Il2CppInspectorRedux) ⭐ 700 | 🐛 9 | 🌐 C# | 📅 2026-08-25 - Actively maintained continuation of Il2CppInspector, kept up to date with newer IL2CPP/Unity metadata versions.
+* [Il2CppHookScripts](https://github.com/axhlzy/Il2CppHookScripts) ⭐ 659 | 🐛 0 | 🌐 TypeScript | 📅 2026-02-02 - Frida-based scripts for parsing and hooking `libil2cpp.so` at runtime, for reverse engineering Android IL2CPP Unity games.
+* [Il2CppDumper-GUI](https://github.com/AndnixSH/Il2CppDumper-GUI) ⭐ 522 | 🐛 0 | 🌐 C# | 📅 2026-06-10 - Windows GUI front-end for Il2CppDumper. See also [Il2cppDumpDroidGUI](https://github.com/Poko-Apps/Il2cppDumpDroidGUI) ⭐ 217 | 🐛 1 | 📅 2024-09-02, an Android GUI wrapper for the same tool.
 * [IL2CPP\_Resolver](https://github.com/sneakyevil/IL2CPP_Resolver) ⭐ 474 | 🐛 15 | 🌐 C++ | 📅 2024-07-30 - Runtime API resolver for IL2CPP-compiled Unity games, locating classes, methods, and fields from global-metadata at runtime.
+* [UnityResolve.hpp](https://github.com/issuimo/UnityResolve.hpp) ⭐ 466 | 🐛 15 | 🌐 C++ | 📅 2025-01-27 - Single-header C++ library for resolving Unity Mono/IL2CPP assemblies, classes, methods, and fields at runtime, for building game hacks/analysis tools without a dumped SDK.
+* [PADumper](https://github.com/BryanGIG/PADumper) ⭐ 461 | 🐛 10 | 🌐 Kotlin | 📅 2026-01-26 - Android process memory dumper, commonly used to extract IL2CPP/`global-metadata.dat` from protected Unity games at runtime.
+* [libil2cpp](https://github.com/MlgmXyysd/libil2cpp) ⭐ 250 | 🐛 0 | 📅 2024-06-11 - Collection of Unity IL2CPP runtime source code across many engine versions, used as a reference for building IL2CPP dumpers and analysis tools.
+* [Il2CppMemoryDumper](https://github.com/MlgmXyysd/Il2CppMemoryDumper) ⭐ 204 | 🐛 0 | 🌐 Shell | 📅 2026-02-22 - Dumps the unprotected IL2CPP ELF executable and `global-metadata.dat` directly from process memory, bypassing on-disk packing/encryption.
+* [Il2CppDumper-YuanShen](https://github.com/kagurazakasanae/Il2CppDumper-YuanShen) ⚠️ Archived - Il2CppDumper fork modified to dump `UserAssembly.dll` methods from Genshin Impact's (`YuanShen`) encrypted `global-metadata.dat`. See also [khang06's fork](https://github.com/khang06/Il2CppDumper-YuanShen) ⭐ 71 | 🐛 0 | 🌐 C# | 📅 2022-01-23 with updated metadata decryption handling. (Archived)
 * [Beebyte-Deobfuscator](https://github.com/OsOmE1/Beebyte-Deobfuscator) ⭐ 131 | 🐛 7 | 🌐 C# | 📅 2021-02-17 - Plugin for Il2CppInspector that deobfuscates Beebyte-obfuscated IL2CPP type/member names in Unity game binaries.
 * [Descrypt-global-metadata.dat](https://github.com/IroniaTheMaster/Descrypt-global-metadata.dat) ⭐ 128 | 🐛 1 | 🌐 Python | 📅 2024-03-31 - Decryption notes/tooling for Unity IL2CPP's global-metadata.dat.
 * [Il2CppInspectorPlugins](https://github.com/djkaty/Il2CppInspectorPlugins) ⭐ 116 | 🐛 2 | 🌐 C# | 📅 2024-01-05 - Plugins for Il2CppInspector to inspect and reverse-engineer Unity game binaries and extract game data.
-* [Il2Cpp Self-Dumper](https://github.com/muhammadrizwan87/il2cppdumper) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2026-06-23 - Root-free, Zygisk-free native Android library that dumps IL2CPP metadata (classes, methods, fields with offsets/addresses) from inside a running Unity game's own process, writing a `dump.cs` without requiring Frida, ADB, or Zygisk.
-* [il2cpp-bridge-rs](https://github.com/Batchhh/il2cpp-bridge-rs) ⭐ 18 | 🐛 0 | 🌐 Rust | 📅 2026-07-14 - Rust bridge to Unity's IL2CPP runtime for resolving types, invoking methods, and manipulating objects from native code; supports iOS, macOS, Linux, Android, and Windows targets.
+* [Dumpcs2Protobuf](https://github.com/Hiro420/Dumpcs2Protobuf) ⭐ 64 | 🐛 1 | 🌐 C# | 📅 2024-10-20 - Extracts obfuscated Protobuf message definitions from `dump.cs` files produced by Il2CppDumper, targeting Honkai: Star Rail and pre-3.5 Genshin Impact. See also [ProtoDumper](https://github.com/66hh/ProtoDumper) ⭐ 31 | 🐛 1 | 📅 2022-02-08, which dumps Protobuf definitions directly from Genshin Impact's Il2CppDumper-produced assemblies.
+* [Il2CppDumper-for-COD](https://github.com/tien0246/Il2CppDumper-for-COD) ⭐ 40 | 🐛 7 | 🌐 C# | 📅 2026-03-20 - Il2CppDumper fork adapted for Call of Duty: Mobile's IL2CPP protections.
+* [Il2Cpp Self-Dumper](https://github.com/muhammadrizwan87/il2cppdumper) ⭐ 32 | 🐛 0 | 🌐 C | 📅 2026-06-23 - Root-free, Zygisk-free native Android library that dumps IL2CPP metadata (classes, methods, fields with offsets/addresses) from inside a running Unity game's own process, writing a `dump.cs` without requiring Frida, ADB, or Zygisk.
+* [Il2CppProtoDescriptorDumper](https://github.com/Hiro420/Il2CppProtoDescriptorDumper) ⭐ 29 | 🐛 0 | 🌐 C# | 📅 2026-08-21 - Extracts Protobuf descriptors from IL2CPP binaries via custom x64 emulation of the descriptor initialization routines.
+* [AceMetadataUnpacker](https://github.com/Hiro420/AceMetadataUnpacker) ⭐ 29 | 🐛 0 | 🌐 C# | 📅 2026-05-15 - Unpacks `global-metadata.dat` from ACE-protected IL2CPP binaries, with best-effort XOR/Blowfish string decryption; targets Reverse: 1999 and Goddess of Victory: NIKKE.
+* [il2cpp-frida-mcp](https://github.com/axhlzy/il2cpp-frida-mcp) ⭐ 26 | 🐛 0 | 🌐 Python | 📅 2026-02-24 - Model Context Protocol (MCP) server that exposes Frida-based IL2CPP analysis (class/method/field lookup, hooking) as tools an AI assistant can call while reverse engineering a Unity game.
+* [MemoryPackDumper](https://github.com/KaniArchive/MemoryPackDumper) ⭐ 25 | 🐛 0 | 🌐 C# | 📅 2026-09-03 - Recovers MemoryPack serializer definitions from Unity IL2CPP game assemblies.
+* [il2cpp-bridge-rs](https://github.com/Batchhh/il2cpp-bridge-rs) ⭐ 17 | 🐛 0 | 🌐 Rust | 📅 2026-07-14 - Rust bridge to Unity's IL2CPP runtime for resolving types, invoking methods, and manipulating objects from native code; supports iOS, macOS, Linux, Android, and Windows targets.
+* [gi-stringliteral](https://github.com/kuma-dayo/gi-stringliteral) ⭐ 15 | 🐛 0 | 🌐 Python | 📅 2026-07-01 - Statically recovers IL2CPP string literals from the MHY-obfuscated `global-metadata.dat` (magic `MHY\0`) used by Genshin Impact.
+* [FbsDumper](https://github.com/Hiro420/FbsDumper) ⭐ 10 | 🐛 0 | 🌐 C# | 📅 2025-06-16 - Recovers FlatBuffers (`.fbs`) schema definitions from Unity IL2CPP game assemblies. See also [FbsDumperV2](https://github.com/Hiro420/FbsDumperV2) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2025-07-08, a rewritten successor.
 * [frida-il2cpp-proto-dumper](https://github.com/repinek/frida-il2cpp-proto-dumper) ⭐ 9 | 🐛 0 | 🌐 TypeScript | 📅 2026-05-22 - Dumps protobuf-net messages and enums from an IL2CPP Unity game into a valid .proto file, using Frida and frida-il2cpp-bridge.
+* [NexusDumper](https://github.com/im-remi/NexusDumper) ⭐ 9 | 🐛 0 | 🌐 Rust | 📅 2026-01-06 - Extracts classes, fields, and methods from Honkai: Nexus Anima's IL2CPP code; also generates an IDA `script.json` and extracts Protocol Buffers CmdIDs.
 * [meta-string-edit](https://github.com/middlered/meta-string-edit) ⭐ 7 | 🐛 0 | 🌐 Go | 📅 2026-02-08 - Editor for Unity IL2CPP `global-metadata.dat` files, for inspecting and modifying embedded string literals.
-* [Zygisk-Il2CppFucker](https://github.com/Darlenepurpleblack444/Zygisk-Il2CppFucker) ⭐ 4 | 🐛 0 | 🌐 C | 📅 2026-09-03 - Zygisk module for reverse engineering IL2CPP binaries in Android Unity games at runtime.
+* [Zygisk-Il2CppFucker](https://github.com/Darlenepurpleblack444/Zygisk-Il2CppFucker) ⭐ 3 | 🐛 0 | 🌐 C | 📅 2026-09-03 - Zygisk module for reverse engineering IL2CPP binaries in Android Unity games at runtime.
 * [UnityMsgpackSchemaExporter](https://github.com/middlered/unity-msgpack-schema-exporter) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2026-04-15 - Extracts MessagePack data schemas from compiled Unity game assemblies (DummyDll) or any other .NET assembly, and converts between compact keyless MessagePack and named-key MessagePack/JSON.
+* [il2cpp-wasm-teardown](https://github.com/clericall/il2cpp-wasm-teardown) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-08-13 - Teardown/analysis tooling for IL2CPP compiled to WebAssembly.
 * [il2cpp-runtime-dumper](https://github.com/PCIeTLP/il2cpp-runtime-dumper) ⭐ 0 | 🐛 0 | 🌐 C++ | 📅 2026-08-09 - Il2CppDumper-style dumper for IL2CPP games shipping no usable `global-metadata.dat`; reads the runtime's own structures out of the live process and re-derives all struct offsets on each run instead of hardcoding them, so it survives game updates.
-* [il2cpp-wasm-teardown](https://github.com/clericall/il2cpp-wasm-teardown) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-08-13 - Teardown/analysis tooling for IL2CPP compiled to WebAssembly.
 
 #### Modding, Translation & Runtime Injection
 
-* [XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) ⭐ 3,383 | 🐛 447 | 🌐 C# | 📅 2026-08-31 - Universal translation framework for Unity games. Supports automatic text translation with various translator backends and IL2CPP support.
+* [BepInEx](https://github.com/BepInEx/BepInEx) ⭐ 8,580 | 🐛 381 | 🌐 C# | 📅 2026-09-01 - Widely-used, general-purpose plugin/patcher framework for Unity (Mono and IL2CPP) and .NET games, providing runtime hooking and mod-loading infrastructure used by many game-specific modding tools.
+* [XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) ⭐ 3,385 | 🐛 447 | 🌐 C# | 📅 2026-08-31 - Universal translation framework for Unity games. Supports automatic text translation with various translator backends and IL2CPP support.
 * [UnityExplorer](https://github.com/sinai-dev/UnityExplorer) ⚠️ Archived - In-game UI for exploring, debugging, and modifying IL2CPP and Mono Unity games.
+* [MonoMod](https://github.com/MonoMod/MonoMod) ⭐ 987 | 🐛 49 | 🌐 C# | 📅 2026-08-24 - Runtime IL patching, method detouring, and modding library/toolchain for .NET/Mono games, underlying many Unity and XNA/FNA game mods.
+* [UnityDoorstop](https://github.com/NeighTools/UnityDoorstop) ⭐ 588 | 🐛 24 | 🌐 C | 📅 2026-09-01 - Cross-platform native bootstrapper that loads a .NET assembly into any Unity game at startup, used as the entry point by BepInEx and other Unity mod loaders.
+* [SakuraTranslator](https://github.com/fkiliver/SakuraTranslator) ⭐ 225 | 🐛 8 | 🌐 C# | 📅 2025-07-27 - XUnity.AutoTranslator translator-backend plugin providing offline Japanese-to-Chinese translation via the Sakura/GalTransl LLM models. See also [Xunity-TGW](https://github.com/HunterShenSmzh/Xunity-TGW) ⭐ 46 | 🐛 0 | 🌐 C# | 📅 2024-09-28, a modification swapping in a Text Generation WebUI backend instead.
 * [il2cpp-modder](https://github.com/juanmjacobs/il2cpp-modder) ⭐ 177 | 🐛 3 | 🌐 C# | 📅 2021-07-26 - Generate DLL injection templates for reverse engineering and modding Unity IL2CPP games. Automatically generates code for method hooks, field modifications, and implementation replacements without requiring manual pointer arithmetic.
+* [Unity\_CRC32\_Bypass](https://github.com/AXiX-official/Unity_CRC32_Bypass) ⭐ 46 | 🐛 2 | 🌐 C# | 📅 2026-02-25 - Bypasses Unity's CRC32 integrity check on AssetBundle files by appending extra data to the end of the file, allowing modified bundles to load.
+* [AssetSideLoader](https://github.com/AXiX-official/AssetSideLoader) ⭐ 18 | 🐛 0 | 🌐 C | 📅 2025-01-19 - LSPosed module that hooks UnityEngine's internal file-loading methods to redirect asset loads to a custom path, for side-loading replacement AssetBundles/resources without repacking the APK.
 
 #### Texture Decoders
 
@@ -2609,16 +2833,16 @@ This list is for developers and modders working with such formats. It provides t
 #### Full Engine Reimplementations & Source Ports
 
 * [UnrealTournamentPatches](https://github.com/OldUnreal/UnrealTournamentPatches) ⭐ 1,478 | 🐛 559 | 📅 2026-08-29 - Community patch project for the original Unreal Tournament (1999) and Unreal (1998), maintaining and extending the original engine while reading the games' original asset formats.
-* [SurrealEngine](https://github.com/dpjudas/SurrealEngine) ⭐ 1,102 | 🐛 11 | 🌐 C++ | 📅 2026-09-04 - Reimplementation of the Unreal Engine 1 engine that reads original Unreal/Unreal Tournament package/map assets to make the games playable on modern systems.
+* [SurrealEngine](https://github.com/dpjudas/SurrealEngine) ⭐ 1,102 | 🐛 11 | 🌐 C++ | 📅 2026-09-05 - Reimplementation of the Unreal Engine 1 engine that reads original Unreal/Unreal Tournament package/map assets to make the games playable on modern systems.
 
 #### Asset Parsers & Libraries
 
 * [UAssetGUI](https://github.com/atenfyr/UAssetGUI) ⭐ 1,046 | 🐛 16 | 🌐 C# | 📅 2026-08-31 - GUI tool for viewing and editing Unreal Engine UAsset files.
-* [CUE4Parse](https://github.com/FabianFG/CUE4Parse) ⭐ 624 | 🐛 26 | 🌐 C# | 📅 2026-09-02 - C# Parser for UE archives.
+* [CUE4Parse](https://github.com/FabianFG/CUE4Parse) ⭐ 624 | 🐛 27 | 🌐 C# | 📅 2026-09-04 - C# Parser for UE archives.
 * [UAssetAPI](https://github.com/atenfyr/UAssetAPI) ⭐ 488 | 🐛 5 | 🌐 C# | 📅 2026-08-31 - Low-level .NET library for reading and writing Unreal Engine game assets.
 * [Unreal-Library](https://github.com/EliotVU/Unreal-Library) ⭐ 479 | 🐛 4 | 🌐 C# | 📅 2026-08-15 - Library for reading and writing Unreal Engine file formats.
-* [JsonAsAsset](https://github.com/JsonAsAsset/JsonAsAsset) ⭐ 372 | 🐛 0 | 🌐 C++ | 📅 2026-09-03 - Unreal Engine plugin to import assets from JSON data exported by FModel.
-* [JsonAsAsset](https://github.com/JsonAsAsset/Reflection) ⭐ 372 | 🐛 0 | 🌐 C++ | 📅 2026-09-03 - Unreal Engine asset reconstruction toolkit; an in-editor plugin that rebuilds engine assets (materials, data assets, curves, and more) from JSON dumps produced by CUE4Parse/FModel.
+* [JsonAsAsset](https://github.com/JsonAsAsset/JsonAsAsset) ⭐ 372 | 🐛 0 | 🌐 C++ | 📅 2026-09-04 - Unreal Engine plugin to import assets from JSON data exported by FModel.
+* [JsonAsAsset](https://github.com/JsonAsAsset/Reflection) ⭐ 372 | 🐛 0 | 🌐 C++ | 📅 2026-09-04 - Unreal Engine asset reconstruction toolkit; an in-editor plugin that rebuilds engine assets (materials, data assets, curves, and more) from JSON dumps produced by CUE4Parse/FModel.
 * [UEFormat](https://github.com/h4lfheart/UEFormat) ⭐ 331 | 🐛 2 | 🌐 Python | 📅 2026-08-14 - Library for working with Unreal Engine file formats.
 * [OodleUE](https://github.com/WorkingRobot/OodleUE) ⭐ 147 | 🐛 0 | 🌐 C++ | 📅 2026-06-04 - Automatically pulls and packages the latest Oodle Data compression SDK builds from Unreal Engine 5's private git repo, since RAD's Oodle libraries are otherwise difficult to obtain standalone.
 * [uasset-rs](https://github.com/jorgenpt/uasset-rs) ⭐ 120 | 🐛 3 | 🌐 Rust | 📅 2025-06-25 - Rust library for parsing Unreal Engine asset (.uasset) files.
@@ -2627,7 +2851,7 @@ This list is for developers and modders working with such formats. It provides t
 * [UEAssetToolkitGenerator](https://github.com/LongerWarrior/UEAssetToolkitGenerator) ⭐ 44 | 🐛 16 | 🌐 C# | 📅 2023-09-09 - UE asset extraction tool that converts compiled UE4 assets to JSON format.
 * [UEAssetToolkit](https://github.com/Archengius/UEAssetToolkit) ⭐ 35 | 🐛 3 | 🌐 C++ | 📅 2022-10-06 - Toolkit for extracting and modifying Unreal Engine assets.
 * [Core](https://github.com/JsonAsAsset/Core) ⭐ 27 | 🐛 0 | 🌐 C# | 📅 2026-08-31 - Extension of JsonAsAsset's Reflection above that fetches referenced Unreal Engine assets automatically, hands-free.
-* [AssetTools](https://github.com/PedroMartinsMenezes/AssetTools) ⭐ 26 | 🐛 1 | 🌐 C# | 📅 2026-09-01 - Converts UE .uasset and .umap files to JSON and back, supporting UE5 asset formats.
+* [AssetTools](https://github.com/PedroMartinsMenezes/AssetTools) ⭐ 26 | 🐛 1 | 🌐 C# | 📅 2026-09-05 - Converts UE .uasset and .umap files to JSON and back, supporting UE5 asset formats.
 * [UE1-VertexMesh-Blender-IO](https://github.com/Skywolf285/UE1-VertexMesh-Blender-IO) ⭐ 23 | 🐛 4 | 🌐 Python | 📅 2024-12-14 - Blender exporter/importer for the Unreal Engine 1 `_a.3d`/`_d.3d` vertex mesh format.
 * [pyUsmap](https://github.com/MinshuG/pyUsmap) ⭐ 4 | 🐛 1 | 🌐 Python | 📅 2024-01-07 - Python parser for Unreal Engine .usmap files.
 * [ueformat-rust](https://github.com/Mqlvin/ueformat-rust) ⭐ 2 | 🐛 0 | 🌐 Rust | 📅 2026-05-13 - Rust parser for UEFormat (.uemodel) meshes, converting UE4/5 extracted assets to STL format.
@@ -2635,17 +2859,20 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Explorers, Viewers & PAK/IoStore Tools
 
-* [FModel](https://github.com/4sval/FModel) ⭐ 3,113 | 🐛 13 | 🌐 C# | 📅 2026-08-30 - Explorer and asset viewer for Unreal Engine archives, supporting UE4 and UE5.
+* [FModel](https://github.com/4sval/FModel) ⭐ 3,116 | 🐛 13 | 🌐 C# | 📅 2026-08-30 - Explorer and asset viewer for Unreal Engine archives, supporting UE4 and UE5.
   * Formats: PAK, UTOC, UCAS (IoStore), UAsset, localization files.
   * Features: Texture/mesh/audio preview, JSON export, map viewer with OpenGL renderer, diff between versions.
   * Games: Fortnite, Valorant, PUBG, MultiVersus, Stray, GTA III/Vice City/San Andreas (Definitive Edition), and many other UE4/UE5 titles.
-* [UEViewer (UModel)](https://github.com/gildor2/UEViewer) ⭐ 2,918 | 🐛 25 | 🌐 C++ | 📅 2024-03-16 - Viewer and exporter for Unreal Engine 1-4 assets (UE Viewer).
+* [UEViewer (UModel)](https://github.com/gildor2/UEViewer) ⭐ 2,919 | 🐛 25 | 🌐 C++ | 📅 2024-03-16 - Viewer and exporter for Unreal Engine 1-4 assets (UE Viewer).
   * [Compatibility Table](https://www.gildor.org/projects/umodel/compat) - Official compatibility list.
 * [UnrealPakViewer](https://github.com/jashking/UnrealPakViewer) ⭐ 1,453 | 🐛 38 | 🌐 C++ | 📅 2026-03-06 - Viewer and extractor for UE4 PAK archive files supporting decompression and batch extraction.
 * [UnrealPakTool](https://github.com/allcoolthingsatoneplace/UnrealPakTool) ⭐ 718 | 🐛 26 | 🌐 Batchfile | 📅 2021-08-28 - Extracts and lists .pak archive files from Unreal Engine 4 games (win64).
 * [repak](https://github.com/trumank/repak) ⭐ 561 | 🐛 13 | 🌐 Rust | 📅 2026-02-20 - Unreal Engine .pak file library and CLI in Rust.
-* [rust-u4pak](https://github.com/panzi/rust-u4pak) ⭐ 164 | 🐛 16 | 🌐 Rust | 📅 2023-02-01 - Rust CLI to unpack, pack, list, check, and mount Unreal Engine 4 .pak archives.
+* [u4pak](https://github.com/panzi/u4pak) ⭐ 561 | 🐛 11 | 🌐 Python | 📅 2022-10-30 - Python CLI to unpack, pack, list, test, and mount Unreal Engine 4 .pak archives, with detailed documentation of the archive/record/footer binary layout. See also [rust-u4pak](https://github.com/panzi/rust-u4pak) ⭐ 164 | 🐛 16 | 🌐 Rust | 📅 2023-02-01, the same author's faster, multi-threaded Rust rewrite distributed as a self-contained Windows binary.
+* [UEcastoc](https://github.com/gitMenv/UEcastoc) ⭐ 92 | 🐛 17 | 🌐 Go | 📅 2024-02-11 - Work-in-progress unpacker/packer for Unreal Engine's IoStore `.ucas`/`.utoc` container format, aiming to enable modding of games that ship on the newer IoStore container instead of `.pak`.
+* [UnrealModUnlocker-Public](https://github.com/IllusorySoftware/UnrealModUnlocker-Public) ⭐ 80 | 🐛 6 | 🌐 C | 📅 2023-10-16 - Unlocks loading of third-party/unpaked loose files for 90-95% of Unreal Engine 4 games, for testing and loading mods without repacking them into a `.pak`.
 * [UnrealPakLoaderPlugin](https://github.com/calben/UnrealPakLoaderPlugin) ⭐ 69 | 🐛 0 | 🌐 C++ | 📅 2018-11-20 - Library simplifying runtime loading of Unreal Engine .pak files and their asset registries from within a UE project.
+* [UPKUtils](https://github.com/wghost/UPKUtils) ⭐ 68 | 🐛 5 | 🌐 C++ | 📅 2022-11-08 - Set of utilities for UE3 cooked packages (.u, .upk, .umap), including texture export/import to/from DDS. Originally built for XCOM: Enemy Unknown/Within, also supports Batman: Arkham Asylum and Arkham City.
 * [UnrealExporter](https://github.com/luk-gg/UnrealExporter) ⭐ 46 | 🐛 2 | 🌐 C# | 📅 2026-06-18 - Batch file exporter.
 * [TocPatcher](https://github.com/kboykboy2/TocPatcher) ⭐ 33 | 🐛 4 | 🌐 C | 📅 2022-12-22 - Patches UE4 IoStore `.utoc` files for games that sign their containers, by merging a mod-generated toc with one from the game; bypasses the container-level signature check that blocks unsigned mod content.
 * [CPakParser](https://github.com/TheNaeem/CPakParser) ⭐ 31 | 🐛 0 | 🌐 C++ | 📅 2023-07-12 - High-performance UE5 PAK parser with Oodle decompression support and USMAP loading.
@@ -2657,19 +2884,21 @@ This list is for developers and modders working with such formats. It provides t
 
 #### SDK & Structure Dumpers
 
-* [UEVR](https://github.com/praydog/UEVR) ⭐ 4,483 | 🐛 212 | 🌐 C++ | 📅 2026-08-30 - Universal Unreal Engine VR Mod. Powerful runtime reversing tool that provides an overlay for inspecting objects, classes, and properties in almost any UE4/5 game.
-* [Dumper-7](https://github.com/Encryqed/Dumper-7) ⭐ 2,241 | 🐛 40 | 🌐 C | 📅 2026-08-06 - Unreal Engine SDK generator supporting all UE4 and UE5 versions, dumping engine classes/structs/offsets from a running game via DLL injection; the de facto standard modern UE SDK dumper and basis for several other tools already listed (e.g. UETools-GUI).
+* [UEVR](https://github.com/praydog/UEVR) ⭐ 4,487 | 🐛 213 | 🌐 C++ | 📅 2026-08-30 - Universal Unreal Engine VR Mod. Powerful runtime reversing tool that provides an overlay for inspecting objects, classes, and properties in almost any UE4/5 game.
+* [Dumper-7](https://github.com/Encryqed/Dumper-7) ⭐ 2,240 | 🐛 40 | 🌐 C | 📅 2026-08-06 - Unreal Engine SDK generator supporting all UE4 and UE5 versions, dumping engine classes/structs/offsets from a running game via DLL injection; the de facto standard modern UE SDK dumper and basis for several other tools already listed (e.g. UETools-GUI).
 * [UEDumper](https://github.com/Spuckwaffel/UEDumper) ⭐ 1,390 | 🐛 0 | 🌐 C++ | 📅 2026-04-18 - UE 4.19-5.3 reverse engineering tool for dumping SDK, analyzing structures, and identifying memory offsets.
 * [UE4Dumper](https://github.com/kp7742/UE4Dumper) ⭐ 953 | 🐛 26 | 🌐 C++ | 📅 2026-03-04 - Tool for dumping Unreal Engine 4 assets and structures.
 * [UnrealDumper-4.25](https://github.com/guttir14/UnrealDumper-4.25) ⭐ 617 | 🐛 20 | 🌐 C++ | 📅 2023-01-28 - Unreal Engine SDK and structure dumper for extracting runtime data from UE game binaries.
-* [AndUEDumper](https://github.com/MJx0/AndUEDumper) ⭐ 472 | 🐛 18 | 🌐 C++ | 📅 2026-08-03 - Android UE4/5 dumper generating SDK and function scripts, supporting ARM64, ARM, x86, and x86\_64 ABIs.
-* [UETools-GUI](https://github.com/Cranch-fur/UETools-GUI) ⭐ 78 | 🐛 0 | 🌐 C++ | 📅 2026-08-18 - Dumper-7 based GUI tool for rapid debugging and SDK extraction from Unreal Engine games.
+* [AndUEDumper](https://github.com/MJx0/AndUEDumper) ⭐ 473 | 🐛 18 | 🌐 C++ | 📅 2026-08-03 - Android UE4/5 dumper generating SDK and function scripts, supporting ARM64, ARM, x86, and x86\_64 ABIs.
+* [IDAExecFunctionsImporter](https://github.com/Fischsalat/IDAExecFunctionsImporter) ⭐ 157 | 🐛 3 | 🌐 C++ | 📅 2026-07-18 - IDA plugin that imports Unreal Engine `exec` functions, the full generated C++ SDK, VTables, and global symbols (`GObjects`, `GNames`, etc.) from Dumper-7's `CppSDK`/`IDAMappings` output, for static analysis in IDA.
+* [UETools-GUI](https://github.com/Cranch-fur/UETools-GUI) ⭐ 79 | 🐛 0 | 🌐 C++ | 📅 2026-08-18 - Dumper-7 based GUI tool for rapid debugging and SDK extraction from Unreal Engine games.
+* [UnrealContainers](https://github.com/Fischsalat/UnrealContainers) ⭐ 47 | 🐛 0 | 🌐 C++ | 📅 2024-07-24 - Header-only C++ reimplementation of Unreal Engine's `TArray`, `FString`, `TSet`, `TMap`, `TSparseArray`, and `FBitArray` container types, letting external tools (SDK dumpers, hacks, analysis tooling) read and manipulate a live game's UE containers directly from process memory without linking the engine.
 * [ue-version](https://github.com/AniLeo/ue-version) ⭐ 24 | 🐛 0 | 🌐 Shell | 📅 2025-08-27 - Analyzes compiled Unreal Engine 4 and Unreal Engine 5 game binaries to determine the exact engine version used to build the game.
 * [Gibbed.Unreflect](https://github.com/gibbed/Gibbed.Unreflect) ⭐ 9 | 🐛 1 | 🌐 C# | 📅 2022-12-08 - Runtime reflection tool for Unreal Engine games, enabling datamining of Borderlands and other UE titles through binary structure analysis.
 
 #### Blueprint, UnrealScript & Shaders
 
-* [UE-Explorer](https://github.com/UE-Explorer/UE-Explorer) ⭐ 355 | 🐛 4 | 🌐 C# | 📅 2026-08-15 - Package explorer and UnrealScript decompiler for classic Unreal Engine games, supporting `.upk` and `.u` files (UE1–UE3).
+* [UE-Explorer](https://github.com/UE-Explorer/UE-Explorer) ⭐ 357 | 🐛 4 | 🌐 C# | 📅 2026-08-15 - Package explorer and UnrealScript decompiler for classic Unreal Engine games, supporting `.upk` and `.u` files (UE1–UE3).
 * [kismet-analyzer](https://github.com/trumank/kismet-analyzer) ⭐ 119 | 🐛 2 | 🌐 C# | 📅 2026-01-11 - Tools for analyzing and manipulating kismet bytecode in cooked Unreal Engine assets. Generates CFG graphs and class hierarchies from blueprint/kismet scripts.
 * [UEShaderMapExtractor](https://github.com/WistfulHopes/UEShaderMapExtractor) ⭐ 55 | 🐛 0 | 🌐 C++ | 📅 2025-12-24 - Tool to extract and identify shaders from Unreal Engine material shadermaps.
 * [kismet-debugger](https://github.com/trumank/kismet-debugger) ⭐ 33 | 🐛 1 | 🌐 C++ | 📅 2024-04-27 - Proof-of-concept debugger for stepping through kismet/blueprint bytecode in release-build Unreal Engine games (UE4SS mod).
@@ -2679,11 +2908,12 @@ This list is for developers and modders working with such formats. It provides t
 #### Maps, Saves, Localization & Mappings
 
 * [uesave](https://github.com/trumank/uesave) ⭐ 476 | 🐛 12 | 🌐 Rust | 📅 2026-04-23 - Rust library for reading and writing Unreal Engine save files.
-* [UE4-AES-Key-Extracting-Guide](https://github.com/Cracko298/UE4-AES-Key-Extracting-Guide) ⭐ 466 | 🐛 4 | 📅 2024-04-25 - Guide for extracting AES encryption keys from Unreal Engine 4 games.
+* [UE4-AES-Key-Extracting-Guide](https://github.com/Cracko298/UE4-AES-Key-Extracting-Guide) ⭐ 465 | 🐛 4 | 📅 2024-04-25 - Guide for extracting AES encryption keys from Unreal Engine 4 games.
 * [UnrealMappingsDumper](https://github.com/TheNaeem/UnrealMappingsDumper) ⭐ 426 | 🐛 58 | 🌐 C++ | 📅 2022-12-19 - Generates .usmap mapping files for datamining UE4/5 game files.
-* [Unreal-Mappings-Archive](https://github.com/TheNaeem/Unreal-Mappings-Archive) ⭐ 347 | 🐛 27 | 📅 2026-06-25 - Archive of Unreal Engine mapping files.
+* [Unreal-Mappings-Archive](https://github.com/TheNaeem/Unreal-Mappings-Archive) ⭐ 347 | 🐛 29 | 📅 2026-06-25 - Archive of Unreal Engine mapping files.
 * [UEAESKeyFinder](https://github.com/EZFNDEV/UEAESKeyFinder) ⭐ 253 | 🐛 20 | 🌐 C# | 📅 2022-01-11 - Finds the AES decryption key of practically any Unreal Engine game.
 * [stove](https://github.com/bananaturtlesandwich/stove) ⭐ 161 | 🐛 15 | 🌐 Rust | 📅 2024-12-13 - Cooked Unreal Engine map editor for viewing and modifying levels without original project files.
+* [UnrealLocres](https://github.com/akintos/UnrealLocres) ⭐ 156 | 🐛 4 | 🌐 C# | 📅 2021-10-24 - Command-line tool for exporting and importing Unreal Engine 4 localization resource (.locres) files to/from CSV; the underlying library used by UnrealLocresEditor above.
 * [UT4X-Converter](https://github.com/xtremexp/UT4X-Converter) ⭐ 74 | 🐛 2 | 🌐 Java | 📅 2026-08-30 - Converts Unreal Tournament maps between game versions (UT99/UT2004 → UT3/UT4 and UT4 → UT3).
 * [Solicen.UEExtractor](https://github.com/SolicenTEAM/UEExtractor) ⭐ 62 | 🐛 0 | 🌐 C# | 📅 2026-08-27 - Extracts text strings from Unreal Engine `.pak`/`.ucas` archive files for game localization/translation workflows.
 * [UnrealLocresEditor](https://github.com/Snoozeds/UnrealLocresEditor) ⭐ 60 | 🐛 9 | 🌐 C# | 📅 2026-01-05 - GUI tool for editing Unreal localization resource (.locres) file format.
@@ -2694,9 +2924,9 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Modding Frameworks & Toolkits
 
-* [RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) ⭐ 2,865 | 🐛 261 | 🌐 C++ | 📅 2026-09-03 - Lua scripting system, SDK generator, blueprint mod loader, and live property editor for UE4/5 games.
+* [RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) ⭐ 2,867 | 🐛 261 | 🌐 C++ | 📅 2026-09-03 - Lua scripting system, SDK generator, blueprint mod loader, and live property editor for UE4/5 games.
 * [UE-Modding-Tools](https://github.com/Buckminsterfullerene02/UE-Modding-Tools) ⭐ 1,219 | 🐛 0 | 📅 2026-08-08 - Databank of generic UE modding tools.
-* [UE\_Modding](https://github.com/Dmgvol/UE_Modding) ⭐ 586 | 🐛 0 | 📅 2026-06-10 - Comprehensive collection of guides and resources for modding Unreal Engine 4 and 5 games.
+* [UE\_Modding](https://github.com/Dmgvol/UE_Modding) ⭐ 587 | 🐛 0 | 📅 2026-06-10 - Comprehensive collection of guides and resources for modding Unreal Engine 4 and 5 games.
 * [UE4-DDS-Tools](https://github.com/matyalatte/UE4-DDS-Tools) ⭐ 135 | 🐛 17 | 🌐 Python | 📅 2024-05-19 - Texture modding tool for Unreal Engine games; injects and extracts DDS textures from .uasset/.uexp files without needing the original source project.
 * [unreal\_auto\_mod](https://github.com/Mythical-Github/unreal_auto_mod) ⭐ 47 | 🐛 1 | 🌐 Python | 📅 2025-04-10 - Tools for managing Unreal Engine mod projects and automated building.
 * [UE.Toolkit](https://github.com/RyoTune/UE.Toolkit) ⭐ 15 | 🐛 1 | 🌐 C# | 📅 2026-08-28 - Modding toolkit for UE games with UObject/UDataTable inspection and editing via Reloaded II, runtime data modification.
@@ -2734,12 +2964,14 @@ This list is for developers and modders working with such formats. It provides t
 
 * [Far-Cry-1-Source-Full](https://github.com/StrongPC123/Far-Cry-1-Source-Full) ⭐ 973 | 🐛 6 | 🌐 C++ | 📅 2024-04-09 - Full source code for Far Cry 1 by Crytek — leaked non-commercial reference release for CryEngine 1, useful for understanding original CryEngine file formats and engine internals.
 * [Cryengine-Converter](https://github.com/Markemp/Cryengine-Converter) ⭐ 284 | 🐛 43 | 🌐 C# | 📅 2026-06-21 - Converts CryEngine binary asset files to Collada (.dae) for import into Blender, Maya, and 3ds Max.
-  * Formats: .cgf (geometry), .chr (character), .skin (skinned mesh), .caf (animation), .dba (animation database), .cryxml (binary XML).
-  * Games: MechWarrior Online, ArcheAge, Hunt: Showdown, Star Citizen.
+* [io\_scene\_cgf\_extras](https://github.com/keyhom/io_scene_cgf_extras) ⭐ 13 | 🐛 1 | 🌐 Python | 📅 2024-06-30 - Companion utility scripts for io\_scene\_cgf, converting between CryEngine CGF/CAF and other model/animation formats.
 * [DDS-Unsplitter](https://github.com/Markemp/DDS-Unsplitter) ⭐ 11 | 🐛 4 | 🌐 C# | 📅 2025-05-26 - Reassembles CryEngine split .dds texture files (where a texture is stored as a base .dds plus one or more patch/mip sidecar files) back into a single usable .dds.
 * [010-Templates](https://github.com/Markemp/010-Templates) ⭐ 11 | 🐛 0 | 📅 2026-04-19 - 010 Editor binary templates for CryEngine, Lumberyard, and Open 3D Engine asset files.
   * Formats: .cgf, .chr, .skin (geometry/character/skinned mesh), .caf, .dba (animation), with a unified entry point that auto-detects CryTek / CrChF / Ivo variants.
   * Games: MechWarrior Online, ArcheAge (CryTek format), Hunt: Showdown (CrChF), Star Citizen (Ivo).
+* [io\_scene\_cgf](https://github.com/keyhom/io_scene_cgf) ⭐ 8 | 🐛 4 | 🌐 Python | 📅 2024-05-20 - Blender add-on that natively imports CryEngine CGF model files.
+  * Formats: .cgf (geometry), .chr (character), .skin (skinned mesh), .caf (animation), .dba (animation database), .cryxml (binary XML).
+  * Games: MechWarrior Online, ArcheAge, Hunt: Showdown, Star Citizen.
 * [OGPreyExplorer](https://github.com/ogarvey/OGPreyExplorer) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2024-08-14 - All-in-one asset tool for Prey (2017): browses and extracts PAK archives, and converts .cgf/.skin model files to .dae and .glTF via Cryengine-Converter.
 * [Far Cry 1 Noesis import plugin](https://www.moddb.com/games/far-cry/downloads/far-cry-1-noesis-import-plugin) - Noesis plugin for importing Far Cry 1 models. Export from Noesis to CryEngine is not supported.
 * [Far Cry 1 3dsmax 9 plugin](https://www.moddb.com/games/far-cry/downloads/far-cry-1-3dsmax-9-plugin) - 3DS Max 9 plugin for exporting Far Cry 1 models.
@@ -2756,7 +2988,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Dagor Engine
 
-* [Dagor Engine](https://github.com/GaijinEntertainment/DagorEngine) ⭐ 2,956 | 🐛 74 | 🌐 C++ | 📅 2026-08-16 - Open-source release of the Dagor Engine (War Thunder, Enlisted) including parts of the toolchain.
+* [Dagor Engine](https://github.com/GaijinEntertainment/DagorEngine) ⭐ 2,959 | 🐛 74 | 🌐 C++ | 📅 2026-08-16 - Open-source release of the Dagor Engine (War Thunder, Enlisted) including parts of the toolchain.
 * [dagor-file-formats](https://github.com/AlexKimov/dagor-file-formats) ⭐ 4 | 🐛 0 | 📅 2024-04-16 - Community reverse-engineering research and format templates for the Dagor Engine.
 
 ### Fox Engine
@@ -2810,9 +3042,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Northlight Engine
 
-* [OpenAWE](https://github.com/OpenAWE-Project/OpenAWE) ⭐ 212 | 🐛 13 | 🌐 C++ | 📅 2026-05-16 - Open source reimplementation of the Alan Wake Engine (later known as Northlight).
+* [OpenAWE](https://github.com/OpenAWE-Project/OpenAWE) ⭐ 213 | 🐛 13 | 🌐 C++ | 📅 2026-05-16 - Open source reimplementation of the Alan Wake Engine (later known as Northlight).
 * [neat](https://github.com/TomEvin/neat) ⭐ 55 | 🐛 3 | 📅 2023-10-28 - Northlight Engine Archive Tool (supports Quantum Break, Control, Alan Wake 2).
-* [control-unpack](https://github.com/profMagija/control-unpack) ⭐ 34 | 🐛 0 | 🌐 Python | 📅 2021-01-09 - Extractors and converters for various Northlight file formats used in Control (rmdp, rmdl, texco, strings).
+* [control-unpack](https://github.com/profMagija/control-unpack) ⭐ 35 | 🐛 0 | 🌐 Python | 📅 2021-01-09 - Extractors and converters for various Northlight file formats used in Control (rmdp, rmdl, texco, strings).
 * [NorthlightFontMaker](https://github.com/eprilx/NorthlightFontMaker) ⭐ 12 | 🐛 0 | 🌐 C# | 📅 2026-07-09 - Tool for creating and editing custom bitmap fonts for the Northlight engine (\*.binfnt).
 * [BlenderNorthlight](https://github.com/OpenAWE-Project/BlenderNorthlight) ⭐ 6 | 🐛 1 | 🌐 Python | 📅 2025-06-07 - Blender plugin for loading binmsh/binfbx files from Northlight Engine games (Control, Alan Wake 2, Quantum Break).
 
@@ -2875,12 +3107,17 @@ This list is for developers and modders working with such formats. It provides t
 
 * [B3DDecomp](https://github.com/juanjp600/B3DDecomp) ⭐ 23 | 🐛 8 | 🌐 C# | 📅 2026-01-11 - Disassembler and decompiler for games built with the Blitz3D and BlitzPlus engines.
 
+### StepMania
+
+* [GrooveAuthor](https://github.com/PerryAsleep/GrooveAuthor) ⭐ 58 | 🐛 9 | 🌐 C# | 📅 2026-08-22 - Editor for authoring StepMania charts (.sm/.ssc), by an ITGmania maintainer.
+
 ### RPG Maker
 
 * [EasyRPG Player](https://github.com/EasyRPG/Player) ⭐ 1,219 | 🐛 435 | 🌐 C++ | 📅 2026-09-01 - Open-source interpreter that runs RPG Maker 2000/2003 games natively, reading their LCF data formats (LMU maps, LDB/LMT databases) via liblcf.
 * [RPG-Maker-MV-Decrypter](https://gitlab.com/Petschko/RPG-Maker-MV-Decrypter) - Decrypts and re-encrypts RPG Maker MV/MZ's built-in encrypted resource files (`.rpgmvp`/`.rpgmvo`/`.rpgmvm`). Moved from [GitHub](https://github.com/Petschko/RPG-Maker-MV-Decrypter) ⚠️ Archived (now read-only) to GitLab for continued development.
-* [mkxp](https://github.com/Ancurio/mkxp) ⭐ 587 | 🐛 45 | 🌐 C++ | 📅 2026-01-18 - Open-source reimplementation of the Ruby Game Scripting System (RGSS) used by RPG Maker XP, VX, and VX Ace, running games natively by reading their RGSSAD/RGSS2A/RGSS3A archives. See also the more actively maintained [mkxp-z fork](https://github.com/mkxp-z/mkxp-z) ⭐ 371 | 🐛 156 | 🌐 C++ | 📅 2026-06-30.
-* [EasyRPG Editor](https://github.com/EasyRPG/Editor) ⭐ 426 | 🐛 45 | 🌐 C++ | 📅 2026-07-06 - Qt6-based game editor for creating EasyRPG games; can import and edit existing RPG Maker 2000/2003 projects by reading/writing their LCF map and database files via liblcf.
+* [mkxp](https://github.com/Ancurio/mkxp) ⭐ 586 | 🐛 45 | 🌐 C++ | 📅 2026-01-18 - Open-source reimplementation of the Ruby Game Scripting System (RGSS) used by RPG Maker XP, VX, and VX Ace, running games natively by reading their RGSSAD/RGSS2A/RGSS3A archives. See also the more actively maintained [mkxp-z fork](https://github.com/mkxp-z/mkxp-z) ⭐ 371 | 🐛 156 | 🌐 C++ | 📅 2026-06-30.
+* [EasyRPG Editor](https://github.com/EasyRPG/Editor) ⭐ 426 | 🐛 46 | 🌐 C++ | 📅 2026-07-06 - Qt6-based game editor for creating EasyRPG games; can import and edit existing RPG Maker 2000/2003 projects by reading/writing their LCF map and database files via liblcf.
+* [RPGMaker\_LLM\_Translator](https://github.com/fkiliver/RPGMaker_LLM_Translator) ⭐ 162 | 🐛 0 | 🌐 Python | 📅 2025-09-27 - Local translator for RPG Maker games, feeding extracted Mtool/Translator++ game text through the Sakura/GalTransl offline LLM translation models for Japanese machine translation.
 * [Luminol](https://github.com/Astrabit-ST/Luminol) ⭐ 147 | 🐛 25 | 🌐 Rust | 📅 2026-08-11 - Cross-platform RPG Maker XP/VX/VX Ace editor rewrite in Rust, reading the RGSS project data (rxdata/rvdata maps and databases).
 * [liblcf](https://github.com/EasyRPG/liblcf) ⭐ 139 | 🐛 41 | 🌐 C++ | 📅 2026-08-03 - C++ library for reading and writing the LCF formats used by RPG Maker 2000/2003 and EasyRPG projects.
 * [rgssad](https://github.com/luxrck/rgssad) ⭐ 41 | 🐛 0 | 🌐 Rust | 📅 2020-01-15 - Extract rgssad/rgss2a/rgss3a files from RPG Maker games.
@@ -2891,12 +3128,27 @@ This list is for developers and modders working with such formats. It provides t
 * [rpg-game-decrypter-python](https://github.com/TTitanUA/rpg-game-decrypter-python) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-05-01 - Desktop GUI tool for decrypting RPG Maker MV/MZ encrypted media files; also extracts Ren'Py .rpa archives.
 * [LoreInsight](https://github.com/Kokoroou/lore-insight) ⭐ 0 | 🐛 0 | 🌐 JavaScript | 📅 2026-07-11 - Browser-based, 100% offline visualizer for RPG Maker MV/MZ event flow, parsing `Map###.json`, `CommonEvents.json`, and `MapInfos.json` into an interactive node graph of dialogue, choices, conditions, and jumps.
 
+### Wolf RPG Editor
+
+*Japanese doujin/indie game authoring engine used by many titles (Ao Oni, Mad Father, Ib, Yume Nikki-likes, etc.).*
+
+* [UberWolf](https://github.com/Sinflower/UberWolf) ⭐ 181 | 🐛 1 | 🌐 C++ | 📅 2026-08-08 - GUI decrypter/unpacker for Wolf RPG Editor games, extracting encrypted `.wolf` data archives and decrypting protected game/mod files.
+
+### SRPG Studio
+
+*Japanese tactical/strategy RPG creation engine ("SRPG Studio").*
+
+* [SRPGStudioReverseTools](https://github.com/HNIdesu/SRPGStudioReverseTools) ⭐ 10 | 🐛 0 | 🌐 Python | 📅 2026-05-04 - Scripts to decrypt, unpack, and repack the files generated by SRPG Studio.
+
 ### Ren'Py
 
 *Visual novel engine used in many indie and commercial visual novels.*
 
 * [unrpyc](https://github.com/CensoredUsername/unrpyc) ⭐ 1,242 | 🐛 11 | 🌐 Ren'Py | 📅 2026-02-24 - Decompiler that reconstructs readable Ren'Py .rpy script source from compiled .rpyc bytecode files.
-* [unrpa](https://github.com/Lattyware/unrpa) ⭐ 759 | 🐛 20 | 🌐 Python | 📅 2022-06-27 - Program to extract files from the RPA archive format used in Ren'Py visual novels.
+* [unrpa](https://github.com/Lattyware/unrpa) ⭐ 760 | 🐛 20 | 🌐 Python | 📅 2022-06-27 - Program to extract files from the RPA archive format used in Ren'Py visual novels.
+* [rpycdec](https://github.com/cnfatal/rpycdec) ⭐ 54 | 🐛 2 | 🌐 Python | 📅 2026-08-22 - Actively maintained tool for decompiling Ren'Py compiled script files.
+  * Formats: `.rpyc`/`.rpymc` bytecode, `.rpa` archives, `.save` save files.
+  * Features: decompiles to readable script code, extracts/creates RPA archives, extracts and edits save files (via JSON round-trip), extracts games from Android APKs, and extracts translations to `tl/{language}/` directories; supports Ren'Py 7.x and 8.x.
 * [Rentool](https://github.com/Sirpixelalot/Rentool) ⭐ 13 | 🐛 0 | 🌐 Kotlin | 📅 2025-11-28 - Android toolkit for Ren'Py game modding: extracts and creates RPA archives, decompiles RPYC bytecode back into readable .rpy scripts, and compresses game assets, all on-device.
 * [rpa-extractor](https://github.com/abhishek-s12/rpa-extractor) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-07-31 - Extraction tool for Ren'Py RPA archive files.
 
@@ -2904,29 +3156,41 @@ This list is for developers and modders working with such formats. It provides t
 
 *Visual novel engine(s) ("System 3"/"System 4"/AinScript) by AliceSoft.*
 
-* [alice-tools](https://github.com/nunuhara/alice-tools) ⭐ 183 | 🐛 7 | 🌐 C | 📅 2026-08-12 - Tools for extracting/editing files from AliceSoft games (AinScript decompiler/compiler, ALD/AJP/DCF/PMS asset tools, and more).
-* [xsystem4](https://github.com/nunuhara/xsystem4) ⭐ 94 | 🐛 6 | 🌐 C | 📅 2026-08-26 - Cross-platform, open-source reimplementation of AliceSoft's System 4 engine, running original AliceSoft game data.
+* [alice-tools](https://github.com/nunuhara/alice-tools) ⭐ 184 | 🐛 7 | 🌐 C | 📅 2026-08-12 - Tools for extracting/editing files from AliceSoft games (AinScript decompiler/compiler, ALD/AJP/DCF/PMS asset tools, and more).
+* [xsystem4](https://github.com/nunuhara/xsystem4) ⭐ 95 | 🐛 6 | 🌐 C | 📅 2026-08-26 - Cross-platform, open-source reimplementation of AliceSoft's System 4 engine, running original AliceSoft game data.
 * [FNLib](https://github.com/marcussacana/FNLib) ⭐ 14 | 🐛 0 | 🌐 C# | 📅 2021-11-11 - Font editor library for the AliceSoft engine.
 
 ### Aquaplus (Leaf)
 
 * [AquaPlusEditor](https://github.com/marcussacana/AquaPlusEditor) ⭐ 15 | 🐛 1 | 🌐 C# | 📅 2024-04-24 - Editor for Aquaplus (Leaf) visual novel engine files.
 
+#### ToHeart2 DX PLUS
+
+* [TH2DXP\_KIT](https://github.com/hiroshil/TH2DXP_KIT) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-07-14 - Localization toolkit for the PS3 version of *ToHeart2 DX PLUS*.
+  * Tools: `dat_tool.py` (DAT archive extraction/repacking), `scenario_eboot_tool.py` (scenario script extraction from the EBOOT), `tpl_image_tool.py` (TPL image conversion).
+
+#### Utawarerumono
+
+* [UtaMeshExtractor](https://github.com/Pohrom/UtaMeshExtractor) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2016-12-31 - Extracts textures and MDL models (converted to Wavefront OBJ) from the PS3 version of *Utawarerumono: Mask of Deception*.
+
 ### Escude
 
+* [EscudeTools](https://github.com/Chenx221/EscudeTools) ⭐ 40 | 🐛 1 | 🌐 C# | 📅 2025-12-30 - Tools for extracting and repacking Escude engine visual novel files, tested on newer titles.
 * [EscudeEditor](https://github.com/marcussacana/EscudeEditor) ⭐ 27 | 🐛 1 | 🌐 C# | 📅 2018-06-18 - Editor for the Escude engine's BIN scripts and packages.
+* [Bincude](https://github.com/TheVNConnoisseur/Bincude) ⭐ 9 | 🐛 0 | 🌐 C# | 📅 2026-06-11 - Tool for creating and unpacking Escude engine `.BIN` archives.
 
 ### Eushully
 
 *Visual novel engine used by Eushully's games.*
 
+* [Agf2Bmp2Agf](https://github.com/Zoltanar/Agf2Bmp2Agf) ⭐ 12 | 🐛 0 | 🌐 C# | 📅 2024-03-31 - Converts AGF image files used in Eushully games to BMP and back.
 * [EushullyEditor](https://github.com/marcussacana/EushullyEditor) ⭐ 9 | 🐛 1 | 🌐 C# | 📅 2021-03-12 - Editor for Eushully engine visual novel files.
 
 ### Mware
 
 *"Mware" visual novel engine.*
 
-* [MwareStuff](https://github.com/marcussacana/MwareStuff) ⭐ 96 | 🐛 3 | 🌐 C# | 📅 2026-01-14 - Tools for working with Mware engine visual novel files.
+* [MwareStuff](https://github.com/marcussacana/MwareStuff) ⭐ 96 | 🐛 4 | 🌐 C# | 📅 2026-09-05 - Tools for working with Mware engine visual novel files.
 
 ### Unison Shift
 
@@ -2941,48 +3205,74 @@ This list is for developers and modders working with such formats. It provides t
   * See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) ⚠️ Archived above for translating BGI scenario scripts.
   * Tools: BgiDisassembler (disassembles internal system `._bp` scripts), BgiImageEncoder (encodes images to the engine's proprietary CompressedBG format).
 * [openbgi](https://github.com/Cytlan/openbgi) ⭐ 70 | 🐛 0 | 🌐 C | 📅 2026-08-26 - Open-source reimplementation of the Ethornell/BGI (Buriko General Interpreter) visual novel engine.
+* [BGITool](https://github.com/xmoezzz/BGITool) ⭐ 59 | 🐛 0 | 🌐 C | 📅 2017-12-26 - Tools for working with the BGI visual novel engine, including BGIDev for scene script decompilation.
 * [arc-reader](https://github.com/minirop/arc-reader) ⭐ 42 | 🐛 2 | 🌐 C | 📅 2015-09-06 - Reads and extracts files from BGI engine `.arc` archives (OverDrive/MangaGamer). See also [arc-reader-rs](https://github.com/lxl66566/arc-reader-rs) ⭐ 6 | 🐛 1 | 🌐 Rust | 📅 2026-09-01, a Rust port/rewrite.
+* [Bgi\_script\_tools](https://github.com/mchubby-3rdparty/Bgi_script_tools) ⭐ 36 | 🐛 0 | 🌐 Python | 📅 2019-04-14 - Python 3 scripts (originally by kingshriek) to process extension-less BGI 1.69 scripts (e.g. Eustia's `Scenario0000`).
+* [Bgi\_asdis](https://github.com/KlparetlR/Bgi_asdis) ⭐ 30 | 🐛 0 | 🌐 Python | 📅 2026-05-03 - Disassembler and assembler for BGI (Buriko General Interpreter)/Ethornell binary script files.
 * [EthornellEditor](https://github.com/marcussacana/EthornellEditor) ⭐ 29 | 🐛 1 | 🌐 C# | 📅 2022-07-10 - Translation tool for Buriko General Interpreter (BGI/Ethornell) engine scripts (BGI v2; BSE scripts not supported).
 * [BGIScrViewer](https://github.com/thefoggycity/BGIScrViewer) ⭐ 13 | 🐛 0 | 🌐 C# | 📅 2019-09-24 - GUI tool for viewing decompressed scripts of BGI visual novel games.
 * [BGI\_Script\_Tool](https://github.com/crskycode/BGI_Script_Tool) ⭐ 12 | 🐛 0 | 🌐 C# | 📅 2021-06-27 - Exports and rebuilds text strings from BGI engine scripts (excluding the internal `._bp` files handled by EthornellTools' BgiDisassembler above).
 * [BGI\_Pack\_Tool](https://github.com/crskycode/BGI_Pack_Tool) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2021-04-05 - Creates BGI engine archive files. See also the author's earlier [BGIArcPack](https://github.com/crskycode/BGIArcPack) ⭐ 3 | 🐛 0 | 🌐 C# | 📅 2021-03-02.
+* [BGI\_BM\_Converter](https://github.com/Lite0812/BGI_BM_Converter) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-04-29 - Converts BGI (Buriko General Interpreter)/Ethornell engine `.bm` image files.
 * [BGI](https://github.com/txt231/BGI) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2026-08-02 - Experimental reimplementation of the BGI (Buriko General Interpreter) visual novel engine: bytecode VM emulator (BGITool), opcode disassembler (BGIPiler) and tracer (BGITracer), and a resource viewer (BGIExplorer) for BGI's texture/bitmap formats.
+* [BGIDscCompressor](https://github.com/akiWagashi/BGIDscCompressor) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2025-08-24 - Compresses/decompresses files for the Ethornell/Buriko General Interpreter (BGI) visual novel engine.
 
 ### RealLive
 
 *Visual novel engine used by Key (Clannad, Kanon, Little Busters!), Circus, and other Japanese publishers.*
 
-* [rlvm](https://github.com/eglaysher/rlvm) ⭐ 166 | 🐛 22 | 🌐 C++ | 📅 2024-09-08 - Open-source RealLive engine clone for Linux and macOS, reading original RealLive visual novel game data.
+* [rlvm](https://github.com/eglaysher/rlvm) ⭐ 167 | 🐛 22 | 🌐 C++ | 📅 2024-09-08 - Open-source RealLive engine clone for Linux and macOS, reading original RealLive visual novel game data.
+* [rldev](https://github.com/eglaysher/rldev) ⭐ 53 | 🐛 1 | 🌐 OCaml | 📅 2022-04-09 - RealLive development kit: compiler/decompiler for RealLive bytecode (`.ke`/`.rl` sources to `SEEN.TXT`), plus archive and asset tools, by the same author as rlvm. See also [theappleman's fork](https://github.com/theappleman/rldev) ⭐ 17 | 🐛 1 | 🌐 OCaml | 📅 2016-11-14 with fixes for the Little Busters! fan translation project.
+* [nwa](https://github.com/hasenbanck/nwa) ⭐ 2 | 🐛 0 | 🌐 Go | 📅 2019-07-17 - Go library for decoding NWA, RealLive's compressed sound format.
 
 ### Kirikiri
 
 *Visual novel engine (KAG/TJS scripting) used by many Japanese visual novels.*
 
 * [Kirikiroid2](https://github.com/zeas2/Kirikiroid2) ⭐ 2,929 | 🐛 130 | 🌐 C++ | 📅 2024-06-05 - Cross-platform (Android and other) port of the Kirikiri2/KirikiriZ engine, running original Kirikiri visual novel game data.
-* [KrkrExtract](https://github.com/xmoezzz/KrkrExtract) ⚠️ Archived - Extracts and repacks Kirikiri krkr2/krkrz XP3 archives.
+* [KrkrExtract](https://github.com/xmoezzz/KrkrExtract) ⚠️ Archived - Extracts and repacks Kirikiri krkr2/krkrz XP3 archives. No longer maintained; see also the actively maintained successor [KrkrzExtract](https://github.com/xmoezzz/KrkrzExtract) ⭐ 264 | 🐛 9 | 🌐 C | 📅 2026-08-25.
+* [krkrz](https://github.com/krkrz/krkrz) ⭐ 946 | 🐛 64 | 🌐 C++ | 📅 2024-03-24 - The official Kirikiri Z (KAG3/TJS2) visual novel engine project itself, including the runtime, TJS2 script compiler/VM, and XP3 archive support - upstream for many of the tools below.
 * [KirikiriTools](https://github.com/arcusmaximus/KirikiriTools) ⚠️ Archived - Toolset for the Kirikiri visual novel engine.
   * See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) ⚠️ Archived above for translating Kirikiri scripts.
   * Tools: KirikiriDescrambler (descrambles/decompresses obfuscated `.ks`/`.tjs` plaintext scripts), KirikiriUnencryptedArchive (`version.dll` injection making games accept unencrypted .xp3 archives, with support for extracting encrypted/hashed file names), Xp3Pack (creates unencrypted .xp3 patch archives for use with the DLL).
 * [krkrsdl2](https://github.com/krkrsdl2/krkrsdl2) ⭐ 431 | 🐛 32 | 🌐 C++ | 📅 2026-08-31 - Port of the KirikiriZ engine to platforms supported by SDL2 (macOS, Linux), running original Kirikiri game data.
 * [KrkrDump](https://github.com/crskycode/KrkrDump) ⭐ 308 | 🐛 0 | 🌐 C++ | 📅 2025-09-27 - Extracts files from newer versions of the Kirikiri Z engine.
+* [VisualNovelUpscaler](https://github.com/hokejyo/VisualNovelUpscaler) ⭐ 144 | 🐛 3 | 🌐 Python | 📅 2022-07-17 - One-click AI upscaling remaster tool for Kirikiri2/Z and Artemis engine visual novels; unpacks archives, converts TLG images to PNG, upscales with waifu2x/Real-ESRGAN/RealSR, and repacks.
 * [KrKrZSceneManager](https://github.com/marcussacana/KrKrZSceneManager) ⭐ 111 | 🐛 0 | 🌐 C# | 📅 2023-05-24 - Scene/script manager (KiriKiriZSM) for the KirikiriZ engine.
+* [KrkrExtractForCxdecV2](https://github.com/YeLikesss/KrkrExtractForCxdecV2) ⭐ 92 | 🐛 0 | 🌐 C++ | 📅 2024-06-09 - Dynamic extractor for Wamsoft's KrkrZ engine builds using the Cxdec/Hxv4 encryption scheme (2021.11+ runtime), also dumping the string hashes needed to recover original file/directory names.
+* [kirikiri2](https://github.com/jeeb/kirikiri2) ⭐ 72 | 🐛 0 | 🌐 C++ | 📅 2017-02-28 - Git-svn mirror of the original Kirikiri2 engine's SVN repository, the pre-Z source many of the tools above reverse engineer against.
 * [KrkrPatch](https://github.com/crskycode/KrkrPatch) ⭐ 61 | 🐛 0 | 🌐 C++ | 📅 2026-02-25 - Universal patch extension that enables file extraction/analysis on newer Kirikiri-based games.
-* [tjs2-decompiler](https://github.com/crate-1556/tjs2-decompiler) ⭐ 31 | 🐛 0 | 🌐 Python | 📅 2026-03-16 - TJS2 (TJS2100) bytecode decompiler, converting compiled Kirikiri script bytecode back into readable/executable TJS2 source.
+* [hxv4\_unhash\_tools](https://github.com/MLChinoo/hxv4_unhash_tools) ⭐ 43 | 🐛 0 | 🌐 Python | 📅 2026-08-31 - Recovers original file/directory names from hxv4-hashed Kirikiri XP3 archive contents (scripts, voice, sound, images, video), developed against Dracu-Riot! with partial support for other hxv4-crypted titles.
+* [HxGamePatch](https://github.com/pkuislm/HxGamePatch) ⭐ 39 | 🐛 0 | 🌐 C++ | 📅 2023-01-06 - Patch enabling file extraction/analysis on newer Kirikiri-based games with updated encryption schemes.
+* [xp3-brute](https://github.com/xmoezzz/xp3-brute) ⭐ 34 | 🐛 1 | 🌐 Rust | 📅 2026-08-25 - Unpacks, packs, and modifies Kirikiri (krkr) XP3 archives.
+* [tjs2-decompiler](https://github.com/crate-1556/tjs2-decompiler) ⭐ 31 | 🐛 0 | 🌐 Python | 📅 2026-03-16 - TJS2 (TJS2100) bytecode decompiler, converting compiled Kirikiri script bytecode back into readable/executable TJS2 source. See also [tjs2Decompiler](https://github.com/xmoezzz/tjs2Decompiler) ⭐ 38 | 🐛 0 | 🌐 Rust | 📅 2026-08-24, a Rust TJS2 (Kirikiri2/Kirikiri-Z) bytecode loader and decompiler.
 * [KirikiriSharp](https://github.com/Project-AZUSA/KirikiriSharp) ⭐ 27 | 🐛 2 | 🌐 C# | 📅 2019-06-01 - Work-in-progress .NET parser for Kirikiri KAG/TJS visual novel scripting, used to inspect the engine's internal principles/mechanisms. Fork of [planetarian/KirikiriSharp](https://github.com/planetarian/KirikiriSharp) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2016-09-16.
+* [Fuck\_Cxdec\_Check](https://github.com/1F1E33-float32/Fuck_Cxdec_Check) ⭐ 25 | 🐛 0 | 🌐 C++ | 📅 2025-02-08 - Patch bypassing the executable integrity check and disabling ASLR on recent Cxdec-protected KirikiriZ engine builds, to allow further analysis/extraction.
+* [cxdec-hxv4-static-analysis](https://github.com/hktkqj/cxdec-hxv4-static-analysis) ⭐ 20 | 🐛 0 | 🌐 Python | 📅 2026-07-09 - Research toolkit/documentation for Cxdec/Hxv4-encrypted Kirikiri game assets, covering offline encryption-parameter recovery and verification, extraction, and TJS2 bytecode analysis.
 * [Xp3Viewer-AfterStory](https://github.com/Inori/Xp3Viewer-AfterStory) ⭐ 19 | 🐛 0 | 🌐 C++ | 📅 2015-03-10 - Updated viewer for Kirikiri's XP3 archive format.
 * [tlg-wic-codec](https://github.com/krkrz/tlg-wic-codec) ⭐ 12 | 🐛 0 | 🌐 C++ | 📅 2018-07-11 - Kirikiri TLG image codec for the Windows Imaging Component.
+* [KrkrDataLoader](https://github.com/pjh456/KrkrDataLoader) ⭐ 12 | 🐛 0 | 🌐 Java | 📅 2025-02-14 - Loader/dumper for Kirikiri engine `.xp3` archive data and TJS2 script bytecode.
 * [tlg\_rs](https://github.com/Forlos/tlg_rs) ⭐ 10 | 🐛 0 | 🌐 Rust | 📅 2020-08-19 - Rust CLI for converting Kirikiri's TLG image format (TLG0.0/TLG6.0) to PNG.
-* [amv\_decoder](https://github.com/xmoezzz/amv_decoder) ⭐ 10 | 🐛 0 | 🌐 Rust | 📅 2026-08-25 - Experimental parser/decoder for AMV video files used by the KiriKiri2/KiriKiriZ engine.
+* [amv\_decoder](https://github.com/xmoezzz/amv_decoder) ⭐ 10 | 🐛 0 | 🌐 Rust | 📅 2026-08-25 - Experimental parser/decoder for AMV video files used by the KiriKiri2/KiriKiriZ engine. See also [AlphaMovieDecoder](https://github.com/xmoezzz/AlphaMovieDecoder) ⭐ 41 | 🐛 5 | 🌐 Common Lisp | 📅 2025-12-16, a Common Lisp implementation of the same format.
+* [Cxdec\_Tools](https://github.com/1F1E33-float32/Cxdec_Tools) ⭐ 10 | 🐛 0 | 🌐 Rust | 📅 2026-07-03 - Fully static recovery of Cxdec-encrypted resource filenames and data (no running game process required), recovering XP3 archive contents and dumping resources.
+* [KrkrPbdStandViewer](https://github.com/YeLikesss/KrkrPbdStandViewer) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2026-07-21 - Viewer for Wamsoft's Kirikiri Z PBD standing-image format.
+* [psdfile](https://github.com/wamsoft/psdfile) ⭐ 6 | 🐛 0 | 🌐 C++ | 📅 2026-08-29 - Kirikiri Z plugin for reading (and editing/writing) Photoshop PSD files: parses layer structure, extracts per-layer or merged images, and exposes individual layers as a `psd://` virtual storage path. PSD parsing/encoding core is split out into [psdparse](https://github.com/wamsoft/psdparse) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2026-08-19.
 * [KrkrzPack](https://github.com/crskycode/KrkrzPack) ⭐ 5 | 🐛 0 | 🌐 C# | 📅 2021-02-28 - Creates archives for the KirikiriZ engine.
 * [krdevui](https://github.com/krkrz/krdevui) ⭐ 5 | 🐛 0 | 🌐 C | 📅 2015-06-25 - Kirikiri development-time tools: an archiver for building/inspecting XP3 archives, a loop tuner, and other engine dev utilities.
 * [csvParser](https://github.com/crskycode/csvParser) ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2021-08-18 - Kirikiri CSV data-file parser plugin, with KirikiriZ support.
+* [fcf-editor](https://github.com/dorobo-hamster/fcf-editor) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2015-03-15 - Editor for FCF flowchart files used by the TypeMoon-modified version of Kirikiri to manage scene flow. See also [Hintay's fork](https://github.com/Hintay/fcf-editor) ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2017-09-02 with a fix for loading multiple flag operations.
 * [SDBManager](https://github.com/marcussacana/SDBManager) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2020-12-25 - Editor for the older Kirikiri SDB file format.
 * [wic](https://github.com/krkrz/wic) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2017-12-24 - Kirikiri plugin adding GIF, ICO, and TIFF image read support (plus TIFF write) via the Windows Imaging Component.
+* [KrkrDump-Hasher](https://github.com/MLChinoo/KrkrDump-Hasher) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2025-07-30 - Companion hashing utility for KrkrDump, computing the hashes needed to identify Kirikiri engine script functions.
+* [TjsParser](https://github.com/MLChinoo/TjsParser) ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2026-07-30 - C# parser for Kirikiri/KRKRZ TJS2 plaintext scripts, producing a strongly-typed AST/JSON output; also parses the `KBAD100` binary Dictionary/Array data format and detects whether a given file is TJS2100 bytecode, plaintext, or KBAD100 binary.
+* [serde\_tjs](https://github.com/lifegpc/serde_tjs) ⭐ 0 | 🐛 0 | 🌐 Rust | 📅 2025-11-20 - Rust Serde serialization/deserialization library for TJS2 data structures.
 
 ### ONScripter
 
 *Visual novel engine (NScripter-compatible) used by many freeware/doujin visual novels.*
 
+* [OnscripterYuri](https://github.com/YuriSizuku/OnscripterYuri) ⭐ 844 | 🐛 17 | 🌐 C++ | 📅 2026-06-23 - Enhanced ONScripter engine port, running original ONScripter/NScripter game data across many platforms, with a focus on web (Emscripten/WASM).
+* [nscript.dat-tool](https://github.com/danmig06/nscript.dat-tool) ⭐ 20 | 🐛 0 | 🌐 C | 📅 2026-01-27 - Extraction/repacking tool for the `nscript.dat` script format used by NScripter/ONScripter-family engines.
 * [OpenARC](https://github.com/Nyarstot/OpenARC) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2024-08-04 - Decoder/encoder for the .arc archive format used by the ONScripter visual novel engine, based on the archive codebase from ONScripter-EN.
 
 ### Light.vn
@@ -2996,7 +3286,9 @@ This list is for developers and modders working with such formats. It provides t
 *Visual novel engine ("C,system") by Cyberworks, used in various Japanese visual novels.*
 
 * [CSystemTools](https://github.com/arcusmaximus/CSystemTools) ⚠️ Archived - Script and image unpacking/repacking tool for the Cyberworks "C,system" visual novel engine (Arc00-Arc09.dat index/content files); images convert automatically to/from PNG. See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) ⚠️ Archived for translating the extracted scenario scripts.
+* [betterfpk](https://github.com/Anonym271/betterfpk) ⭐ 9 | 🐛 1 | 🌐 C++ | 📅 2025-07-14 - Cyberworks "C,system" FPK archive tool with ZLC compression support, tested with TsuyokissNext.
 * [SystemCScriptManager](https://github.com/marcussacana/SystemCScriptManager) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2021-03-12 - DLL library for building custom string editors for the Cyberworks "C,system" engine's scripts.
+* [SystemCTools](https://github.com/lunaswd/SystemCTools) ⭐ 4 | 🐛 0 | 📅 2023-09-06 - Additional tools for the Cyberworks "C,system" visual novel engine.
 
 ### CatSystem2
 
@@ -3005,7 +3297,12 @@ This list is for developers and modders working with such formats. It provides t
 * [TriggersTools.CatSystem2](https://github.com/trigger-segfault/TriggersTools.CatSystem2) ⭐ 78 | 🐛 6 | 🌐 C# | 📅 2019-03-28 - .NET library for extracting from and working with CatSystem2 visual novel engine files: decrypts/extracts KIF int archives, extracts HG-2/HG-3 images, and decompiles CST/FES/ANM scripts into a modifiable, recompilable state.
 * [CatSceneEditor](https://github.com/marcussacana/CatSceneEditor) ⭐ 45 | 🐛 1 | 🌐 C# | 📅 2023-09-02 - Scene/script editor (CSE) for the CatSystem2 visual novel engine.
 * [FelineSystem2](https://github.com/kokseen1/FelineSystem2) ⭐ 39 | 🐛 17 | 🌐 C++ | 📅 2023-06-01 - Open-source remake of the CatSystem2 visual novel engine, reading original game script and asset data.
+* [CatSystem2-Simple-Translating-Tools](https://github.com/Wolverator/CatSystem2-Simple-Translating-Tools) ⭐ 32 | 🐛 3 | 🌐 Python | 📅 2024-10-20 - Single-click tools to extract movies, images, and text from CatSystem2 games into an editable state and pack them back.
 * [catsystem-py](https://github.com/trigger-segfault/catsystem-py) ⭐ 26 | 🐛 1 | 🌐 Python | 📅 2022-02-15 - Work-in-progress Python library, tools, and documentation created while reversing the CatSystem 1 and 2 VN engines.
+* [GrisaiaExtractor](https://github.com/trigger-segfault/GrisaiaExtractor) ⭐ 14 | 🐛 4 | 🌐 C# | 📅 2019-01-20 - Ripping tool (primarily for images) for the Grisaia series, which uses CatSystem2's KIFINT archive and HG3 image formats.
+* [unPAK](https://github.com/NameSubjecttoChange/unPAK) ⭐ 9 | 🐛 1 | 🌐 C# | 📅 2019-11-04 - Packer/unpacker for `.PAK` files from the PS Vita port of CatSystem2.
+* [GrisaiaSpriteViewer](https://github.com/trigger-segfault/GrisaiaSpriteViewer) ⭐ 9 | 🐛 0 | 🌐 C# | 📅 2020-05-10 - Sprite viewer and saver for character sprites extracted from the Grisaia series.
+* [CatSystem2Tool](https://github.com/akiWagashi/CatSystem2Tool) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2025-08-28 - Unpacks and repacks CatSystem2 engine `.int` archives.
 
 ### Propeller Engine
 
@@ -3025,11 +3322,39 @@ This list is for developers and modders working with such formats. It provides t
 
 * [AaruSystemTools](https://github.com/crskycode/AaruSystemTools) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2025-04-27 - Extracts and repacks AaruSystem engine resource packs (`.FL4` archives).
 
+### ADVSYS3 Engine
+
+*Visual novel engine ("ADVSYS3") used in various Japanese visual novels.*
+
+* [ADVSYS3-ENGINE-TOOLS](https://github.com/HOKORISAMA/ADVSYS3-ENGINE-TOOLS) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2024-10-14 - Extraction/repacking tools for ADVSYS3 engine archives and scripts.
+
 ### AILSystem Engine
 
 *Visual novel engine ("AILSystem") used in various Japanese visual novels.*
 
+* [AILSOFT-AIL-Engine-Tools](https://github.com/HOKORISAMA/AILSOFT-AIL-Engine-Tools) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2024-12-28 - Extracts/repacks AIL engine `Sall`-format resource archives, and disassembles/reassembles the engine's compiled scripts.
 * [AIL\_Tools](https://github.com/crskycode/AIL_Tools) ⭐ 5 | 🐛 1 | 🌐 C# | 📅 2025-06-08 - Extracts and repacks AILSystem engine resource packs (`.DAT`/`.SNL` archives).
+
+### Artemis Engine
+
+*Visual novel engine ("Artemis") used in various Japanese visual novels.*
+
+* [pfs\_upk](https://github.com/nextgal/pfs_upk) ⭐ 102 | 🐛 4 | 🌐 C++ | 📅 2023-06-29 - Simple unpacker/packer for Artemis engine `.pfs` archives.
+* [pfs-rs](https://github.com/sakarie9/pfs-rs) ⭐ 41 | 🐛 0 | 🌐 Rust | 📅 2026-03-30 - Unpacker and packer for Artemis engine `.pfs` archives, written in Rust.
+* [Artemis\_Pack\_Tool](https://github.com/crskycode/Artemis_Pack_Tool) ⭐ 14 | 🐛 0 | 🌐 C# | 📅 2022-07-31 - Creates Artemis engine `.pfs` archive files.
+* [artemis\_ast](https://github.com/xmoezzz/artemis_ast) ⭐ 13 | 🐛 1 | 🌐 Rust | 📅 2023-09-13 - Parser/compiler for Artemis engine `.ast` script bytecode.
+
+### AVG32
+
+*Visual novel engine ("AVG32") used in various Japanese visual novels.*
+
+* [adieu](https://github.com/Ruin0x11/adieu) ⭐ 8 | 🐛 0 | 🌐 Rust | 📅 2021-02-07 - Bytecode parser and disassembler for the AVG32 visual novel engine.
+
+### AVGEngine V2 / GxEngine V3
+
+*Visual novel engine ("AVGEngine V2"/"GxEngine V3") used in various Japanese visual novels.*
+
+* [AVGEngineV2\_Tool](https://github.com/akiWagashi/AVGEngineV2_Tool) ⭐ 11 | 🐛 0 | 🌐 C++ | 📅 2024-10-15 - Extraction/repacking tool for AVGEngine V2/GxEngine V3 visual novel engine files.
 
 ### Bishop Engine
 
@@ -3038,11 +3363,30 @@ This list is for developers and modders working with such formats. It provides t
 * [BSXScript\_Tool](https://github.com/crskycode/BSXScript_Tool) ⭐ 24 | 🐛 2 | 🌐 C# | 📅 2022-07-31 - Export/import tool for `BSXScript 3.0` script files used by the Bishop engine.
 * [Bishop\_BSG\_Tool](https://github.com/crskycode/Bishop_BSG_Tool) ⭐ 9 | 🐛 0 | 🌐 C# | 📅 2025-08-06 - Converts PNG images to BSG (BSS-Graphics) UI graphics files for the Bishop engine.
 
+### Circus (Mes Engine)
+
+*Visual novel engine ("Mes") used by Circus, Ivory, and other Japanese visual novel developers.*
+
+* [MesTextTool](https://github.com/cokkeijigen/MesTextTool) ⭐ 34 | 🐛 0 | 🌐 C++ | 📅 2026-09-04 - Script text export/import tool for the Circus "Mes" engine.
+
 ### CIS Engine
 
 *Visual novel engine ("CIS") used in various Japanese visual novels.*
 
 * [CIS\_Tools](https://github.com/crskycode/CIS_Tools) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2025-04-27 - Extracts and repacks CIS engine resource packs (extensionless `data`, `data2`, `data3`, ... files).
+
+### DDSystem
+
+*Visual novel engine ("DDSystem"/DDPSystem) used in various Japanese visual novels.*
+
+* [DDSystem](https://github.com/vagmr/DDSystem) ⭐ 3 | 🐛 0 | 🌐 C | 📅 2025-03-28 - GUI and CLI packer/unpacker for the engine's `DDP2` and `DDP3` archive formats.
+
+### Debonosu Works Engine
+
+*Visual novel engine used by Debonosu Works.*
+
+* [DebonosuWorks\_Tools](https://github.com/Karaik/DebonosuWorks_Tools) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2025-12-17 - Lists, extracts, repacks, and decompiles Debonosu Works engine `.pak` archives.
+* [Debonosu\_Works\_Script\_tools](https://github.com/HOKORISAMA/Debonosu_Works_Script_tools) ⭐ 1 | 🐛 1 | 🌐 Python | 📅 2025-01-02 - Script extraction/repacking tool for the Debonosu Works engine.
 
 ### Edoire
 
@@ -3050,11 +3394,23 @@ This list is for developers and modders working with such formats. It provides t
 
 * [EdoireTools](https://github.com/crskycode/EdoireTools) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2026-02-12 - Extracts and repacks Edoire engine resource packs (`.arc` archives with `@ARCH000` header).
 
+### elf / Silky's
+
+*Visual novel engine used by elf and its "Silky's" branded games (predecessor to the later AI6WIN-based Silky Engine).*
+
+* [elf-tools](https://github.com/nunuhara/elf-tools) ⭐ 34 | 🐛 0 | 🌐 C | 📅 2026-07-20 - Tools for viewing and editing file formats used in elf and Silky's games.
+
 ### EntisGLS
 
 *Visual novel engine ("EntisGLS") used in various Japanese visual novels.*
 
 * [EntisGLS\_Tools (CSX Tools)](https://github.com/crskycode/EntisGLS_Tools) ⭐ 34 | 🐛 0 | 🌐 C# | 📅 2026-03-17 - Script text export/import tool for EntisGLS `.csx` script files; CSXTool targets 1.x engine versions and CSXToolPlus targets 2.x-3.x.
+
+### FamilyAdvSystem Engine
+
+*Visual novel engine ("FamilyAdvSystem") used in various Japanese visual novels.*
+
+* [CSAF\_Tool](https://github.com/akiWagashi/CSAF_Tool) ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2025-08-24 - Extracts resources from CSAF archives (signature `0x43 0x53 0x41 0x46`) of the FamilyAdvSystem visual novel engine, created based on a GARbro issue.
 
 ### Famous Writer
 
@@ -3062,11 +3418,22 @@ This list is for developers and modders working with such formats. It provides t
 
 * [gakuen\_handsome](https://github.com/lennylxx/gakuen_handsome) ⭐ 3 | 🐛 3 | 🌐 C++ | 📅 2017-12-28 - Reverse engineering of the FWD binary archive format used by Famous Writer, documenting the header/entry-offset table layout and script checksum calculation, created for a Chinese fan translation of Gakuen Handsome (学園ハンサム).
 
+### FFA System Engine
+
+*Visual novel engine ("FFA System") used in various Japanese visual novels.*
+
+* [FFA-SYSTEM-Tools](https://github.com/HOKORISAMA/FFA-SYSTEM-Tools) ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2025-05-16 - Extraction/repacking tools for FFA System engine archives and scripts.
+* [BlackPackageImageTool](https://github.com/HOKORISAMA/BlackPackageImageTool) ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2025-01-01 - Converts FFA System engine `.bp`/Black Package image files to/from PNG.
+
 ### FVP Engine
 
 *Visual novel engine ("FVP") used in various Japanese visual novels.*
 
-* [rfvp](https://github.com/xmoezzz/rfvp) ⭐ 130 | 🐛 1 | 🌐 Rust | 📅 2026-08-21 - Non-official Rust reimplementation of the FVP engine and IDE, running games directly from their original `.hcb` script/asset files, with a debug HUD, custom-font support, and UTF-8/GBK translated-text encoding switching.
+* [rfvp](https://github.com/xmoezzz/rfvp) ⭐ 131 | 🐛 2 | 🌐 Rust | 📅 2026-08-21 - Non-official Rust reimplementation of the FVP engine and IDE, running games directly from their original `.hcb` script/asset files, with a debug HUD, custom-font support, and UTF-8/GBK translated-text encoding switching.
+* [fvp](https://github.com/akerou/fvp) ⭐ 42 | 🐛 0 | 🌐 C++ | 📅 2015-07-03 - All-in-one tool for FVP-engine games by FAVORITE, covering script/archive extraction and repacking.
+* [ShinkuToolset](https://github.com/xmoezzz/ShinkuToolset) ⭐ 39 | 🐛 0 | 🌐 Lua | 📅 2024-04-28 - Translation toolset for FVP-engine games by FAVORITE.
+* [fvp-unpacker](https://github.com/Nikaidou-Shinku/fvp-unpacker) ⭐ 10 | 🐛 0 | 🌐 Rust | 📅 2026-01-12 - Unpacks FVP `.bin` archives, with image extraction and tachie (立ち絵) layer composition support.
+* [fvp-rs](https://github.com/lxl66566/fvp-rs) ⭐ 0 | 🐛 2 | 🌐 Rust | 📅 2026-03-01 - Rust library and CLI for packing and unpacking FVP engine `.bin` archives, mainly used for the engine's audio archives.
 
 ### GSIWin
 
@@ -3075,17 +3442,72 @@ This list is for developers and modders working with such formats. It provides t
 * [FGSIWinTool](https://github.com/crskycode/FGSIWinTool) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2024-03-22 - Script text export/import tool for newer, UTF-8-based GSIWin engine script versions.
 * [GSIWinReTool](https://github.com/crskycode/GSIWinReTool) ⭐ 3 | 🐛 0 | 🌐 C# | 📅 2024-04-08 - Script text export/import tool for older, Shift-JIS-based GSIWin engine script versions.
 
+### GsPack4
+
+*Visual novel engine ("GsPack4"/"Scw4") used in various Japanese visual novels.*
+
+* [GsPack4\_Scw4\_Script\_tools](https://github.com/Aoi-Namiki/GsPack4_Scw4_Script_tools) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2026-01-05 - Tools for GsPack4 archives and Scw4 script files.
+
+### GXC Engine
+
+*Visual novel engine ("GXC") used in various Japanese visual novels.*
+
+* [GXC\_engine\_tools](https://github.com/Karaik/GXC_engine_tools) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2025-12-11 - Decrypts, inspects, edits, and rebuilds GXC engine `.sce` script files.
+
+### InnocentGrey
+
+*Visual novel engine used by InnocentGrey's games.*
+
+* [FlowerScript](https://github.com/shimamura-sakura/FlowerScript) ⭐ 11 | 🐛 0 | 🌐 Python | 📅 2024-04-30 - Assembler/disassembler for InnocentGrey's script format.
+
 ### Kaguya
 
 *ADV engine ("Kaguya") used in various Japanese visual novels.*
 
 * [Kaguya\_Tool](https://github.com/crskycode/Kaguya_Tool) ⭐ 54 | 🐛 2 | 🌐 C# | 📅 2024-03-09 - Toolset for the Kaguya ADV engine: MsgTool exports/imports text from `message.dat`, and Link6\_Tool creates LINK6 archive files.
 
+### Kurumi Engine
+
+*Visual novel engine ("Kurumi") used in various Japanese visual novels.*
+
+* [KurumiEngineTools](https://github.com/HOKORISAMA/KurumiEngineTools) ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2025-10-23 - Extraction/repacking tools for Kurumi engine archives and scripts.
+
+### Liar-soft / raiL-soft
+
+*Visual novel engine used by Liar-soft and raiL-soft, tested mainly with Albatross Log.*
+
+* [gscScriptCompAndDecompiler](https://github.com/TesterTesterov/gscScriptCompAndDecompiler) ⭐ 33 | 🐛 1 | 🌐 Python | 📅 2020-08-08 - Decompiles, compiles, and rebuilds codeX RScript `.gsc` scripts (the engine's actual bytecode, as opposed to RaiLTools' plain-text conversion), with Russian and English UI.
+* [RaiLTools](https://github.com/EusthEnoptEron/RaiLTools) ⭐ 26 | 🐛 2 | 🌐 C# | 📅 2020-04-02 - .NET library for Liar-soft's/raiL-soft's engine: reads/writes `.xfl` archives and converts `.gsc` scenario files to/from plain text.
+
+### LiLiM / Sugar Engine
+
+*Visual novel engine (`.aos` archives) used by LiLiM, LiLiM Sugar, and Princess Sugar visual novels.*
+
+* [AosTools](https://github.com/Lasriel/AosTools) ⭐ 16 | 🐛 0 | 🌐 C# | 📅 2025-03-27 - Tools for working with `.aos` archives used by LiLiM/Sugar-engine visual novels.
+
+### LiveMaker
+
+*Visual novel engine ("LiveMaker") used by many Japanese visual novels.*
+
+* [pylivemaker](https://github.com/pmrowla/pylivemaker) ⭐ 89 | 🐛 36 | 🌐 Python | 📅 2026-08-31 - Python package for manipulating LiveMaker 3/LiveNovel game resources: extracts files from a LiveMaker `.exe`/`.dat`, dumps LSB files to readable text/XML, extracts and recompiles LiveNovel LNS scripts from LSB files, and patches modified LSB files back into the `.exe`/`.dat`.
+
 ### LucaSystem
 
 *ADV engine ("LUCA System"/ProtoDB) used by Key/Visual Art's visual novels (AIR, CLANNAD, Kanon, Little Busters!, Summer Pockets, Harmonia, LOOPERS, LUNARiA, Planetarian, and others).*
 
 * [LuckSystem](https://github.com/wetor/LuckSystem) ⭐ 84 | 🐛 12 | 🌐 Go | 📅 2026-07-08 - Decompiler/compiler for LUCA System (ProtoDB) engine script files, with PAK archive and font extraction/repacking. Successor to the same author's archived [LucaSystemTools](https://github.com/wetor/LucaSystemTools) ⚠️ Archived.
+* [lbee-restoration](https://github.com/Danar435/lbee-restoration) ⭐ 42 | 🐛 2 | 🌐 Python | 📅 2026-07-09 - Patch restoring the original 4:3 assets, UI, uncensored CGs, and opening movie in the Steam port of Little Busters! English Edition, which reformats the original LUCA System game data for widescreen.
+* [lbee-utils](https://github.com/G2-Games/lbee-utils) ⭐ 26 | 🐛 7 | 🌐 Rust | 📅 2026-08-12 - Collection of utilities for exporting and importing assets from LUCA System engine games.
+* [SPRB-ENX](https://github.com/masagrator/SPRB-ENX) ⭐ 14 | 🐛 0 | 🌐 C | 📅 2023-07-02 - English translation mod for the Nintendo Switch release of Summer Pockets Reflection Blue, assembling a translated `SCRIPT2.PAK` and converting textures to the console's native compressed format with a LuckSystem-based script.
+* [kanon-restoration](https://github.com/Danar435/kanon-restoration) ⭐ 13 | 🐛 3 | 🌐 Python | 📅 2026-07-09 - Patch restoring the original 4:3 aspect ratio, UI, uncensored CGs, and opening movie in the Steam port of Kanon, which reformats the original LUCA System game data for widescreen.
+* [LB\_repack](https://github.com/thedanill/LB_repack) ⭐ 7 | 🐛 1 | 🌐 Python | 📅 2024-08-25 - Assembler/disassembler for LUCA System script opcodes and packer/unpacker for the `SCRIPT.PAK` archive, targeting both the PC and Nintendo Switch versions of Little Busters! English Edition.
+* [air-restoration](https://github.com/Danar435/air-restoration) ⭐ 6 | 🐛 0 | 🌐 Python | 📅 2026-07-12 - Work-in-progress patch restoring the original 4:3 in-game assets in the Steam port of AIR, which is based on the LUCA System engine.
+
+### Lucifen
+
+*Visual novel engine ("Lucifen") used in various Japanese visual novels.*
+
+* [Lucifen-Tools](https://github.com/UBTL/Lucifen-Tools) ⭐ 9 | 🐛 0 | 🌐 Python | 📅 2025-09-17 - Tools for extracting and working with visual novels running on the Lucifen engine.
 
 ### Majiro
 
@@ -3099,37 +3521,136 @@ This list is for developers and modders working with such formats. It provides t
 *Visual novel engine ("Malie") used in various Japanese visual novels.*
 
 * [Malie\_Script\_Tool](https://github.com/crskycode/Malie_Script_Tool) ⭐ 19 | 🐛 0 | 🌐 C# | 📅 2026-03-17 - FreeMalie engine script disassembler; exports and imports text from Malie engine script files.
+* [MalieScriptEditor](https://github.com/Gertram/MalieScriptEditor) ⭐ 13 | 🐛 0 | 🌐 C# | 📅 2025-07-05 - Editor for Malie engine script files.
+* [MalieDatPacker](https://github.com/Gertram/MalieDatPacker) ⭐ 11 | 🐛 0 | 🌐 C++ | 📅 2025-07-05 - Packer/unpacker for Malie engine `.dat` archive files.
+* [Malie-exe-patcher\_python-code](https://github.com/sechsKatze/Malie-exe-patcher_python-code) ⭐ 7 | 🐛 0 | 🌐 Python | 📅 2026-03-31 - Universal patcher for Malie engine executables that safely injects `EXEC.bin` by creating a new section instead of overwriting the resource section; compatible with Karin Entertainment games.
+
+### Marble Engine
+
+*Visual novel engine ("Marble") used in various Japanese visual novels.*
+
+* [MARBLE-ENGINE-TOOL-KIT](https://github.com/HOKORISAMA/MARBLE-ENGINE-TOOL-KIT) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2025-08-07 - Packs/unpacks Marble Engine `.mbl` resource archives, including script files (with per-game key lookup via GARbro) and `.prs` image conversion to/from PNG.
 
 ### NekoGameSDK
 
 *Visual novel engine SDK ("NekoGameSDK") used in various Japanese visual novels.*
 
 * [NekoGameSDK\_PackTool](https://github.com/crskycode/NekoGameSDK_PackTool) ⭐ 12 | 🐛 0 | 🌐 C# | 📅 2022-10-17 - Creates NekoGameSDK engine `.pak` archives (`NEKOPACK4A` signature).
+* [nekosdk\_tools](https://github.com/adsf0427/nekosdk_tools) ⭐ 8 | 🐛 1 | 🌐 Python | 📅 2024-05-21 - Additional extraction/repacking tools for NekoGameSDK engine files.
 
 ### NeXAS
 
 *ADV engine ("NeXAS") used in various Japanese visual novels.*
 
+* [NexasPackEdit](https://github.com/pkuislm/NexasPackEdit) ⭐ 29 | 🐛 0 | 🌐 C | 📅 2022-03-23 - Simple tool to unpack and repack the NeXAS engine's resource archives.
+* [NeXAS\_DX](https://github.com/Karaik/NeXAS_DX) ⭐ 24 | 🐛 1 | 🌐 Java | 📅 2026-08-23 - JavaFX GUI for converting NeXAS engine game data (GIGA/戯画/Entergram) to and from JSON files.
+* [Aquarium\_tools](https://github.com/kdw-code/Aquarium_tools) ⭐ 24 | 🐛 5 | 🌐 Python | 📅 2026-05-10 - String dumper/importer for Nintendo Switch NeXAS engine `binu8`/`datu8` files, based on [Niflheim](https://github.com/Yggdrasill-Moe/Niflheim) ⭐ 217 | 🐛 3 | 🌐 C | 📅 2023-08-28's NeXAS module.
+* [GIGA\_NeXAS](https://github.com/akiWagashi/GIGA_NeXAS) ⭐ 13 | 🐛 0 | 🌐 C | 📅 2024-12-23 - Unpacker/repacker for the GIGA-variant NeXAS engine's resource archives.
 * [NeXAS\_Tool](https://github.com/crskycode/NeXAS_Tool) ⭐ 11 | 🐛 1 | 🌐 C# | 📅 2023-10-29 - Config and script tools for newer versions of the NeXAS ADV engine.
 * [nexas-datu8](https://github.com/minirop/nexas-datu8) ⭐ 2 | 🐛 0 | 🌐 Rust | 📅 2025-08-22 - Decompiler for NeXAS engine `datu8`-format archives.
+* [NeXAS\_SPM\_VIEWER](https://github.com/Karaik/NeXAS_SPM_VIEWER) ⭐ 1 | 🐛 1 | 🌐 Java | 📅 2026-06-13 - Viewer for GIGA/戯画/Entergram NeXAS engine `.spm` image/animation files.
+* [map\_format\_explorer](https://github.com/Aserain-Nodid/map_format_explorer) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-05-13 - GUI analyzer for NeXAS engine `.map` binary format (BSDX v0.90 and BHE v1.00), with tile visualization, JSON serialization/deserialization, and version conversion.
+
+### PJADV Engine
+
+*Visual novel engine ("PJADV") used in various Japanese visual novels.*
+
+* [RxPJADV](https://github.com/ZQF-ReVN/RxPJADV) ⚠️ Archived - Toolset for PJADV engine `textdata.bin` and `scenario.dat` files.
+
+### RioShiina
+
+*Visual novel engine ("RioShiina") used in various Japanese visual novels.*
+
+* [RioShiinaTools](https://github.com/julixian/RioShiinaTools) ⭐ 4 | 🐛 0 | 🌐 C++ | 📅 2026-03-21 - Extraction/repacking tools for the RioShiina visual novel engine.
+
+### rUGP (AGES Player)
+
+*Visual novel engine ("rUGP"/AGES Player) used in various Japanese visual novels.*
+
+* [rUGP-Fuck](https://github.com/cssxsh/rUGP-Fuck) ⭐ 21 | 🐛 0 | 🌐 C++ | 📅 2025-12-15 - Extraction/repacking tools for the rUGP (AGES Player) visual novel engine.
+* [deoptimizeobs](https://github.com/tsdko/deoptimizeobs) ⭐ 6 | 🐛 1 | 🌐 C | 📅 2022-09-12 - Tools and documentation for the `oor` (COptimizedObs/OptimizedObsforR) sound container format used by the rUGP/AGES engine.
 
 ### Siglus
 
 *Visual novel engine ("Siglus") by Key, successor to RealLive, used in several Key visual novels including Rewrite.*
 
+* [SiglusExtract](https://github.com/xmoezzz/SiglusExtract) ⭐ 369 | 🐛 11 | 🌐 C | 📅 2026-06-05 - Extracts almost all resources used by SiglusEngine and repacks some of them for translation.
 * [SiglusSceneManager](https://github.com/marcussacana/SiglusSceneManager) ⭐ 78 | 🐛 0 | 🌐 C# | 📅 2021-04-29 - Scene/script manager for the Siglus visual novel engine.
+* [siglus\_rs](https://github.com/xmoezzz/siglus_rs) ⭐ 69 | 🐛 3 | 🌐 Rust | 📅 2026-09-03 - Unofficial Rust reimplementation and multi-platform port of SiglusEngine (Windows, Linux, macOS, iOS, Android, WebAssembly), for research purposes.
+  * See also [siglus\_static\_key\_tool](https://github.com/xmoezzz/siglus_static_key_tool) ⭐ 11 | 🐛 0 | 🌐 Rust | 📅 2026-08-15, a companion Rust CLI for statically recovering a game's SiglusEngine secondary resource-decryption key.
+* [SiglusSceneScriptUtility](https://github.com/Jirehlov/SiglusSceneScriptUtility) ⭐ 22 | 🐛 0 | 🌐 Python | 📅 2026-09-05 - Extracts Siglus `Scene.pck` archives to editable `.ss` SceneScript files and recompiles them, aiming to reproduce the engine's original compilation as exactly as possible.
+  * See also [siglus-ssu-vscode](https://github.com/Jirehlov/siglus-ssu-vscode) ⭐ 4 | 🐛 0 | 🌐 TypeScript | 📅 2026-08-04, a VS Code extension providing an LSP-backed editor (diagnostics, completion, hover, go-to-definition, textmap-aware syntax highlighting) for `.ss`/`.inc` SceneScript files, built on the above.
+* [SiglusEngine](https://github.com/Tnt6n2/SiglusEngine) ⭐ 21 | 🐛 0 | 📅 2023-06-09 - Leaked full source code of VisualArt's proprietary SiglusEngine (pre-2021 syscall version); useful as a reference for the reimplementation/extraction tools above.
+* [SiglusTranslationToolkit](https://github.com/renanc1332/SiglusTranslationToolkit) ⭐ 17 | 🐛 0 | 🌐 C | 📅 2020-10-15 - Toolkit for extracting and repacking Siglus engine `dbs`/`omv`/`Scene.pck`/`Gameexe.dat` files for translation.
+* [omvdecoder](https://github.com/xmoezzz/omvdecoder) ⭐ 14 | 🐛 0 | 🌐 C | 📅 2025-09-30 - Decoder for SiglusEngine's `.omv` video format, written in Rust.
+* [SiglusTranslate](https://github.com/HOKORISAMA/SiglusTranslate) ⭐ 0 | 🐛 0 | 📅 2021-03-19 - All-in-one automated tool for SiglusEngine text extraction, machine translation, and repacking.
+
+### Silky Engine (AI6WIN)
+
+*Visual novel engine ("Silky's"/AI6WIN) used in various Japanese visual novels.*
+
+* [SilkyArcTool](https://github.com/TesterTesterov/SilkyArcTool) ⭐ 22 | 🐛 0 | 🌐 Python | 📅 2021-12-28 - Packs and unpacks Silky Engine archives, with Russian and English UI. See also [SilkyArcTool-rs](https://github.com/lxl66566/SilkyArcTool-rs) ⭐ 1 | 🐛 0 | 🌐 Rust | 📅 2026-09-01, a Rust port with bug fixes and improvements.
+* [AI6WINScriptTool](https://github.com/TesterTesterov/AI6WINScriptTool) ⭐ 21 | 🐛 2 | 🌐 Python | 📅 2022-12-25 - Disassembler and assembler for AI6WIN engine `.mes` script files. See also [AI5WINScriptTool](https://github.com/TesterTesterov/AI5WINScriptTool) ⭐ 20 | 🐛 1 | 🌐 Python | 📅 2023-05-31 for the earlier AI5WIN engine, and [mesScriptAsseAndDisassembler](https://github.com/TesterTesterov/mesScriptAsseAndDisassembler) ⭐ 33 | 🐛 1 | 🌐 Python | 📅 2022-02-01 for the original (pre-AI5WIN/AI6WIN) Silky Engine `.mes` scripts.
+* [AI6WINArcTool](https://github.com/TesterTesterov/AI6WINArcTool) ⭐ 18 | 🐛 0 | 🌐 Python | 📅 2023-03-08 - Packs and unpacks AI6WIN engine `.arc` archives, with Russian and English UI.
+
+### SLG System
+
+*Visual novel engine ("SLG System") used in various Japanese visual novels.*
+
+* [SLGSystemScriptTool](https://github.com/TesterTesterov/SLGSystemScriptTool) ⭐ 12 | 🐛 1 | 🌐 Python | 📅 2021-07-21 - GUI tool for (de)compiling and (de/en)crypting (with key-finding support) SLG System engine scripts, with Russian and English UI.
+
+### SofthouseChara Aoi
+
+*Visual novel engine ("SofthouseChara Aoi") used in various Japanese visual novels.*
+
+* [SofthouseChara-Aoi-Tools](https://github.com/UBTL/SofthouseChara-Aoi-Tools) ⭐ 11 | 🐛 0 | 🌐 Python | 📅 2025-09-17 - Tools for working with SofthouseChara Aoi engine games (each game needs its own Box/VFS settings adjustments).
+
+### Softpal
+
+*Visual novel engine ("Softpal") used in various Japanese visual novels.*
+
+* [SoftPal-Tool](https://github.com/luoyily/SoftPal-Tool) ⭐ 33 | 🐛 1 | 🌐 Python | 📅 2024-06-22 - Script disassembly and editing tool for the SoftPal visual novel engine.
+* [sena-rs](https://github.com/xmoezzz/sena-rs) ⭐ 12 | 🐛 0 | 🌐 Rust | 📅 2026-06-29 - Cross-platform Rust reimplementation of the SoftPAL engine, for the game Koikake.
+* [SoftpalTool](https://github.com/akiWagashi/SoftpalTool) ⭐ 6 | 🐛 0 | 🌐 C# | 📅 2025-10-05 - Resource processing tool for the Softpal visual novel engine.
+
+### Sogna Engine
+
+*Visual novel engine ("Sogna") used in various Japanese visual novels.*
+
+* [SOGNA\_TOOLS](https://github.com/HOKORISAMA/SOGNA_TOOLS) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2024-12-04 - Extraction/repacking tools for Sogna engine archive and image formats.
 
 ### Tactics ADV/Script Engine
 
 *ADV/script engine ("Tactics") used in various Japanese visual novels.*
 
 * [Tactics\_Script\_Tool](https://github.com/crskycode/Tactics_Script_Tool) ⭐ 10 | 🐛 2 | 🌐 C# | 📅 2022-08-31 - Export/import tool for `VisualCode` script files used by the Tactics ADV/Script engine.
+* [atxImageTool](https://github.com/hiroshil/atxImageTool) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2024-12-01 - Converts `.atx` textures from *ONE ~~Kagayaku Kisetsu e~~* (Tactics) and merges them into CG images.
+
+### Tanuki Soft / Kaeru Soft (BCS)
+
+*Visual novel engine (`.tac`/BCS archives) used by Tanuki Soft, Kaeru Soft, and Rune visual novels.*
+
+* [BcsExtractor](https://github.com/nel1391/BcsExtractor) ⭐ 44 | 🐛 4 | 🌐 C# | 📅 2022-04-18 - Extracts scripts from Tanuki Soft and Kaeru Soft visual novels.
+* [Tlib-Engine](https://github.com/Cosetto/Tlib-Engine) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2026-05-24 - Unpack/pack tool for Tanukisoft's `.tac` archive format.
 
 ### Tmr-Hiro ADV System
 
 *ADV engine ("Tmr-Hiro") used in various Japanese visual novels.*
 
 * [TmrHiro\_Tool](https://github.com/crskycode/TmrHiro_Tool) ⭐ 14 | 🐛 0 | 🌐 C# | 📅 2022-07-31 - Hack/extraction tool for the Tmr-Hiro ADV System, tested on [Kyonyuu Onna Senshi Dogeza Saimin](https://vndb.org/v26531).
+* [croCKer](https://github.com/TheVNConnoisseur/croCKer) ⭐ 2 | 🐛 2 | 🌐 C# | 📅 2024-12-11 - Reads and writes `.SRP` script and `.VAR` variable files used by Tmr-Hiro ADV System games (mostly Marigold-produced titles).
+
+### TS System
+
+*Visual novel engine ("TS System"), used by Tropical Kiss and related titles.*
+
+* [ts-system-tools](https://github.com/Anonym271/ts-system-tools) ⭐ 8 | 🐛 1 | 🌐 C++ | 📅 2026-02-22 - Collection of handmade tools for the TS System visual novel engine.
+
+### Valkyria's Engine
+
+*Visual novel engine ("Valkyria's Engine") used in various Japanese visual novels.*
+
+* [RxValkyria](https://github.com/ZQF-ReVN/RxValkyria) ⚠️ Archived - Toolset for Valkyria's Engine `.sdt`, `.dat`, and `.mg2` files.
 
 ### WildBug
 
@@ -3144,6 +3665,14 @@ This list is for developers and modders working with such formats. It provides t
 * [WillPlusManager](https://github.com/marcussacana/WillPlusManager) ⭐ 42 | 🐛 1 | 🌐 C# | 📅 2019-09-02 - Editor for WillPlus/AdvHD script and package files.
 * [advhd\_ws2\_tools](https://github.com/DarthFly/advhd_ws2_tools) ⭐ 40 | 🐛 1 | 🌐 PHP | 📅 2026-08-22 - Extracts formatted scripts from AdvHD `.arc` archives and compiled `.ws2` (WillPlus) code, converts them to editable text, and repacks them byte-for-byte.
   * Games: If My Heart Had Wings (Flight Diary), LoveKami -Healing Harem-, A Sky Full of Stars, and (with possible adjustments) other MoeNovel/Nightmare Project/WillPlus titles.
+* [AdvHD2.1\_WS2\_Toolkit](https://github.com/Lite0812/AdvHD2.1_WS2_Toolkit) ⭐ 19 | 🐛 0 | 🌐 Python | 📅 2026-03-27 - Export/import tool for AdvHD 2.1's `.ws2` script files, rewritten to handle the version's switch from Shift-JIS to UTF-16LE string encoding.
+* [ws2Parse](https://github.com/pkuislm/ws2Parse) ⭐ 16 | 🐛 0 | 🌐 C# | 📅 2023-06-13 - Export/import tool for WillPlus/AdvHD compiled `.ws2` script files.
+
+### Xuse / Eternal
+
+*Visual novel engine ("Xuse"/"Eternal") used in various Japanese visual novels.*
+
+* [XuseExplorer](https://github.com/Leticiel/XuseExplorer) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2026-04-16 - Extraction/repacking tool for Xuse-engine visual novel files.
 
 ### Yuka System
 
@@ -3156,8 +3685,13 @@ This list is for developers and modders working with such formats. It provides t
 
 *Visual novel engine ("YU-RIS") used in various Japanese visual novels.*
 
+* [RxYuris](https://github.com/ZQF-ReVN/RxYuris) ⚠️ Archived - Toolset for YU-RIS engine `.ypf` archives and `.ybn` script files.
 * [YPF\_Tool](https://github.com/crskycode/YPF_Tool) ⭐ 21 | 🐛 1 | 🌐 C# | 📅 2022-07-31 - Creates YU-RIS `.ypf` archive files.
+* [yuri](https://github.com/shimamura-sakura/yuri) ⭐ 19 | 🐛 2 | 🌐 Python | 📅 2026-08-20 - Parallel, incremental decompiler and compiler for the YU-RIS engine.
+* [YPF-Manager](https://github.com/Xorboth/YPF-Manager) ⭐ 19 | 🐛 0 | 🌐 C# | 📅 2021-07-17 - GUI tool to pack, unpack, and manage YU-RIS `.ypf` archives. See also [lxl66566's fork](https://github.com/lxl66566/YPF-Manager) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2025-08-04 with prebuilt executables.
 * [YuRis\_Tool](https://github.com/crskycode/YuRis_Tool) ⭐ 11 | 🐛 0 | 🌐 C# | 📅 2024-12-20 - Analyzer/decompiler for YU-RIS script formats (YSCM, YSLB, YSTL, YSVR, YSTB).
+* [extYuRis](https://github.com/CodeSpoof/extYuRis) ⭐ 9 | 🐛 0 | 🌐 Go | 📅 2023-04-19 - Extraction tool for YU-RIS `.ybn` script files.
+* [Yuris\_YDG\_Tool](https://github.com/Lite0812/Yuris_YDG_Tool) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2026-04-04 - Batch converter between PNG and YU-RIS `.ydg` font bitmap files.
 
 ### Glulx VM (Interactive Fiction)
 
@@ -3181,11 +3715,11 @@ This list is for developers and modders working with such formats. It provides t
 #### Interpreters & Players
 
 * [Parchment](https://github.com/curiousdannii/parchment) ⭐ 486 | 🐛 41 | 🌐 TypeScript | 📅 2026-08-23 - The actively maintained successor to Andrew Plotkin's original Parchment web interactive-fiction player, running Z-machine and Glulx games in the browser via WASM-compiled interpreters (through the Emglken/Glk bridge).
-* [Gargoyle](https://github.com/garglk/garglk) ⭐ 426 | 🐛 50 | 🌐 C++ | 📅 2026-09-03 - Cross-platform multi-format interactive-fiction player supporting Z-machine, Glulx, TADS, Hugo, and other IF virtual machine formats.
+* [Gargoyle](https://github.com/garglk/garglk) ⭐ 426 | 🐛 50 | 🌐 C++ | 📅 2026-09-05 - Cross-platform multi-format interactive-fiction player supporting Z-machine, Glulx, TADS, Hugo, and other IF virtual machine formats.
 * [Infocom Z-code Interpreters](https://github.com/erkyrath/infocom-zcode-terps) ⭐ 366 | 🐛 0 | 🌐 Assembly | 📅 2023-11-23 - Historical collection of Infocom's original Z-machine interpreters for 1980s home computers, mostly as 6502/Z-80 assembly source.
 * [Lectrote](https://github.com/erkyrath/lectrote) ⭐ 270 | 🐛 49 | 🌐 JavaScript | 📅 2025-10-04 - Electron-based interactive fiction interpreter, playing Z-code and Glulx games.
 * [encrusted](https://github.com/DeMille/encrusted) ⭐ 152 | 🐛 15 | 🌐 Rust | 📅 2022-06-20 - Z-machine interpreter written in Rust for classic Infocom-era text adventures like Zork, compiling to WebAssembly for browser play.
-* [mojozork](https://github.com/icculus/mojozork) ⭐ 147 | 🐛 6 | 🌐 C | 📅 2026-09-03 - Simple Z-machine interpreter implemented in a single C file, with an experimental online-multiplayer mode for playing classic Infocom Z-code story files together.
+* [mojozork](https://github.com/icculus/mojozork) ⭐ 148 | 🐛 6 | 🌐 C | 📅 2026-09-03 - Simple Z-machine interpreter implemented in a single C file, with an experimental online-multiplayer mode for playing classic Infocom Z-code story files together.
 * [Windows-Frotz](https://github.com/DavidKinder/Windows-Frotz) ⭐ 117 | 🐛 6 | 🌐 C | 📅 2026-08-24 - Windows front-end for the Frotz Z-machine interpreter core, playing Infocom and other Z-code game files on Windows.
 * [ifvms.js](https://github.com/curiousdannii/ifvms.js) ⭐ 99 | 🐛 13 | 🌐 JavaScript | 📅 2025-07-12 - Suite of pure-JavaScript interactive-fiction virtual machine interpreters (Z-machine and Glulx) for browser-based play.
 * [Zorkduino](https://github.com/rossumur/Zorkduino) ⭐ 59 | 🐛 4 | 🌐 C++ | 📅 2014-05-22 - Z-machine interpreter for Arduino, playing classic Infocom Z-code games on a TV.
@@ -3201,7 +3735,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Authoring & Compiler Tools
 
-* [Inform 7](https://github.com/ganelson/inform) ⭐ 1,640 | 🐛 9 | 🌐 C | 📅 2026-06-24 - Core distribution of the Inform 7 natural-language interactive fiction authoring system, compiling through Inform 6 to Z-code or Glulx bytecode.
+* [Inform 7](https://github.com/ganelson/inform) ⭐ 1,641 | 🐛 9 | 🌐 C | 📅 2026-06-24 - Core distribution of the Inform 7 natural-language interactive fiction authoring system, compiling through Inform 6 to Z-code or Glulx bytecode.
 * [Inform 6](https://github.com/DavidKinder/Inform6) ⭐ 234 | 🐛 21 | 🌐 C | 📅 2026-04-27 - Compiler for the Inform 6 language, producing Z-machine (.z3/.z5/.z8) story files and, as the code generator behind Inform 7, Glulx (.ulx) game files.
 * [language-inform7](https://github.com/iftechfoundation/language-inform7) ⭐ 2 | 🐛 0 | 📅 2022-07-02 - Language grammar definition for Inform 7, the natural-language authoring system that compiles to Z-machine/Glulx story files.
 
@@ -3255,7 +3789,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *Text-adventure authoring language designed by Thomas Nilsson, compiling to its own bytecode format read by the Alan interpreter.*
 
-* [Alan](https://github.com/alan-if/alan) ⭐ 19 | 🐛 12 | 🌐 Assembly | 📅 2026-09-03 - Official compiler and interpreter for the Alan interactive-fiction authoring language, playing the original Alan game-data format.
+* [Alan](https://github.com/alan-if/alan) ⭐ 19 | 🐛 12 | 🌐 Assembly | 📅 2026-09-04 - Official compiler and interpreter for the Alan interactive-fiction authoring language, playing the original Alan game-data format.
 
 ### Twine (Interactive Fiction)
 
@@ -3312,7 +3846,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *Used in Neverwinter Nights, Star Wars: Knights of the Old Republic, Jade Empire, and other BioWare titles.*
 
-* [xoreos](https://github.com/xoreos/xoreos) ⭐ 1,169 | 🐛 38 | 🌐 C++ | 📅 2026-08-31 - Open-source reimplementation of BioWare's Aurora engine and its derivatives, targeting full portability of all Aurora-based games.
+* [xoreos](https://github.com/xoreos/xoreos) ⭐ 1,169 | 🐛 37 | 🌐 C++ | 📅 2026-09-04 - Open-source reimplementation of BioWare's Aurora engine and its derivatives, targeting full portability of all Aurora-based games.
   * Games: Neverwinter Nights, Neverwinter Nights 2, Knights of the Old Republic, KotOR II: The Sith Lords, Jade Empire, Sonic Chronicles: The Dark Brotherhood, The Witcher, Dragon Age: Origins, Dragon Age II.
   * Status: resource management, many file format parsers, partial in-game graphics and area rendering (spectator mode) — gameplay not yet implemented.
 * [nwscript-wasm](https://github.com/KobaltBlu/nwscript-wasm) ⭐ 0 | 🐛 0 | 🌐 JavaScript | 📅 2026-08-13 - WebAssembly port of the NWScript compiler (from niv/neverwinter.nim), compiling .nss scripts to .ncs bytecode entirely in-browser, with a bundled NCS disassembler.
@@ -3320,9 +3854,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Clickteam Fusion
 
-* [Nebula](https://github.com/AITYunivers/NebulaFD) ⭐ 217 | 🐛 2 | 🌐 C# | 📅 2026-07-28 - Actively developed, reimagined decompiler for Clickteam Fusion 2.5 games, successor to [fnmwolf's Anaconda decompiler](https://github.com/fnmwolf/Anaconda) ⭐ 122 | 🐛 11 | 🌐 C++ | 📅 2025-02-06.
+* [Nebula](https://github.com/AITYunivers/NebulaFD) ⭐ 217 | 🐛 2 | 🌐 C# | 📅 2026-07-28 - Actively developed, reimagined decompiler for Clickteam Fusion 2.5 games, successor to [fnmwolf's Anaconda decompiler](https://github.com/fnmwolf/Anaconda) ⭐ 123 | 🐛 11 | 🌐 C++ | 📅 2025-02-06.
 * [CTFAK2.0](https://github.com/CTFAK/CTFAK2.0) ⚠️ Archived - Decompiler and asset dumper for games built with Clickteam Fusion 2.5 (archived; superseded by CTFAK3). Reads MFA-like internal structures and outputs assets via a plugin system.
-* [Anaconda](https://github.com/fnmwolf/Anaconda) ⭐ 122 | 🐛 11 | 🌐 C++ | 📅 2025-02-06 - Decompiler for Clickteam Fusion 2.5 games, by fnmwolf, ClickNinYT, 1987Kostya, Blue Nova, and Mathias Kærlev; superseded by Nebula above.
+* [Anaconda](https://github.com/fnmwolf/Anaconda) ⭐ 123 | 🐛 11 | 🌐 C++ | 📅 2025-02-06 - Decompiler for Clickteam Fusion 2.5 games, by fnmwolf, ClickNinYT, 1987Kostya, Blue Nova, and Mathias Kærlev; superseded by Nebula above.
 * [insect\_hazard\_viewer (CFAB)](https://github.com/coreynguyen/insect_hazard_viewer) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-01-03 - Reverse-engineering tool for Clickteam Fusion games that scans a compiled executable's memory to locate, decode, and extract assets without a decompiler, handling the engine's DAT image format (Planar Alpha, Chroma Keying) and Stub Archive (scripts, DLLs, music). Built while reversing Insect Hazard.
 
 ### Dark Engine
@@ -3330,7 +3864,7 @@ This list is for developers and modders working with such formats. It provides t
 *Used in Thief: The Dark Project, Thief 2: The Metal Age, and System Shock 2 (Looking Glass Studios).*
 
 * [openDarkEngine](https://github.com/volca02/openDarkEngine) ⭐ 170 | 🐛 9 | 🌐 C++ | 📅 2018-05-14 - Open-source multiplatform reimplementation of the Dark Engine, reading original Thief and System Shock 2 game data (level, mesh, and DAT resource formats).
-* [AngelLoader](https://github.com/FenPhoenix/AngelLoader) ⭐ 69 | 🐛 9 | 🌐 C# | 📅 2026-09-03 - Standalone fan mission loader/manager for the original Thief trilogy, System Shock 2, and The Dark Mod, installing and organizing Dark Engine FM archives (zip/7z) with readme/screenshot extraction and metadata handling.
+* [AngelLoader](https://github.com/FenPhoenix/AngelLoader) ⭐ 70 | 🐛 9 | 🌐 C# | 📅 2026-09-03 - Standalone fan mission loader/manager for the original Thief trilogy, System Shock 2, and The Dark Mod, installing and organizing Dark Engine FM archives (zip/7z) with readme/screenshot extraction and metadata handling.
 * [de-specs](https://github.com/JarrodDoyle/de-specs) ⭐ 2 | 🐛 0 | 🌐 Max | 📅 2025-03-09 - [ImHex](https://imhex.werwolv.net/) pattern files for parsing Dark Engine file formats used in Thief and System Shock 2.
   * Formats: .MIS (mission), .GAM (game data), .COW (world geometry); further formats planned.
 * [7-Zip Speed Optimizer](https://github.com/FenPhoenix/7-Zip-Speed-Optimizer) ⚠️ Archived - Repackages Thief/System Shock 2/Dark Mod fan mission .7z archives so FM loaders (AngelLoader, FMSel) can scan them up to 70x faster, while retaining 7z's compression advantage.
@@ -3341,10 +3875,10 @@ This list is for developers and modders working with such formats. It provides t
 *Sierra On-Line's Script Creation Interpreter, used in King's Quest, Space Quest, Police Quest, Leisure Suit Larry, Gabriel Knight, and many other Sierra titles.*
 
 * [SCICompanion](https://github.com/icefallgames/SCICompanion) ⭐ 87 | 🐛 14 | 🌐 C++ | 📅 2021-04-28 - Full-featured IDE for creating and editing Sierra SCI engine games (SCI0 through SCI1.1). Supports editing scripts, rooms, sounds, views, fonts, pics, cursors, messages, and palettes. Official site: [scicompanion.com](https://scicompanion.com).
-* [Sierra softlock analyzer](https://github.com/katiahayati/lucasartsifier) ⭐ 48 | 🐛 1 | 🌐 Python | 📅 2026-08-25 - Static analysis tool that decompiles a Sierra SCI game and abstract-interprets the decompiled scripts into a graph of guarded room transitions, used to find softlocks in 30-year-old adventure games.
+* [Sierra softlock analyzer](https://github.com/katiahayati/lucasartsifier) ⭐ 49 | 🐛 1 | 🌐 Python | 📅 2026-08-25 - Static analysis tool that decompiles a Sierra SCI game and abstract-interprets the decompiled scripts into a graph of guarded room transitions, used to find softlocks in 30-year-old adventure games.
 * [NAGI](https://github.com/sonneveld/nagi) ⭐ 42 | 🐛 4 | 🌐 C | 📅 2022-05-14 - Reimplementation of Sierra's AGI (Adventure Game Interpreter) engine, parsing and executing original AGI game resource files.
 * [FOSS SCI Drivers](https://github.com/roybaer/foss_sci_drivers) ⭐ 24 | 🐛 1 | 🌐 Assembly | 📅 2021-08-13 - From-scratch open-source drivers for Sierra's SCI (Creative Interpreter) engine, covering archive, audio, and editor support.
-* [AGILE](https://github.com/lanceewing/agile) ⭐ 20 | 🐛 1 | 🌐 C# | 📅 2026-02-05 - AGI (Adventure Game Interpreter) engine reimplementation in C#, parsing and executing original Sierra AGI game resource files. See also the [AGILE-GDX](https://github.com/lanceewing/agile-gdx) ⭐ 50 | 🐛 3 | 🌐 Java | 📅 2025-08-23 (Java/libGDX, targeting HTML5/Desktop/Android) and [AGILE-JS](https://github.com/lanceewing/agile-js) ⭐ 1 | 🐛 0 | 🌐 JavaScript | 📅 2019-03-25 (JavaScript) ports.
+* [AGILE](https://github.com/lanceewing/agile) ⭐ 20 | 🐛 1 | 🌐 C# | 📅 2026-02-05 - AGI (Adventure Game Interpreter) engine reimplementation in C#, parsing and executing original Sierra AGI game resource files. See also the [AGILE-GDX](https://github.com/lanceewing/agile-gdx) ⭐ 51 | 🐛 3 | 🌐 Java | 📅 2025-08-23 (Java/libGDX, targeting HTML5/Desktop/Android) and [AGILE-JS](https://github.com/lanceewing/agile-js) ⭐ 1 | 🐛 0 | 🌐 JavaScript | 📅 2019-03-25 (JavaScript) ports.
 * [sci-tools](https://github.com/sluicebox/sci-tools) ⭐ 16 | 🐛 0 | 🌐 C# | 📅 2026-06-30 - Collection of reverse engineering tools for Sierra's SCI engine.
 * [SCI2AGI](https://github.com/jhhoward/SCI2AGI) ⭐ 5 | 🐛 0 | 🌐 C++ | 📅 2024-11-24 - Converts Sierra SCI engine resources (PIC, VIEW, and others) to the earlier AGI engine's format.
 * [jagi](https://github.com/lanceewing/jagi) ⭐ 5 | 🐛 1 | 🌐 Java | 📅 2022-10-24 - Fork of an existing Java AGI engine, exploring the older AGI v1 resource/data format.
@@ -3368,24 +3902,26 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Adobe Flash (SWF)
 
-* [Ruffle](https://github.com/ruffle-rs/ruffle) ⭐ 18,495 | 🐛 5,640 | 🌐 Rust | 📅 2026-09-04 - Flash Player emulator written in Rust that parses and executes SWF files and ActionScript bytecode, used to preserve and play thousands of Flash-based web games.
+* [Ruffle](https://github.com/ruffle-rs/ruffle) ⭐ 18,496 | 🐛 5,628 | 🌐 Rust | 📅 2026-09-05 - Flash Player emulator written in Rust that parses and executes SWF files and ActionScript bytecode, used to preserve and play thousands of Flash-based web games.
 * [Swivel](https://github.com/Herschel/Swivel) ⭐ 227 | 🐛 27 | 🌐 Haxe | 📅 2026-03-28 - Converts Adobe Flash SWF files to video, for archiving or sharing Flash-based games and animations.
 * [rust-flash-lso](https://github.com/ruffle-rs/rust-flash-lso) ⭐ 20 | 🐛 6 | 🌐 Rust | 📅 2026-08-27 - Rust parser/encoder for Adobe Flash Local Shared Object (.sol) save files and the underlying AMF0/AMF3 serialization formats used by Flash games.
 
 ### Godot
 
-* [gdsdecomp](https://github.com/GDRETools/gdsdecomp) ⭐ 4,159 | 🐛 38 | 🌐 C++ | 📅 2026-08-16 - Godot reverse engineering toolkit for game file format recovery, GDScript bytecode decompilation, and PCK archive extraction (Godot 2.x, 3.x, 4.x).
-* [gdke](https://github.com/char-ptr/gdke) ⭐ 232 | 🐛 11 | 🌐 TypeScript | 📅 2024-09-05 - External GUI tool to extract the AES encryption key from Godot game binaries (3.x/4.x) without needing to run or patch the target executable. Builds on [godot-key-extract](https://github.com/pozm/godot-key-extract) ⚠️ Archived's original CLI-based extraction technique.
+* [gdsdecomp](https://github.com/GDRETools/gdsdecomp) ⭐ 4,160 | 🐛 38 | 🌐 C++ | 📅 2026-08-16 - Godot reverse engineering toolkit for game file format recovery, GDScript bytecode decompilation, and PCK archive extraction (Godot 2.x, 3.x, 4.x).
+* [GodotPCKExplorer](https://github.com/DmitriySalnikov/GodotPCKExplorer) ⭐ 540 | 🐛 7 | 🌐 C# | 📅 2026-06-13 - GUI and CLI tool for exploring, extracting, creating, and merging Godot Engine `.pck` package files, with support for encrypted packs.
+* [gdke](https://github.com/char-ptr/gdke) ⭐ 232 | 🐛 11 | 🌐 TypeScript | 📅 2024-09-05 - External GUI tool to extract the AES encryption key from Godot game binaries (3.x/4.x) without needing to run or patch the target executable. Builds on the same author's earlier [godot-key-extract](https://github.com/char-ptr/godot-key-extract) ⚠️ Archived, a CLI tool for the same technique.
+* [godotdec](https://github.com/Bioruebe/godotdec) ⭐ 228 | 🐛 4 | 🌐 C# | 📅 2024-03-16 - Unpacker for Godot Engine `.pck` package files.
 * [godotpwcrack](https://github.com/johndoe31415/godotpwcrack) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2025-04-15 - Brute-force cracker for Godot's encrypted GDEC files (identified by a `GDEC` magic), with an accompanying write-up on reverse-engineering the AES key derivation via GDB (breaking on `mbedtls_aes_setkey_dec` and `_File::open_encrypted_pass`).
 
 ### HaxeFlixel
 
 * [flxanimate](https://github.com/Dot-Stuff/flxanimate) ⭐ 73 | 🐛 5 | 🌐 Haxe | 📅 2026-01-04 - Plays back Adobe Animate texture atlas exports (used widely by Friday Night Funkin' and its mods) in HaxeFlixel.
-* [BetterTextureAtlas](https://github.com/Dot-Stuff/BetterTextureAtlas) ⭐ 57 | 🐛 5 | 🌐 JavaScript | 📅 2026-08-31 - Adobe Animate extension that enhances Texture Atlas exports, extending the animation file format with extra data (blend modes, baked filters) for use by players like flxanimate.
+* [BetterTextureAtlas](https://github.com/Dot-Stuff/BetterTextureAtlas) ⭐ 58 | 🐛 5 | 🌐 JavaScript | 📅 2026-08-31 - Adobe Animate extension that enhances Texture Atlas exports, extending the animation file format with extra data (blend modes, baked filters) for use by players like flxanimate.
 
 ### PICO-8 (Lexaloffle Games)
 
-* [fake-08](https://github.com/jtothebell/fake-08) ⭐ 864 | 🐛 61 | 🌐 C++ | 📅 2026-06-13 - PICO-8 cartridge (P8/P8.PNG) player/emulator for homebrew game consoles (3DS, Vita, Switch, and more).
+* [fake-08](https://github.com/jtothebell/fake-08) ⭐ 866 | 🐛 61 | 🌐 C++ | 📅 2026-06-13 - PICO-8 cartridge (P8/P8.PNG) player/emulator for homebrew game consoles (3DS, Vita, Switch, and more).
 * [picotool](https://github.com/dansanderson/picotool) ⭐ 406 | 🐛 55 | 🌐 Python | 📅 2024-02-03 - Tools and Python libraries for manipulating PICO-8 cartridge files (P8/P8.PNG), the fantasy console's combined code/graphics/sound/music format.
 * [pico8utils](https://github.com/josefnpat/pico8utils) ⭐ 55 | 🐛 1 | 🌐 Lua | 📅 2018-08-22 - Lua/luajit scripts to extract and inject PICO-8 `.p8` cartridge Lua code and spritesheet graphics (`pico2lua`, `pico2png`, `png2pico`).
 * [lexaloffle](https://github.com/dansanderson/lexaloffle) ⭐ 29 | 🐛 1 | 🌐 C | 📅 2022-09-15 - Official Lexaloffle-released C routines for the two proprietary compression methods (legacy `:c:`, newer `pxa`) used to pack the Lua code region of PICO-8 P8PNG cartridges.
@@ -3399,9 +3935,9 @@ This list is for developers and modders working with such formats. It provides t
 *SGI's microcode format for defining 3D graphics on the Nintendo 64. Used in [Super Mario 64](#super-mario-64), [Paper Mario 64](#paper-mario-64), [Banjo-Kazooie](#rare), and many other N64 titles.*
 
 * [noclip.website (Banjo)](https://github.com/magcius/noclip.website/blob/main/src/BanjoKazooie/f3dex.ts) ⭐ 4,251 | 🐛 86 | 🌐 TypeScript | 📅 2026-08-26 - F3DEX implementation for Banjo-Kazooie viewer.
-* [RT64](https://github.com/rt64/rt64) ⭐ 1,588 | 🐛 89 | 🌐 C++ | 📅 2026-09-03 - N64 graphics renderer implementing the RDP/F3D microcode family with enhancements (widescreen, higher resolutions, ray tracing) for emulators and native ports.
+* [RT64](https://github.com/rt64/rt64) ⭐ 1,587 | 🐛 89 | 🌐 C++ | 📅 2026-09-03 - N64 graphics renderer implementing the RDP/F3D microcode family with enhancements (widescreen, higher resolutions, ray tracing) for emulators and native ports.
 * [fast64](https://github.com/Fast-64/fast64) ⭐ 532 | 🐛 76 | 🌐 Python | 📅 2026-09-01 - Blender plugin for exporting F3D display lists for N64 decompilation projects (Super Mario 64, Ocarina of Time).
-* [MeltyTool (F3dzex2)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/F3dzex2) ⭐ 205 | 🐛 60 | 🌐 C# | 📅 2026-09-03 - F3DZEX2 format support.
+* [MeltyTool (F3dzex2)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/F3dzex2) ⭐ 206 | 🐛 60 | 🌐 C# | 📅 2026-09-05 - F3DZEX2 format support.
 * [n64-fast3d-engine](https://github.com/Emill/n64-fast3d-engine) ⭐ 146 | 🐛 7 | 🌐 C++ | 📅 2022-03-09 - N64 Fast3D engine implementation.
 * [F3DEX3](https://github.com/HackerN64/F3DEX3) ⭐ 144 | 🐛 1 | 🌐 C | 📅 2026-07-19 - Modern, heavily rewritten F3D-family microcode for N64 romhacks; rewrites vertex/lighting code from scratch for higher performance, adds new visual features (simultaneous vertex colors + normals, ambient occlusion), and improves accuracy over F3DEX2.
 * [n64rawgfx](https://github.com/Octocontrabass/n64rawgfx) ⭐ 25 | 🐛 0 | 🌐 C | 📅 2013-11-22 - Exports and imports uncompressed ("raw") N64 graphics (RGBA, CI, IA, I formats) to/from BMP files, e.g. for Super Mario 64 texture editing.
@@ -3442,8 +3978,8 @@ This list is for developers and modders working with such formats. It provides t
 *Nintendo's in-house middleware used to develop GameCube and Wii era games. Used in [Pikmin](#pikmin), [Pikmin 2](#pikmin-2), [Luigi's Mansion](#luigis-mansion), [Super Mario Sunshine](#super-mario-other), [Super Mario Galaxy](#super-mario-other), [Wind Waker](#zelda), [Twilight Princess](#zelda), [Mario Kart: Double Dash](#mario-kart-double-dash), and many other first-party GameCube/Wii titles.*
 
 * [noclip.website (JSYSTEM)](https://github.com/magcius/noclip.website/tree/main/src/Common/JSYSTEM) ⭐ 4,251 | 🐛 86 | 🌐 TypeScript | 📅 2026-08-26 - In-browser viewer for JSYSTEM formats.
-* [aurora](https://github.com/encounter/aurora) ⭐ 484 | 🐛 11 | 🌐 C++ | 📅 2026-09-04 - Source-level GameCube & Wii GX graphics compatibility layer, used by decompilation and static-recompilation projects to run original GC/Wii rendering code on modern backends (Dawn/WebGPU).
-* [MeltyTool (JSystem)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/JSystem) ⭐ 205 | 🐛 60 | 🌐 C# | 📅 2026-09-03 - JSystem format viewer/exporter.
+* [aurora](https://github.com/encounter/aurora) ⭐ 485 | 🐛 11 | 🌐 C++ | 📅 2026-09-04 - Source-level GameCube & Wii GX graphics compatibility layer, used by decompilation and static-recompilation projects to run original GC/Wii rendering code on modern backends (Dawn/WebGPU).
+* [MeltyTool (JSystem)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/JSystem) ⭐ 206 | 🐛 60 | 🌐 C# | 📅 2026-09-05 - JSystem format viewer/exporter.
 * [GCFT](https://github.com/LagoLunatic/GCFT) ⭐ 164 | 🐛 3 | 🌐 Python | 📅 2026-08-11 - GUI multitool for viewing and modifying common GameCube file formats, built on the gclib library above. See also the author's fast Python compression/format libraries: [PyFastYaz0Yay0](https://github.com/LagoLunatic/PyFastYaz0Yay0) ⭐ 3 | 🐛 0 | 🌐 C | 📅 2025-10-04 (Yaz0/Yay0) and [PyFastBTI](https://github.com/LagoLunatic/PyFastBTI) ⭐ 0 | 🐛 0 | 🌐 C | 📅 2025-02-28 (BTI textures).
 * [RiiStudio](https://github.com/snailspeed3/RiiStudio) ⭐ 112 | 🐛 27 | 🌐 C++ | 📅 2025-08-04 - Modern editor for J3D models.
 * [SuperBMD](https://github.com/Sage-of-Mirrors/SuperBMD) ⭐ 42 | 🐛 16 | 🌐 C# | 📅 2022-12-08 - BMD/BDL model converter for GameCube/Wii games.
@@ -3545,8 +4081,9 @@ This list is for developers and modders working with such formats. It provides t
 
 *Freeware animation program and its associated model and motion formats (.pmx, .pmd, .vmd).*
 
-* [MMD Tools](https://github.com/MMD-Blender/blender_mmd_tools) ⭐ 3,234 | 🐛 13 | 🌐 Python | 📅 2026-09-02 - Blender add-on for importing/exporting MikuMikuDance assets. Supports physics, bone constraints, and motion/pose data.
+* [MMD Tools](https://github.com/MMD-Blender/blender_mmd_tools) ⭐ 3,235 | 🐛 13 | 🌐 Python | 📅 2026-09-02 - Blender add-on for importing/exporting MikuMikuDance assets. Supports physics, bone constraints, and motion/pose data.
 * [MMD Tools Append](https://github.com/MMD-Blender/blender_mmd_tools_append) ⭐ 646 | 🐛 18 | 🌐 Python | 📅 2026-08-17 - Companion extension for MMD Tools that provides material/scene controls, lighting presets, and Rigify helpers.
+* [saba](https://github.com/benikabocha/saba) ⭐ 507 | 🐛 20 | 🌐 C++ | 📅 2023-09-21 - C++ library and viewer for loading and playing MikuMikuDance PMD/PMX models, VMD motion, and VPD pose data, with OpenGL/DirectX 11/Vulkan example viewers.
 * [MikuMikuLibrary](https://github.com/blueskythlikesclouds/MikuMikuLibrary) ⭐ 244 | 🐛 11 | 🌐 C# | 📅 2026-04-22 - Library for working with MikuMikuDance formats.
 
 ### Cal3D
@@ -3557,7 +4094,11 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Spine (2D Skeletal Animation Middleware)
 
-* [Spine Skeleton Data Converter](https://github.com/wang606/SpineSkeletonDataConverter) ⭐ 392 | 🐛 7 | 🌐 C++ | 📅 2026-07-19 - Command-line converter between Spine skeleton `.skel` (binary) and `.json` formats, with automatic version detection and cross-version conversion across Spine 3.5 through 4.2.
+* [Spine Skeleton Data Converter](https://github.com/wang606/SpineSkeletonDataConverter) ⭐ 394 | 🐛 7 | 🌐 C++ | 📅 2026-07-19 - Command-line converter between Spine skeleton `.skel` (binary) and `.json` formats, with automatic version detection and cross-version conversion across Spine 3.5 through 4.2.
+* [Live2d-SpineViewer](https://github.com/promised-bytes/Live2d-SpineViewer) ⭐ 66 | 🐛 2 | 📅 2025-03-30 - Combined viewer for Live2D and Spine 2D skeletal animation assets.
+  * Formats: Live2D `.moc`/`.moc3` (with `.moc.bytes` support), Spine `.skel`/`.json`/`.atlas` across versions 2.1 through 4.2, plus `.lpk`/`.wpk` archive packages.
+  * Features: Texture atlas slicing and premultiplied-alpha (PMA) handling.
+* [spine2d](https://github.com/Latias94/spine2d) ⭐ 14 | 🐛 0 | 🌐 Rust | 📅 2026-08-03 - Experimental, pure Rust (unofficial) runtime for Spine 4.3, parsing skeleton/atlas data without FFI bindings to the official spine-c/spine-cpp runtimes; renderer-agnostic core with wgpu and Bevy integrations.
 * [Spine-Asset-Py](https://github.com/isHarryh/Spine-Asset-Py) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2025-07-01 - Python library for parsing Spine skeletal animation asset files (`.skel`/`.atlas`).
 * [Spine Magic Builder](https://github.com/Randombirdnoise/Spine_Magic_Builder) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-08-28 - Windows toolkit for reconstructing scattered or mislabeled Spine skeleton/atlas/texture assets by scanning a directory tree at the byte level and matching candidates, with a GUI picker for visual validation against SpineViewer.
 
@@ -3565,8 +4106,8 @@ This list is for developers and modders working with such formats. It provides t
 
 *Cross-platform 3D engine and middleware developed by Criterion Games. Powering the Grand Theft Auto trilogy (III, Vice City, San San Andreas), Burnout series, and many other titles.*
 
-* [librw](https://github.com/aap/librw) ⭐ 808 | 🐛 50 | 🌐 C++ | 📅 2026-08-26 - Re-implementation of the RenderWare Graphics engine.
-* [DragonFF](https://github.com/Parik27/DragonFF) ⭐ 516 | 🐛 77 | 🌐 Python | 📅 2026-08-30 - Blender add-on for RenderWare `.dff` models, `.txd` textures, `.col` collisions, and `.ipl` map data.
+* [librw](https://github.com/aap/librw) ⭐ 809 | 🐛 50 | 🌐 C++ | 📅 2026-08-26 - Re-implementation of the RenderWare Graphics engine.
+* [DragonFF](https://github.com/Parik27/DragonFF) ⭐ 518 | 🐛 77 | 🌐 Python | 📅 2026-08-30 - Blender add-on for RenderWare `.dff` models, `.txd` textures, `.col` collisions, and `.ipl` map data.
 * [gtaRenderHook](https://github.com/petrgeorgievsky/gtaRenderHook) ⭐ 277 | 🐛 15 | 🌐 C++ | 📅 2026-06-14 - Rendering hook/reimplementation for Grand Theft Auto: San Andreas, reading the original game's RenderWare model, texture, and world data.
 * [RenderWare3Docs](https://github.com/electronicarts/RenderWare3Docs) ⭐ 218 | 🐛 0 | 📅 2017-02-28 - Official Electronic Arts release of RenderWare Graphics 3 white papers and user guides, covering the engine's file formats and APIs.
 * [Blender-3D-RW-Anm-plugin](https://github.com/Psycrow101/Blender-3D-RW-Anm-plugin) ⭐ 45 | 🐛 7 | 🌐 Python | 📅 2025-10-18 - Import and export RenderWare animations (.anm) into Blender 3D.
@@ -3585,18 +4126,21 @@ This list is for developers and modders working with such formats. It provides t
 
 *CRI Middleware formats (CPK archives, ADX audio, etc.) used in many Japanese games across multiple platforms.*
 
-* [CriPakTools](https://github.com/esperknight/CriPakTools) ⭐ 252 | 🐛 10 | 🌐 C# | 📅 2018-05-20 - Tools for extracting and repacking CRI CPK archives used in many Japanese games.
+* [CriPakTools](https://github.com/esperknight/CriPakTools) ⭐ 251 | 🐛 10 | 🌐 C# | 📅 2018-05-20 - Tools for extracting and repacking CRI CPK archives used in many Japanese games.
+* [WannaCRI](https://github.com/donmai-me/WannaCRI) ⭐ 186 | 🐛 13 | 🌐 Python | 📅 2025-11-02 - Python library and CLI for extracting and creating CRI USM video files (VP9/H.264, encrypted and unencrypted) with embedded HCA audio.
 * [SonicAudioTools](https://github.com/blueskythlikesclouds/SonicAudioTools) ⭐ 167 | 🐛 2 | 🌐 C# | 📅 2024-01-16 - Toolset for modifying CRIWARE file formats.
   * Features: ACB Editor, ACB Finder (link AWB to ACB), ACB Injector, CPK Unpacker.
   * Formats: .acb, .awb, .cpk, .adx, .adx2, .csb.
 * [CriPakTools (GUI)](https://github.com/wmltogether/CriPakTools) ⭐ 139 | 🐛 0 | 🌐 C# | 📅 2019-09-20 - GUI version of CriPakTools with additional features including Shift-JIS support, 2GB+ CPK support for PS3, batch mode, compression support, and improved CPK header handling.
 * [HCADecoder](https://github.com/Nyagamon/HCADecoder) ⭐ 139 | 🐛 4 | 🌐 C++ | 📅 2018-01-23 - Original decoder for CRI's HCA (ADX2) audio format, the canonical reference implementation other HCA tools are based on.
+* [CriTools](https://github.com/kohos/CriTools) ⭐ 123 | 🐛 4 | 🌐 JavaScript | 📅 2020-08-23 - JavaScript tools for extracting audio from CRIWARE game files (ADX/HCA from CPK archives).
 * [CriCodecs](https://github.com/Youjose/CriCodecs) ⭐ 108 | 🐛 1 | 🌐 C++ | 📅 2026-08-25 - Python frontend for CRI codec tools.
 * [ACE](https://github.com/LazyBone152/ACE) ⭐ 89 | 🐛 0 | 📅 2023-12-25 - GUI tool (Audio Cue Editor) for editing and previewing CRIWARE ACB/AWB files.
 * [UsmToolkit](https://github.com/Rikux3/UsmToolkit) ⚠️ Archived - Converts CRI USM video files into user-friendly formats, using ffmpeg and vgmstream. See also [UsmToolkitHandler](https://github.com/KojoBailey/UsmToolkitHandler) ⭐ 7 | 🐛 0 | 🌐 C++ | 📅 2025-11-04, a companion tool that speeds up the conversion process.
 * [CriFsV2Lib](https://github.com/Sewer56/CriFsV2Lib) ⭐ 45 | 🐛 5 | 🌐 C# | 📅 2024-02-03 - Library for working with CRI FileSystem V2 archives.
 * [hca](https://github.com/Ishotihadus/hca) ⭐ 22 | 🐛 1 | 🌐 C | 📅 2023-04-24 - Efficient, high-quality decoder for CRI's HCA (ADX2) audio format used by many CRIWARE-based games.
 * [AfsLib](https://github.com/Sewer56/AfsLib) ⭐ 7 | 🐛 0 | 🌐 C# | 📅 2025-12-07 - Simple, relatively fast library for reading and writing CRIWare AFS archives.
+* [cri-archive-lib](https://github.com/rirurin/cri-archive-lib) ⭐ 6 | 🐛 0 | 🌐 Rust | 📅 2026-09-05 - Rust library for reading and writing CRI CPK archives.
 * [AfsBatch](https://github.com/tge-was-taken/AfsBatch) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2019-11-12 - Batch AFS packer. Packs each subdirectory in a given directory into an AFS file of the same name.
 * [GoldWave\_HcaFile](https://github.com/esterTion/GoldWave_HcaFile) ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2024-09-06 - HCA/ACB playback and export plugin for the GoldWave audio editor.
 * [Universal-CPK-Mod-Installer](https://github.com/PTKay/Universal-CPK-Mod-Installer) ⭐ 2 | 🐛 0 | 🌐 Batchfile | 📅 2020-07-18 - Universal installer for CPK mod files.
@@ -3609,14 +4153,17 @@ This list is for developers and modders working with such formats. It provides t
   * Tools: PsbDecompile/PsBuild (decompile PSB to JSON + resources and recompile), EmtConvert (convert PSB between engine/platform variants), FreeMote Viewer (renders unencrypted PSB).
   * Formats: PSB, PSZ, MDF, PIMG, SCN, MMO, EMTBYTES, MTN, DPAK.
 * [psbfile](https://github.com/number201724/psbfile) ⭐ 72 | 🐛 0 | 🌐 C | 📅 2022-07-02 - Decompiler and rebuilder for the galgame PSB file format.
+* [FreeMote-SDK](https://github.com/Project-AZUSA/FreeMote-SDK) ⭐ 18 | 🐛 0 | 🌐 C++ | 📅 2020-05-24 - SDK for "Special Emote" engines that take pure (unencrypted) PSB files as input, working around M2 Emote's per-version key isolation.
+* [emote-psb-rs](https://github.com/storycraft/emote-psb-rs) ⭐ 11 | 🐛 0 | 🌐 Rust | 📅 2026-03-20 - Rust library and CLI for parsing, decoding and encoding M2 Emote PSB files.
 
 ### XNA
 
 *Microsoft XNA Framework model format used in various Xbox 360 and PC games.*
 
-* [FNA](https://github.com/FNA-XNA/FNA) ⭐ 3,038 | 🐛 67 | 🌐 C# | 📅 2026-09-02 - Accuracy-focused reimplementation of the XNA4 framework for modern platforms, reading original .xnb content files; widely used to port XNA-based games (Terraria, Bastion, Fez, and others).
+* [FNA](https://github.com/FNA-XNA/FNA) ⭐ 3,038 | 🐛 68 | 🌐 C# | 📅 2026-09-02 - Accuracy-focused reimplementation of the XNA4 framework for modern platforms, reading original .xnb content files; widely used to port XNA-based games (Terraria, Bastion, Fez, and others).
 * [blender\_xna](https://github.com/REDxEYE/blender_xna) ⭐ 5 | 🐛 1 | 🌐 Python | 📅 2023-05-30 - Blender import plugin for XNA model formats.
 * [XNA-Noesis-Importer](https://github.com/ExIfDev/XNA-Noesis-Importer) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2025-11-18 - Noesis script to import Microsoft XNA, MonoGame, and FNA model files (.xnb).
+* [xnb](https://github.com/Lekuruu/xnb) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2024-08-10 - Python library for reading XNA .xnb content files, currently deserializing Texture2D entries with the BGRA surface format.
 
 ### Sappy (GBA Audio)
 
@@ -3652,6 +4199,10 @@ This list is for developers and modders working with such formats. It provides t
 * [opengr2-bevy](https://github.com/NoFr1ends/opengr2-bevy) ⭐ 2 | 🐛 0 | 🌐 Rust | 📅 2024-06-28 - Bevy engine file loader for Granny2 (.gr2) files, built on opengr2-rs.
 * [bonkdec](https://github.com/Helco/bonkdec) ⭐ 0 | 🐛 3 | 🌐 C# | 📅 2022-07-07 - Permissive Bink video decoder library in C#.
 
+### Virtools
+
+* [VirtoolsUnpacker](https://github.com/Hiro420/VirtoolsUnpacker) ⭐ 3 | 🐛 0 | 🌐 C# | 📅 2026-02-11 - C# rewrite of Luigi Auriemma's Virtools file unpacker, for extracting Virtools-packed game files.
+
 ### Nintendo SDKs & Hardware
 
 *Formats and tools generic to Nintendo consoles or SDKs.*
@@ -3659,9 +4210,9 @@ This list is for developers and modders working with such formats. It provides t
 #### Switch
 
 * [Goldleaf](https://github.com/XorTroll/Goldleaf) ⭐ 3,033 | 🐛 90 | 🌐 C | 📅 2026-08-20 - Multi-purpose homebrew tool for the Nintendo Switch, browsing/installing NSP and NCA titles and inspecting the filesystem.
-* [nsz](https://github.com/nicoboss/nsz) ⭐ 2,357 | 🐛 36 | 🌐 Python | 📅 2026-08-23 - Homebrew-compatible NSP/XCI compressor and decompressor for Nintendo Switch game dumps.
+* [nsz](https://github.com/nicoboss/nsz) ⭐ 2,356 | 🐛 36 | 🌐 Python | 📅 2026-08-23 - Homebrew-compatible NSP/XCI compressor and decompressor for Nintendo Switch game dumps.
 * [NSC\_BUILDER](https://github.com/julesontheroad/NSC_BUILDER) ⭐ 2,041 | 🐛 25 | 🌐 Python | 📅 2026-03-01 - Batch-oriented Nintendo Switch NSP/XCI tool for cleaning titlerights encryption and building multicontent NSP/XCI/NSZ/XCZ files.
-* [nxdumptool](https://github.com/DarkMatterCore/nxdumptool) ⭐ 1,287 | 🐛 19 | 🌐 C | 📅 2026-08-04 - Generates XCI, NSP, HFS0, ExeFS, and RomFS dumps from Nintendo Switch gamecards and installed titles.
+* [nxdumptool](https://github.com/DarkMatterCore/nxdumptool) ⭐ 1,288 | 🐛 19 | 🌐 C | 📅 2026-08-04 - Generates XCI, NSP, HFS0, ExeFS, and RomFS dumps from Nintendo Switch gamecards and installed titles.
 * [nut](https://github.com/blawar/nut) ⭐ 1,269 | 🐛 76 | 🌐 Python | 📅 2026-01-19 - Multi-purpose utility to organize, manage, and install Nintendo Switch NSP, NSZ, XCI and XCZ files, with USB/network install serving for Tinfoil.
 * [hactool](https://github.com/SciresM/hactool) ⭐ 1,180 | 🐛 30 | 🌐 C | 📅 2023-12-04 - Tool to view information about, decrypt, and extract Nintendo Switch file formats including NCA, XCI, PFS0, HFS0, RomFS, ExeFS, save data, and more.
 * [NX-Shell](https://github.com/joel16/NX-Shell) ⭐ 1,082 | 🐛 18 | 🌐 C | 📅 2022-12-10 - Multi-purpose file manager homebrew for the Nintendo Switch, browsing and previewing images, audio, and archives on the filesystem.
@@ -3679,6 +4230,7 @@ This list is for developers and modders working with such formats. It provides t
 * [switch-libpulsar](https://github.com/p-sam/switch-libpulsar) ⭐ 12 | 🐛 0 | 🌐 C | 📅 2021-08-01 - Switch homebrew library to load, parse, and play sounds from BFSAR (binary sound archive) files and related audio file formats.
 * [nxtik](https://github.com/jam1garner/nxtik) ⭐ 11 | 🐛 0 | 🌐 Rust | 📅 2024-08-09 - Library and tool for parsing Nintendo Switch .tik (ticket) files.
 * [switch-reversing](https://github.com/SciresM/switch-reversing) ⭐ 10 | 🐛 0 | 📅 2024-10-08 - Reverse engineering resources for Nintendo Switch.
+* [mkbktr](https://github.com/rschlaikjer/mkbktr) ⭐ 10 | 🐛 0 | 🌐 C++ | 📅 2024-11-27 - Generates BKTR update packages for Nintendo Switch titles.
 * [LegacySwitchLibraries](https://github.com/KillzXGaming/LegacySwitchLibraries) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2026-05-21 - Switch file format libraries for Switch Toolbox and other programs.
 * [shader-compiler-rs](https://github.com/DCNick3/shader-compiler-rs) ⭐ 5 | 🐛 0 | 🌐 C++ | 📅 2025-06-22 - Recompiles binary Maxwell shaders (as found in Nintendo Switch executables) to GLSL.
 * [nx-archive](https://github.com/RyouVC/nx-archive) ⭐ 4 | 🐛 1 | 🌐 Rust | 📅 2025-03-27 - Rust library for reading and writing Nintendo Switch package archive formats.
@@ -3704,8 +4256,8 @@ This list is for developers and modders working with such formats. It provides t
 * [wiiu-things](https://github.com/ihaveamac/wiiu-things) ⭐ 61 | 🐛 3 | 🌐 Python | 📅 2024-05-27 - Scripts and notes documenting the Wii U FST (filesystem table) format layout.
 * [wfslib](https://github.com/koolkdev/wfslib) ⭐ 55 | 🐛 7 | 🌐 C++ | 📅 2026-08-01 - WFS (WiiU File System) library and tools.
 * [fuse-wiiu](https://github.com/Maschell/fuse-wiiu) ⭐ 49 | 🐛 1 | 🌐 Java | 📅 2022-02-01 - FUSE filesystem for extracting data from Wii U titles in various formats.
+* [nusserver](https://github.com/ihaveamac/nusserver) ⭐ 42 | 🐛 0 | 🌐 Python | 📅 2018-01-16 - Custom Nintendo Update Server (NUS) implementation, companion to nuspacker/nustool.
 * [nuspacker](https://github.com/ihaveamac/nuspacker) ⭐ 41 | 🐛 4 | 🌐 Java | 📅 2017-11-13 - Packs files into an installable Wii U content format (NUS package).
-* [nusserver](https://github.com/ihaveamac/nusserver) ⭐ 41 | 🐛 0 | 🌐 Python | 📅 2018-01-16 - Custom Nintendo Update Server (NUS) implementation, companion to nuspacker/nustool.
 * [JNUSLib](https://github.com/Maschell/JNUSLib) ⭐ 25 | 🐛 9 | 🌐 Java | 📅 2022-02-01 - Java library for handling Wii U NUS content (.app, tmd, tik, cert files) from local files, the NUS server, or .woomy/.wud/.wux/.wumad images, with decryption, extraction, and .wud-to-.wux compression.
 * [WiiUZip](https://github.com/jam1garner/WiiUZip) ⭐ 19 | 🐛 2 | 🌐 C# | 📅 2017-08-01 - Archive manager for Wii U filetypes.
 * [wiiuqt](https://github.com/koolkdev/wiiuqt) ⭐ 16 | 🐛 1 | 🌐 C++ | 📅 2017-03-24 - Qt-based Wii U NAND tools, built alongside koolkdev's wfs-tools.
@@ -3715,7 +4267,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ##### Container & ROM Formats (CXI/CFA/CCI/CIA/NCCH/RomFS)
 
-* [3dsconv](https://github.com/ihaveamac/3dsconv) ⭐ 638 | 🐛 8 | 🌐 Python | 📅 2024-08-13 - Python script converting Nintendo 3DS CCI (.cci/.3ds) cart images to the CIA format, with support for decrypted, NCCH-encrypted, and zerokey-encrypted images.
+* [3dsconv](https://github.com/ihaveamac/3dsconv) ⭐ 639 | 🐛 8 | 🌐 Python | 📅 2024-08-13 - Python script converting Nintendo 3DS CCI (.cci/.3ds) cart images to the CIA format, with support for decrypted, NCCH-encrypted, and zerokey-encrypted images.
 * [Project\_CTR](https://github.com/3DSGuy/Project_CTR) ⭐ 575 | 🐛 21 | 🌐 C | 📅 2026-06-14 - A collection of custom Nintendo 3DS tools.
   * [ctrtool](https://github.com/3DSGuy/Project_CTR/tree/master/ctrtool) ⭐ 575 | 🐛 21 | 🌐 C | 📅 2026-06-14 - Read/extract 3DS file formats (CXI, CFA, CCI, CIA).
   * [makerom](https://github.com/3DSGuy/Project_CTR/tree/master/makerom) ⭐ 575 | 🐛 21 | 🌐 C | 📅 2026-06-14 - Create 3DS file formats.
@@ -3724,14 +4276,14 @@ This list is for developers and modders working with such formats. It provides t
   * Formats: CIA, CCI, NCCH, NCSD.
 * [NDecrypt](https://github.com/SabreTools/NDecrypt) ⭐ 87 | 🐛 2 | 🌐 C# | 📅 2026-08-31 - Encryption/decryption utility for Nintendo cartridge images, supporting Nintendo DS, DSi, 3DS, and New 3DS cartridge formats.
 * [braindump](https://github.com/neobrain/braindump) ⚠️ Archived - Early homebrew tool for dumping 3DS game cartridges and eShop titles. Archived, but has no already-listed direct successor for this specific niche.
-* [pyctr](https://github.com/ihaveamac/pyctr) ⭐ 40 | 🐛 35 | 🌐 Python | 📅 2026-07-10 - Python library for reading Nintendo 3DS file formats (NCCH, ExeFS, RomFS, CIA, and more), used by several other 3DS tools.
+* [pyctr](https://github.com/ihaveamac/pyctr) ⭐ 41 | 🐛 35 | 🌐 Python | 📅 2026-07-10 - Python library for reading Nintendo 3DS file formats (NCCH, ExeFS, RomFS, CIA, and more), used by several other 3DS tools.
 * [RomFS-Builder](https://github.com/SciresM/RomFS-Builder) ⭐ 35 | 🐛 1 | 🌐 C# | 📅 2017-07-08 - Program to convert a folder in Windows into a 3DS RomFS binary. For use with makerom.
 * [3dsconv-c](https://github.com/soarqin/3dsconv-c) ⭐ 18 | 🐛 0 | 🌐 C | 📅 2019-11-18 - C port of ihaveamac's 3dsconv, converting Nintendo 3DS CCI cart images to CIA format.
 * [rofs\_dumper](https://github.com/PabloMK7/rofs_dumper) ⭐ 10 | 🐛 2 | 🌐 C++ | 📅 2024-12-09 - Dumps very early Nintendo 3DS ROFS containers.
 
 ##### Encryption, Keys, Save Data, Titles & CDN
 
-* [custom-install](https://github.com/ihaveamac/custom-install) ⭐ 913 | 🐛 34 | 🌐 Python | 📅 2026-06-05 - Installs a CIA title directly to an SD card for the Nintendo 3DS without needing to run an installer on-console.
+* [custom-install](https://github.com/ihaveamac/custom-install) ⭐ 914 | 🐛 34 | 🌐 Python | 📅 2026-06-05 - Installs a CIA title directly to an SD card for the Nintendo 3DS without needing to run an installer on-console.
 * [faketik](https://github.com/ihaveamac/faketik) ⭐ 112 | 🐛 0 | 🌐 Makefile | 📅 2025-10-03 - Generates and installs fake Nintendo 3DS ticket (.tik) files to make missing titles re-appear.
 * [save3ds](https://github.com/wwylele/save3ds) ⭐ 79 | 🐛 5 | 🌐 Rust | 📅 2026-08-01 - Extract/import/FUSE tool for the Nintendo 3DS common save format (DISA/DIFF), covering save data, extdata, and the title database. Upstream of ihaveamac's save3ds fork.
 * [3ds-save-tool](https://github.com/wwylele/3ds-save-tool) ⭐ 60 | 🐛 2 | 🌐 Python | 📅 2025-01-05 - Tools for parsing and extracting files from Nintendo 3DS save (DISA) and extdata (DIFF) containers.
@@ -3758,7 +4310,7 @@ This list is for developers and modders working with such formats. It provides t
 * [3DS Data Tools](https://github.com/ObsidianX/3dstools) ⭐ 62 | 🐛 16 | 🌐 Python | 📅 2023-07-30 - Suite of Python tools for extracting and packing resources found in Nintendo 3DS games.
   * Formats: MSBT (message text extraction/repacking, with color-code handling), SARC (archive extraction/creation with ZLIB compression), BFFNT (font atlas to/from PNG+JSON manifest), BFLIM (texture to/from PNG, with swizzle support).
 * [tex3ds](https://github.com/devkitPro/tex3ds) ⭐ 56 | 🐛 11 | 🌐 C++ | 📅 2024-10-13 - Converts images into the Nintendo 3DS homebrew `.t3x` texture format (and BCFNT fonts via the bundled mkbcfnt), with atlas, cubemap, skybox, mipmap, and compression options.
-* [pycgfx](https://github.com/skyfloogle/pycgfx) ⭐ 35 | 🐛 0 | 🌐 Python | 📅 2025-06-02 - Program for converting glTF models into the Nintendo 3DS's CGFX format.
+* [pycgfx](https://github.com/skyfloogle/pycgfx) ⭐ 36 | 🐛 0 | 🌐 Python | 📅 2025-06-02 - Program for converting glTF models into the Nintendo 3DS's CGFX format.
 * [png2bclim](https://github.com/kwsch/png2bclim) ⭐ 23 | 🐛 0 | 🌐 C# | 📅 2015-11-22 - Converter between PNG and the Nintendo BCLIM texture format.
 * [bchtool](https://github.com/dnasdw/bchtool) ⭐ 13 | 🐛 1 | 🌐 C++ | 📅 2019-03-02 - Tool for exporting and importing BCH model files used in Nintendo 3DS games.
 * [txobtool](https://github.com/dnasdw/txobtool) ⭐ 12 | 🐛 0 | 🌐 C++ | 📅 2019-05-25 - Tool for exporting and importing CGFX graphics files used in Nintendo 3DS games.
@@ -3774,10 +4326,11 @@ This list is for developers and modders working with such formats. It provides t
 
 ##### Homebrew, CFW & Mod Tools
 
-* [Checkpoint](https://github.com/BernardoGiordano/Checkpoint) ⭐ 3,070 | 🐛 30 | 🌐 C++ | 📅 2026-08-30 - Fast and simple homebrew save management framework for 3DS and Switch.
-* [GodMode9](https://github.com/d0k3/GodMode9) ⭐ 2,621 | 🐛 29 | 🌐 C | 📅 2026-08-01 - Full access file browser and manager for Nintendo 3DS handling game file formats and system files.
+* [Checkpoint](https://github.com/BernardoGiordano/Checkpoint) ⭐ 3,068 | 🐛 30 | 🌐 C++ | 📅 2026-08-30 - Fast and simple homebrew save management framework for 3DS and Switch.
+* [GodMode9](https://github.com/d0k3/GodMode9) ⭐ 2,623 | 🐛 29 | 🌐 C | 📅 2026-08-01 - Full access file browser and manager for Nintendo 3DS handling game file formats and system files.
 * [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS) ⭐ 1,146 | 🐛 33 | 🌐 C | 📅 2026-08-18 - Theme and splashscreen manager for the Nintendo 3DS, handling BCSTM audio and theme/splash archive formats.
 * [libctru](https://github.com/devkitPro/libctru) ⭐ 957 | 🐛 37 | 🌐 C | 📅 2026-02-19 - Reverse-engineered Nintendo 3DS system library (CTRULib) exposing OS/hardware services (filesystem, graphics, audio, networking) to homebrew, forming the base library underlying GodMode9, Checkpoint, and most other 3DS homebrew tools listed above.
+* [Magikoopa](https://github.com/RicBent/Magikoopa) ⭐ 53 | 🐛 2 | 🌐 C++ | 📅 2019-06-29 - Compiles custom C code for Nintendo 3DS games and injects it into existing code.bin files, patching the exheader accordingly.
 * [Lasagna](https://github.com/BernardoGiordano/Lasagna) ⭐ 47 | 🐛 4 | 🌐 C++ | 📅 2018-01-30 - LayeredFS patch manager for Luma3DS, organizing romfs/exefs mod overlay folder structures.
 * [crotools](https://github.com/shinyquagsire23/crotools) ⭐ 14 | 🐛 1 | 🌐 C++ | 📅 2022-09-27 - Collection of tools for the Nintendo 3DS CRO/CRR shared-library binary format.
 * [videoinject](https://github.com/ihaveamac/videoinject) ⚠️ Archived - Tool for injecting/creating Nintendo 3DS moflex video files.
@@ -3824,7 +4377,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ##### Emulation, Audio, Video & Wii Channel Tools
 
-* [Dolphin](https://github.com/dolphin-emu/dolphin) ⭐ 15,479 | 🐛 466 | 🌐 C++ | 📅 2026-09-03 - GameCube and Wii emulator that parses and implements support for GameCube/Wii disc and asset file formats.
+* [Dolphin](https://github.com/dolphin-emu/dolphin) ⭐ 15,482 | 🐛 466 | 🌐 C++ | 📅 2026-09-04 - GameCube and Wii emulator that parses and implements support for GameCube/Wii disc and asset file formats.
 * [noclip.website (Wii Banners)](https://github.com/magcius/noclip.website/tree/main/src/Common/NW4R/lyt) ⭐ 4,251 | 🐛 86 | 🌐 TypeScript | 📅 2026-08-26 - Renderer for NW4R LYT UI layouts, used to play back animated Wii channel banners from `banner.bin` archives. Parses BRLYT layouts, BRLAN animations, and NW4R bitmap fonts.
 * [FunKii](https://github.com/AuroraWright/FunKii) ⭐ 13 | 🐛 0 | 🌐 C | 📅 2019-08-10 - Command-line downloader for Wii content from the Nintendo CDN, packaging titles into installable WAD files (including DLC handling).
 * [libansnd](https://github.com/Oaisus/libansnd) ⭐ 10 | 🐛 0 | 🌐 C | 📅 2026-02-04 - Audio library for Wii and GameCube homebrew with support for ADPCM audio decoding and arbitrary resampling. Supports up to 48 simultaneous voices with hardware ADPCM decoding.
@@ -3833,16 +4386,17 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Nintendo DS / DSi
 
+* [Tinke](https://github.com/pleonex/tinke) ⚠️ Archived - Viewer, converter, and editor for Nintendo DS file formats (images, text, sounds, fonts, textures), extensible via .NET plugins. Deprecated by its author; see [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) ⭐ 78 | 🐛 7 | 🌐 C# | 📅 2026-07-27 below for an actively maintained continuation with DSi support.
 * [apicula](https://github.com/scurest/apicula) ⭐ 227 | 🐛 20 | 🌐 Rust | 📅 2025-01-21 - Converter for Nintendo DS .nsbmd 3D model format.
 * [apicula/wiki/FILETYPES](https://github.com/scurest/apicula/wiki/FILETYPES) ⭐ 227 | 🐛 20 | 🌐 Rust | 📅 2025-01-21 - Documentation for Nintendo DS file types.
-* [NTRGhidra](https://github.com/pedro-javierf/NTRGhidra) ⭐ 223 | 🐛 4 | 🌐 Java | 📅 2026-03-24 - Ghidra plugin for Nintendo DS.
+* [NTRGhidra](https://github.com/pedro-javierf/NTRGhidra) ⭐ 224 | 🐛 4 | 🌐 Java | 📅 2026-03-24 - Ghidra plugin for Nintendo DS.
 * [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) ⭐ 78 | 🐛 7 | 🌐 C# | 📅 2026-07-27 - Viewer and extractor for Nintendo DS/DSi file formats.
 * [Flipnote-Encoder](https://github.com/RinLovesYou/Flipnote-Encoder) ⭐ 67 | 🐛 10 | 📅 2021-05-14 - Cross-platform Flipnote Studio (Nintendo DSi) encoder and signer, producing valid .ppm files.
 * [sdatxtract](https://github.com/oreo639/sdatxtract) ⭐ 39 | 🐛 0 | 🌐 C | 📅 2021-02-06 - Command-line Nintendo DS Sound DATa (SDAT) extraction utility.
 * [Ekona](https://github.com/SceneGate/Ekona) ⚠️ Archived - Nintendo DS file format library.
 * [Hatenatools](https://github.com/pbsds/Hatenatools) ⚠️ Archived - Python tools for Flipnote Studio (Nintendo DSi) file formats. Supports reading and writing .ppm (Flipnote files), .tmb (thumbnail files), .ugo (user data), and .ntft (image files). Can extract metadata, frames, and audio from Flipnote files.
 * [narchive](https://github.com/nickworonekin/narchive) ⭐ 23 | 🐛 1 | 🌐 C# | 📅 2019-04-28 - Tool for extracting and creating NARC archives used in DS games.
-* [NitroSDK](https://github.com/ntrtwl/NitroSDK) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2026-08-17 - Official Nintendo DS SDK.
+* [NitroSDK](https://github.com/ntrtwl/NitroSDK) ⭐ 15 | 🐛 1 | 🌐 C | 📅 2026-08-17 - Official Nintendo DS SDK.
 * [nitro-fs](https://github.com/DanielPXL/nitro-fs) ⭐ 14 | 🐛 0 | 🌐 TypeScript | 📅 2024-03-14 - Nintendo DS filesystem tools.
 * [nitro-g3d-tools](https://github.com/Ermelber/nitro-g3d-tools) ⭐ 12 | 🐛 1 | 🌐 C# | 📅 2020-08-17 - Tools for Nintendo DS 3D graphics.
 * [NintendoNitro4DotNet](https://github.com/henke37/NintendoNitro4DotNet) ⭐ 12 | 🐛 0 | 🌐 C# | 📅 2022-11-20 - .NET libraries for working with file formats in Nintendo DS games.
@@ -3865,7 +4419,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Nintendo 64
 
-* [N64Recomp](https://github.com/N64Recomp/N64Recomp) ⭐ 8,110 | 🐛 57 | 🌐 C++ | 📅 2026-05-27 - Tool to statically recompile N64 games into native executables. Converts N64 binaries into C code that can be compiled for any platform.
+* [N64Recomp](https://github.com/N64Recomp/N64Recomp) ⭐ 8,112 | 🐛 57 | 🌐 C++ | 📅 2026-05-27 - Tool to statically recompile N64 games into native executables. Converts N64 binaries into C code that can be compiled for any platform.
 * [sdk-tools (decomp)](https://github.com/n64decomp/sdk-tools) ⭐ 145 | 🐛 0 | 🌐 C | 📅 2021-07-07 - Decompilation of the Nintendo 64 SDK's developer tools, complementing ultralib above.
 * [glankk/n64](https://github.com/glankk/n64) ⭐ 115 | 🐛 4 | 🌐 C | 📅 2026-06-16 - Collection of N64 development tools.
   * Tools: `gfxdis` (F3DEX2 display list disassembler/decompiler), `gru` (Lua environment for manipulating raw binaries, N64 ROMs, Zelda64 file systems, UPS patches, and GameShark codes), `grc` (resource compiler for linkable N64 texture objects), `ed64rdb`/`gs` (remote debugging and GameShark upload utilities).
@@ -3877,6 +4431,7 @@ This list is for developers and modders working with such formats. It provides t
 * [n64soundtools](https://github.com/jsdf/n64soundtools) ⭐ 12 | 🐛 0 | 🌐 JavaScript | 📅 2024-01-02 - Node.js reimplementation of the N64 SDK's SGI sound tools (sbc sequence bank compiler and related utilities) for building N64 homebrew audio data.
 * [AudiobankToC](https://github.com/sauraen/AudiobankToC) ⭐ 11 | 🐛 1 | 🌐 Python | 📅 2022-01-03 - Scripts for converting between N64 Audiobank bank files and C code. Matches on binary -> C -> binary for banks in OoT.
 * [ipl3checksum](https://github.com/Decompollaborate/ipl3checksum) ⭐ 10 | 🐛 0 | 🌐 Rust | 📅 2026-01-17 - Python and Rust library to calculate the IPL3 (boot code) checksum for N64 ROMs, used to validate/patch ROMs in decompilation and recompilation workflows.
+* [ultra64](https://github.com/marijnvdwerf/ultra64) ⭐ 2 | 🐛 0 | 🌐 TypeScript | 📅 2026-02-02 - Detects libultra (N64 SDK) library function signatures embedded in N64 ROM binaries.
 * [ido-rs](https://github.com/EllipticEllipsis/ido-rs) ⭐ 1 | 🐛 0 | 🌐 Rust | 📅 2023-06-19 - Rust programs for handling SGI IDO compiler data formats (st, ucode, binasm), complementing ido-static-recomp above in N64 decompilation toolchains.
 * [n64os-info](https://github.com/akopetsch/n64os-info) ⭐ 1 | 🐛 0 | 🌐 Shell | 📅 2025-05-17 - Reverse-engineered and documented version history of the official Nintendo 64 OS (libultra, microcode, headers, release notes), based on SDK discs and leaks, complementing ultralib above.
 * [seq64](https://github.com/gheskett/seq64) ⭐ 0 | 🐛 0 | 🌐 C++ | 📅 2024-02-11 - Full-featured editor for Nintendo 64 music sequencing (Audioseq format). Supports Super Mario 64, Mario Kart 64, and The Legend of Zelda: Ocarina of Time.
@@ -3888,14 +4443,15 @@ This list is for developers and modders working with such formats. It provides t
 * [bsnes-plus](https://github.com/devinacker/bsnes-plus) ⭐ 362 | 🐛 101 | 🌐 C++ | 📅 2025-03-22 - Debug-oriented fork of bsnes with a tracer, memory/VRAM viewers, and breakpoints, widely used for SNES ROM hacking and reverse engineering.
 * [DiztinGUIsh](https://github.com/DizTools/DiztinGUIsh) ⭐ 338 | 🐛 54 | 🌐 C# | 📅 2026-08-09 - Super NES ROM disassembler with tracelog capture/analysis and a focus on collaborative workflow; exports .asm files that reassemble back into the original binary.
 * [asar](https://github.com/RPGHacker/asar) ⭐ 255 | 🐛 94 | 🌐 C++ | 📅 2026-08-20 - SNES assembler for applying patches to existing ROM images or building new ones from scratch; the long-standing standard assembler used across SNES ROM hacking projects.
-* [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) ⭐ 190 | 🐛 21 | 🌐 C++ | 📅 2026-09-03 - Command-line tool to convert graphics to Super Nintendo format.
-* [nesrecomp](https://github.com/mstan/nesrecomp) ⭐ 92 | 🐛 1 | 🌐 C | 📅 2026-08-14 - Static recompiler ecosystem for NES games (part of the R.A.I.D. community), converting 6502 ROM code into portable native code, similar in approach to upernes and GB Recompiled above.
+* [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) ⭐ 190 | 🐛 21 | 🌐 C++ | 📅 2026-09-04 - Command-line tool to convert graphics to Super Nintendo format.
+* [nesrecomp](https://github.com/mstan/nesrecomp) ⭐ 93 | 🐛 1 | 🌐 C | 📅 2026-08-14 - Static recompiler ecosystem for NES games (part of the R.A.I.D. community), converting 6502 ROM code into portable native code, similar in approach to upernes and GB Recompiled above.
 * [Dispel](https://github.com/pelrun/Dispel) ⭐ 84 | 🐛 3 | 🌐 C | 📅 2023-02-09 - Disassembler for 65816/SNES ROM images.
 * [SatellaWave](https://github.com/LuigiBlood/sat_wave) ⭐ 73 | 🐛 9 | 🌐 C# | 📅 2025-04-11 - Satellaview (BS-X) server manager/tool exporting broadcast satellite data as BSX-\*.bin files playable in bsnes-plus and snes9x, covering channels including Derby Stallion 96.
 * [snes-assembly-book](https://github.com/Ersanio/snes-assembly-book) ⭐ 46 | 🐛 0 | 📅 2026-09-03 - 65c816 assembly guide covering opcodes and the inner workings of the SNES, aimed at ROM hacking and reverse engineering.
 * [upernes](https://github.com/mandraga/upernes) ⭐ 38 | 🐛 1 | 🌐 Assembly | 📅 2025-06-20 - NES to Super NES recompiler; disassembles NES ROMs and converts 6502 code to SNES 65C816 assembly with hardware emulation.
 * [NES-Sprite-Editor](https://github.com/eonarheim/NES-Sprite-Editor) ⭐ 37 | 🐛 0 | 🌐 JavaScript | 📅 2024-01-03 - Simple sprite editor for NES games.
 * [M1TE2](https://github.com/nesdoug/M1TE2) ⭐ 31 | 🐛 4 | 🌐 C# | 📅 2025-11-24 - SNES Mode 1 Tile Editor for generating, editing, and arranging SNES tiles and tilemaps (2bpp/4bpp) with palette support. Designed for Mode 1 but works with any mode needing 2bpp or 4bpp graphics.
+* [go-nes](https://github.com/zorchenhimer/go-nes) ⭐ 15 | 🐛 0 | 🌐 Go | 📅 2024-05-16 - Go library and CLI utilities for NES ROM and CHR data: unpacking/repacking iNES ROMs into PRG/CHR banks, converting between CHR tiles and PNG/bitmap, metatile and font conversion, and ROM usage-map visualization.
 * [BSFlashManager](https://github.com/devinacker/BSFlashManager) ⭐ 14 | 🐛 0 | 🌐 C | 📅 2020-02-23 - Tool for managing BS-X / Satellaview memory pack flash cartridges for the SNES, reading and writing the Satellaview's flash memory format.
 * [noiSNESs\_Brr\_Finder](https://github.com/noisecross/noiSNESs_Brr_Finder) ⭐ 14 | 🐛 0 | 🌐 C# | 📅 2018-10-19 - Statistically analyzes SPC dumps and SNES ROM images to rip embedded BRR (Bit Rate Reduction) sound sample data, exporting to WAV or raw BRR; builds on techniques from SNESSOR and BRRTools while filtering out false-positive matches.
 * [snes-tile-tool](https://github.com/fo-fo/snes-tile-tool) ⭐ 6 | 🐛 0 | 🌐 Python | 📅 2016-07-26 - SNES tile graphics conversion tool.
@@ -3920,12 +4476,13 @@ This list is for developers and modders working with such formats. It provides t
 
 ##### ROM Tools, Disassemblers & Format Libraries
 
-* [HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance) ⭐ 471 | 🐛 15 | 🌐 C# | 📅 2026-08-30 - Hex editor for Game Boy Advance ROMs with scripting support.
-* [GB Recompiled](https://github.com/arcanite24/gb-recompiled) ⭐ 426 | 🐛 6 | 🌐 Python | 📅 2026-08-05 - Static recompiler for Game Boy and Game Boy Color ROMs that translates LR35902 assembly directly to portable C code.
+* [HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance) ⭐ 472 | 🐛 16 | 🌐 C# | 📅 2026-08-30 - Hex editor for Game Boy Advance ROMs with scripting support.
+* [GB Recompiled](https://github.com/arcanite24/gb-recompiled) ⭐ 428 | 🐛 6 | 🌐 Python | 📅 2026-08-05 - Static recompiler for Game Boy and Game Boy Color ROMs that translates LR35902 assembly directly to portable C code.
 * [mgbdis](https://github.com/mattcurrie/mgbdis) ⭐ 324 | 🐛 14 | 🌐 Assembly | 📅 2026-07-31 - Game Boy ROM disassembler with RGBDS-compatible output.
 * [GhidraGBA](https://github.com/SiD3W4y/GhidraGBA) ⭐ 128 | 🐛 2 | 🌐 Java | 📅 2021-12-13 - Game Boy Advance ROM loader for Ghidra.
 * [gba\_explorer](https://github.com/attilathedud/gba_explorer) ⭐ 100 | 🐛 2 | 🌐 Vue | 📅 2018-12-12 - Explorer for Game Boy Advance ROMs, browsing and extracting embedded text, graphics, and sound data.
 * [windfish](https://github.com/jverkoey/windfish) ⭐ 84 | 🐛 43 | 🌐 Assembly | 📅 2021-02-14 - Tracing disassembler and UI for Game Boy ROMs, integrated with SameBoy for emulation and debugging.
+* [gba-ghidra-loader](https://github.com/pudii/gba-ghidra-loader) ⭐ 83 | 🐛 0 | 🌐 Java | 📅 2026-02-09 - Game Boy Advance ROM loader for Ghidra, targeting modern Ghidra versions.
 * [gbadisasm](https://github.com/camthesaxman/gbadisasm) ⭐ 71 | 🐛 0 | 🌐 C | 📅 2022-02-14 - Game Boy Advance ROM disassembler.
 * [gvasm](https://github.com/velipso/gvasm) ⭐ 70 | 🐛 10 | 🌐 TypeScript | 📅 2024-12-07 - Assembler and disassembler designed specifically for Game Boy Advance homebrew.
 * [luvdis](https://github.com/aarant/luvdis) ⭐ 53 | 🐛 5 | 🌐 Python | 📅 2021-06-29 - Pure-Python Game Boy Advance disassembler.
@@ -3938,6 +4495,7 @@ This list is for developers and modders working with such formats. It provides t
 * [gba-tileeditor](https://github.com/IanFinlayson/gba-tileeditor) ⭐ 30 | 🐛 0 | 🌐 C | 📅 2024-07-17 - Simple tile editor for the Game Boy Advance.
 * [ida\_gba\_stuff](https://github.com/laqieer/ida_gba_stuff) ⭐ 28 | 🐛 0 | 🌐 Python | 📅 2026-06-07 - IDA Pro scripts and loaders useful when reverse engineering GBA games.
 * [bnGB](https://github.com/icecr4ck/bnGB) ⭐ 23 | 🐛 1 | 🌐 Python | 📅 2020-11-17 - Binary Ninja loader and architecture plugin for Game Boy ROMs, enabling GB/GBC disassembly and analysis directly within Binary Ninja.
+* [gba-recomp](https://github.com/JRickey/gba-recomp) ⭐ 20 | 🐛 0 | 🌐 Rust | 📅 2026-06-18 - Static recompilation tool and runtime for Game Boy Advance ROMs.
 * [gba\_dumper](https://github.com/attilathedud/gba_dumper) ⭐ 16 | 🐛 0 | 🌐 C | 📅 2017-08-23 - Set of utilities for text modifications in GBA ROMs. Since GBA games use homebrew text encodings rather than ASCII, streamlines building a translation table from search matches, dumping translated ROM text, and re-injecting edited strings.
 * [gba-lz77](https://github.com/lunasorcery/gba-lz77) ⭐ 15 | 🐛 0 | 🌐 C++ | 📅 2019-12-09 - LZ77 compressor/decompressor producing byte-identical output to the GBA's LZ77 implementation, verified against LEGO Island 2 (GBA).
 * [super-game-boy-border-converter](https://github.com/marcrobledo/super-game-boy-border-converter) ⭐ 14 | 🐛 2 | 🌐 JavaScript | 📅 2026-07-03 - Converts a 256x224 PNG image into Super Game Boy border SNES tile data.
@@ -3949,16 +4507,18 @@ This list is for developers and modders working with such formats. It provides t
 * [gfx2agb](https://github.com/felixjones/gfx2agb) ⭐ 7 | 🐛 2 | 🌐 C++ | 📅 2026-05-29 - Graphics converter for the Game Boy Advance, converting images to Mode 3/4/5 bitmap and palette data with configurable gamma, dithering, and output stride direction.
 * [gba\_opening\_movie](https://github.com/laqieer/gba_opening_movie) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2024-09-29 - Guide and reference implementation for inserting a custom AVI-converted opening movie into a Fire Emblem GBA ROM.
 * [Un-GameBoy](https://github.com/xvillaneau/python-ungameboy) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2020-11-02 - Interactive terminal-based tool for reverse-engineering Game Boy and Game Boy Color ROMs, with disassembly, labeling, and navigation features.
+* [gba-mapper](https://github.com/JRickey/gba-mapper) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2026-06-13 - LLM-driven automated disassembly and mapping toolkit for GBA ROM images.
+* [SLaDe-AGBCC](https://github.com/JRickey/SLaDe-AGBCC) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-06-12 - Neural GBA decompiler experiment targeting AGBCC-compiled code.
 * [GBRE](https://github.com/native-gb/gbre) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-07-21 - Research and interoperability toolkit for analyzing user-supplied Game Boy ROMs and building native reimplementations, providing ROM-range data modeling, source-map generation, HTML coverage maps, and emulator-trace/evidence tooling.
 
 ##### Hardware & Die-Level Reverse Engineering
 
 * [metroboy](https://github.com/aappleby/metroboy) ⭐ 1,170 | 🐛 4 | 🌐 C++ | 📅 2025-02-23 - Repository of gate-level simulators and reverse-engineering tools for the original Game Boy hardware.
-* [gbrom-tutorial](https://github.com/travisgoodspeed/gbrom-tutorial) ⭐ 1,164 | 🐛 0 | 📅 2026-08-17 - Tutorial for extracting the Game Boy boot ROM from die photographs.
-* [FlashGBX](https://github.com/Lesserkuma/FlashGBX) ⭐ 858 | 🐛 37 | 🌐 Python | 📅 2026-08-29 - Cross-platform (Windows/Linux/macOS) tool to read and write Game Boy and Game Boy Advance cartridge ROM and save data, including RTC registers, via GBxCart RW, GBFlash, Joey Jr, and Game Bub hardware.
+* [gbrom-tutorial](https://github.com/travisgoodspeed/gbrom-tutorial) ⭐ 1,165 | 🐛 0 | 📅 2026-08-17 - Tutorial for extracting the Game Boy boot ROM from die photographs.
+* [FlashGBX](https://github.com/Lesserkuma/FlashGBX) ⭐ 860 | 🐛 37 | 🌐 Python | 📅 2026-08-29 - Cross-platform (Windows/Linux/macOS) tool to read and write Game Boy and Game Boy Advance cartridge ROM and save data, including RTC registers, via GBxCart RW, GBFlash, Joey Jr, and Game Bub hardware.
   * Features: Wide support for cartridge memory mappers and reproduction/flash cartridges, flash chip identification, decoding and extraction of Game Boy Camera photos from save data, and ROM dump report generation for game preservation.
 * [gb-schematics](https://github.com/Gekkio/gb-schematics) ⭐ 698 | 🐛 0 | 📅 2024-05-18 - Reverse engineered Game Boy-related hardware schematics.
-* [maskromtool](https://github.com/travisgoodspeed/maskromtool) ⭐ 394 | 🐛 30 | 🌐 C++ | 📅 2026-08-14 - CAD tool for extracting bits from mask ROM die photographs, used to recover boot ROM and other on-die data.
+* [maskromtool](https://github.com/travisgoodspeed/maskromtool) ⭐ 395 | 🐛 30 | 🌐 C++ | 📅 2026-08-14 - CAD tool for extracting bits from mask ROM die photographs, used to recover boot ROM and other on-die data.
 * [ems-qart](https://github.com/rbino/ems-qart) ⭐ 203 | 🐛 16 | 🌐 C++ | 📅 2024-06-03 - Cross-platform Qt application to read and write ROM and SRAM save data on EMS 64M USB Game Boy flash cartridges. See also [ems-flasher](https://github.com/mikeryan/ems-flasher) ⭐ 98 | 🐛 5 | 🌐 C | 📅 2017-12-13, the original command-line flasher for the same hardware.
 * [gba-auto-batteryless-patcher](https://github.com/metroid-maniac/gba-auto-batteryless-patcher) ⭐ 130 | 🐛 12 | 🌐 C | 📅 2023-05-31 - Patches a GBA ROM for batteryless saving on bootleg cartridges containing SRAM but no battery, flushing save data a few seconds after an in-game save or on a button-trigger.
 * [GBA\_MultiMenu](https://github.com/Lesserkuma/GBA_MultiMenu) ⭐ 113 | 🐛 4 | 🌐 C | 📅 2026-07-06 - Menu program and ROM-compilation builder for Game Boy Advance bootleg cartridges equipped with a multi-game mapper, supporting several common mapper chips and per-game save slot configuration. Compatible with cartridges dumped/flashed via FlashGBX above.
@@ -3975,9 +4535,21 @@ This list is for developers and modders working with such formats. It provides t
 ##### Game Boy Camera & Printer
 
 * [arduino-gameboy-printer-emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) ⭐ 366 | 🐛 3 | 🌐 C++ | 📅 2026-05-13 - Arduino-based Game Boy Printer emulator that captures the raw serial protocol between a Game Boy/GBC/GBA and the printer, decoding print jobs into images. See also [GameboyPrinterSniffer](https://github.com/mofosyne/GameboyPrinterSniffer) ⭐ 9 | 🐛 0 | 🌐 C++ | 📅 2022-06-21, a standalone packet sniffer for the same protocol.
+* [NeoGB-Printer](https://github.com/zenaror/NeoGB-Printer) ⭐ 167 | 🐛 1 | 🌐 C | 📅 2024-08-23 - Open-source, standalone ESP32-based Game Boy Printer emulator 100% compatible with all 110 officially released compatible games, saving printed images as BMP. Co-developed with the author of arduino-gameboy-printer-emulator above.
+* [The TinyGB Printer](https://github.com/Raphael-Boichot/The-TinyGB-Printer) ⭐ 101 | 🐛 0 | 🌐 C | 📅 2026-08-19 - Raspberry Pi Pico-based Game Boy Printer emulator storing decoded print jobs directly as PNG images on an SD card, battery powered for portability.
+  * See also the same author's earlier [GameboyPrinterPaperSimulation](https://github.com/Raphael-Boichot/GameboyPrinterPaperSimulation) ⭐ 83 | 🐛 0 | 🌐 C++ | 📅 2026-09-01 (simulates physical/e-paper printout look from the decoded data) and [PC-to-Game-Boy-Printer-interface](https://github.com/Raphael-Boichot/PC-to-Game-Boy-Printer-interface) ⭐ 14 | 🐛 0 | 🌐 MATLAB | 📅 2025-06-04 (bridges a PC to a real Game Boy Printer, encoding images into Game Boy tile format), both since folded into this project.
+  * Built on mofosyne's arduino-gameboy-printer-emulator protocol parser above; described by its author as a Pico "demake" of NeoGB-Printer above.
 * [gbcam-rev-engineer](https://github.com/AntonioND/gbcam-rev-engineer) ⚠️ Archived - Tools used to reverse engineer the Game Boy Camera's sensor and communication protocol using an Arduino UNO.
+* [wifi-gbp-emulator](https://github.com/HerrZatacke/wifi-gbp-emulator) ⭐ 78 | 🐛 1 | 🌐 C++ | 📅 2026-04-10 - ESP8266-based Game Boy Printer emulator that exposes received print job data over a WiFi connection instead of local storage.
+* [gb-printer-web](https://github.com/HerrZatacke/gb-printer-web) ⭐ 76 | 🐛 1 | 🌐 TypeScript | 📅 2026-09-02 - Web app for organizing, editing, and sharing Game Boy Camera photos.
+* [gbpxl](https://github.com/xx0x/gbpxl) ⭐ 61 | 🐛 2 | 🌐 C | 📅 2022-09-08 - Game Boy Printer XL: transparent interface bridging the Game Boy Camera/Printer protocol to ESC/POS-compatible thermal receipt printers. See also [cristofercruz's fork](https://github.com/cristofercruz/gbpxl) ⭐ 11 | 🐛 0 | 🌐 C++ | 📅 2024-03-05 with multi-tone printing support.
 * [gbcamextract](https://github.com/jkbenaim/gbcamextract) ⭐ 53 | 🐛 0 | 🌐 C | 📅 2022-05-08 - Extracts photos from Game Boy Camera / Pocket Camera save files, including the Hello Kitty camera variant.
+* [GBCamera-Android-Manager](https://github.com/Mraulio/GBCamera-Android-Manager) ⭐ 42 | 🐛 1 | 🌐 Java | 📅 2026-04-30 - Android app to manage a Game Boy Camera photo gallery, communicating over USB serial with an Arduino Printer Emulator or GBxCart RW to pull images.
 * [game-boy-camera-manager](https://github.com/marcrobledo/game-boy-camera-manager) ⭐ 24 | 🐛 1 | 🌐 JavaScript | 📅 2026-02-25 - Tool for managing Game Boy Camera data, including both save (SRAM) photos and ROM contents.
+* [gb-link-printer](https://github.com/stacksmashing/gb-link-printer) ⭐ 23 | 🐛 3 | 🌐 C | 📅 2022-01-20 - Firmware turning a GB-Link-Adapter into a Game Boy Printer emulator, allowing photos to be downloaded straight from the browser.
+* [gbpinter\_dump2image\_py](https://github.com/lennartba/gbpinter_dump2image_py) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2020-05-20 - Python script batch-converting raw Game Boy Camera image dumps into PNG files.
+* [GameBEye](https://github.com/mtouzot/GameBEye) ⭐ 7 | 🐛 0 | 🌐 Python | 📅 2026-07-28 - Python library for processing Game Boy Camera images.
+* [gameboycameralib](https://github.com/KodeMunkie/gameboycameralib) ⭐ 6 | 🐛 1 | 🌐 Java | 📅 2024-10-04 - Java library encoding, decoding, injecting, and extracting Game Boy Camera 2BPP images as PNGs or BufferedImages to/from Game Boy Camera save files.
 * [gbp-decode](https://github.com/HerrZatacke/gbp-decode) ⭐ 3 | 🐛 0 | 🌐 TypeScript | 📅 2024-05-16 - Set of functions to decode Game Boy Printer print job data.
 
 ##### Mobile Adapter GB
@@ -3988,7 +4560,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ##### Archive & Container Formats
 
-* [ninfs](https://github.com/ihaveamac/ninfs) ⭐ 535 | 🐛 28 | 🌐 Python | 📅 2026-07-10 - FUSE filesystem tool to mount Nintendo 3DS and Switch container/filesystem formats (CCI, CDN, CIA, NAND, NCA, RomFS, SD, etc.) for direct file browsing.
+* [ninfs](https://github.com/ihaveamac/ninfs) ⭐ 536 | 🐛 29 | 🌐 Python | 📅 2026-09-05 - FUSE filesystem tool to mount Nintendo 3DS and Switch container/filesystem formats (CCI, CDN, CIA, NAND, NCA, RomFS, SD, etc.) for direct file browsing.
 * [Nintendo-File-Formats](https://github.com/kinnay/Nintendo-File-Formats) ⭐ 108 | 🐛 2 | 🌐 Markdown | 📅 2026-08-12 - Documentation for Wii U and Switch file formats.
 * [3DSkit](https://github.com/Tyulis/3DSkit) ⭐ 79 | 🐛 11 | 🌐 Python | 📅 2024-08-25 - Tool to extract and repack many file formats found on Nintendo DS, DSi, 3DS, Wii U, and Switch.
 * [oead](https://github.com/zeldamods/oead) ⭐ 47 | 🐛 10 | 🌐 C++ | 📅 2026-08-01 - Library for recent Nintendo EAD first-party formats (BOTW/TOTK-era SARC, Yaz0, AAMP, BYML, and more), with Rust core and Python bindings. See also [cs-oead](https://github.com/EPD-Libraries/cs-oead) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2026-08-04 for a C# wrapper.
@@ -4027,7 +4599,7 @@ This list is for developers and modders working with such formats. It provides t
 * [nutexb](https://github.com/jam1garner/nutexb) ⭐ 15 | 🐛 2 | 🌐 Rust | 📅 2026-07-04 - Rust library for working with Namco Nutexb textures, found in Smash Ultimate and other Switch games.
 * [KCollisionLibrary](https://github.com/KillzXGaming/KCollisionLibrary) ⭐ 13 | 🐛 0 | 🌐 C# | 📅 2022-05-14 - Library for reading and editing Nintendo KCL collision file binaries used by various games.
 * [BFRES-Shader-Maker](https://github.com/KillzXGaming/BFRES-Shader-Maker) ⭐ 11 | 🐛 2 | 🌐 C# | 📅 2026-08-30 - Tool for building BFSHA/BNSH shader binaries from scratch using a given BFRES and GLSL code.
-* [ssbh\_lib](https://github.com/ultimate-research/ssbh_lib) ⭐ 11 | 🐛 28 | 🌐 Rust | 📅 2026-08-14 - Rust library for reading and writing Nintendo SSBH rendering format files (used by Super Smash Bros. Ultimate and other Switch games).
+* [ssbh\_lib](https://github.com/ultimate-research/ssbh_lib) ⭐ 11 | 🐛 28 | 🌐 Rust | 📅 2026-09-04 - Rust library for reading and writing Nintendo SSBH rendering format files (used by Super Smash Bros. Ultimate and other Switch games).
 * [IONET](https://github.com/Ploaj/IONET) ⭐ 7 | 🐛 1 | 🌐 C# | 📅 2022-08-11 - .NET library for reading and writing several 3D model formats into a common object model.
 * [img2nutexb](https://github.com/jam1garner/img2nutexb) ⭐ 6 | 🐛 1 | 🌐 Rust | 📅 2021-05-29 - Converts standard images (PNG, JPG, GIF, DDS, TGA, TIFF, ICO, BMP) to Nutexb, the Namco texture format used in Smash Ultimate and other Switch games.
 * [BFRES-Model-Importer](https://github.com/KillzXGaming/BFRES-Model-Importer) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2018-05-18 - Script for injecting and replacing models in Nintendo BFRES files (Switch and Wii U), maintaining and extending smb123w64gb's original work.
@@ -4037,6 +4609,7 @@ This list is for developers and modders working with such formats. It provides t
 * [img2bntx](https://github.com/jam1garner/img2bntx) ⭐ 2 | 🐛 0 | 🌐 Rust | 📅 2025-06-20 - Converts standard images to Nintendo BNTX texture format.
 * [BFRES-to-FBX-Converter](https://github.com/jdperos/BFRES-to-FBX-Converter) ⭐ 2 | 🐛 0 | 🌐 C++ | 📅 2021-01-10 - Windows tool to convert Nintendo BFRES model files to FBX, built on the FBX SDK.
 * [BntxLibrary](https://github.com/EPD-Libraries/BntxLibrary) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2025-08-01 - Simple C# IO library for the Nintendo BNTX texture format.
+* [BfresToCast](https://github.com/CosmicDreamsOfCode/BfresToCast) ⭐ 0 | 🐛 2 | 🌐 C# | 📅 2026-01-22 - Console tool to extract models and textures from Nintendo BFRES container files to the Cast format.
 * [Syroot.NintenTools.Bfres](https://gitlab.com/Syroot/NintenTools) - Library for reading/writing Nintendo BFRES model format (Wii U).
 
 ##### Scripting, Parameters & Game Data
@@ -4061,6 +4634,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ##### amiibo (NFC Tag Data)
 
+* [Amiibo](https://github.com/AmiiboDB/Amiibo) ⭐ 2,222 | 🐛 28 | 🌐 Python | 📅 2025-03-21 - Database of amiibo `.bin`/`.nfc` NFC tag dumps.
 * [emuiibo](https://github.com/XorTroll/emuiibo) ⭐ 1,399 | 🐛 30 | 🌐 C++ | 📅 2026-04-05 - Virtual amiibo (amiibo emulation) system for Nintendo Switch, evolved from ogniK5377's switch-nfp-mitm.
 * [AmiiboAPI](https://github.com/N3evin/AmiiboAPI) ⚠️ Archived - RESTful API and database of amiibo NFC tag data.
 * [amiitool.net](https://github.com/ca1e/amiitool.net) ⭐ 5 | 🐛 0 | 🌐 C# | 📅 2024-08-18 - C# port of amiitool, for decrypting/encrypting Nintendo amiibo NFC tag dumps.
@@ -4079,6 +4653,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *Formats and tools generic to PlayStation consoles/SDKs, not tied to a specific game.*
 
+* [Vita3K](https://github.com/Vita3K/Vita3K) ⭐ 5,684 | 🐛 206 | 🌐 C++ | 📅 2026-09-04 - Experimental HLE PlayStation Vita emulator for Windows, Linux, macOS, and Android, running original PS Vita game data. See also [nckstwrt's fork](https://github.com/nckstwrt/Vita3K-Plus) ⭐ 128 | 🐛 19 | 🌐 C++ | 📅 2026-09-04 with extensive per-game compatibility fixes for 30+ commercial titles.
 * [vita2hos](https://github.com/xerpi/vita2hos) ⭐ 1,256 | 🐛 4 | 🌐 C | 📅 2025-06-07 - PlayStation Vita to Horizon OS (Nintendo Switch OS) translation layer (not an emulator), parsing Vita's executable format to run titles under Switch's OS.
 * [PSn00bSDK](https://github.com/Lameguy64/PSn00bSDK) ⭐ 1,120 | 🐛 28 | 🌐 C | 📅 2025-01-28 - Open source SDK for PS1 homebrew development, defining the toolchain and native formats used by the author's TIMedit, img2tim, and smxtool below.
 * [PicoMemcard](https://github.com/dangiu/PicoMemcard) ⭐ 683 | 🐛 39 | 🌐 C | 📅 2024-08-01 - Emulates a PlayStation 1 memory card (or controller) using a Raspberry Pi Pico, reading/writing real memory card data over the console's controller port. See also [MrPalloncini's fork](https://github.com/MrPalloncini/PicoMemcard) ⭐ 32 | 🐛 9 | 🌐 C | 📅 2024-08-01 with GameID support, and [alex-free's fork](https://github.com/alex-free/PicoMemcard) ⭐ 4 | 🐛 0 | 🌐 C | 📅 2025-09-24 adding compatibility with the Tonyhax/FreePSXBoot soft-mod exploit.
@@ -4088,790 +4663,71 @@ This list is for developers and modders working with such formats. It provides t
 * [uofw](https://github.com/uofw/uofw) ⭐ 438 | 🐛 35 | 🌐 C | 📅 2026-02-11 - The Unofficial Official FirmWare, a complete reverse engineering project for the latest PSP firmware.
 * [LibOrbisPkg](https://github.com/maxton/LibOrbisPkg) ⭐ 362 | 🐛 21 | 🌐 C# | 📅 2023-10-24 - Library, GUI, and CLI for creating, inspecting, and modifying PS4 PKG, SFO, PFS, and related package/filesystem formats.
 * [mkpsxiso](https://github.com/Lameguy64/mkpsxiso) ⭐ 334 | 🐛 3 | 🌐 C++ | 📅 2026-07-09 - ISO disc image maker written specifically for PlayStation homebrew development. Tool to build and extract PlayStation 1 CD images from XML. Modern cross-platform replacement for BUILDCD from PsyQ SDK. Supports mixed-mode CD-XA with audio/video streams.
-* [HDL-Batch-installer](https://github.com/israpps/HDL-Batch-installer) ⭐ 322 | 🐛 19 | 🌐 C++ | 📅 2026-03-25 - GUI front-end for HDL Dump, featuring batch installation and management of PS2 games on internal/USB hard drives.
+* [ps3recomp](https://github.com/sp00nznet/ps3recomp) ⭐ 302 | 🐛 6 | 🌐 C | 📅 2026-09-04 - Static recompilation runtime libraries for PlayStation 3 titles.
 * [pkg2zip](https://github.com/lusid1/pkg2zip) ⭐ 282 | 🐛 1 | 🌐 C | 📅 2026-08-04 - Decrypts PlayStation Vita PKG files and repackages their contents (apps, DLC, patches, themes, PSM, PSX, PSP) into zip archives.
-* [ps4-wee-tools](https://github.com/andy-man/ps4-wee-tools) ⭐ 238 | 🐛 7 | 🌐 Python | 📅 2026-06-16 - GUI app for working with PS4 SPI/NOR flash and Syscon firmware dumps.
 * [psvimgtools](https://github.com/yifanlu/psvimgtools) ⭐ 210 | 🐛 1 | 🌐 C | 📅 2017-02-28 - Decrypts PlayStation Vita CMA backup images.
 * [psximager](https://github.com/cebix/psximager) ⭐ 210 | 🐛 3 | 🌐 C++ | 📅 2024-08-15 - Tools for dumping and mastering PlayStation 1 ("PSX") CD-ROM images.
-* [ps4\_remote\_pkg\_installer](https://github.com/flatz/ps4_remote_pkg_installer) ⭐ 183 | 🐛 9 | 🌐 C | 📅 2020-09-25 - Remote PKG installer for jailbroken PS4 consoles, pushing package files over the network for installation.
-* [Playstation-4-Save-Mounter](https://github.com/ChendoChap/Playstation-4-Save-Mounter) ⭐ 158 | 🐛 6 | 🌐 C# | 📅 2019-05-21 - Mounts PS4 save data with read/write access via ps4debug, for decrypting, replacing, sharing, and exporting save files.
+* [Playstation-4-Save-Mounter](https://github.com/ChendoChap/Playstation-4-Save-Mounter) ⭐ 158 | 🐛 6 | 🌐 C# | 📅 2019-05-21 - Mounts PS4 save data with read/write access via ps4debug, for decrypting, replacing, sharing, and exporting save files. See also [n0llptr's fork](https://github.com/n0llptr/Playstation-5-Save-Mounter) ⭐ 77 | 🐛 5 | 🌐 C | 📅 2026-08-14, which adds PS5 save mounting support.
 * [MkPFS](https://github.com/PSBrew/MkPFS) ⭐ 152 | 🐛 7 | 🌐 Python | 📅 2026-09-03 - Command-line tool and Python library (PyPI-packaged, with GUI) for building, verifying, inspecting, browsing, and extracting PlayStation FileSystem (PFS) disk images (.ffpfs, .ffpfsc, .pfs, .dat, .exfat, .bin), including PKG/FPKG inner-PFS generation for PS4/PS5.
-* [psvpfstools](https://github.com/motoharu-gosuto/psvpfstools) ⭐ 146 | 🐛 24 | 🌐 C++ | 📅 2022-02-06 - Set of tools to decrypt the PFS (PlayStation File System) filesystem layer used on PS Vita.
+* [psvpfstools](https://github.com/motoharu-gosuto/psvpfstools) ⭐ 147 | 🐛 24 | 🌐 C++ | 📅 2022-02-06 - Set of tools to decrypt the PFS (PlayStation File System) filesystem layer used on PS Vita.
 * [pspdecrypt](https://github.com/John-K/pspdecrypt) ⭐ 136 | 🐛 20 | 🌐 C | 📅 2024-06-07 - Simple tool to decrypt PSP binaries.
-* [pfsshell](https://github.com/ps2homebrew/pfsshell) ⭐ 129 | 🐛 10 | 🌐 C | 📅 2026-06-03 - Browses and edits PFS filesystems on APA-formatted PlayStation 2 hard drives.
 * [pkg\_pfs\_tool](https://github.com/flatz/pkg_pfs_tool) ⭐ 104 | 🐛 2 | 🌐 C | 📅 2023-09-08 - PKG/PFS unpacker for PS4, extracting package and filesystem contents.
 * [ps4-cfw-toolkit](https://github.com/Al-Azif/ps4-cfw-toolkit) ⭐ 103 | 🐛 0 | 🌐 C++ | 📅 2022-12-26 - Decrypts and encrypts various PlayStation 4 firmware files.
-* [ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper) ⭐ 94 | 🐛 6 | 🌐 C | 📅 2026-07-28 - PS5 payload that dumps installed application files from the console's mounted `pfsmnt` filesystem to a USB drive.
+* [ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper) ⭐ 94 | 🐛 6 | 🌐 C | 📅 2026-07-28 - PS5 payload that dumps installed application files from the console's mounted \`p
 * [libcrypt-patcher](https://github.com/alex-free/libcrypt-patcher) ⭐ 91 | 🐛 8 | 🌐 C | 📅 2026-01-30 - All-in-one patcher for PS1 disc images protected by Sony's LibCrypt anti-piracy scheme, removing the protection directly from the CD image.
 * [VitaMTP](https://github.com/yifanlu/VitaMTP) ⚠️ Archived - Library implementing the PS Vita's USB MTP-based content transfer protocol, used by qcma and similar tools. Archived.
 * [psxavenc](https://github.com/WonderfulToolchain/psxavenc) ⚠️ Archived - PS1 audio/video encoding tool; converts standard audio/video into the PlayStation 1's native STR/SPU/XA formats.
 * [PlayStation 1 VST Instruments](https://github.com/BodbDearg/PlayStation1Vsts) ⭐ 83 | 🐛 3 | 🌐 C | 📅 2023-10-01 - VST instruments replicating the PS1 SPU sound chip for music production: an ADPCM sampler that plays back original PS1 .VAG samples with authentic ADSR/interpolation behavior, plus a matching SPU reverb module. Built from the SPU emulation code in the same author's PsyDoom.
-* [psyz](https://github.com/Xeeynamo/psyz) ⭐ 81 | 🐛 8 | 🌐 C | 📅 2026-09-04 - PlayStation 1 porting SDK, providing PSY-Q-compatible headers and libraries for building native ports of decompiled PS1 games.
-* [LibProsperoPKG](https://github.com/SvenGDK/LibProsperoPKG) ⭐ 73 | 🐛 1 | 🌐 C# | 📅 2026-08-29 - .NET library for creating, inspecting, and modifying PS5 PKG, GP5, and PFS package/filesystem files. PS5 counterpart to LibOrbisPkg.
 * [dynlib](https://github.com/aerosoul94/dynlib) ⭐ 70 | 🐛 2 | 🌐 C | 📅 2018-03-01 - IDA Pro plugin to aid PS4 user mode ELF reverse engineering. Loads PS4-specific DYNLIBDATA segment, resolves obfuscated symbol NIDs to label imports/exports, loads symbol table, and patches relocations.
 * [KELFBinder](https://github.com/israpps/KELFBinder) ⭐ 69 | 🐛 4 | 🌐 C | 📅 2026-04-01 - DVD Player and System Updates manager for the PS2, building and patching the console's signed KELF (kernel-ELF) files.
 * [img2tim](https://github.com/Lameguy64/img2tim) ⭐ 66 | 🐛 5 | 🌐 C++ | 📅 2024-07-19 - Converts standard images to the PlayStation 1 TIM texture format.
-* [ps5-wee-tools](https://github.com/andy-man/ps5-wee-tools) ⭐ 66 | 🐛 4 | 🌐 Python | 📅 2024-09-17 - Tools for working with PS5 SPI/NOR flash dumps.
 * [ps5-pup-decrypt](https://github.com/zecoxao/ps5-pup-decrypt) ⭐ 62 | 🐛 0 | 🌐 C | 📅 2025-07-25 - Decrypts PS5 PUP (firmware update package) files by directing an exploited PS5 console to decrypt them itself.
 * [Memory Card Annihilator](https://github.com/ffgriever-pl/Memory-Card-Annihilator) ⭐ 61 | 🐛 6 | 🌐 C | 📅 2025-04-26 - PS2 memory card management tool with native exFAT filesystem support, covering ProtoKernel PS2 consoles (SCPH-10000/15000) and separate builds for Arcade, Developer, and Prototype memory card hardware variants.
+* [psp-ghidra-scripts](https://github.com/pspdev/psp-ghidra-scripts) ⭐ 56 | 🐛 4 | 🌐 Python | 📅 2025-11-25 - Collection of scripts to aid in reverse engineering PSP binaries in Ghidra.
 * [LibOrbisPkg](https://github.com/OpenOrbis/LibOrbisPkg) ⭐ 56 | 🐛 8 | 🌐 C# | 📅 2026-08-22 - Library, GUI, and CLI tools for creating, inspecting, and modifying PlayStation 4 PKG, SFO, PFS, and related filetypes. Open-source alternative to Sony SDK tools.
-* [psp-ghidra-scripts](https://github.com/pspdev/psp-ghidra-scripts) ⭐ 55 | 🐛 4 | 🌐 Python | 📅 2025-11-25 - Collection of scripts to aid in reverse engineering PSP binaries in Ghidra.
 * [Save-Transfer-Wizard](https://github.com/rajeshca911/Save-Transfer-Wizard) ⭐ 52 | 🐛 0 | 🌐 Visual Basic .NET | 📅 2025-04-22 - Windows GUI tool for transferring, decrypting, and browsing PS5 save data over FTP.
+* [psvcd](https://github.com/motoharu-gosuto/psvcd) ⭐ 51 | 🐛 1 | 🌐 C++ | 📅 2017-09-16 - Documents research into hardware-dumping PS Vita game cartridges (PlayStation Vita Cartridge Dump).
 * [ps4-pkg-manager](https://github.com/hippie68/ps4-pkg-manager) ⭐ 48 | 🐛 0 | 🌐 Java | 📅 2025-12-09 - Light-weight, cross-platform desktop application to manage large collections of PS4 PKG files.
 * [Ps2IsoTools](https://github.com/Finzenku/Ps2IsoTools) ⭐ 48 | 🐛 2 | 🌐 C# | 📅 2024-10-13 - Tools to read, build, and edit PS2 ISO images that use the UDF filesystem.
 * [ps4-pup\_unpack](https://github.com/idc/ps4-pup_unpack) ⭐ 45 | 🐛 0 | 🌐 C# | 📅 2017-12-12 - PS4 PUP (firmware/system update package) unpacking tool.
 * [pkgrip](https://github.com/qwikrazor87/pkgrip) ⭐ 42 | 🐛 4 | 🌐 C | 📅 2023-09-26 - Fast Linux tool for decrypting PS3/PSP PKG files.
 * [TIMedit](https://github.com/Lameguy64/TIMedit) ⭐ 42 | 🐛 8 | 🌐 C++ | 📅 2024-08-06 - Graphical converter and management tool for PlayStation 1 TIM texture files.
 * [aprip](https://github.com/alex-free/aprip) ⭐ 39 | 🐛 3 | 🌐 C | 📅 2024-05-29 - Generator for PS1 Anti-Piracy Protection bypass patches, analyzing a disc image's specific protection implementation to produce a working bypass.
-* [ps2vmc-tool](https://github.com/bucanero/ps2vmc-tool) ⭐ 37 | 🐛 2 | 🌐 C | 📅 2026-08-25 - PS1/PS2 VMC (virtual memory card) manager tools.
 * [psp-media-engine-cracking-the-unknown](https://github.com/mcidclan/psp-media-engine-cracking-the-unknown) ⭐ 36 | 🐛 0 | 🌐 Assembly | 📅 2026-08-14 - Research documentation on the PSP's Media Engine, covering its Virtual Mobile Engine (VME), specialized move instructions, bitstream/context handling, local DMACs, VLD unit, and H.264 decoder.
 * [sfo](https://github.com/hippie68/sfo) ⭐ 33 | 🐛 3 | 🌐 C | 📅 2022-01-05 - Fast C program that reads a file to print or modify its SFO parameters. Can be used for automation or to build param.sfo files from scratch. Also available as .exe file for Windows command line.
 * [psio-helper](https://github.com/ncirocco/psio-helper) ⭐ 32 | 🐛 4 | 🌐 Go | 📅 2020-05-17 - Cross-platform Go tool that prepares PS1 CUE/BIN disc images for use with the PSIO optical drive emulator cartridge.
-* [IDAPy-PS2](https://github.com/grimdoomer/IDAPy-PS2) ⭐ 30 | 🐛 0 | 🌐 Python | 📅 2023-10-09 - IDA Pro Python scripts for reverse engineering PlayStation 2 Emotion Engine (EE) and IOP executables.
 * [create-fself](https://github.com/OpenOrbis/create-fself) ⭐ 29 | 🐛 1 | 🌐 Go | 📅 2026-01-04 - Takes PC-compatible ELFs and generates fake SELF files that run on the PlayStation 4.
 * [pkgrename](https://github.com/hippie68/pkgrename) ⭐ 28 | 🐛 2 | 🌐 C | 📅 2025-12-16 - Renames PS4 PKG files based on param.sfo information, online search, and predefined patterns.
-* [ps4-re-utilities](https://github.com/Al-Azif/ps4-re-utilities) ⭐ 26 | 🐛 1 | 🌐 Python | 📅 2026-03-18 - Dependency-free Python utilities for PS4 reverse engineering: extracting Secure Kernel/Secure Module/SELF keys from decrypted firmware binaries, splitting the AMD μBIOS from the appended FreeBSD kernel in a decrypted kernel ELF, and extracting embedded SELF files (mini-syscore.elf, safemode.elf, etc.) from it.
 * [ps3-ckit](https://github.com/tge-was-taken/ps3-ckit) ⭐ 24 | 🐛 0 | 🌐 C | 📅 2021-09-06 - PS3 C code injection framework. Toolkit for running arbitrary C code in games, hooking existing functions, and inserting custom functionality.
-* [ps2mcfs](https://github.com/FranciscoDA/ps2mcfs) ⭐ 23 | 🐛 0 | 🌐 C | 📅 2023-05-02 - FUSE driver that mounts PlayStation 2 memory card images, from emulators or real hardware, as a Linux filesystem.
-* [make\_npdata](https://github.com/aniruddh22/make_npdata) ⭐ 22 | 🐛 0 | 🌐 C | 📅 2014-05-10 - Encrypts, decrypts, and bruteforces dev\_klic keys for PS3 EDAT/SDAT (NP DRM) files. Originally written by Hykem.
 * [psx\_psyq\_signatures](https://github.com/lab313ru/psx_psyq_signatures) ⭐ 20 | 🐛 0 | 🌐 C | 📅 2022-01-08 - Signatures for PlayStation 1 PsyQ SDK LIB/OBJ files in JSON form, for identifying statically-linked SDK code in PS1 binaries. See also [psx\_psyq\_flair](https://github.com/lab313ru/psx_psyq_flair) ⭐ 9 | 🐛 0 | 🌐 Max | 📅 2019-11-30, the same signatures in IDA FLAIR format.
 * [PsxVram-SDL](https://github.com/romhack/PsxVram-SDL) ⭐ 19 | 🐛 1 | 🌐 C | 📅 2022-08-06 - PlayStation 1 VRAM viewer.
 * [nploader](https://github.com/codestation/nploader) ⭐ 19 | 🐛 1 | 🌐 C | 📅 2024-09-30 - PSP plugin for directly reading and loading DLC content in decrypted EDAT/PGD/SPRX form.
-* [PlayStation-5-NOR-ErrorLog](https://github.com/apewalkers/PlayStation-5-NOR-ErrorLog) ⭐ 19 | 🐛 1 | 🌐 Python | 📅 2025-02-27 - Decodes the Error DBI crash log embedded in PS5 NOR flash dumps.
 * [smxtool](https://github.com/Lameguy64/smxtool) ⭐ 17 | 🐛 1 | 🌐 C++ | 📅 2021-11-22 - Editing tool for PlayStation RSD and SMX model data formats. See also [Blender-RSD-Plugin](https://github.com/Lameguy64/Blender-RSD-Plugin) ⭐ 37 | 🐛 2 | 🌐 Python | 📅 2017-11-23, a Blender plugin for exporting models in the PlayStation SDK RSD format.
 * [kirk](https://github.com/ProximaV/kirk) ⭐ 16 | 🐛 0 | 🌐 C++ | 📅 2024-08-17 - IDA Pro processor module for the PSP's KIRK crypto engine.
 * [psx-undither](https://github.com/alex-free/psx-undither) ⭐ 16 | 🐛 1 | 🌐 C | 📅 2024-07-31 - Disables the dithering effect in PS1 games, either by patching the CD image directly or by generating GameShark codes from a DuckStation RAM dump.
-* [PSV-PUP-Extractor](https://github.com/Princess-of-Sleeping/PSV-PUP-Extractor) ⭐ 16 | 🐛 0 | 🌐 C | 📅 2019-07-11 - PS Vita homebrew app that extracts PSP2UPDAT PUP firmware update package files.
 * [PS4-Package-Assessor-Java](https://github.com/Cryptogenic/PS4-Package-Assessor-Java) ⭐ 15 | 🐛 0 | 🌐 JavaScript | 📅 2016-08-06 - Java tool that evaluates PS3/PS4 .PKG files and displays information about them in a clean manner.
 * [PS5-SELF-Decrypter](https://github.com/EchoStretch/PS5-SELF-Decrypter) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2025-11-11 - PS5 payload that uses kernel arbitrary read/write to decrypt Signed ELF (SELF) binaries from the filesystem and dump the plaintext ELFs to a USB drive.
 * [edcre](https://github.com/alex-free/edcre) ⭐ 14 | 🐛 1 | 🌐 C++ | 📅 2025-03-21 - Regenerates EDC/ECC data for PS1/PS2 CD images (BIN+CUE) after the image has been edited, so patched discs still pass integrity checks.
-* [PS4-OpenOrbis-Mono](https://github.com/marcussacana/PS4-OpenOrbis-Mono) ⭐ 14 | 🐛 0 | 🌐 C# | 📅 2023-12-26 - Sample Mono entry point for PS4 homebrews built on OrbisGL.
 * [psexe2rom](https://github.com/alex-free/psexe2rom) ⭐ 13 | 🐛 0 | 🌐 C | 📅 2026-01-28 - Converts PS1 executables (PS-EXE) into flashable GameShark-compatible ROM files.
 * [DTP-T1000-Pre-IPL-dumper](https://github.com/mathieulh/DTP-T1000-Pre-IPL-dumper) ⭐ 12 | 🐛 0 | 🌐 Shell | 📅 2024-01-12 - Dumps the PSP's Pre-IPL loader segment from kbooti/bootdispi boot files.
-* [ps3mca\_tool](https://github.com/israpps/ps3mca_tool) ⭐ 12 | 🐛 0 | 🌐 C | 📅 2026-07-16 - CLI tool for the PS3 CECHZM1 Memory Card adapter, adding arcade MagicGate support and KELF card unbinding on top of the original PS3MCA-TOOL.
-* [OrbisGL](https://github.com/marcussacana/OrbisGL) ⭐ 12 | 🐛 3 | 🌐 C# | 📅 2024-10-26 - Open-source graphical UI framework for PS4 homebrew development, using C# and OpenGL for shape/text rendering, audio playback, and input handling.
 * [PSPLibDoc](https://github.com/Spenon-dev/PSPLibDoc) ⭐ 10 | 🐛 0 | 🌐 Python | 📅 2024-06-02 - Documents symbols (NIDs) of PSP modules across firmware versions, with tools to load PSPLibDoc XML, PSP export (.exp), and PPSSPP HLE source files.
 * [ps4-pkg-compatibility-checker](https://github.com/hippie68/ps4-pkg-compatibility-checker) ⭐ 10 | 🐛 0 | 🌐 Java | 📅 2023-09-06 - GUI tool with drag-and-drop that checks PKG checksums to determine whether PS4 game and update PKG files are compatible ("married").
-* [PAKerUtility](https://github.com/israpps/PAKerUtility) ⭐ 9 | 🐛 1 | 🌐 C | 📅 2025-08-26 - Command-line tool to (un)pack `.PAK` files used by the Sony Utility Discs for PS2 and PSX.
-* [romman](https://github.com/israpps/romman) ⭐ 9 | 🐛 2 | 🌐 C++ | 📅 2025-11-22 - Image manager for creating, extracting, and inspecting PlayStation 2 ROM and IOPRP images.
 * [PS2-ECC-Memory-Card-Converter](https://github.com/ffgriever-pl/PS2-ECC-Memory-Card-Converter) ⭐ 8 | 🐛 0 | 🌐 C++ | 📅 2025-03-09 - Converts PS2 memory card images between ECC and non-ECC binary formats, including images created by Memory Card Annihilator, for use with PCSX2 and vice versa.
 * [ECCScan](https://github.com/Terraonion-dev/ECCScan) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2020-11-17 - PS1 EDC/ECC scanner and fixer for raw CD dumps (mode 2, 2352 bytes/sector); checks and repairs Error Detection/Correction Code mismatches, complementing the check-only edccchk tool.
-* [ps4\_stub\_lib\_maker\_v2](https://github.com/flatz/ps4_stub_lib_maker_v2) ⭐ 7 | 🐛 0 | 🌐 C | 📅 2019-07-26 - Generates stub libraries for linking PS4 homebrew against system PRX/SPRX modules. Second version of the author's original [ps4\_stub\_lib\_maker](https://github.com/flatz/ps4_stub_lib_maker) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2018-09-25.
 * [pops2cue](https://github.com/bucanero/pops2cue) ⭐ 6 | 🐛 0 | 🌐 C | 📅 2026-01-13 - Reverse-engineered (via Ghidra disassembly) reconstruction of POPS2CUE and CUE2POPS, Sony's original tools for converting PS2/PS3 "POPS" PS-one Classics packages to and from CUE+BIN disc images.
 * [psp-arc-sdk](https://github.com/galaxyhaxz/psp-arc-sdk) ⭐ 5 | 🐛 0 | 🌐 C | 📅 2021-02-16 - Tools for building and extracting the DES-CBC encrypted .arc format updates found within early PSP SDKs.
 * [MemCardPro-ASM](https://github.com/Cybdyn-Systems/MemCardPro-ASM) ⭐ 5 | 🐛 0 | 🌐 Assembly | 📅 2024-05-19 - 8BitMods MemCard Pro firmware library/object source, written in MIPS R3000 assembly, for the PS1 hardware memory-card-emulation device.
 * [SGXDataBuilder](https://github.com/Nenkai/SGXDataBuilder) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2026-06-28 - Creates and builds Sony SGX/SGXD Audio Banks from standard audio formats. Used in various PSP and PS3 games including Gran Turismo 5/6, LocoRoco Cocoreccho, Ape Escape Move, and more.
   * Formats: sgd/sgh/sgb (output), WAV/AC3 (input).
-* [ps2-tim2-tool](https://github.com/PS2HomeDeveloper/ps2-tim2-tool) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2026-08-23 - Tool for working with the PS2 TIM2 texture format, used across many PS2 titles.
-* [ps4\_payload\_ldr](https://github.com/flatz/ps4_payload_ldr) ⭐ 4 | 🐛 0 | 🌐 C | 📅 2018-09-26 - Loads fake SELF (fPKG) applications on a jailbroken PS4 via a server, for running homebrew ELFs signed as fake SELF binaries.
+* [ps2-tim2-tool](https://github.com/PS2HomeDeveloper/ps2-tim2-tool) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2026-09-04 - Tool for working with the PS2 TIM2 texture format, used across many PS2 titles.
 * [PSY-Q SDK Version Finder](https://github.com/jdperos/psyq-version-finder) ⭐ 1 | 🐛 1 | 🌐 Python | 📅 2026-03-02 - GUI tool for PS1 decompilation projects that identifies which Sony PSY-Q SDK version(s) a binary was built with, via color-coded byte-level signature diffing across 10+ SDK releases.
 * [LibreFios](https://github.com/neptuwunium/LibreFios) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2024-09-04 - PSARC library in C# for working with PlayStation PSARC archive format.
 * [lib-enigma](https://github.com/alex-free/lib-enigma) ⭐ 1 | 🐛 0 | 🌐 C | 📅 2026-05-05 - C library for patching and identifying PS1/PS2 CD images; spiritual successor to (and supersedes) the author's earlier lib-ppf and lib-ps-cd-id libraries.
 * [mymc](https://github.com/uyjulian/mymc) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2024-01-10 - Utility for working with PlayStation 2 memory card images (PCSX2 format). Supports importing/exporting save games in MAX Drive (.max) and EMS (.psu) formats, viewing memory card contents, creating new memory card images, and adding/extracting individual files. Includes GUI and command-line interfaces.
+* [AteliELF](https://github.com/Hakanaou/AteliELF) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-03-28 - Python ELF reverse engineering and patching toolchain for PowerPC64 Big Endian binaries (Cell Broadband Engine), originally built for PS3 game text extraction/reinsertion; also has partial PS Vita and PS2 support.
+  * Features: text detection (English/Japanese heuristics, CP932/Shift-JIS), pointer resolution (direct and PPC `lis`/`addic` split-pointer patterns), bin-packing string reinsertion with automatic pointer/phdr updates, EBOOT decrypt/re-encrypt integration, DeepL/Google Translate hookup, Tkinter GUI.
 * [mipsasm (cakehonolulu fork)](https://github.com/cakehonolulu/mipsasm) ⭐ 0 | 🐛 0 | 🌐 Rust | 📅 2025-07-08 - MIPS assembler targeting the PS2 Emotion Engine and IOP; fork of [imaandrew/mipsasm](https://github.com/imaandrew/mipsasm) ⭐ 4 | 🐛 0 | 🌐 Rust | 📅 2023-10-02 (originally targeting the N64) retargeted for PS2.
-
-### WonderSwan SDKs & Hardware
-
-*Formats and tools generic to the WonderSwan platform/SDKs, not tied to a specific game.*
-
-* [wonderswan-tools](https://github.com/dekadencedemo/wonderswan-tools) ⭐ 15 | 🐛 4 | 🌐 Python | 📅 2022-12-15 - Various tools for working with WonderSwan cartridge data, by Dekadence.
-* [splashbuilder](https://github.com/Godzil/splashbuilder) ⭐ 14 | 🐛 2 | 🌐 Python | 📅 2021-04-13 - Builds custom boot splash images for the WonderSwan.
-* [swancc](https://github.com/Godzil/swancc) ⭐ 11 | 🐛 12 | 🌐 C | 📅 2020-12-27 - Tentative WonderSwan C compiler based on BCC.
-* [WonBe](https://github.com/Godzil/WonBe) ⭐ 6 | 🐛 0 | 🌐 C | 📅 2018-03-07 - WonderWitch BASIC development environment for the WonderSwan.
-* [WonX](https://github.com/Godzil/WonX) ⭐ 5 | 🐛 0 | 🌐 C | 📅 2018-03-07 - WonderWitch on X, a WonderWitch compatibility layer for Unix/X11.
-* [ws-ieepview](https://github.com/asiekierka/ws-ieepview) ⭐ 4 | 🐛 1 | 🌐 C | 📅 2025-03-09 - Viewer/editor for the WonderSwan's internal EEPROM data.
-* [MiracleMage](https://github.com/Godzil/MiracleMage) ⭐ 4 | 🐛 0 | 🌐 C | 📅 2019-06-19 - WonderWitch emulator for Win32, for running WonderSwan homebrew built with the WonderWitch development kit.
-
-### Xbox SDKs & Hardware
-
-*Formats and tools generic to the Xbox platform/OS, not tied to a specific game.*
-
-* [Xbox360BadUpdate](https://github.com/grimdoomer/Xbox360BadUpdate) ⚠️ Archived - Non-persistent, software-only hypervisor exploit for Xbox 360 working on the latest (17559) dashboard/kernel version. See also [bibarub's fork](https://github.com/bibarub/Xbox360BadUpdate) ⭐ 41 | 🐛 0 | 🌐 Assembly | 📅 2026-09-02.
-* [WinDurango](https://github.com/WinDurango/WinDurango) ⭐ 1,298 | 🐛 9 | 🌐 C++ | 📅 2026-08-09 - Xbox One compatibility layer for Windows, allowing Xbox One executables to run natively on PC.
-* [iso2god-rs](https://github.com/iliazeus/iso2god-rs) ⭐ 280 | 🐛 12 | 🌐 Rust | 📅 2026-08-17 - Actively maintained, cross-platform (Windows/Linux/macOS) Rust CLI that converts Xbox and Xbox 360 ISOs into the Xbox 360 "Games on Demand" (GoD) container format. See also [r4dius/Iso2God](https://github.com/r4dius/Iso2God) ⭐ 276 | 🐛 11 | 🌐 C# | 📅 2026-05-23, a decompiled C# rewrite of the original tool with quality-of-life improvements.
-* [SlimEra](https://github.com/XWine1/SlimEra) ⭐ 159 | 🐛 0 | 🌐 C++ | 📅 2025-07-22 - Slim Win32 reference implementations of select DLLs from the Xbox ERA operating system (e.g. D3DCompiler\_46.dll, xg\_x.dll), intended for research/analysis tooling rather than running full games.
-* [PiPROM](https://github.com/grimdoomer/PiPROM) ⭐ 153 | 🐛 4 | 🌐 C | 📅 2022-01-12 - Reads, writes, and erases original Xbox EEPROM chips using a Raspberry Pi.
-* [XDL Compiler](https://github.com/XWine1/XDLCompiler) ⭐ 129 | 🐛 1 | 🌐 C# | 📅 2025-06-28 - Compiler for XDL, an IDL-like interface definition language (with versioning support) used to generate headers for reversing Xbox ERA OS components.
-* [XboxImageGrabber](https://github.com/grimdoomer/XboxImageGrabber) ⭐ 38 | 🐛 0 | 🌐 C# | 📅 2026-01-26 - Research tool that generates images visualizing the memory profile/layout of an Xbox console, originally built to aid development of the Halo 2 Vista/HD patch.
-* [dump-xbox-dvd](https://github.com/JayFoxRox/dump-xbox-dvd) ⭐ 19 | 🐛 9 | 🌐 C | 📅 2018-04-16 - Dumps original Xbox game discs (XGD) to redump preservation standard using Kreon-firmware optical drives.
-* [xbox-dvd-compress](https://github.com/JayFoxRox/xbox-dvd-compress) ⭐ 14 | 🐛 1 | 🌐 C++ | 📅 2018-08-12 - Proof-of-concept tools to inspect redump-format Xbox DVD images: extracts embedded authoring-tool version tags and traces the RNG seed used to generate sector padding, as groundwork for compression.
-* [XboxAudio2](https://github.com/XWine1/XboxAudio2) ⭐ 12 | 🐛 0 | 🌐 C | 📅 2025-11-15 - XAudio2 wrapper providing XMA2 audio format support for Xbox TitleOS applications.
-* [UnXiP](https://github.com/JayFoxRox/UnXiP) ⭐ 4 | 🐛 0 | 🌐 C++ | 📅 2022-11-20 - Extracts XIP archive files from the original Xbox dashboard, based on Voltaic's PIXIT research.
-
-### Tamagotchi (Bandai) Hardware
-
-*Formats and tools generic to the original Tamagotchi handheld toy hardware, not tied to a specific software release.*
-
-* [tamalib](https://github.com/jcrona/tamalib) ⭐ 273 | 🐛 13 | 🌐 C | 📅 2025-04-03 - Hardware-agnostic emulation library for the first-generation Tamagotchi, reverse-engineering its E0C6S46 CPU and ROM dump format.
-* [mcugotchi](https://github.com/jcrona/mcugotchi) ⭐ 148 | 🐛 3 | 🌐 C | 📅 2024-03-30 - First-generation Tamagotchi (P1) emulator for microcontrollers, built on tamalib. See also [pebblegotchi](https://github.com/jcrona/pebblegotchi) ⭐ 14 | 🐛 0 | 🌐 C | 📅 2021-08-31, a port for Pebble smartwatches.
-
-#### Tamagotchi Paradise
-
-* [tama-para-research](https://github.com/GMMan/tama-para-research) ⭐ 102 | 🐛 2 | 🌐 Python | 📅 2026-07-14 - Reverse-engineering notes on the Tamagotchi Paradise handheld, documenting its sprite and archive file formats, CJK text/charset handling, and ghost/save data structures.
-
-### Digimon Color (Bandai) Hardware
-
-*Formats and tools for Bandai's Digimon Color handheld toy line.*
-
-* [DigimonColorSpriteTool](https://github.com/GMMan/DigimonColorSpriteTool) ⭐ 44 | 🐛 1 | 🌐 C# | 📅 2025-12-22 - Sprite import/export tool for the Digimon Color handheld, decoding and re-encoding its BMP-based sprite data format.
-
-### Sega SDKs & Hardware
-
-* [PscdPack](https://github.com/GMMan/PscdPack) ⭐ 58 | 🐛 1 | 🌐 C# | 📅 2018-07-13 - ROM packer for the SEGA Genesis Classics compilation's packaged ROM format.
-* [sega2asm](https://github.com/hansbonini/sega2asm) ⭐ 33 | 🐛 1 | 🌐 Go | 📅 2026-04-01 - Sega Genesis/Mega Drive disassembler and splitter written in Golang, producing reassemblable, annotated source from ROM images.
-
-### FMOD
-
-*Audio middleware used in thousands of games for sound bank management and streaming.*
-
-* [python-fsb5](https://github.com/HearthSim/python-fsb5) ⭐ 159 | 🐛 17 | 🌐 Python | 📅 2021-12-26 - Python library and command-line tool for extracting audio from FMOD FSB5 (FMOD Sample Bank) files. Decodes samples to WAV/OGG depending on codec.
-* [Fmod5Sharp](https://github.com/SamboyCoding/Fmod5Sharp) ⭐ 48 | 🐛 3 | 🌐 C# | 📅 2026-07-13 - Managed C# library for decoding FMOD 5 sound banks (FSB5 and .bank files). Extracts individual audio samples and converts them to WAV or OGG.
-  * See also [AssetRipper's fork](https://github.com/AssetRipper/Fmod5Sharp) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2026-03-16 with additional fixes used by the AssetRipper project.
-  * Formats: PCM8, PCM16, PCM32, GCADPCM, IMAADPCM, VORBIS, FADPCM.
-* [FMODSoundBankEditor](https://github.com/TheAdmiester/FMODSoundBankEditor) ⭐ 8 | 🐛 1 | 🌐 C# | 📅 2021-01-18 - GUI editor for FSB4 version FMOD sound bank (.fsb) files. Supports viewing, replacing, and exporting audio samples. Primarily developed for Xbox 360 Forza titles.
-* [Fmod5Sharp (AssetRipper fork)](https://github.com/AssetRipper/Fmod5Sharp) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2026-03-16 - AssetRipper's maintained fork of SamboyCoding/Fmod5Sharp; a C# decoder for FMOD 5 FSB sound banks used internally by the AssetRipper Unity asset extraction pipeline.
-
-### SpeedTree
-
-*Procedural vegetation middleware used in many AAA games.*
-
-* [Spt2Fbx](https://github.com/VenoMKO/Spt2Fbx) ⭐ 14 | 🐛 0 | 🌐 C++ | 📅 2020-06-01 - Converts SpeedTree `.spt` files (up to v4.1) to `.fbx` static meshes. Drag-and-drop tool that preserves UV sets for diffuse, leaf card dimensions, pivot data, and leaf dimming.
-
-### Wwise
-
-*Audio middleware by Audiokinetic used in many AAA titles for sound bank management.*
-
-* [bnkextr](https://github.com/eXpl0it3r/bnkextr) ⭐ 282 | 🐛 3 | 🌐 C++ | 📅 2025-02-18 - C++ command-line tool for extracting WEM audio files from Wwise BNK soundbank containers. Works with any game using Wwise audio middleware.
-* [wwiser-utils](https://github.com/bnnm/wwiser-utils) ⭐ 82 | 🐛 1 | 🌐 Python | 📅 2026-08-30 - Companion utilities for wwiser, covering Wwise SoundBank (.bnk) and .wem audio files.
-* [BnkExtractor](https://github.com/AssetRipper/BnkExtractor) ⭐ 34 | 🐛 4 | 🌐 C# | 📅 2024-12-27 - C# extraction library for Wwise audio containers. Extracts WEM audio files from BNK soundbanks and PCK file packages. Works with any game using Wwise audio middleware.
-* [Unreal Engine Wwise Extractor](https://github.com/florensie/ue-wwise-extractor) ⭐ 15 | 🐛 0 | 🌐 Python | 📅 2022-04-07 - Python script to extract and convert Wwise BNK audio files from Unreal Engine pak files.
-* [ExportUtilityWwise](https://github.com/djhaled/ExportUtilityWwise) ⭐ 5 | 🐛 1 | 🌐 C# | 📅 2026-05-19 - Console tool that exports Wwise audio events from Unreal Engine-based games (Valorant, Sea of Thieves, and others) to WAV files, automating sound extraction.
-* [wemkit](https://github.com/coconutbird/wemkit) ⭐ 4 | 🐛 0 | 🌐 Rust | 📅 2026-02-01 - Toolkit for working with Wwise WEM audio files.
-
-### Prism3D
-
-* [Prism3D-file-formats](https://github.com/AlexKimov/Prism3D-file-formats) ⭐ 10 | 🐛 0 | 🌐 Python | 📅 2020-05-11 - File formats and tools for games built on the Prism3D engine.
-
-### Steam (Valve) Platform Tools
-
-*Libraries for interacting with Valve's Steam network/platform protocols, not tied to a specific game.*
-
-* [SteamKit](https://github.com/SteamRE/SteamKit) ⭐ 3,181 | 🐛 38 | 🌐 C# | 📅 2026-09-01 - .NET library implementing Valve's Steam network protocol, providing programmatic access to Steam services (CDN/depot downloads, game coordinator messages, etc.).
-* [steam](https://github.com/ValvePython/steam) ⭐ 1,280 | 🐛 62 | 🌐 Python | 📅 2026-06-23 - Python package for interacting with the Steam network, including a CDNClient for depot/manifest access. See also [ValvePython/csgo](https://github.com/ValvePython/csgo) ⭐ 131 | 🐛 16 | 🌐 Python | 📅 2021-02-03 for the CS:GO Game Coordinator protocol.
-* [steam-shortcut-editor](https://github.com/tirish/steam-shortcut-editor) ⭐ 32 | 🐛 2 | 🌐 JavaScript | 📅 2022-07-09 - Node.js library to read and write Steam's binary `shortcuts.vdf` file (the non-Steam game shortcuts database), parsing it to a JSON object and back to the original binary format.
-
-## Game & Studio Tools
-
-### 11 bit studios (Frostpunk)
-
-* [Frostract - Frostpunk idx and dat unpacker](https://www.moddb.com/games/frostpunk/downloads/frostract-frostpunk-idx-and-dat-unpacker)
-
-### 1C Company / Best Way
-
-#### Men of War
-
-* [Men of War 3DS Max Exporter Tools](https://www.moddb.com/games/men-of-war/downloads/men-of-war-3ds-max-exporter-tools) - 3DS Max exporter tools for Men of War. Supports 32-bit versions of 3DS Max 8, 9, 2008, and 2009 only. Mirrored here as the original Best Way download is no longer available.
-
-#### Royal Quest Online
-
-* [RQ.TOC.Tool](https://github.com/Ekey/RQ.TOC.Tool) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2025-01-02 - Tool for extracting archives from Royal Quest Online game files.
-
-#### Adventures of Captain Blood
-
-* [cb-file-formats](https://github.com/AlexKimov/cb-file-formats) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2024-04-14 - 010 Editor templates describing the file formats of Adventures of Captain Blood (Приключения Капитана Блада).
-
-### 2K Czech / Illusion Softworks
-
-* [MafiaToolkit](https://github.com/Greavesy1899/MafiaToolkit) ⭐ 153 | 🐛 8 | 🌐 C# | 📅 2026-08-25 - Toolkit with file format parsers and map editor for Mafia series (Mafia II, Mafia III, Mafia Definitive Edition), supporting SDS and XBin formats.
-* [Gibbed.Illusion](https://github.com/gibbed/Gibbed.Illusion) ⭐ 23 | 🐛 3 | 🌐 C# | 📅 2019-05-03 - Tools for parsing and editing Illusion engine-based games, including Mafia II.
-* [Max4dsTools](https://github.com/pudingus/Max4dsTools) ⭐ 19 | 🐛 3 | 🌐 MAXScript | 📅 2022-03-27 - 3ds Max plugin for import and export of the 4ds model format used in Mafia: The City of Lost Heaven. Supports meshes, LODs, billboarding, sectors, portals, skinned models, materials, and glows.
-* [mafia-formats](https://github.com/RoadTrain/mafia-formats) ⭐ 11 | 🐛 0 | 📅 2020-11-20 - 010 Editor templates for Mafia: The City of Lost Heaven file formats. Also partly for Hidden & Dangerous 2 and Wings of War.
-* [mafia-re (decomp)](https://github.com/Marvisak/mafia-re) ⭐ 10 | 🐛 0 | 🌐 C++ | 📅 2025-03-03 - Matching decompilation of Mafia: The City of Lost Heaven.
-* [RmorfBinEditor](https://github.com/legion2809/RmorfBinEditor) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2024-12-26 - Editor for rmorf.bin files used in Mafia: The City of Lost Heaven, a WPF (C#) rewrite of the author's earlier tool.
-* [vietcong-unpacker](https://github.com/Romop5/vietcong-unpacker) ⭐ 5 | 🐛 0 | 🌐 C++ | 📅 2016-08-15 - Collection of tools for unpacking .CBF archive files used in Vietcong (2003), co-developed by Pterodon and Illusion Softworks.
-* [EffectsBinEditor](https://github.com/legion2809/EffectsBinEditor) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2024-08-11 - Effects.bin editor for Mafia: The City of Lost Heaven written in C# (WPF application). Program to add or remove particle effects from a particular mission.
-* [HD2unpacker](https://github.com/M3tox/HD2unpacker) ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2021-01-16 - Extracts .dta archives used by Hidden & Dangerous 2 and its demos, handling the game's encrypted and compressed containers to pull out textures, models, and scripts.
-* [mEdit](https://github.com/Sevenisko/mEdit) ⭐ 2 | 🐛 0 | 🌐 C++ | 📅 2026-06-20 - All-in-one editor suite for modding Mafia: The City of Lost Heaven.
-
-### 2K Games / Firaxis Games
-
-* [OpenCiv3](https://github.com/C7-Game/OpenCiv3) ⭐ 647 | 🐛 100 | 🌐 C# | 📅 2026-09-03 - Open-source Civilization III remake with tools for parsing and importing original Civ3 game data.
-* [civ4-studio](https://github.com/bssth/civ4-studio) ⭐ 1 | 🐛 7 | 🌐 Go | 📅 2026-06-16 - Civilization 4 Map Studio, a tool for editing and creating custom maps for Sid Meier's Civilization IV.
-* [Civilization IV Plugins for 3DS Max 6](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-6) - Official plugin for 3DS Max 6 with support for 3D models used in Sid Meier's Civilization IV.
-* [Civilization IV Plugins for 3DS Max 7+](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-7) - Official plugin for 3DS Max 7 and newer with support for 3D models used in Sid Meier's Civilization IV.
-
-#### BioShock
-
-* [bioshock](https://github.com/flatz/bioshock) ⭐ 6 | 🐛 1 | 🌐 Python | 📅 2018-07-13 - Localization tool for BioShock Infinite.
-
-#### WWE 2K
-
-* [MusicListEditor](https://github.com/james-wallace-ghub/MusicListEditor) ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2024-11-12 - Editor for the MusicList.jsfb music loop table used by WWE 2K23 and WWE 2K24, letting you browse, page through, and search slots by name or internal ID.
-* [ARC--Multipurpose-I-O-Tool](https://github.com/dotGrx/ARC--Multipurpose-I-O-Tool) ⭐ 0 | 🐛 0 | 📅 2021-09-08 - Recursive archive I/O tool for WWE 2K games (PAC/texture/muscle/mask archives), supporting one-click file injection (OODLE/ZLIB), archive deserialization/preview, mass batch deserialization, and creating new archives from scratch.
-
-### 3D Realms
-
-* [cosmore (decomp)](https://github.com/smitelli/cosmore) ⭐ 143 | 🐛 2 | 🌐 C | 📅 2024-10-23 - Matching decompilation of Cosmo's Cosmic Adventure (96% complete).
-* [cosmo-engine](https://github.com/yuv422/cosmo-engine) ⭐ 66 | 🐛 11 | 🌐 C | 📅 2026-03-23 - New engine reimplementation for playing Cosmo's Cosmic Adventure on modern systems, requiring and reading the original game's data files.
-* [BioMenaceDecomp (decomp)](https://github.com/lethal-guitar/BioMenaceDecomp) ⭐ 14 | 🐛 0 | 🌐 C | 📅 2024-12-27 - Matching decompilation of Bio Menace.
-
-#### Duke Nukem 3D
-
-* [jfduke3d](https://github.com/jonof/jfduke3d) ⭐ 140 | 🐛 4 | 🌐 C | 📅 2026-01-25 - JonoF's port of Duke Nukem 3D, built on his [jfbuild](https://github.com/jonof/jfbuild) ⭐ 135 | 🐛 3 | 🌐 C | 📅 2026-06-28 Build engine port, reading the original game's GRP/ART/MAP data.
-* [duke3d](https://github.com/icculus/duke3d) ⭐ 18 | 🐛 0 | 🌐 C | 📅 2021-07-12 - icculus.org's Linux port of Duke Nukem 3D, built from the officially released source code, reading the original game's GRP/ART/MAP data.
-* [Clean Duke3D](https://github.com/Henrique194/clean-duke3d) ⭐ 6 | 🐛 1 | 🌐 C | 📅 2026-05-17 - Modern source port of Duke Nukem 3D focused on a clean, portable codebase, reading the original game's GRP/ART/MAP data.
-* [Landscaping Tools (Duke Nukem 3D)](https://www.moddb.com/games/duke-nukem-3d/downloads/landscaping-tools) - Files and resources for creating landscape terrain in Duke Nukem 3D. Includes tutorial files and example maps (not intended for gameplay).
-* [Duke Nukem 3D source code](https://www.moddb.com/games/duke-nukem-3d/downloads/duke-nukem-3d-source-code) - Full source code to the classic first person shooter Duke Nukem 3D. Based on the v1.5 code. Installations on how to compile can be found in the included README.TXT.
-* [DukeMapT3D](https://github.com/jmarshall23/DukeMapT3D) - Converts Duke Nukem 3D (Build engine) maps to Unreal Engine T3D format.
-* [DukeSharp](https://github.com/jmarshall23/DukeSharp) - Complete C# Unity port of Duke Nukem 3D's Build engine and game code from the original 1.4 Atomic Edition source, including a CON-to-C# (DukeScript) converter for existing mods.
-
-#### Duke Nukem: Manhattan Project
-
-* [Duke Nukem Manhattan Project Mesh & Bones Editing Tool](https://www.moddb.com/games/duke-nukem-manhattan-project/downloads/duke-nukem-manhattan-project-mesh-bones-editing-tool) - Official mesh and bones editing tool for Duke Nukem Manhattan Project
-
-#### Duke Nukem: Zero Hour
-
-* [DukeNukemZeroHour](https://github.com/Gillou68310/DukeNukemZeroHour) ⭐ 272 | 🐛 0 | 🌐 C | 📅 2025-11-06 - Decompilation of Duke Nukem: Zero Hour (N64).
-
-#### Duke Nukem Forever (2001)
-
-* [Blender to CPJ Plugin for DNF2001](https://www.moddb.com/mods/dnf2001-restoration-project/downloads/blender-to-cpj-plugin-for-dnf2001) - This plugin will allow you to export to the proprietary CPJ format for DNF2001 from blender.
-* [Updated Blender to CPJ Plugin (Duke Nukem Forever 2001)](https://www.moddb.com/mods/dnf2001-restoration-project/downloads/updated-blender-to-cpj-plugin) - This plugin will allow you to export to the proprietary CPJ format for DNF2001 from blender.
-* [DukeNukemForever](https://github.com/jmarshall23/DukeNukemForever) - Remake of the leaked 2001 Duke Nukem Forever build on the idTech 4 engine, reading the leaked build's original assets.
-
-#### Duke Nukem Forever (2011)
-
-* [DukeForeverSDK](https://github.com/DaZombieKiller/DukeForeverSDK) ⭐ 6 | 🐛 0 | 🌐 C | 📅 2024-07-15 - Unofficial modding SDK for Duke Nukem Forever (2011).
-* [MegaPackageExtractor](https://github.com/DaZombieKiller/MegaPackageExtractor) ⭐ 3 | 🐛 0 | 🌐 C# | 📅 2022-08-02 - Duke Nukem Forever (2011) MegaPackage.dat extractor.
-
-#### Shadow Warrior
-
-* [jfsw](https://github.com/jonof/jfsw) ⭐ 99 | 🐛 3 | 🌐 C | 📅 2026-01-25 - JonoF's port of Shadow Warrior, built on his [jfbuild](https://github.com/jonof/jfbuild) ⭐ 135 | 🐛 3 | 🌐 C | 📅 2026-06-28 Build engine port, reading the original game's GRP/ART/MAP data.
-* [shadowwarrior](https://github.com/icculus/shadowwarrior) ⭐ 8 | 🐛 0 | 🌐 C | 📅 2021-07-12 - icculus.org Linux port of 3D Realms' Shadow Warrior, built from the officially released source code.
-
-#### The Outforce
-
-* [cosmodoc](https://github.com/smitelli/cosmodoc) ⭐ 22 | 🐛 3 | 🌐 HTML | 📅 2026-07-24 - Semi-complete teardown and technical documentation of Cosmo's Cosmic Adventure, complementing the cosmore decompilation above.
-* [Outforce meshes extractor](https://www.moddb.com/games/the-outforce/downloads/outforce-meshes-extractor) - Mesh and model extractor for The Outforce. Created by szkaradek123.
-* [The Outforce Box extractor tool](https://www.moddb.com/games/the-outforce/downloads/the-outforce-box-extractor-tool) - \*.box archive extractor tool for the game "The Outforce"
-
-### 3DO / New World Computing
-
-#### Might and Magic: World of Xeen
-
-* [XeenTools](https://github.com/HiPhish/XeenTools) ⭐ 13 | 🐛 0 | 🌐 C | 📅 2019-04-11 - Open-source C library and CLI tools for resource files of Might & Magic IV: Clouds of Xeen and Might & Magic IV: Darkside of Xeen. Supports CC archive containers, MAZExxxx.DAT/.MOB maps, ATT/OBJ/MON/GND/SKY sprite formats, PAL palettes, FNT fonts, and CFG/CHR/FAC/FWL/RAW files.
-
-#### Might and Magic VI, VII, VIII
-
-* [mm678-i18n](https://github.com/might-and-magic/mm678-i18n) ⭐ 26 | 🐛 1 | 🌐 Python | 📅 2026-08-21 - Localization pipeline for Might and Magic 6, 7, 8 (GrayFace Patch) and Might and Magic Merge, converting `.po` translation files into the game's in-game text and font formats via a `.po` -> `.mo` -> game text -> release build pipeline; ships Simplified/Traditional Chinese language packs.
-* [fnt-generator](https://github.com/might-and-magic/fnt-generator) ⭐ 6 | 🐛 0 | 🌐 Python | 📅 2020-11-01 - Python library and CLI for generating .FNT bitmap font files for Might and Magic 6/7/8 and Heroes of Might and Magic III, converting BDF fonts with configurable single/double-byte charsets (Cyrillic, Central European, Chinese, Japanese, Korean) and decoration styles (shadow/black/glow) for fan translations.
-
-#### Heroes of Might and Magic II
-
-* [fheroes2](https://github.com/ihhub/fheroes2) ⭐ 3,453 | 🐛 427 | 🌐 C++ | 📅 2026-09-04 - Recreation of Heroes of Might and Magic II game engine that requires and parses original .AGG archive format, providing high-resolution graphics and improved AI.
-
-#### Heroes of Might and Magic III
-
-* [vcmi](https://github.com/vcmi/vcmi) ⭐ 5,826 | 🐛 682 | 🌐 C++ | 📅 2026-09-03 - Open-source reimplementation of the Heroes of Might and Magic III engine, loading and reading the original game's data files (H3sprite.lod, Heroes3.exe resources, maps, campaigns).
-* [homm3-asset-tool](https://github.com/Starmordar/homm3-asset-tool) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2026-07-21 - CLI parser and sprite extractor for Heroes of Might and Magic III LOD archives and DEF sprite files.
-
-#### Heroes of Might and Magic IV
-
-* [engine4heroes](https://github.com/ihhub/engine4heroes) ⭐ 26 | 🐛 0 | 🌐 C++ | 📅 2026-06-24 - Recreation of the Heroes of Might and Magic IV game engine; like fheroes2 above, requires and reads the original commercial game's data files.
-* [mmarch](https://github.com/might-and-magic/mmarch) ⭐ 13 | 🐛 1 | 🌐 Rust | 📅 2026-09-02 - Cross-platform CLI tool to extract, replace, and compare resources in Might and Magic 6/7/8 and Heroes of Might and Magic III archive files (e.g. LOD).
-  * Platforms: Windows, Linux, macOS.
-
-### 4A Games
-
-#### Metro
-
-* [MetroTC](https://github.com/iOrange/MetroTC) ⭐ 7 | 🐛 0 | 🌐 C++ | 📅 2019-08-13 - Universal texture converter for all Metro games (2033, Last Light, Exodus) by 4A Games.
-
-### 5pb. / Nitroplus (Steins;Gate)
-
-* [pksgnpa](https://github.com/lennylxx/pksgnpa) ⭐ 9 | 🐛 0 | 🌐 C++ | 📅 2018-09-26 - Tool for creating NPA archives used by the visual novel Steins;Gate, built for a Chinese fan translation. Bundles asmodean's exsgnpa NPA archive extractor/creator for the same format.
-
-#### Memories Off: -Innocent Fille-
-
-* [Innocent-Fille-MPK](https://github.com/master801/Innocent-Fille-MPK) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2021-08-09 - Tool to extract and create MPK archives for the PS Vita game Memories Off: -Innocent Fille-.
-
-### 4Head Studios
-
-* [europa1400-tools](https://github.com/europa1400-community/europa1400-tools) ⭐ 5 | 🐛 2 | 🌐 Python | 📅 2024-02-02 - Python tools to decode, convert, and export game assets for Europa 1400: The Guild / Die Gilde.
-
-### 5th Cell
-
-* [locksmith (decomp)](https://github.com/redraincatching/locksmith) ⭐ 0 | 🐛 0 | 📅 2024-08-07 - Matching decompilation of Lock's Quest.
-
-### 8monkey Labs
-
-* [Translation Tool (Darkest of Days)](https://www.moddb.com/games/darkest-of-days/downloads/darkest-of-days-translation-tool)
-
-### A\&F Software (Chuckie Egg)
-
-* [ZXSpectrumChuckieEgg](https://github.com/Paulie68000/ZXSpectrumChuckieEgg) ⭐ 17 | 🐛 0 | 🌐 Assembly | 📅 2024-11-16 - Fully documented, reverse engineered source code to A\&F Software's ZX Spectrum Chuckie Egg.
-* [chuckie-egg-disassembly](https://github.com/mrcook/chuckie-egg-disassembly) ⭐ 9 | 🐛 0 | 🌐 Assembly | 📅 2021-10-23 - Annotated source code disassembly of Chuckie Egg (1983, ZX Spectrum). Work in progress.
-* [chuckie](https://github.com/mungre/chuckie) ⭐ 7 | 🐛 0 | 🌐 Batchfile | 📅 2018-11-12 - Disassembly of the ZX Spectrum version of Chuckie Egg.
-
-### Access Games (Deadly Premonition)
-
-* [DPRecomp](https://github.com/LittleBitUA/DPRecomp) ⭐ 127 | 🐛 4 | 🌐 C++ | 📅 2026-06-27 - Deadly Premonition native PC port via static recompilation of the Xbox 360 binary.
-
-### Acclaim Entertainment (Turok)
-
-* [turok3 (decomp)](https://github.com/Drahsid/turok3) ⚠️ Archived - Matching decompilation of Turok 3: Shadow of Oblivion (N64).
-* [ReVoltTrackEditor](https://github.com/Dummiesman/ReVoltTrackEditor) ⭐ 11 | 🐛 1 | 🌐 C# | 📅 2023-04-25 - Track editor for Re-Volt that reads original editor project files (.rtu, WAV, BMP) and exports tracks compatible with Re-Volt/RVGL.
-
-### Accolade (Eradicator)
-
-* [Test-Drive-3-Maps](https://github.com/s-macke/Test-Drive-3-Maps) ⭐ 69 | 🐛 1 | 🌐 Assembly | 📅 2026-05-31 - Reverse-engineered and extracted world maps from Test Drive III: The Passion (Accolade, DOS).
-* [erad\_ripper](https://github.com/Yagotzirck/erad_ripper) ⭐ 4 | 🐛 0 | 🌐 C | 📅 2018-10-25 - Resource extractor for Eradicator (1996, DOS).
-
-### Acornsoft
-
-#### Elite
-
-* [elite-source-code-commodore-64](https://github.com/markmoxon/elite-source-code-commodore-64) ⭐ 466 | 🐛 0 | 🌐 Assembly | 📅 2026-09-03 - Fully documented, annotated source code disassembly for the Commodore 64 version of Elite.
-* [elite-source-code-nes](https://github.com/markmoxon/elite-source-code-nes) ⭐ 406 | 🐛 0 | 🌐 Assembly | 📅 2026-09-03 - Fully documented, line-by-line annotated source code for the NES conversion of Elite (1984), part of a wider software-archaeology project by the same author covering Elite's BBC Micro, Commodore 64, Apple II, and other ports.
-* [c64-elite-flicker-free](https://github.com/markmoxon/c64-elite-flicker-free) ⭐ 95 | 🐛 0 | 🌐 Assembly | 📅 2026-09-03 - Patch for Commodore 64 and Plus/4 Elite that removes sprite flicker, built on the disassembled source above.
-
-### Akella
-
-*Sea Dogs, Pirates of the Caribbean, Age of Pirates.*
-
-* [storm-engine](https://github.com/storm-devs/storm-engine) ⚠️ Archived - Open-source reimplementation of the Storm Engine, the game engine behind Sea Dogs, Pirates of the Caribbean, and Age of Pirates, reading original game assets.
-* [seadogs-file-formats](https://github.com/AlexKimov/seadogs-file-formats) ⭐ 13 | 🐛 5 | 🌐 MAXScript | 📅 2021-03-31 - File format documentation for Storm engine games: Sea Dogs, Sea Dogs 2 (Age of Sail 2 / Privateer's Bounty), Sea Dogs 2: Pirates of the Caribbean, and Sea Dogs 3.
-  * Formats: TX, TF, PAK, IDF, CFF, CLF, SC, CMP, DLT, DLM, DEF, ANI, AN, SLS, ZAP, SHP, GM.
-  * Documentation hosted on the repo's wiki.
-
-### Action Forms (Chasm: The Rift)
-
-* [Chasm-Reverse](https://github.com/Panzerschrek/Chasm-Reverse) ⭐ 177 | 🐛 31 | 🌐 C++ | 📅 2025-12-09 - Reverse engineering and reimplementation of Chasm: The Rift (Action Forms, 1997), reading the original game's data files.
-* [vivisector-file-formats](https://github.com/AlexKimov/vivisector-file-formats) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-03-02 - File format documentation and tools for Vivisector: Beast Inside (Action Forms).
-  * Formats: CHA, CMF (model), FSB, MAP, TRK (010 Editor templates).
-  * Tools: Noesis plugin for CMF models, Python script for unpacking MAP files.
-* [chasm-tools](https://github.com/jmickle66666666/chasm-tools) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2018-03-03 - Python tools for hacking and extracting data from Chasm: The Rift (1997, Action Forms).
-* [AltEditor II (Fixed Edition)](https://github.com/Tibbee/AltEditor-II-Improved) ⭐ 1 | 🐛 0 | 🌐 Batchfile | 📅 2026-06-01 - Fixed and improved version of the AltEditor II map editor for Carnivores 2 (also developed by Action Forms), with Ghidra-based binary patches and DxWnd integration for modern compatibility.
-
-### Activ Pub (Rival Realms)
-
-* [Open Rival](https://github.com/Danjb1/open-rival) ⭐ 23 | 🐛 0 | 🌐 C++ | 📅 2026-03-15 - Remake of Rival Realms (1998), a little-known RTS game by Activ Pub; all assets are extracted from an installed copy of the original game.
-
-### Activision / Infinity Ward / Treyarch
-
-#### Call of Duty
-
-##### Asset Extraction & Conversion Tools
-
-* [Greyhound](https://github.com/Scobalula/Greyhound) ⭐ 476 | 🐛 4 | 🌐 C++ | 📅 2024-07-28 - Asset extractor for several Call of Duty titles (Black Ops 3/4, WWII, Infinite Warfare, Modern Warfare 2019/II).
-* [blender-cod](https://github.com/CoDEmanX/blender-cod) ⭐ 107 | 🐛 18 | 🌐 Python | 📅 2023-02-13 - Blender add-on for Call of Duty modding.
-* [Cordycep](https://github.com/Scobalula/Cordycep) ⭐ 82 | 🐛 0 | 🌐 C++ | 📅 2024-08-21 - Tool that utilizes modified game executables to load fast files for Call of Duty.
-* [Tyrant](https://github.com/Scobalula/Tyrant) ⭐ 52 | 🐛 5 | 🌐 C# | 📅 2025-07-04 - RE Engine asset extractor for Call of Duty file formats.
-* [cod-asset-importer](https://github.com/mauserzjeh/cod-asset-importer) ⭐ 46 | 🐛 2 | 🌐 Rust | 📅 2024-12-09 - Blender add-on for importing Call of Duty assets.
-* [WraithXArchon](https://github.com/dtzxporter/WraithXArchon/) ⚠️ Archived - Legendary Call of Duty asset extraction tool.
-* [Unreal-SeTools](https://github.com/djhaled/Unreal-SeTools) ⭐ 17 | 🐛 3 | 🌐 C++ | 📅 2026-05-19 - Unreal Engine editor plugin to batch-import Call of Duty SEModel (.semodel) files, including meshes, animations, and materials.
-* [ShibaInu](https://github.com/Scobalula/ShibaInu) ⭐ 11 | 🐛 0 | 🌐 C# | 📅 2022-01-15 - Weapon file converter for Call of Duty Mod Tools.
-* [Kobra](https://github.com/VenomModding/Kobra) ⭐ 9 | 🐛 0 | 🌐 C++ | 📅 2024-06-30 - Fork of Greyhound with added support for XEffect, GDT, and more. Used for Call of Duty asset extraction.
-* [material\_util](https://github.com/riicchhaarrd/material_util) ⭐ 6 | 🐛 0 | 🌐 C | 📅 2023-06-19 - Utility for reading and writing Call of Duty 2 material files, documenting the format's shader/texture-stage fields.
-* [img-format-helper](https://github.com/iw4x/img-format-helper) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2023-08-19 - Tool to visualize, export, and convert IWI image formats used across Call of Duty (IW engine) asset dumps.
-* [IWI DDS Fast Converter V1.40 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-dds-fast-converter-v140)
-* [x to xmodel\_export converter 1.6 cod5 Version (Call of Duty: World at War)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/x-to-xmodel-exporter-converter-16-cod5-version) - Converter for DirectX (*.x) and Wavefront Object (*.obj) files to Call of Duty: World at War xmodel\_export format. Converted files can then be converted to xmodel using the Asset Manager. Place xconv.exe in CoD5 directory and run (v1.6).
-* [Iwi Converter (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-converter) - IWI converter with multi-file selection support for Call of Duty 2. Created to address lack of multi-select support in other IWI converters.
-* [TOXEC (The Obj to Xmodel Export Converter)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/toxec-the-obj-to-xmodel-export-converter) - Converter for OBJ files to Xmodel format. For use with Call of Duty 4 and Call of Duty: World at War mapping.
-* [DDS/IWI Converter 1.5 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/dds-iwi-converter-1-5)
-
-##### Fastfile & Zone Tools
-
-* [OpenAssetTools](https://github.com/Laupetin/OpenAssetTools) ⭐ 214 | 🐛 60 | 🌐 C++ | 📅 2026-09-03 - Actively maintained, open-source modding tool suite (Unlinker/Linker) for loading and building fastfiles (.ff), aiming for original-format compatibility rather than reimplementing existing tools.
-  * Games: CoD4 (IW3), Modern Warfare 2 2009 (IW4), Modern Warfare 3 2011 (IW5), 007: Quantum of Solace (QOS), World at War (T4), Black Ops (T5), Black Ops II (T6).
-* [zonetool](https://github.com/ZoneTool/zonetool) ⭐ 165 | 🐛 15 | 🌐 C++ | 📅 2021-11-14 - Fastfile linker for Call of Duty titles (CoD4, MW, MW2, MW3), parsing and reconstructing IW3/IW4/IW5 fastfile archives.
-* [x64 ZoneTool](https://github.com/Joelrau/x64-zt) ⭐ 65 | 🐛 15 | 🌐 C++ | 📅 2026-08-31 - Fastfile unlinker and linker for x64 Call of Duty titles.
-* [zonebuilder](https://github.com/RagdollPhysics/zonebuilder) ⭐ 30 | 🐛 0 | 🌐 C++ | 📅 2018-02-10 - Fastfile generator for IW4 (Modern Warfare 2).
-* [iwd-tool](https://github.com/ZoneTool/iwd-tool) ⭐ 18 | 🐛 0 | 🌐 C++ | 📅 2019-09-17 - Command-line tool for generating IWD files for Call of Duty.
-* [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) ⭐ 11 | 🐛 1 | 🌐 C++ | 📅 2026-03-19 - Asset conversion system for MW2 formats.
-
-##### Map & Level Editing Tools
-
-* [iw4x-client](https://github.com/iw4x/iw4x-client) ⭐ 306 | 🐛 31 | 🌐 C++ | 📅 2026-09-04 - Client reimplementation/mod for Call of Duty: Modern Warfare 2 (IW4 engine) multiplayer, including the built-in ZoneBuilder asset/fastfile pipeline tool used by the IW3x/IW5x porting utilities.
-* [iw3xo-radiant](https://github.com/xoxor4d/iw3xo-radiant) ⭐ 126 | 🐛 3 | 🌐 C++ | 📅 2025-05-02 - Enhanced Radiant level editor modification for Call of Duty 4 (IW3 Engine).
-* [C2M](https://github.com/sheilan102/C2M) ⭐ 77 | 🐛 3 | 🌐 C# | 📅 2022-12-05 - Tool to export maps from Call of Duty games. See also [C2Mv3](https://github.com/o-Astral-o/C2Mv3) ⭐ 35 | 🐛 6 | 📅 2025-11-30, an actively maintained continuation covering many more titles (up through Black Ops 6/7) with OBJ and Radiant .MAP export.
-* [cod2map](https://github.com/7894752/cod2map) ⭐ 26 | 🐛 0 | 🌐 C | 📅 2026-04-06 - Fully reconstructed, bit-identical C source for `cod2map.exe`, Call of Duty 2's BSP map compiler, reverse-engineered from the original 2005 binary; covers BSP tree construction, portal visibility, lightmap allocation, collision mesh generation, and shadow computation.
-* [iw4x-map-porting-utility](https://github.com/iw4x/iw4x-map-porting-utility) ⭐ 13 | 🐛 7 | 🌐 C# | 📅 2024-10-10 - Middleware to simplify porting maps from Call of Duty 4 (IW3) to Modern Warfare 2 (IW4), unifying export from iw3x-port to ZoneBuilder.
-* [Mappie](https://github.com/timing1337/Mappie) ⚠️ Archived - Call of Duty map extraction tool for modern titles (MW19, BOCW, VG, MWII).
-* [iw3x-port](https://github.com/iw4x/iw3x-port) ⭐ 12 | 🐛 4 | 🌐 C++ | 📅 2026-05-26 - Community-driven map/asset converter for porting Call of Duty 4 (2007, IW3) content to IW4 (Modern Warfare 2), used with IW4x's ZoneBuilder.
-* [iw5x-port](https://github.com/iw4x/iw5x-port) ⭐ 5 | 🐛 1 | 🌐 C++ | 📅 2025-08-11 - Asset/map export and conversion port utility for IW5 (Call of Duty: Modern Warfare 2 2009), analogous to iw3x-port for IW4.
-* [zonebuilder-wrapper](https://github.com/iw4x/zonebuilder-wrapper) ⭐ 0 | 🐛 0 | 🌐 Rust | 📅 2025-06-13 - Wrapper around ZoneBuilder for building IW4x-compatible Call of Duty assets.
-* [BSP Decompiler (Call of Duty)](https://www.moddb.com/games/call-of-duty/downloads/bsp-decompiler) - Hereby we release our decompiler and the sources. May it prove to be useful for you or your team.
-* [KV Map Converter v2 Beta2 (Call of Duty 4: Modern Warfare)](https://www.moddb.com/games/call-of-duty-4-modern-warfare/downloads/kv-map-converter-v2-beta2) - Utility by KillerVirus for converting Source Engine maps to Call of Duty 4: Modern Warfare format (v2 Beta2).
-
-##### Scripting, UI, Audio & Shader Tools
-
-* [gsc-tool](https://github.com/xensik/gsc-tool) ⭐ 318 | 🐛 7 | 🌐 C++ | 📅 2026-08-26 - Compiler/decompiler for IW Engine GSC game scripts (Black Ops, Ghosts, Modern Warfare, Vanguard, Warzone).
-* [gsc-asm](https://github.com/ZoneTool/gsc-asm) ⭐ 27 | 🐛 0 | 🌐 C++ | 📅 2019-09-18 - GSC assembler/disassembler for IW5 (Call of Duty: Modern Warfare 3).
-* [lui-tool](https://github.com/xensik/lui-tool) ⭐ 24 | 🐛 0 | 🌐 C++ | 📅 2026-04-01 - Utility to assemble and disassemble IW engine UI scripts. Supports Call of Duty: Ghosts (IW6).
-* [IWMenuDumper](https://github.com/aerosoul94/IWMenuDumper) ⭐ 20 | 🐛 0 | 🌐 C | 📅 2018-05-31 - Decompiler for IW Engine menu files (Modern Warfare 2, Modern Warfare 3).
-* [flac-tool](https://github.com/alicealys/flac-tool) ⭐ 6 | 🐛 0 | 🌐 C++ | 📅 2022-07-23 - Converts FLAC audio files to be compatible with the IW engine.
-* [shader-tool](https://github.com/alicealys/shader-tool) ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2025-12-05 - Library to parse, assemble, and disassemble DirectX Shader Bytecode (DXBC) objects used by the IW engine.
-
-##### Modding Kits & Client Tools
-
-* [KisakCOD](https://github.com/SwagSoftware/KisakCOD/) ⭐ 441 | 🐛 27 | 🌐 C++ | 📅 2026-09-03 - Open-source, fully buildable reimplementation of Call of Duty 4 multiplayer; aimed at mod developers.
-* [CoD4 Mod Tools 1.1 (mirror)](https://github.com/promod/CoD4-Mod-Tools) ⭐ 83 | 🐛 2 | 🌐 C++ | 📅 2018-05-13 - Repository containing the original Call of Duty 4 Mod Tools and 1.1 update from Infinity Ward.
-* [Call of Duty 1 Milkshape plugins](https://www.moddb.com/games/call-of-duty/downloads/call-of-duty-1-milkshape-plugins) - Series of Milkshape plugins for Call of Duty 1. Created by scorpiomidget.
-* [Call of Duty 1 Mod Tools No Installer Version](https://www.moddb.com/games/call-of-duty/downloads/call-of-duty-1-mod-tools-no-installer-version) - Alternative version for users experiencing installation issues with the official installer, typically caused by missing or corrupt game registry entries.
-* [Call of Duty 2 Mod Tools](https://www.moddb.com/games/call-of-duty-2/downloads/call-of-duty-2-mod-tools) - Official modding tools for Call of Duty 2.
-* [Call of Duty 2 Mod Tools No Installer](https://www.moddb.com/games/call-of-duty-2/downloads/call-of-duty-2-mod-tools-no-installer) - Alternative version for users experiencing installation issues with the official installer, typically caused by missing or corrupt game registry entries.
-
-##### Save Tools
-
-* [COD-Save-Manipulator](https://github.com/HunterStanton/COD-Save-Manipulator) ⭐ 10 | 🐛 1 | 🌐 C# | 📅 2017-05-07 - Tool for manipulating Call of Duty savegames, supporting a wide range of titles across the IW/MWX/Ghosts save formats.
-
-##### Demo Recording & Playback Tools
-
-* [CoD4-DM1](https://github.com/Iswenzz/CoD4-DM1) ⭐ 28 | 🐛 0 | 🌐 C++ | 📅 2026-08-12 - Reverse-engineered parser/library for Call of Duty 4 and CoD4X `.DM_1` demo files, decoding gamestate, snapshots, frames, entities, clients, and server messages via a CLI plus a reusable library.
-* [cod4-dm1-tools](https://github.com/Riyondev/cod4-dm1-tools) ⭐ 6 | 🐛 0 | 🌐 TypeScript | 📅 2026-06-16 - TypeScript CLI/library for Call of Duty 4 `.dm_1` demos, building on CoD4-DM1's format reverse engineering; decodes camera paths, gamestate/snapshot data, and renders tactical top-down replay videos.
-
-#### Call to Power II
-
-* [civctp2](https://github.com/civctp2/civctp2) ⭐ 111 | 🐛 91 | 🌐 C | 📅 2026-08-31 - Community-maintained source port of Call to Power II, built from the officially released source code and reading the original game's data files.
-
-#### Tony Hawk's Pro Skater
-
-* [io\_thps\_scene](https://github.com/denetii/io_thps_scene) ⭐ 61 | 🐛 10 | 🌐 Python | 📅 2023-08-24 - Blender import/export addon for the Tony Hawk's Pro Skater (THPS) scene format.
-* [thps2-tools](https://github.com/JayFoxRox/thps2-tools) ⭐ 28 | 🐛 3 | 🌐 Python | 📅 2020-01-03 - Collection of tools for Tony Hawk's Pro Skater 2.
-* [psx\_texture\_extractor](https://github.com/slfx77/psx_texture_extractor) ⭐ 15 | 🐛 0 | 🌐 Python | 📅 2026-02-17 - Extractor for textures within Neversoft's PS1 model format, supporting 4, 8, and 16-bit textures (16-bit support incomplete).
-* [THPS-Level-Editor](https://github.com/Vadru93/THPS-Level-Editor) ⭐ 10 | 🐛 0 | 🌐 C++ | 📅 2020-08-27 - Level editor for Tony Hawk's Pro Skater games.
-* [neversoft-multitool](https://github.com/slfx77/neversoft-multitool) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2026-09-04 - .NET tool (WinUI 3 GUI + cross-platform CLI) for extracting and converting Neversoft Entertainment game assets across the PS1, Dreamcast, Xbox, GameCube, PC, and PS2 eras (1998-2006): Tony Hawk's Pro Skater 1-4/THUG/THUG2/THAW (this section), plus Spider-Man, Apocalypse, and Guitar Hero (PS2).
-  * Formats: PSX/PVR/RLE/BMR/ZLB/BMP/TGA/PS2 TEX/RenderWare TXD/Xbox TEX textures; WAD+HED/PKR3/PRE/DDX/BON/PAK archives with recursive disc-image extraction (ISO9660/Xbox XDVDFS/GameCube GCM/Dreamcast GDI); PS1 XA/VAB audio.
-* [Hed-Extract](https://github.com/Daniel-McCarthy/Hed-Extract) ⭐ 8 | 🐛 0 | 🌐 C# | 📅 2021-08-17 - Extractor/packer for Tony Hawk's Project 8 (PSP) .hed/.wad files.
-* [RLE-GIMP-Plugin](https://github.com/Daniel-McCarthy/RLE-GIMP-Plugin) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2021-09-24 - GIMP plugin for Neversoft's .rle 16-bit image format.
-* [THPS2X-Formats](https://github.com/Vadru93/THPS2X-Formats) ⭐ 3 | 🐛 1 | 📅 2020-06-24 - Binary format documentation for Tony Hawk's Pro Skater 2X level files (.DDM, .DDX, .psx, .trg).
-* [TonyWad](https://github.com/cuckydev/TonyWad) ⭐ 2 | 🐛 0 | 🌐 C++ | 📅 2023-09-20 - Extracts WAV audio from PS2 Tony Hawk games.
-* [WAD Tool v1.0 (Tony Hawk's Pro Skater)](https://www.moddb.com/games/tony-hawks-pro-skater/downloads/wad-tool-v10) - A small tool to build and extract WAD files from early thps-engine based games.
-
-#### Ghostbusters
-
-* [Gibbed.Ghostbusters](https://github.com/gibbed/Gibbed.Ghostbusters) ⭐ 3 | 🐛 0 | 🌐 C# | 📅 2017-05-15 - Tools and code for use with Ghostbusters: The Video Game (2009).
-
-#### A Series of Unfortunate Events
-
-* [resPack](https://github.com/XAYRGA/resPack) ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2023-12-02 - Extractor for Xbox A Series of Unfortunate Events archive files.
-
-#### Spider-Man (Neversoft)
-
-* [spidey-decomp](https://github.com/krystalgamer/spidey-decomp) ⭐ 124 | 🐛 10 | 🌐 C | 📅 2026-08-28 - Decompilation of Neversoft's Spider-Man (PC port), useful for studying formats and game internals.
-* [spidey-tools](https://github.com/krystalgamer/spidey-tools) ⭐ 39 | 🐛 0 | 🌐 C | 📅 2025-06-12 - Companion tools for Neversoft's Spider-Man (PS1/PSX), alongside spidey-decomp.
-  * Tools: PKR/PSX file extractors, texture repacker, save editor, TRG dumper/disassembler (WIP).
-
-#### Spider-Man: The Movie (Treyarch)
-
-* [open-tobey](https://github.com/krystalgamer/open-tobey) ⭐ 19 | 🐛 10 | 🌐 C++ | 📅 2025-12-05 - Partial decompilation of Treyarch's Spider-Man: The Movie (PC), a separate 2002 game unrelated to Neversoft's Spider-Man.
-
-#### Spider-Man: Web of Shadows (Treyarch)
-
-* [web\_of\_shadows\_toolkit](https://github.com/Kelthic/web_of_shadows_toolkit) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-04-12 - Collection of scripts and Blender materials for Spider-Man: Web of Shadows modding.
-  * Features: DX-to-WoS normal map converter, diffuse/emission mixer, DDS-to-WRAP.tex converter, and PBR-to-WoS Blender node groups.
-* [PC\_Spiderman\_WOS](https://github.com/coreynguyen/PC_Spiderman_WOS) ⭐ 0 | 🐛 0 | 🌐 MAXScript | 📅 2025-06-15 - Mesh importer for `.component*.MESH` models from Spider-Man: Web of Shadows (PC), with both a Blender 3.x add-on and a 3ds Max 2016+ MaxScript.
-
-#### Wolfenstein (2009)
-
-* [Wolfenstein-SPK-Tool](https://github.com/dortkoldantaciz/Wolfenstein-SPK-Tool) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-03-14 - Extract and repack tool for Wolfenstein (2009) .spk files.
-
-#### PSX Activision Games
-
-* [gRLE](https://github.com/gdkchan/gRLE) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2015-05-06 - Viewer/editor/creator for \*.rle files used in PSX Activision games.
-
-### Adeline Software International
-
-#### Little Big Adventure 1
-
-* [lba1-classic](https://github.com/2point21/lba1-classic) ⭐ 474 | 🐛 4 | 🌐 Assembly | 📅 2022-02-27 - Official release of the Little Big Adventure 1 engine source code, published with preservation in mind (game assets not included; requires original data files).
-* [twin-e](https://github.com/LBALab/twin-e) ⭐ 90 | 🐛 8 | 🌐 C | 📅 2025-08-31 - TwinEngine, a from-scratch reimplementation of the Little Big Adventure 1 engine that plays the original game using its data files; forked to become ScummVM's twine engine.
-* [LBArchitect](https://github.com/LBALab/LBArchitect) ⭐ 3 | 🐛 2 | 🌐 Pascal | 📅 2026-08-16 - Modding suite for Little Big Adventure 1 & 2, editing isometric scenery grid and scene files (islands/exteriors and rooms/interiors); LBA2 exterior scenery (3D format) editing is not yet supported.
-* [lba-midi-play](https://github.com/LBALab/lba-midi-play) ⭐ 1 | 🐛 0 | 🌐 C | 📅 2026-04-06 - CLI player for the MIDI music embedded in Little Big Adventure 1's `MIDI_MI.HQR`/`MIDI_SB.HQR` HQR resource archives.
-
-#### Little Big Adventure 2
-
-* [lba2-classic](https://github.com/2point21/lba2-classic) ⭐ 540 | 🐛 0 | 🌐 Assembly | 📅 2021-12-22 - Official release of the Little Big Adventure 2 engine source code, published with preservation in mind (game assets not included; requires original data files).
-* [lba2remake](https://github.com/LBALab/lba2remake) ⭐ 285 | 🐛 13 | 🌐 TypeScript | 📅 2026-04-17 - Little Big Adventure 1 & 2 reimplementation in TypeScript/Three.js/React, playable in-browser with a built-in scene editor mode, reading the original game's data files.
-* [lba2-classic-community](https://github.com/LBALab/lba2-classic-community) ⭐ 104 | 🐛 68 | 🌐 C++ | 📅 2026-08-23 - Community fork of lba2-classic above, adding native 64-bit builds (Linux/macOS/Windows/Android), direct ISO/BIN/.cue disc-image reading, HD/widescreen rendering, and retail-save compatibility.
-* [lba-engine-architecture](https://github.com/LBALab/lba-engine-architecture) ⭐ 35 | 🐛 3 | 🌐 Ruby | 📅 2025-01-30 - Community-driven documentation of Adeline Software's engine architecture, covering Little Big Adventure 1 & 2 and Time Commando.
-* [hqr](https://github.com/LBALab/hqr) ⭐ 5 | 🐛 0 | 🌐 TypeScript | 📅 2024-03-29 - JavaScript reader/writer library for the HQR resource package format used by LBA1 & LBA2. See also [lba-packager](https://github.com/LBALab/lba-packager) ⭐ 6 | 🐛 0 | 🌐 TypeScript | 📅 2024-03-29, a web-based HQR editor built on top of it.
-* [lba-translations](https://github.com/LBALab/lba-translations) ⭐ 4 | 🐛 0 | 🌐 TypeScript | 📅 2025-07-13 - Converts Little Big Adventure 1 & 2's original game translations into JSON for community review and editing.
-* [LBA2\_Blender\_To\_Model\_2](https://github.com/LBALab/LBA2_Blender_To_Model_2) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2026-08-30 - Blender 2.79 Python scripts to export models to the Little Big Adventure 2 model format. See also [LBA2\_Sprite\_To\_Model](https://github.com/LBALab/LBA2_Sprite_To_Model) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2020-03-05 for sprite-to-model conversion, [LBA2\_Model\_Scalar](https://github.com/LBALab/LBA2_Model_Scalar) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2020-03-05 for vertex scaling, and [LBA2\_Unity\_Animator](https://github.com/LBALab/LBA2_Unity_Animator) ⭐ 1 | 🐛 0 | 🌐 C# | 📅 2023-03-18 for animating the exported models in Unity.
-* [LBAPackEd](https://github.com/LBALab/LBAPackEd) ⭐ 2 | 🐛 0 | 🌐 Pascal | 📅 2022-12-19 - Editor for Little Big Adventure 1 & 2 resource package files (HQR, VOX, ILE, OBL formats).
-* [LBATxt](https://github.com/LBALab/LBATxt) ⭐ 1 | 🐛 0 | 🌐 Pascal | 📅 2022-12-19 - Text format tooling for Little Big Adventure.
-* [LBAStoryCoder](https://github.com/LBALab/LBAStoryCoder) ⭐ 1 | 🐛 0 | 🌐 Pascal | 📅 2022-12-10 - Editor for Little Big Adventure 1 & 2's `.ls1`/`.ls2` scene script files, editing actors, tracks, and zones.
-* [LBAScreenViewer](https://github.com/LBALab/LBAScreenViewer) ⭐ 1 | 🐛 0 | 🌐 Pascal | 📅 2022-12-10 - Viewer/converter for Little Big Adventure 1 & 2's special images and `.fla` movies, exporting to common image formats.
-* [LBAFont](https://github.com/LBALab/LBAFont) ⭐ 0 | 🐛 0 | 🌐 Pascal | 📅 2022-12-19 - Font format tooling for Little Big Adventure.
-* [LBAShape](https://github.com/LBALab/LBAShape) ⭐ 0 | 🐛 0 | 🌐 Pascal | 📅 2022-12-19 - 3D shape format tooling for Little Big Adventure.
-* [LBA2R2I](https://github.com/LBALab/LBA2R2I) ⭐ 0 | 🐛 0 | 🌐 Rust | 📅 2024-04-30 - Extracts embedded images from decompressed Little Big Adventure 2 save files.
-
-#### Time Commando
-
-* [timeco](https://github.com/LBALab/timeco) ⭐ 7 | 🐛 0 | 🌐 C | 📅 2026-05-17 - Reimplementation of the PC version of Time Commando (1996), reusing shared libraries from the LBA1/LBA2 engine source releases.
-* [tico-dump](https://github.com/LBALab/tico-dump) ⭐ 3 | 🐛 1 | 🌐 JavaScript | 📅 2023-10-17 - Extracts and decompresses all resource files from Time Commando.
-
-### ADvertainment Software (Quiver)
-
-* [quiver\_ripper](https://github.com/Yagotzirck/quiver_ripper) ⭐ 4 | 🐛 0 | 🌐 C | 📅 2018-09-24 - Resource extractor for Quiver (1997, DOS).
-
-### Aether Studios (Rivals of Aether)
-
-* [rivals-modding-tool](https://github.com/jam1garner/rivals-modding-tool) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2018-09-15 - Modding tool for Rivals of Aether (GameMaker-based fighting game).
-
-### AKI Corporation
-
-* [WCWvsNWOWorldTourRecomp](https://github.com/jessetbh/WCWvsNWOWorldTourRecomp) ⭐ 30 | 🐛 1 | 🌐 C | 📅 2026-08-15 - Native PC port of WCW vs. nWo World Tour (N64) via static recompilation, with a companion [WCWSyms](https://github.com/jessetbh/WCWSyms) ⭐ 2 | 🐛 0 | 📅 2026-07-06 repo of reverse-engineered function/data symbol TOMLs for the N64Recomp toolchain.
-* [WCWnWoRevengeRecomp](https://github.com/jessetbh/WCWnWoRevengeRecomp) ⭐ 19 | 🐛 0 | 🌐 C++ | 📅 2026-08-15 - Native PC port of WCW/nWo Revenge (N64) via static recompilation (bring your own ROM).
-* [WWFNoMercyRecomp](https://github.com/jessetbh/WWFNoMercyRecomp) ⭐ 16 | 🐛 2 | 🌐 C | 📅 2026-08-15 - Native PC port of WWF No Mercy (N64) via static recompilation.
-* [AkiLauncher](https://github.com/jessetbh/AkiLauncher) ⭐ 15 | 🐛 0 | 🌐 C++ | 📅 2026-08-09 - Native Windows hub that downloads and launches the AKI-engine N64 wrestling recompilations above.
-* [WWFWrestleMania2000Recomp](https://github.com/jessetbh/WWFWrestleMania2000Recomp) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2026-08-15 - Native PC port of WWF WrestleMania 2000 (N64) via static recompilation.
-* [VPW64Recomp](https://github.com/jessetbh/VPW64Recomp) ⭐ 5 | 🐛 0 | 🌐 C++ | 📅 2026-08-15 - Native PC port of Virtual Pro Wrestling 64 (N64) via static recompilation.
-* [AKI-Model-Blender-IO-Addon](https://github.com/dotGrx/AKI-Model-Blender-IO-Addon) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2021-09-20 - Blender import/export addon for AKI Corporation's .model format, used in their N64/PS2-era wrestling games.
-* [VPW2Recomp](https://github.com/jessetbh/VPW2Recomp) ⭐ 3 | 🐛 0 | 🌐 C | 📅 2026-08-15 - Native PC port of Virtual Pro Wrestling 2 (N64) via static recompilation.
-* [WCW-Mayhem-.P30-to-OBJ](https://github.com/dotGrx/WCW-Mayhem-.P30-to-OBJ) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2021-09-21 - Converts WCW Mayhem's .P3O model format to OBJ.
-
-### Alfa System (Neon Genesis Evangelion 2)
-
-* [nge\_2\_re](https://github.com/EVA-zh-Hans/nge_2_re) ⭐ 15 | 🐛 9 | 🌐 Python | 📅 2026-08-27 - Reverse-engineering and Simplified Chinese localization project for Neon Genesis Evangelion 2: Tsukurareshi Sekai -Another Cases- (PSP); parses and repacks the game's HGPT, TEXT, and BIND file formats, dynamically patches the EBOOT executable, and builds a full translation import/export toolchain.
-
-### Algoryx (Algodoo / Phun)
-
-* [phun-js-box2d](https://github.com/EJTH/phun-js-box2d) ⭐ 17 | 🐛 2 | 🌐 JavaScript | 📅 2023-04-24 - Parser and work-in-progress web player for Phun/Algodoo physics sandbox `.phz` scene files, including a ThymeScript-to-JavaScript transpiler and Box2D-based physics playback.
-
-### Amber Studio
-
-* [amber-file-formats](https://github.com/AlexKimov/amber-file-formats) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-02-02 - File formats and viewer plugins for Amber Studio games.
-
-### Analgesic Productions
-
-#### Anodyne
-
-* [Anodyne-1-Repo](https://github.com/analgesicproductions/Anodyne-1-Repo) ⭐ 392 | 🐛 1 | 🌐 ActionScript | 📅 2024-06-04 - Official source code release for Anodyne.
-* [AnodyneSharp](https://github.com/PixieCatSupreme/AnodyneSharp) ⭐ 55 | 🐛 0 | 🌐 C# | 📅 2026-02-04 - C#/MonoGame rewrite of Anodyne, based on the original game's source code.
-* [anodyne-map-scraper](https://github.com/thejoshwolfe/anodyne-map-scraper) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2016-11-29 - Scrapes and reconstructs the overworld map from Anodyne's original game data.
-
-#### Anodyne 2
-
-* [Anodyne-2-Open-Source](https://github.com/analgesicproductions/Anodyne-2-Open-Source) ⭐ 157 | 🐛 0 | 🌐 C# | 📅 2024-08-14 - Official source code and assets release for Anodyne 2: Return to Dust.
-
-#### Even the Ocean
-
-* [Even-The-Ocean-Open-Source](https://github.com/analgesicproductions/Even-The-Ocean-Open-Source) ⭐ 117 | 🐛 3 | 🌐 Haxe | 📅 2024-06-21 - Official source code release for Even the Ocean.
-
-### Andrew Shouldice (Tunic)
-
-* [TunicTranslationMod](https://github.com/holly-hacker/TunicTranslationMod) ⭐ 5 | 🐛 4 | 🌐 C# | 📅 2026-06-19 - BepInEx mod for Tunic that reverse-engineers the game's fictional in-game rune alphabet and dialog data, showing which real-world letter each symbol maps to in place of an official translation.
-
-### Angel Matrix (Neon White)
-
-* [noclip.website (Neon White)](https://github.com/magcius/noclip.website/tree/main/src/NeonWhite) ⭐ 4,251 | 🐛 86 | 🌐 TypeScript | 📅 2026-08-26 - In-browser Neon White viewer.
-
-### Angel Studios / Rockstar San Diego
-
-* [gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) ⭐ 1,025 | 🐛 18 | 📅 2026-06-09 - Collection of GTA V data dumps (vehicles, weapons, peds, natives, etc.) generated from RAGE-format research; reference for modding and scripting.
-* [CodeWalker](https://github.com/dexyfex/CodeWalker) ⭐ 740 | 🐛 130 | 🌐 C# | 📅 2025-04-11 - GUI tool for viewing and editing GTA V's RAGE engine data, including RPF archive contents, YFT/YDR/YDD models, YTD textures, and YMAP/YTYP world data.
-* [MeltyTool](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/AngelStudios) ⭐ 205 | 🐛 60 | 🌐 C# | 📅 2026-09-03 - Multitool for viewing/extracting assets from various N64/GCN/3DS/PC games en-masse.
-* [VichoTools](https://github.com/Hancapo/VichoTools) ⭐ 44 | 🐛 7 | 🌐 Python | 📅 2026-07-21 - Blender add-on for GTA V modding; handles YMAP scene files, YTD texture dictionaries, and animation clips extraction and editing.
-* [blender\_io\_GTA5Ped](https://github.com/lucasvinbr/blender_io_GTA5Ped) ⭐ 40 | 🐛 4 | 🌐 Python | 📅 2024-02-27 - Blender import/export add-on for GTA V pedestrian (ped) meshes via OpenIV's openFormats (.odd/.odr/.mesh/.skel).
-* [Folder2YTD](https://github.com/Hancapo/Folder2YTD) ⭐ 33 | 🐛 4 | 🌐 C# | 📅 2025-07-14 - Tool to create and pack GTA V .YTD texture archive files from image folders; supports PNG, DDS, TGA, JPG, WebP, GIF, PSD with quality settings and mipmap generation.
-* [libertyv](https://github.com/koolkdev/libertyv) ⭐ 25 | 🐛 1 | 🌐 C# | 📅 2015-03-16 - Grand Theft Auto V resource viewer for RAGE engine RPF archives and models.
-* [OpenMapTools](https://github.com/dexyfex/OpenMapTools) ⭐ 20 | 🐛 0 | 🌐 C# | 📅 2020-01-01 - OpenFormats map conversion toolkit by dexyfex (CodeWalker author): converts GTA San Andreas IPL and GTA IV IDE/OPL/ONV map files into GTA V's RAGE .ymap.xml/.ytyp.xml/.ynv formats for porting map mods, for use with CodeWalker's RPF import.
-* [AngelStudiosBlenderAddon](https://github.com/Dummiesman/AngelStudiosBlenderAddon) ⭐ 17 | 🐛 1 | 🌐 Python | 📅 2026-08-31 - Blender add-on that handles several formats used in Angel Studios/Rockstar San Diego games from \~1999-2006. Supports Midnight Club 2, Midtown Madness 1, and other titles.
-  * Formats: BMS, DLP, MOD/XMOD, BND, SKEL, GEO.
-* [PKGImportExport](https://github.com/Dummiesman/PKGImportExport) ⭐ 14 | 🐛 3 | 🌐 Python | 📅 2023-07-31 - Blender addon for importing and exporting Angel Studios ModPackage (PKG) format files from Midnight Club and related titles.
-* [RageAudioTool](https://github.com/CamxxCore/RageAudioTool) ⭐ 13 | 🐛 1 | 🌐 C# | 📅 2017-06-27 - Reverse engineering tool for the RAGE engine's audio metadata file formats, used in Rockstar games such as GTA and Red Dead Redemption.
-* [GTAVHandlingEditor](https://github.com/ikt32/GTAVHandlingEditor) ⭐ 10 | 🐛 1 | 🌐 C++ | 📅 2025-01-25 - Real-time handling editor for Grand Theft Auto V.
-* [tt-decomp (decomp)](https://github.com/OZORDI/tt-decomp) ⭐ 10 | 🐛 0 | 🌐 C++ | 📅 2026-04-22 - AI-assisted matching decompilation of Rockstar Games Presents Table Tennis (Xbox 360, 2006), lifting PowerPC assembly into C++ toward a cross-platform SDL2/OpenGL port.
-* [GTA5VehicleFlagTool](https://github.com/adam10603/GTA5VehicleFlagTool) ⭐ 10 | 🐛 1 | 🌐 JavaScript | 📅 2022-09-08 - Web-based tool for inspecting and modifying strModelFlags, strHandlingFlags, strDamageFlags, and strAdvancedFlags values in GTA V's handling files, using a flag lookup table.
-* [RAGE-Console-Texture-Editor](https://github.com/indirivacua/RAGE-Console-Texture-Editor) ⭐ 8 | 🐛 0 | 🌐 Pascal | 📅 2016-05-23 - Texture editor for console versions of Rockstar RAGE engine games.
-  * Games: GTA IV, GTA V (PS3/Xbox 360), Red Dead Redemption, Midnight Club: Los Angeles, Max Payne 3.
-* [MidtownExtractor](https://github.com/0x1F9F1/MidtownExtractor) ⭐ 5 | 🐛 0 | 🌐 C# | 📅 2018-07-01 - Midtown Madness 1/2 and Midnight Club 2 file extractor.
-* [Coords2YMAP](https://github.com/indirivacua/Coords2YMAP) ⭐ 3 | 🐛 0 | 🌐 C# | 📅 2020-01-26 - Converts GTA San Andreas/Vice City .IDE/.OPL map coordinate files into GTA V's RAGE .YTYP/.YMAP formats, for porting classic-era map mods.
-* [Noesis Plugins (Red Dead Redemption)](https://github.com/Gh0stBlade/NoesisPlugins) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2019-02-10 - Various Python scripts for Noesis to import and export textures and models from Rockstar games.
-* [GTAVHandlingParserJs](https://github.com/adam10603/GTAVHandlingParserJs) ⭐ 2 | 🐛 0 | 🌐 JavaScript | 📅 2021-07-29 - Node.js library for reading and parsing `.meta` vehicle handling files from Grand Theft Auto V.
-* [VichoModdingX](https://github.com/Hancapo/VichoModdingX) ⭐ 0 | 🐛 0 | 📅 2024-11-21 - GTA V modding guide covering RAGE engine format workflows (CodeWalker, Sollumz, YMAP, YTD tools).
-* [TexFury.NET](https://github.com/Hancapo/TexFury.NET) ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2026-07-21 - Fast image-to-DDS conversion and YTD texture dictionary toolkit for .NET, supporting RAGE engine formats used in Grand Theft Auto and Red Dead series.
-* [unarpack](https://github.com/HalanoSiblee/unarpack) ⚠️ Archived - Linux-ported unpacker for .AR archives from the Midtown Madness CTPAX-X Team release.
-* [MidnightClub2 (Noesis)](https://himeworks.com/noesis-plugins/) - Noesis plugin for Midnight Club 2 model formats.
-
-### Ankama Games
-
-#### Wakfu
-
-* [vakfu](https://github.com/jac3km4/vakfu) ⭐ 33 | 🐛 1 | 🌐 Rust | 📅 2026-05-03 - Isometric map renderer for Wakfu, reading the game's original map data files directly (no bundled assets — requires the player's own game install).
-* [wakfu-bdata-gen](https://github.com/jac3km4/wakfu-bdata-gen) ⭐ 4 | 🐛 0 | 🌐 Rust | 📅 2026-04-30 - Tool that extracts binary data struct layouts for Wakfu by analyzing the game's Java bytecode (JAR), generating the definitions consumed by wakfu-bdata.
-* [luafu](https://github.com/jac3km4/luafu) ⭐ 4 | 🐛 0 | 🌐 Scala | 📅 2022-01-08 - Command-line access to the Wakfu Lua runtime.
-* [wakfu-bdata](https://github.com/jac3km4/wakfu-bdata) ⭐ 3 | 🐛 1 | 🌐 Rust | 📅 2026-04-30 - Rust crate for decoding Wakfu's binary game-data files, using struct layouts recovered by wakfu-bdata-gen.
-* [wakfu-shell](https://github.com/jac3km4/wakfu-shell) ⭐ 3 | 🐛 1 | 🌐 Clojure | 📅 2021-07-11 - Clojure-based script runtime shell for accessing Wakfu internals.
-
-### Anthony Bongers
-
-* [GhostsAndGraves (decomp)](https://github.com/AnthonyBongers/GhostsAndGraves) ⭐ 20 | 🐛 0 | 🌐 Assembly | 📅 2025-11-22 - Matching decompilation of Ghosts And Graves (NES, 100%).
-
-### Ape, Inc
-
-* [ebsrc](https://github.com/Herringway/ebsrc) ⭐ 177 | 🐛 9 | 🌐 Assembly | 📅 2024-07-22 - Source recreation of EarthBound (SNES), disassembled and reorganized into buildable C/asm source.
-* [mother3 (decomp)](https://github.com/Kurausukun/mother3) ⭐ 79 | 🐛 10 | 🌐 Assembly | 📅 2026-08-17 - Decompilation of Mother 3 (GBA).
-* [EBME](https://github.com/Supremekirb/EBME) ⭐ 28 | 🐛 2 | 🌐 Python | 📅 2026-05-19 - GUI editor for EarthBound's overworld areas.
-* [ebbinex](https://github.com/Herringway/ebbinex) ⭐ 14 | 🐛 1 | 🌐 D | 📅 2023-06-05 - Simple utility for extracting data from Earthbound ROM files.
-* [earthbound-script-dumper](https://github.com/CataLatas/earthbound-script-dumper) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2021-02-11 - EarthBound text script dumper.
-* [nspcplay](https://github.com/Herringway/nspcplay) ⚠️ Archived - Player and parser for NSPC, the SNES music sequence format used by EarthBound and other SNES games.
-* [ebtexted](https://github.com/PKHackers/ebtexted) ⭐ 2 | 🐛 0 | 🌐 C++ | 📅 2017-07-30 - Tomato's EarthBound text editor.
-
-### Arc System Works
-
-#### Under Night In-Birth
-
-* [UNIB.Data.Tool](https://github.com/Ekey/UNIB.Data.Tool) ⭐ 9 | 🐛 0 | 🌐 C# | 📅 2024-01-26 - Archive extractor for Under Night In-Birth II Sys:Celes game data files.
-
-#### True Remembrance
-
-* [AMLUnpacker\_TrueRemembrance](https://github.com/infval/AMLUnpacker_TrueRemembrance) ⭐ 5 | 🐛 0 | 🌐 C# | 📅 2020-05-31 - Unpacker for True Remembrance's (Nintendo 3DS) imageArcive.arc archive format, extracting images to PNG.
-
-#### BlazBlue
-
-* [bbtools](https://github.com/dantarion/bbtools) ⭐ 47 | 🐛 4 | 🌐 Python | 📅 2021-07-27 - Tools for parsing files used by BlazBlue's engine, covering Persona 4 Arena (PS3/360), Persona 4 Arena Ultimax (PS3), BlazBlue: Chronophantasma (PC), and BlazBlue: Xrd (PC/PS3).
-
-### Apogee Software
-
-#### Crystal Caves
-
-* [OpenCrystalCaves](https://github.com/OpenCrystalCaves/OpenCrystalCaves) ⭐ 89 | 🐛 2 | 🌐 C++ | 📅 2026-08-30 - Unofficial open-source engine reimplementation of the Crystal Caves trilogy (1991, Apogee Software), reading the original game's assets.
-
-#### Duke Nukem II
-
-* [Duke2Reconstructed (decomp)](https://github.com/lethal-guitar/Duke2Reconstructed) ⭐ 367 | 🐛 0 | 🌐 C | 📅 2025-04-13 - Reconstructed source code for Duke Nukem II (1993, Apogee Software), based on disassembly of the original executable and reading the game's original data files.
-* [Duke2Edit](https://github.com/lethal-guitar/Duke2Edit) ⭐ 7 | 🐛 0 | 🌐 C | 📅 2023-10-08 - Basic level editor for Duke Nukem II, built by the same author as Duke2Reconstructed.
-
-#### Blake Stone (Aliens of Gold, Planet Strike)
-
-* [BStone](https://github.com/bibendovsky/bstone) ⭐ 365 | 🐛 56 | 🌐 C | 📅 2026-08-08 - Unofficial source port for Blake Stone series (Aliens of Gold and Planet Strike) with support for original game asset formats including external textures.
-
-### ArenaNet (Guild Wars)
-
-* [GuildWarsMapBrowser](https://github.com/Jonathan-Greve/GuildWarsMapBrowser) ⭐ 79 | 🐛 3 | 🌐 C++ | 📅 2026-03-15 - Browser and explorer for Guild Wars' `.dat` file, with search and filtering of the internal file formats it contains.
-* [GWDatBrowser](https://github.com/kytulendu/GWDatBrowser) ⭐ 26 | 🐛 1 | 🌐 C++ | 📅 2017-01-06 - Browses the contents of Guild Wars' `.dat` file. Originally by Irina, mirrored from the Xentax forum.
-* [GWSM](https://github.com/Jonathan-Greve/GWSM) ⭐ 5 | 🐛 0 | 🌐 C++ | 📅 2023-07-05 - Shared-memory library that streams live Guild Wars client data (via FlatBuffers) into other processes for interop. See also [GWSMController](https://github.com/Jonathan-Greve/GWSMController) ⭐ 7 | 🐛 0 | 🌐 C++ | 📅 2023-07-04, which combines GWSM with GuildWarsMapBrowser's map data to render in-game actors/agents on 3D maps in real time.
-* [GuildWarsFVF\_and\_filenames](https://github.com/Jonathan-Greve/GuildWarsFVF_and_filenames) ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2023-04-06 - Code for converting the `.dat` file's internal FVF (flexible vertex format) to the actual DirectX 9 FVF, plus routines for decoding and encoding Guild Wars' internal filename hashes.
-* [dat\_files\_searcher](https://github.com/Jonathan-Greve/dat_files_searcher) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2023-10-19 - Searches decompressed Guild Wars `.dat` files for specific byte sequences; companion tool to GuildWarsMapBrowser, which can export the files in decompressed form.
-
-#### Guild Wars 2
-
-* [Gw2Browser](https://github.com/rhoot/Gw2Browser) ⭐ 70 | 🐛 2 | 🌐 C++ | 📅 2012-09-26 - Browser and extractor for Guild Wars 2's `.dat` file, viewing and exporting the proprietary formats it contains.
-* [gw2\_reverse](https://github.com/ahom/gw2_reverse) ⭐ 27 | 🐛 0 | 🌐 C++ | 📅 2026-05-01 - Collection of tools for reverse engineering and extracting Guild Wars 2 `.dat` files.
-* [gw2formats](https://github.com/rhoot/gw2formats) ⭐ 26 | 🐛 0 | 🌐 C++ | 📅 2012-07-10 - Type-safe C++ library for reading Guild Wars 2's internal file formats.
-* [gw2re](https://github.com/daegalus/gw2re) ⚠️ Archived - Community collection of tools and research reverse engineering the Guild Wars 2 DAT file and the custom formats contained within.
-* [gixxcel](https://github.com/thatshaman/gixxcel) ⭐ 25 | 🐛 0 | 🌐 C# | 📅 2024-05-21 - Decodes and archives Guild Wars 2 STRS (string table) files extracted from DAT archives.
-* [gw2dattools](https://github.com/kytulendu/gw2dattools) ⭐ 13 | 🐛 2 | 🌐 C++ | 📅 2025-09-22 - Collection of tools for building programs that work with the Guild Wars 2 dat file.
-
-### Argentum Online
-
-* [ArgentumOnlineGodot](https://github.com/brian-christopher/ArgentumOnlineGodot) ⭐ 5 | 🐛 10 | 🌐 GDScript | 📅 2025-09-30 - Port of the original Argentum Online 0.13.3 client (released by Shak) to the Godot engine.
-  * See also [pyao-server](https://github.com/cavazquez/pyao-server) ⭐ 7 | 🐛 0 | 🌐 Python | 📅 2026-06-27 for a compatible Python/asyncio server reimplementation, which includes tooling to extract and convert the original VB6 client's `.map` files into JSON for runtime use.
-
-### Argonaut Games
-
-* [PS1-BRender-Reverse](https://github.com/OverSurge/PS1-Argonaut-Reverse) ⭐ 88 | 🐛 1 | 🌐 Python | 📅 2024-02-24 - Reverse engineering tools for PlayStation 1 BRender engine games like Harry Potter and Croc 2.
-* [croc (decomp)](https://github.com/xeeynamo/croc) ⭐ 37 | 🐛 0 | 🌐 C | 📅 2024-03-31 - Matching decompilation of Croc: Legend of the Gobbos.
-* [PS1-Argonaut-Assets](https://github.com/OverSurge/PS1-Argonaut-Assets) ⭐ 32 | 🐛 2 | 📅 2021-05-29 - Textures, 3D models, and other assets extracted from the PS1 Argonaut/BRender games Croc 2 and the Harry Potter PS1 titles.
-* [CrocUtils](https://github.com/vs49688/CrocUtils) ⭐ 15 | 🐛 1 | 🌐 C++ | 📅 2025-10-10 - Collection of utilities for Croc: The Legend of Gobbos, complementing Argonaut's ASF/BRP audio/video codec formats with additional encoding/decoding tools. Not related to Rexhunter99/CrocUtils, which covers map loading/archive unpacking instead.
-* [CrocExplorerWV](https://github.com/zeroKilo/CrocExplorerWV) ⭐ 14 | 🐛 0 | 🌐 C# | 📅 2019-08-08 - Croc Explorer by Warranty Voider, a tool to explore and extract the game content of Croc: The Legend of Gobbos (distinct from the same author's Croc2ExplorerWV for Croc 2).
-* [Stratigise](https://github.com/Argonaut-PS1-Reverse/Stratigise) ⭐ 13 | 🐛 0 | 🌐 Python | 📅 2025-06-13 - WIP tool for disassembling and (re)assembling ASL binaries for Croc 1.
-* [Croc2ExplorerWV](https://github.com/zeroKilo/Croc2ExplorerWV) ⭐ 10 | 🐛 0 | 🌐 C# | 📅 2019-08-17 - Tool to explore the game content of Croc 2.
-* [CrocUtils](https://github.com/Rexhunter99/CrocUtils) ⭐ 4 | 🐛 0 | 📅 2018-02-16 - Utilities for Croc game file formats.
-
-### Arkane Studios
-
-* [ArxLibertatis](https://github.com/arx/ArxLibertatis) ⭐ 1,086 | 🐛 70 | 🌐 C++ | 📅 2024-08-22 - Cross-platform engine port of Arx Fatalis that reads the original game's PAK data files, with extensive bug fixes and modernization over the 2002 engine.
-* [disrev](https://github.com/chipolux/disrev) ⭐ 17 | 🐛 1 | 🌐 C++ | 📅 2023-11-19 - Python tools for extracting and modifying Dishonored 2 assets.
-* [Obscura](https://github.com/Mikompilation/Obscura) ⭐ 11 | 🐛 2 | 🌐 C++ | 📅 2026-07-15 - Modding toolkit for Dishonored games.
-* [ArxFatalisManifests](https://github.com/arx/ArxFatalisManifests) ⭐ 1 | 🐛 0 | 📅 2020-06-30 - Manifests describing the file layouts of different Arx Fatalis data file variants/releases, used by the ArxLibertatis engine reimplementation.
-* [dishonored2\_scripts](https://github.com/usernametoolo/dishonored2_scripts/blob/master/tools/scripts/unpack_resources.py) ⭐ 0 | 🐛 0 | 📅 2016-12-12 - Resource extraction script for unpacking .pak archives.
-* [Arx Fatalis .PAK unpacker](https://www.moddb.com/games/arx-fatalis/downloads/arx-fatalis-pak-unpacker-v13) - Tool for unpacking PAK files from Arx Fatalis. Includes source code. Created by CTPAX-X Team (v1.3).
-* [Field Editor 0.5.1 Tautologist tool (Dishonored)](https://www.moddb.com/games/dishonored/downloads/field-editor-051-tautologist-tool) - Field editor for Dishonored with improved menu system, keyboard shortcuts, auto-completing text boxes, additional grouping and fields, live filtering/searching, settings persistence, and XML file browsing (v0.5.1).
-
-### Armature Studio (Batman: Arkham Origins Blackgate)
-
-* [BAOB.ARA.Tool](https://github.com/Ekey/BAOB.ARA.Tool) ⚠️ Archived - Tool for extracting ARA archives from Batman: Arkham Origins Blackgate.
-
-### Arrowhead Game Studios (Helldivers 2)
-
-* [filediver](https://github.com/xypwn/filediver) ⭐ 121 | 🐛 11 | 🌐 Go | 📅 2026-09-03 - Extractor for Helldivers 2. Supports extracting models, audio, video, and textures.
-* [HD2SDK-CommunityEdition](https://github.com/Boxofbiscuits97/HD2SDK-CommunityEdition) ⭐ 119 | 🐛 3 | 🌐 Python | 📅 2026-09-04 - Community-maintained Blender addon for modding Helldivers 2 textures, meshes, and materials; actively developed successor to [io\_scene\_helldivers2](https://github.com/kboykboy2/io_scene_helldivers2) ⭐ 25 | 🐛 0 | 🌐 Python | 📅 2024-08-25, which its original author deprecated in favor of this fork.
-* [Hellextractor](https://github.com/Xaymar/Hellextractor) ⚠️ Archived - Another Helldivers 2 extractor (archived, recommended to use [filediver](https://github.com/xypwn/filediver) ⭐ 121 | 🐛 11 | 🌐 Go | 📅 2026-09-03 instead).
-* [helldivers2-rs](https://github.com/nblockbuster/helldivers2-rs) ⭐ 11 | 🐛 0 | 🌐 Rust | 📅 2024-04-03 - Work-in-progress tool to extract files from Helldivers 2.
-* [hd2-name-db](https://github.com/dtzxporter/hd2-name-db) ⭐ 3 | 🐛 0 | 🌐 Rust | 📅 2025-09-04 - Community database documenting extracted game assets from Helldivers 2, helping identify and organize game content.
-* [HD2-LUT-Editor](https://github.com/Boxofbiscuits97/HD2-LUT-Editor) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2025-05-04 - Blender addon to assist in editing LUT (color grading lookup table) textures used by Helldivers 2.
-* [hd2\_porting\_assistant](https://github.com/Kelthic/hd2_porting_assistant) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-02-02 - Blender addon that safely synchronizes structural data (weights, pivots, vertex groups) between original and modded mesh objects for Helldivers 2 export pipelines via HD2SDK.
-
-### Ascaron Entertainment (Sacred)
-
-* [sacred-sdk](https://github.com/bssth/sacred-sdk) ⭐ 6 | 🐛 26 | 🌐 C++ | 📅 2026-06-15 - Lua scripting framework and bytecode toolchain for Sacred Gold (2004), enabling mods without patching the game's EXE.
-  * Format: FunkCode.bin bytecode baking, achieving byte-perfect roundtrip against all 132 vanilla game .bin files.
-* [sacred-minimap-viewer](https://github.com/Qronikarz/sacred-minimap-viewer) ⭐ 1 | 🐛 0 | 🌐 HTML | 📅 2026-09-02 - Tool to view the whole minimap of Sacred.
-
-### Assembly Line (Supaplex)
-
-* [superplexed](https://github.com/kaimitai/superplexed) ⭐ 21 | 🐛 0 | 🌐 C++ | 📅 2022-12-14 - Supaplex level and graphics editing suite.
-
-### Asmik Ace Entertainment (LSD: Dream Emulator)
-
-* [lsddecomp (decomp)](https://github.com/FirecatFG/lsddecomp) ⭐ 11 | 🐛 1 | 🌐 C | 📅 2024-09-13 - Matching decompilation of LSD: Dream Emulator (PS1).
-
-### Asobo Studio
-
-* [RatDecomp](https://github.com/ZounaModding/RatDecomp) ⭐ 31 | 🐛 0 | 🌐 C++ | 📅 2026-09-01 - Decompilation project for Ratatouille (GameCube) with original game data parsing and reconstruction.
-* [fmtk](https://github.com/widberg/fmtk) ⭐ 28 | 🐛 0 | 🌐 C++ | 📅 2026-04-19 - FUEL Modding Toolkit.
-* [FUELDecompilation](https://github.com/widberg/FUELDecompilation) ⭐ 27 | 🐛 1 | 🌐 C++ | 📅 2026-03-14 - FUEL decompilation project.
-* [bff](https://github.com/widberg/bff) ⭐ 14 | 🐛 2 | 🌐 Rust | 📅 2026-08-23 - BigFile Friend. Successor to `dpc`, supports Zouna file formats.
-* [atk](https://github.com/widberg/atk) ⭐ 9 | 🐛 2 | 🌐 JavaScript | 📅 2025-08-06 - Asobo Toolkit. Supporting Asobo and Black Sheep Studio games.
-  * Games: FUEL, Ratatouille, Toy Story 3, WALL-E, and more.
-  * Features: BigFile extraction, Zouna structure parsing.
-* [ZounaBinaryTemplates](https://github.com/ZounaModding/ZounaBinaryTemplates) ⭐ 6 | 🐛 0 | 🌐 C++ | 📅 2026-06-13 - 010 Editor binary templates and Noesis scripts for Zouna engine file formats, with documentation on engine internals (Seads spatial partitioning system).
-  * Games: Ratatouille (PC, PS2, GC, Xbox), WALL-E (PC), Toy Story 3 (PS2), SpongeBob SquarePants: Revenge of the Flying Dutchman (PS2, GC), A Plague Tale (PC), Microsoft Flight Simulator 2024 (PC), Shaun White 2 (PC), Castleween (PS2), Garfield, Noddy.
-  * Formats: Bitmap\_Z, Mesh\_Z, Material\_Z, World\_Z, Node\_Z, Skel\_Z, Skin\_Z, Animation\_Z, Lod\_Z, and more Zouna \_Z resource types.
-* [ImZouna](https://github.com/widberg/ImZouna) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2026-07-05 - ImHex patterns for Zouna data structures used in Asobo Studio games (FUEL, WALL-E, Ratatouille, Toy Story 3, A Plague Tale series, Microsoft Flight Simulator, and more).
-* [Asobo-ArithmeticCoderC](https://github.com/widberg/Asobo-ArithmeticCoderC) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2022-07-17 - Reference implementation of Asobo's arithmetic coder.
-* [fror-research](https://github.com/widberg/fror-research) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-02-19 - Ford Racing Off Road research.
-* [fuel-map](https://github.com/widberg/fuel-map) ⭐ 1 | 🐛 3 | 🌐 Python | 📅 2026-07-02 - FUEL map notes and assets.
-* [fuel-brute](https://github.com/widberg/fuel-brute) ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2021-06-24 - CRC32 brute-force solver for FUEL, a companion tool to the FMTK modding toolkit above.
-* [blender\_fuel](https://github.com/widberg/blender_fuel) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2023-04-21 - Blender scripts for FUEL.
-* [fmt\_fuel](https://github.com/widberg/fmt_fuel) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2021-06-28 - Noesis scripts for FUEL.
-* [fuel-save-editor](https://github.com/widberg/fuel-save-editor) ⭐ 0 | 🐛 0 | 🌐 Nim | 📅 2026-06-28 - FUEL save editor.
-
-### Atari, Inc. (Raiders of the Lost Ark)
-
-* [Raiders2600](https://github.com/halkuncode/Raiders2600) ⭐ 173 | 🐛 0 | 🌐 Assembly | 📅 2026-03-03 - Fully reverse-engineered and commented disassembly source code for the Atari 2600 classic Raiders of the Lost Ark (1982).
-
-### Atlus
-
-* [noclip.website (Tokyo Mirage Sessions ♯FE)](https://github.com/magcius/noclip.website/tree/main/src/TokyoMirageSessionsSharpFE) ⭐ 4,251 | 🐛 86 | 🌐 TypeScript | 📅 2026-08-26 - In-browser Tokyo Mirage Sessions ♯FE (Wii U) map viewer. Parses APAK archives plus BFRES models and BNTX textures, with lightmap, gimmick, and map-layout support.
-* [AemulusModManager](https://github.com/TekkaGB/AemulusModManager) ⭐ 106 | 🐛 40 | 🌐 C# | 📅 2024-09-18 - Mod package manager for Persona 4 Golden (PC), Persona 3 FES, Persona 5, and Persona 5 Strikers. Automatically merges conflicting bin, bmd, pm1, bf, and tbl files from different mods.
-* [Atlus-Script-Tools](https://github.com/tge-was-taken/Atlus-Script-Tools) ⭐ 104 | 🐛 14 | 🌐 C# | 📅 2026-05-17 - Set of tools for working with Atlus script formats including flow script files (.bf) and message script files (.bmd, .bm2). Supports Persona series, SMT series, Catherine, Trauma Center, and more.
-* [GFD-Studio](https://github.com/tge-was-taken/GFD-Studio) ⭐ 95 | 🐛 19 | 🌐 C# | 📅 2025-09-10 - Model editor for viewing, editing and converting models in GMD/GFS format used in P3D, P4D, P5D, and Persona 5.
-* [Amicitia](https://github.com/tge-was-taken/Amicitia) ⭐ 92 | 🐛 22 | 🌐 C# | 📅 2024-03-11 - Tool for working with Persona 3/4/5 file formats.
-* [PersonaEditor](https://github.com/Meloman19/PersonaEditor) ⭐ 73 | 🐛 18 | 🌐 C# | 📅 2024-12-27 - File editor for Persona series (3, 4, 5) supporting multiple container formats (BIN, PAK, PAC, CPK, P00, ARC, PM1, BF, BVP, TBL, FTD) with asset extraction and modification.
-* [p4g-saveconv](https://github.com/zarroboogs/p4g-saveconv) ⭐ 59 | 🐛 8 | 🌐 Python | 📅 2020-07-31 - Persona 4 Golden save converter. Converts PS Vita saves to PC format and vice versa, including data00XX.bin, system.bin, and sdslot.dat files.
-* [smt1dasm](https://github.com/spannerisms/smt1dasm) ⭐ 26 | 🐛 0 | 🌐 Assembly | 📅 2022-11-17 - Disassembly of Shin Megami Tensei J1.0 for the SNES.
-* [AtlusFileSystemLibrary](https://github.com/tge-was-taken/AtlusFileSystemLibrary) ⭐ 17 | 🐛 4 | 🌐 C# | 📅 2020-07-09 - Library containing utilities for working with file systems used in Atlus games.
-* [P5X\_vFileContentExtract](https://github.com/DeathChaos25/P5X_vFileContentExtract) ⭐ 16 | 🐛 0 | 🌐 C# | 📅 2025-09-07 - Content extractor for Persona 5 X vFile archives.
-* [GMDTool](https://github.com/lemoncove/GMDTool) ⭐ 10 | 🐛 3 | 🌐 C# | 📅 2020-09-04 - Command-line utility to convert Persona .GMD model files to Collada .DAE format. Uses GFDLibrary for GMD loading.
-* [DDS3-Model-Studio](https://github.com/tge-was-taken/DDS3-Model-Studio) ⭐ 9 | 🐛 4 | 🌐 C# | 📅 2024-07-21 - WIP Model editing tools for DDS3 engine based SMT games (SMT: Nocturne, DDS 1 & 2, Raidou 1 & 2).
-* [p4u2modtools](https://github.com/zarroboogs/p4u2modtools) ⭐ 9 | 🐛 0 | 🌐 C# | 📅 2018-08-08 - Modding tools for Persona 4 Arena Ultimax, Persona 4 Arena, etc. Includes bddata.bin extraction tools and custom game update creation.
-* [p5-rte](https://github.com/TheHiddenHour/p5-rte) ⭐ 6 | 🐛 1 | 🌐 C# | 📅 2020-01-26 - Real-time editing tool for Persona 5 on jailbroken PS3. Allows editing of persona slots, stats, and skills using PS3Lib.
-* [PersonaRandomizer](https://github.com/ShrineFox/PersonaRandomizer) ⭐ 5 | 🐛 0 | 🌐 C# | 📅 2026-07-03 - Program for quickly randomizing files in Persona 3 FES, Persona 4, and Persona 5. Supports randomizing various TBL files including PERSONA, UNIT, SKILL, ITEM, NAME, and ENCOUNT tables.
-* [yafe](https://github.com/tge-was-taken/yafe) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2021-09-06 - Field editor for Persona 5 allowing import of FBN and HBN files into 3ds Max for visual editing.
-* [AtlusPM1MessageScriptEditor](https://github.com/tge-was-taken/AtlusPM1MessageScriptEditor) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2024-04-07 - Message script editor for Persona 1.
-* [EvtTool](https://github.com/tge-was-taken/EvtTool) ⭐ 3 | 🐛 1 | 🌐 C# | 📅 2024-04-13 - Persona 5 (Royal) EVT file editor. Converts EVT/ECS/LSD files to JSON and vice versa.
-* [SMT1L1ON](https://github.com/tge-was-taken/SMT1L1ON) ⭐ 3 | 🐛 0 | 🌐 C# | 📅 2018-02-24 - Translation tools for Shin Megami Tensei 1.
-* [p5s-txteditor](https://github.com/samudebug/p5s-txteditor) ⭐ 3 | 🐛 0 | 🌐 JavaScript | 📅 2021-03-27 - Text editor for editing text files found in Persona 5 Strikers.
-* [P5RFieldTexUtility](https://github.com/ShrineFox/P5RFieldTexUtility) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2024-06-26 - Utility for quickly extracting field textures and duplicating edits in Persona 5 Royal. Supports batch extraction and repacking of .BIN files with DDS texture support.
-* [EPLGen](https://github.com/ShrineFox/EPLGen) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2025-03-29 - GUI for quickly generating EPL leafs featuring animated sprites for Persona 5 Royal. Supports particle effect creation with DDS textures and GMD file integration.
-* [P5CharacterSwapper](https://github.com/ShrineFox/P5CharacterSwapper) ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2020-12-20 - Batch-replaces P5 character models/animations by ID. Can retarget models and animations if specified.
-* \[P4U2TrialEd
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-04._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-05._
