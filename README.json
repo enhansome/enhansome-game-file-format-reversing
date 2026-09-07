@@ -21,7 +21,7 @@
                 "open_issues": 19,
                 "owner": "RetroReversing",
                 "repo": "retroReversing",
-                "stars": 692,
+                "stars": 694,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -68,7 +68,7 @@
                 "open_issues": 16,
                 "owner": "shizmob",
                 "repo": "arcade-docs",
-                "stars": 147,
+                "stars": 148,
                 "topics": []
               },
               "first_seen": "2026-09-05T09:09:02.141Z"
@@ -140,7 +140,7 @@
                 "open_issues": 21,
                 "owner": "gbdev",
                 "repo": "awesome-gbdev",
-                "stars": 4497,
+                "stars": 4498,
                 "topics": [
                   "assembler",
                   "awesome",
@@ -181,7 +181,7 @@
                 "open_issues": 0,
                 "owner": "MuxaJlbl4",
                 "repo": "Awesome-PlayStation-Vita",
-                "stars": 1808,
+                "stars": 1809,
                 "topics": [
                   "awesome",
                   "awesome-list",
@@ -212,7 +212,7 @@
                 "open_issues": 6,
                 "owner": "gbadev-org",
                 "repo": "awesome-gbadev",
-                "stars": 1337,
+                "stars": 1339,
                 "topics": [
                   "awesome-list",
                   "emulator-development",
@@ -238,8 +238,8 @@
                 "id": 294536102,
                 "language": null,
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-08-24T22:29:05Z",
-                "open_issues": 29,
+                "last_commit": "2026-09-06T22:43:52Z",
+                "open_issues": 27,
                 "owner": "flipacholas",
                 "repo": "Architecture-of-consoles",
                 "stars": 1102,
@@ -273,7 +273,7 @@
                 "open_issues": 138,
                 "owner": "gbdev",
                 "repo": "pandocs",
-                "stars": 781,
+                "stars": 782,
                 "topics": [
                   "boy",
                   "cheatsheet",
@@ -345,7 +345,7 @@
                 "language": null,
                 "license": null,
                 "last_commit": "2026-05-05T20:14:55Z",
-                "open_issues": 3,
+                "open_issues": 4,
                 "owner": "And-0",
                 "repo": "awesome-megadrive",
                 "stars": 455,
@@ -394,7 +394,7 @@
                 "open_issues": 14,
                 "owner": "TeamFAPS",
                 "repo": "PSVita-RE-tools",
-                "stars": 383,
+                "stars": 384,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -722,7 +722,7 @@
                     "open_issues": 11,
                     "owner": "dsasmblr",
                     "repo": "game-hacking",
-                    "stars": 5571,
+                    "stars": 5572,
                     "topics": [
                       "cheat-engine",
                       "game-hacking",
@@ -797,11 +797,11 @@
                     "id": 648332,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-04T20:01:50Z",
-                    "open_issues": 538,
+                    "last_commit": "2026-09-06T11:26:30Z",
+                    "open_issues": 539,
                     "owner": "assimp",
                     "repo": "assimp",
-                    "stars": 13179,
+                    "stars": 13182,
                     "topics": [
                       "3mf",
                       "android",
@@ -871,7 +871,7 @@
                     "open_issues": 125,
                     "owner": "niftools",
                     "repo": "nifskope",
-                    "stars": 630,
+                    "stars": 631,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -892,7 +892,7 @@
                     "open_issues": 0,
                     "owner": "majimboo",
                     "repo": "mviewer",
-                    "stars": 301,
+                    "stars": 302,
                     "topics": [
                       "3d-viewer",
                       "animation",
@@ -1568,8 +1568,8 @@
                     "id": 629080475,
                     "language": "C#",
                     "license": "MIT",
-                    "last_commit": "2026-08-31T13:37:16Z",
-                    "open_issues": 0,
+                    "last_commit": "2026-09-07T05:07:15Z",
+                    "open_issues": 2,
                     "owner": "BoBoBaSs84",
                     "repo": "DDS.Tools",
                     "stars": 19,
@@ -1902,7 +1902,7 @@
                         "id": 435093066,
                         "language": "C",
                         "license": "BSD-2-Clause",
-                        "last_commit": "2026-09-02T23:16:43Z",
+                        "last_commit": "2026-09-07T04:47:51Z",
                         "open_issues": 0,
                         "owner": "Garhoogin",
                         "repo": "ptexconv",
@@ -2427,7 +2427,7 @@
                 "open_issues": 93,
                 "owner": "ReFirmLabs",
                 "repo": "binwalk",
-                "stars": 14317,
+                "stars": 14319,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -2444,11 +2444,11 @@
                 "id": 385118073,
                 "language": "C#",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-06T04:14:27Z",
+                "last_commit": "2026-09-07T01:47:34Z",
                 "open_issues": 152,
                 "owner": "AssetRipper",
                 "repo": "AssetRipper",
-                "stars": 8276,
+                "stars": 8282,
                 "topics": [
                   "csharp",
                   "games",
@@ -2474,7 +2474,7 @@
                 "open_issues": 123,
                 "owner": "Bioruebe",
                 "repo": "UniExtract2",
-                "stars": 4414,
+                "stars": 4415,
                 "topics": [
                   "decompression",
                   "extractor",
@@ -2500,7 +2500,7 @@
                 "open_issues": 276,
                 "owner": "morkt",
                 "repo": "GARbro",
-                "stars": 3281,
+                "stars": 3284,
                 "topics": [
                   "audio",
                   "extraction",
@@ -2572,7 +2572,7 @@
                 "open_issues": 72,
                 "owner": "dscharrer",
                 "repo": "innoextract",
-                "stars": 1356,
+                "stars": 1357,
                 "topics": [
                   "boost",
                   "c-plus-plus",
@@ -2633,7 +2633,7 @@
                 "open_issues": 23,
                 "owner": "RibShark",
                 "repo": "OmniDrive",
-                "stars": 1112,
+                "stars": 1122,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -2675,11 +2675,11 @@
                 "id": 18923203,
                 "language": "C#",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-02T12:44:25Z",
+                "last_commit": "2026-09-06T14:15:27Z",
                 "open_issues": 216,
                 "owner": "aaru-dps",
                 "repo": "Aaru",
-                "stars": 621,
+                "stars": 622,
                 "topics": [
                   "archival",
                   "data-rescue",
@@ -2740,7 +2740,7 @@
                 "open_issues": 108,
                 "owner": "superg",
                 "repo": "redumper",
-                "stars": 492,
+                "stars": 494,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -2847,7 +2847,7 @@
                 "id": 592033123,
                 "language": "C",
                 "license": null,
-                "last_commit": "2026-08-22T15:30:06Z",
+                "last_commit": "2026-09-07T07:09:25Z",
                 "open_issues": 10,
                 "owner": "jfdelnero",
                 "repo": "HxCFloppyEmulator",
@@ -2930,7 +2930,7 @@
                 "open_issues": 0,
                 "owner": "lioncash",
                 "repo": "ExtractData",
-                "stars": 172,
+                "stars": 173,
                 "topics": [
                   "c-plus-plus",
                   "games",
@@ -2951,11 +2951,11 @@
                 "id": 423161712,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-08-29T15:49:24Z",
+                "last_commit": "2026-09-06T17:23:22Z",
                 "open_issues": 1,
                 "owner": "Sembiance",
                 "repo": "dexvert",
-                "stars": 169,
+                "stars": 170,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -3022,7 +3022,7 @@
                 "language": "C#",
                 "license": null,
                 "last_commit": "2026-08-27T18:21:10Z",
-                "open_issues": 1,
+                "open_issues": 0,
                 "owner": "HakuSystems",
                 "repo": "EasyExtractUnitypackage",
                 "stars": 123,
@@ -3174,7 +3174,7 @@
                 "id": 126539351,
                 "language": "C++",
                 "license": null,
-                "last_commit": "2026-08-31T14:46:01Z",
+                "last_commit": "2026-09-07T07:49:32Z",
                 "open_issues": 36,
                 "owner": "tomas-nestorovic",
                 "repo": "RIDE",
@@ -3471,27 +3471,6 @@
             },
             {
               "node_type": "item",
-              "title": "edccchk",
-              "description": "EDC/ECC checker for raw (2352 bytes/sector) CD images, used to verify game disc dump integrity.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "EDC/ECC checker for RAW (2352 bytes/sector) CD images",
-                "homepage": null,
-                "id": 17113249,
-                "language": "C",
-                "license": "GPL-3.0",
-                "last_commit": "2025-03-09T02:13:13Z",
-                "open_issues": 0,
-                "owner": "claunia",
-                "repo": "edccchk",
-                "stars": 25,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T17:29:05.115Z"
-            },
-            {
-              "node_type": "item",
               "title": "AssetRipper CLI",
               "description": "Command-line front-end built on AssetRipper for batch-exporting CG, character portraits, backgrounds, and audio from Unity visual-novel/gacha games via reusable extraction profiles.",
               "children": [],
@@ -3506,7 +3485,7 @@
                 "open_issues": 0,
                 "owner": "MeikoMei16",
                 "repo": "AssetRipper-CLI",
-                "stars": 25,
+                "stars": 26,
                 "topics": [
                   "asset-export",
                   "asset-extraction",
@@ -3525,6 +3504,27 @@
                   "unity",
                   "unity-assets"
                 ]
+              },
+              "first_seen": "2026-08-28T17:29:05.115Z"
+            },
+            {
+              "node_type": "item",
+              "title": "edccchk",
+              "description": "EDC/ECC checker for raw (2352 bytes/sector) CD images, used to verify game disc dump integrity.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "EDC/ECC checker for RAW (2352 bytes/sector) CD images",
+                "homepage": null,
+                "id": 17113249,
+                "language": "C",
+                "license": "GPL-3.0",
+                "last_commit": "2025-03-09T02:13:13Z",
+                "open_issues": 0,
+                "owner": "claunia",
+                "repo": "edccchk",
+                "stars": 25,
+                "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
             },
@@ -4080,7 +4080,7 @@
                 "open_issues": 21,
                 "owner": "vgmstream",
                 "repo": "vgmstream",
-                "stars": 2246,
+                "stars": 2248,
                 "topics": [
                   "audio",
                   "c",
@@ -4107,10 +4107,10 @@
                 "language": "C#",
                 "license": "MIT",
                 "last_commit": "2026-08-10T09:19:53Z",
-                "open_issues": 38,
+                "open_issues": 39,
                 "owner": "BleuBleu",
                 "repo": "FamiStudio",
-                "stars": 1939,
+                "stars": 1942,
                 "topics": []
               },
               "first_seen": "2026-09-01T10:12:56.137Z"
@@ -4128,7 +4128,7 @@
                 "language": "C++",
                 "license": "Zlib",
                 "last_commit": "2026-09-06T04:13:51Z",
-                "open_issues": 81,
+                "open_issues": 60,
                 "owner": "vgmtrans",
                 "repo": "vgmtrans",
                 "stars": 1269,
@@ -4617,7 +4617,7 @@
                 "open_issues": 13,
                 "owner": "mmitch",
                 "repo": "gbsplay",
-                "stars": 123,
+                "stars": 124,
                 "topics": [
                   "c",
                   "gameboy",
@@ -5904,11 +5904,11 @@
                 "id": 542386106,
                 "language": "C++",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-06T09:29:35Z",
+                "last_commit": "2026-09-06T15:15:23Z",
                 "open_issues": 70,
                 "owner": "HIllya51",
                 "repo": "LunaTranslator",
-                "stars": 13050,
+                "stars": 13061,
                 "topics": [
                   "galgame",
                   "ocr",
@@ -5936,7 +5936,7 @@
                 "open_issues": 635,
                 "owner": "Artikash",
                 "repo": "Textractor",
-                "stars": 2689,
+                "stars": 2690,
                 "topics": [
                   "cpp",
                   "games",
@@ -5962,7 +5962,7 @@
                 "open_issues": 39,
                 "owner": "GalTransl",
                 "repo": "GalTransl",
-                "stars": 2260,
+                "stars": 2262,
                 "topics": [
                   "ai",
                   "galgame",
@@ -5987,7 +5987,7 @@
                 "open_issues": 165,
                 "owner": "FanTranslatorsInternational",
                 "repo": "Kuriimu2",
-                "stars": 437,
+                "stars": 438,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -6109,7 +6109,7 @@
                 "open_issues": 1,
                 "owner": "SuQiandYing",
                 "repo": "SimpleFontHook",
-                "stars": 62,
+                "stars": 63,
                 "topics": []
               },
               "first_seen": "2026-09-05T09:09:02.141Z"
@@ -6267,11 +6267,11 @@
                 "id": 311683390,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-09-06T00:55:24Z",
-                "open_issues": 395,
+                "last_commit": "2026-09-07T10:24:28Z",
+                "open_issues": 394,
                 "owner": "WerWolv",
                 "repo": "ImHex",
-                "stars": 54710,
+                "stars": 54732,
                 "topics": [
                   "analyzer",
                   "binary-analysis",
@@ -6563,11 +6563,11 @@
                     "id": 336895436,
                     "language": "Go",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-03T16:11:29Z",
-                    "open_issues": 61,
+                    "last_commit": "2026-09-07T07:55:58Z",
+                    "open_issues": 62,
                     "owner": "wader",
                     "repo": "fq",
-                    "stars": 10590,
+                    "stars": 10592,
                     "topics": [
                       "binary",
                       "cli",
@@ -6933,10 +6933,10 @@
                     "language": "Java",
                     "license": "Apache-2.0",
                     "last_commit": "2026-09-02T14:52:23Z",
-                    "open_issues": 1939,
+                    "open_issues": 1947,
                     "owner": "NationalSecurityAgency",
                     "repo": "ghidra",
-                    "stars": 74450,
+                    "stars": 74537,
                     "topics": [
                       "disassembler",
                       "reverse-engineering",
@@ -6961,7 +6961,7 @@
                     "open_issues": 493,
                     "owner": "rizinorg",
                     "repo": "cutter",
-                    "stars": 19680,
+                    "stars": 19688,
                     "topics": [
                       "cutter",
                       "debugger",
@@ -7005,11 +7005,11 @@
                     "id": 203799854,
                     "language": "Python",
                     "license": "GPL-2.0",
-                    "last_commit": "2026-09-06T05:26:05Z",
+                    "last_commit": "2026-09-07T01:41:11Z",
                     "open_issues": 110,
                     "owner": "qilingframework",
                     "repo": "qiling",
-                    "stars": 6088,
+                    "stars": 6089,
                     "topics": [
                       "analysis",
                       "binary",
@@ -7042,7 +7042,7 @@
                     "open_issues": 25,
                     "owner": "atom0s",
                     "repo": "Steamless",
-                    "stars": 5013,
+                    "stars": 5015,
                     "topics": [
                       "csharp",
                       "drm",
@@ -7068,7 +7068,7 @@
                     "open_issues": 35,
                     "owner": "joxeankoret",
                     "repo": "diaphora",
-                    "stars": 4389,
+                    "stars": 4391,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -7089,7 +7089,7 @@
                     "open_issues": 61,
                     "owner": "icedland",
                     "repo": "iced",
-                    "stars": 3560,
+                    "stars": 3561,
                     "topics": [
                       "assembler",
                       "decoder",
@@ -7117,7 +7117,7 @@
                     "open_issues": 38,
                     "owner": "RibShark",
                     "repo": "SafeDiscShim",
-                    "stars": 569,
+                    "stars": 570,
                     "topics": [
                       "copy-protection",
                       "drm",
@@ -7705,7 +7705,7 @@
                     "open_issues": 103,
                     "owner": "Konloch",
                     "repo": "bytecode-viewer",
-                    "stars": 15629,
+                    "stars": 15633,
                     "topics": [
                       "android",
                       "apk",
@@ -7747,7 +7747,7 @@
                     "open_issues": 248,
                     "owner": "java-decompiler",
                     "repo": "jd-gui",
-                    "stars": 15194,
+                    "stars": 15195,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -7768,7 +7768,7 @@
                     "open_issues": 66,
                     "owner": "Col-E",
                     "repo": "Recaf",
-                    "stars": 7374,
+                    "stars": 7375,
                     "topics": [
                       "agent",
                       "asm",
@@ -7804,7 +7804,7 @@
                     "open_issues": 5,
                     "owner": "jindrapetrik",
                     "repo": "jpexs-decompiler",
-                    "stars": 5848,
+                    "stars": 5850,
                     "topics": [
                       "decompiler",
                       "editor",
@@ -7830,7 +7830,7 @@
                     "open_issues": 7,
                     "owner": "P1sec",
                     "repo": "hermes-dec",
-                    "stars": 1168,
+                    "stars": 1169,
                     "topics": [
                       "decompiler",
                       "hermes",
@@ -8058,8 +8058,8 @@
                     "id": 381241207,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-05T13:08:49Z",
-                    "open_issues": 126,
+                    "last_commit": "2026-09-07T10:24:39Z",
+                    "open_issues": 127,
                     "owner": "decompme",
                     "repo": "decomp.me",
                     "stars": 605,
@@ -8088,7 +8088,7 @@
                     "open_issues": 89,
                     "owner": "encounter",
                     "repo": "objdiff",
-                    "stars": 532,
+                    "stars": 534,
                     "topics": [
                       "asm",
                       "assembly",
@@ -8179,7 +8179,7 @@
                     "language": "Python",
                     "license": "MIT",
                     "last_commit": "2026-09-05T16:04:48Z",
-                    "open_issues": 49,
+                    "open_issues": 50,
                     "owner": "simonlindholm",
                     "repo": "decomp-permuter",
                     "stars": 218,
@@ -8224,8 +8224,8 @@
                     "id": 183968585,
                     "language": "Python",
                     "license": "Unlicense",
-                    "last_commit": "2026-08-25T14:09:40Z",
-                    "open_issues": 35,
+                    "last_commit": "2026-09-06T17:39:36Z",
+                    "open_issues": 34,
                     "owner": "simonlindholm",
                     "repo": "asm-differ",
                     "stars": 167,
@@ -8245,7 +8245,7 @@
                     "id": 444523266,
                     "language": "Rust",
                     "license": "MIT",
-                    "last_commit": "2026-07-09T18:13:38Z",
+                    "last_commit": "2026-09-06T14:57:50Z",
                     "open_issues": 7,
                     "owner": "camden-smallwood",
                     "repo": "pdb-decompiler",
@@ -8349,7 +8349,7 @@
                     "language": "Python",
                     "license": "CC0-1.0",
                     "last_commit": "2026-04-26T05:44:48Z",
-                    "open_issues": 14,
+                    "open_issues": 16,
                     "owner": "encounter",
                     "repo": "dtk-template",
                     "stars": 75,
@@ -8846,7 +8846,7 @@
                     "id": 1188180563,
                     "language": "Python",
                     "license": null,
-                    "last_commit": "2026-09-06T01:16:01Z",
+                    "last_commit": "2026-09-06T14:55:17Z",
                     "open_issues": 0,
                     "owner": "bigyoshi51",
                     "repo": "decomp",
@@ -8899,7 +8899,7 @@
                     "open_issues": 92,
                     "owner": "hedge-dev",
                     "repo": "XenonRecomp",
-                    "stars": 6465,
+                    "stars": 6471,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -8917,10 +8917,10 @@
                     "language": "C++",
                     "license": "GPL-3.0",
                     "last_commit": "2026-09-02T21:06:18Z",
-                    "open_issues": 94,
+                    "open_issues": 95,
                     "owner": "ran-j",
                     "repo": "PS2Recomp",
-                    "stars": 3226,
+                    "stars": 3227,
                     "topics": [
                       "ps2",
                       "recompile",
@@ -8947,7 +8947,7 @@
                     "open_issues": 73,
                     "owner": "mchughalex",
                     "repo": "skate3recomp",
-                    "stars": 1294,
+                    "stars": 1298,
                     "topics": []
                   },
                   "first_seen": "2026-09-05T09:09:02.141Z"
@@ -8965,10 +8965,10 @@
                     "language": "C",
                     "license": "NOASSERTION",
                     "last_commit": "2026-09-04T11:10:06Z",
-                    "open_issues": 24,
+                    "open_issues": 23,
                     "owner": "rexglue",
                     "repo": "rexglue-sdk",
-                    "stars": 848,
+                    "stars": 856,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -8985,11 +8985,11 @@
                     "id": 1254390230,
                     "language": "C#",
                     "license": "MIT",
-                    "last_commit": "2026-09-05T18:30:23Z",
+                    "last_commit": "2026-09-07T01:25:08Z",
                     "open_issues": 2,
                     "owner": "BlackLabelHQ",
                     "repo": "RecompOne",
-                    "stars": 510,
+                    "stars": 511,
                     "topics": [
                       "mipsr3000a",
                       "ps1",
@@ -9031,11 +9031,11 @@
                     "id": 1172059725,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-06T08:05:33Z",
-                    "open_issues": 5,
+                    "last_commit": "2026-09-07T04:03:30Z",
+                    "open_issues": 8,
                     "owner": "mstan",
                     "repo": "psxrecomp",
-                    "stars": 210,
+                    "stars": 212,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -9056,7 +9056,7 @@
                     "open_issues": 6,
                     "owner": "ExpansionPak",
                     "repo": "DolRecomp",
-                    "stars": 179,
+                    "stars": 180,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -9073,7 +9073,7 @@
                     "id": 1182795039,
                     "language": "C",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-06T08:30:06Z",
+                    "last_commit": "2026-09-06T21:37:18Z",
                     "open_issues": 4,
                     "owner": "mstan",
                     "repo": "snesrecomp",
@@ -9098,7 +9098,28 @@
                     "open_issues": 1,
                     "owner": "mstan",
                     "repo": "ndsrecomp",
-                    "stars": 35,
+                    "stars": 36,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-28T17:29:05.115Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "segagenesisrecomp",
+                  "description": "Static recompiler for Sega Genesis/Mega Drive games.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Sega Genesis / Mega Drive game static recompiler ecosystem · Part of the R.A.I.D. community",
+                    "homepage": "https://discord.gg/Ad9BwSzctP",
+                    "id": 1191139926,
+                    "language": "C",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-09-05T19:41:33Z",
+                    "open_issues": 0,
+                    "owner": "mstan",
+                    "repo": "segagenesisrecomp",
+                    "stars": 25,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -9134,27 +9155,6 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "segagenesisrecomp",
-                  "description": "Static recompiler for Sega Genesis/Mega Drive games.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Sega Genesis / Mega Drive game static recompiler ecosystem · Part of the R.A.I.D. community",
-                    "homepage": "https://discord.gg/Ad9BwSzctP",
-                    "id": 1191139926,
-                    "language": "C",
-                    "license": "NOASSERTION",
-                    "last_commit": "2026-09-05T19:41:33Z",
-                    "open_issues": 0,
-                    "owner": "mstan",
-                    "repo": "segagenesisrecomp",
-                    "stars": 24,
-                    "topics": []
-                  },
-                  "first_seen": "2026-08-28T17:29:05.115Z"
-                },
-                {
-                  "node_type": "item",
                   "title": "gbarecomp",
                   "description": "General-purpose static recompiler for the Game Boy Advance.",
                   "children": [],
@@ -9169,7 +9169,7 @@
                     "open_issues": 1,
                     "owner": "mstan",
                     "repo": "gbarecomp",
-                    "stars": 21,
+                    "stars": 22,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -9217,39 +9217,6 @@
                     "repo": "gbrecompiled",
                     "stars": 6,
                     "topics": []
-                  },
-                  "first_seen": "2026-08-28T17:29:05.115Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "rexauto",
-                  "description": "Desktop orchestrator front-end for the ReXGlue static recompiler, automating the full Xbox 360-to-PC pipeline (extract from ISO/GoD/STFS containers, scaffold, recover jump tables via IDA, build, and self-heal missing functions) into a native x86-64 executable.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Desktop app + pipeline that turns an Xbox 360 game container into a recompiled PC build that boots — drives ReXGlue, recovers jump tables, and self-heals function boundaries. One-click dependency setup.",
-                    "homepage": "https://github.com/xdzleo/rexauto/releases/latest",
-                    "id": 1283279841,
-                    "language": "Python",
-                    "license": "MIT",
-                    "last_commit": "2026-09-05T21:32:34Z",
-                    "open_issues": 1,
-                    "owner": "xdzleo",
-                    "repo": "rexauto",
-                    "stars": 6,
-                    "topics": [
-                      "decompilation",
-                      "emulation",
-                      "game-porting",
-                      "powerpc",
-                      "recompilation",
-                      "reverse-engineering",
-                      "static-recompilation",
-                      "xbox360",
-                      "xenon",
-                      "xenonrecomp",
-                      "xex"
-                    ]
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
                 },
@@ -10205,7 +10172,7 @@
                     "open_issues": 5,
                     "owner": "corkami",
                     "repo": "pics",
-                    "stars": 11480,
+                    "stars": 11481,
                     "topics": [
                       "dissection",
                       "fileformats",
@@ -10231,7 +10198,7 @@
                     "open_issues": 25,
                     "owner": "sharkdp",
                     "repo": "binocle",
-                    "stars": 1320,
+                    "stars": 1321,
                     "topics": [
                       "binary-data",
                       "reverse-engineering",
@@ -10507,7 +10474,7 @@
                     "open_issues": 186,
                     "owner": "Reloaded-Project",
                     "repo": "Reloaded-II",
-                    "stars": 1023,
+                    "stars": 1024,
                     "topics": [
                       "csharp",
                       "mod-loader",
@@ -10684,10 +10651,10 @@
                     "language": "C++",
                     "license": "GPL-2.0",
                     "last_commit": "2026-09-04T03:48:35Z",
-                    "open_issues": 155,
+                    "open_issues": 156,
                     "owner": "grumpycoders",
                     "repo": "pcsx-redux",
-                    "stars": 992,
+                    "stars": 993,
                     "topics": [
                       "playstation-emulator"
                     ]
@@ -11831,7 +11798,7 @@
                 "open_issues": 26,
                 "owner": "HexaEngine",
                 "repo": "Hexa.NET.ImGui",
-                "stars": 349,
+                "stars": 348,
                 "topics": [
                   "bindings",
                   "codegenerator",
@@ -12113,7 +12080,7 @@
                 "language": "Rust",
                 "license": "MIT",
                 "last_commit": "2026-07-21T19:01:20Z",
-                "open_issues": 8,
+                "open_issues": 7,
                 "owner": "AetiasHax",
                 "repo": "ds-rom",
                 "stars": 27,
@@ -12883,7 +12850,7 @@
                     "open_issues": 86,
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4252,
+                    "stars": 4254,
                     "topics": [
                       "noclip"
                     ]
@@ -12906,7 +12873,7 @@
                     "open_issues": 167,
                     "owner": "glKarin",
                     "repo": "com.n0n3m4.diii4a",
-                    "stars": 600,
+                    "stars": 601,
                     "topics": [
                       "android",
                       "diii4a",
@@ -13024,8 +12991,8 @@
                         "id": 809858184,
                         "language": "C++",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-09-04T11:49:41Z",
-                        "open_issues": 9,
+                        "last_commit": "2026-09-07T09:20:15Z",
+                        "open_issues": 10,
                         "owner": "SpectrumQT",
                         "repo": "XXMI-Libs-Package",
                         "stars": 69,
@@ -13045,7 +13012,7 @@
                     "open_issues": 8,
                     "owner": "SpectrumQT",
                     "repo": "XXMI-Launcher",
-                    "stars": 2853,
+                    "stars": 2855,
                     "topics": []
                   },
                   "first_seen": "2026-09-01T10:12:56.137Z"
@@ -13062,11 +13029,11 @@
                     "id": 1358940,
                     "language": "C++",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-09-05T22:03:22Z",
-                    "open_issues": 45,
+                    "last_commit": "2026-09-07T05:34:13Z",
+                    "open_issues": 44,
                     "owner": "scummvm",
                     "repo": "scummvm",
-                    "stars": 2801,
+                    "stars": 2803,
                     "topics": [
                       "adventure-engine",
                       "adventure-games",
@@ -13088,11 +13055,11 @@
                     "id": 16473475,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-05T17:34:54Z",
+                    "last_commit": "2026-09-06T17:35:31Z",
                     "open_issues": 94,
                     "owner": "bo3b",
                     "repo": "3Dmigoto",
-                    "stars": 1215,
+                    "stars": 1216,
                     "topics": []
                   },
                   "first_seen": "2026-09-01T10:12:56.137Z"
@@ -13155,7 +13122,7 @@
                     "open_issues": 38,
                     "owner": "johnzero7",
                     "repo": "XNALaraMesh",
-                    "stars": 595,
+                    "stars": 596,
                     "topics": [
                       "addon",
                       "blender",
@@ -13205,7 +13172,7 @@
                     "open_issues": 2,
                     "owner": "YuriSizuku",
                     "repo": "GalgameReverse",
-                    "stars": 466,
+                    "stars": 467,
                     "topics": [
                       "galgame",
                       "localization",
@@ -13438,7 +13405,7 @@
                     "open_issues": 0,
                     "owner": "julixian",
                     "repo": "MyVisualNovelTransTools",
-                    "stars": 91,
+                    "stars": 92,
                     "topics": []
                   },
                   "first_seen": "2026-09-05T09:09:02.141Z"
@@ -13566,7 +13533,7 @@
                     "id": 986909003,
                     "language": "Rust",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-09-06T07:50:01Z",
+                    "last_commit": "2026-09-06T13:30:17Z",
                     "open_issues": 3,
                     "owner": "lifegpc",
                     "repo": "msg-tool",
@@ -13842,7 +13809,7 @@
                     "id": 239608148,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-04T19:56:39Z",
+                    "last_commit": "2026-09-06T17:48:42Z",
                     "open_issues": 0,
                     "owner": "bunnytrack",
                     "repo": "unreal-package-reader",
@@ -14092,7 +14059,7 @@
                     "id": 1312984205,
                     "language": "JavaScript",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-06T08:09:16Z",
+                    "last_commit": "2026-09-07T00:19:33Z",
                     "open_issues": 0,
                     "owner": "Fabulu",
                     "repo": "Mixup",
@@ -14384,7 +14351,7 @@
                     "open_issues": 173,
                     "owner": "Perfare",
                     "repo": "Zygisk-Il2CppDumper",
-                    "stars": 3282,
+                    "stars": 3285,
                     "topics": [
                       "android",
                       "il2cpp",
@@ -14410,10 +14377,10 @@
                     "language": "Python",
                     "license": "NOASSERTION",
                     "last_commit": "2026-09-02T16:43:57Z",
-                    "open_issues": 601,
+                    "open_issues": 602,
                     "owner": "ArchipelagoMW",
                     "repo": "Archipelago",
-                    "stars": 1640,
+                    "stars": 1644,
                     "topics": [
                       "alttp",
                       "archipelago",
@@ -14441,7 +14408,7 @@
                     "open_issues": 19,
                     "owner": "marcrobledo",
                     "repo": "RomPatcher.js",
-                    "stars": 1190,
+                    "stars": 1192,
                     "topics": [
                       "ips",
                       "patcher",
@@ -14510,7 +14477,7 @@
                     "open_issues": 16,
                     "owner": "bucanero",
                     "repo": "apollo-ps4",
-                    "stars": 631,
+                    "stars": 632,
                     "topics": [
                       "ps4",
                       "save-editor",
@@ -14534,7 +14501,7 @@
                     "language": "C",
                     "license": "GPL-3.0",
                     "last_commit": "2026-05-02T21:03:33Z",
-                    "open_issues": 21,
+                    "open_issues": 22,
                     "owner": "bucanero",
                     "repo": "apollo-ps3",
                     "stars": 594,
@@ -14562,7 +14529,7 @@
                     "language": "Python",
                     "license": null,
                     "last_commit": "2026-07-12T17:54:11Z",
-                    "open_issues": 2,
+                    "open_issues": 3,
                     "owner": "command-tab",
                     "repo": "awesome-n64-development",
                     "stars": 576,
@@ -14624,8 +14591,8 @@
                     "id": 102759628,
                     "language": "Python",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-09-05T20:10:22Z",
-                    "open_issues": 324,
+                    "last_commit": "2026-09-07T08:56:17Z",
+                    "open_issues": 326,
                     "owner": "randovania",
                     "repo": "randovania",
                     "stars": 217,
@@ -14885,8 +14852,8 @@
                     "id": 9764678,
                     "language": "Jupyter Notebook",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-09-05T13:19:26Z",
-                    "open_issues": 27,
+                    "last_commit": "2026-09-06T20:08:35Z",
+                    "open_issues": 26,
                     "owner": "happycube",
                     "repo": "ld-decode",
                     "stars": 411,
@@ -15044,8 +15011,8 @@
                     "id": 1335432664,
                     "language": "C",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-09-04T02:56:28Z",
-                    "open_issues": 1,
+                    "last_commit": "2026-09-07T03:50:18Z",
+                    "open_issues": 0,
                     "owner": "rhakka303",
                     "repo": "Hypdroid",
                     "stars": 2,
@@ -15124,7 +15091,7 @@
                     "open_issues": 3,
                     "owner": "vawser",
                     "repo": "Smithbox",
-                    "stars": 711,
+                    "stars": 712,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -15142,10 +15109,10 @@
                     "language": "C++",
                     "license": "MIT",
                     "last_commit": "2026-09-02T23:27:28Z",
-                    "open_issues": 155,
+                    "open_issues": 157,
                     "owner": "Kenix3",
                     "repo": "libultraship",
-                    "stars": 342,
+                    "stars": 343,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -15357,7 +15324,7 @@
                     "open_issues": 0,
                     "owner": "JKAnderson",
                     "repo": "Nuxe",
-                    "stars": 42,
+                    "stars": 44,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -15841,11 +15808,11 @@
                 "id": 148701053,
                 "language": "C#",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-03T02:25:42Z",
-                "open_issues": 334,
+                "last_commit": "2026-09-07T02:25:25Z",
+                "open_issues": 336,
                 "owner": "UnderminersTeam",
                 "repo": "UndertaleModTool",
-                "stars": 2036,
+                "stars": 2038,
                 "topics": [
                   "decompiler",
                   "deltarune",
@@ -16282,7 +16249,7 @@
                     "open_issues": 2124,
                     "owner": "ValveSoftware",
                     "repo": "halflife",
-                    "stars": 4363,
+                    "stars": 4364,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -16303,7 +16270,7 @@
                     "open_issues": 86,
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4252,
+                    "stars": 4254,
                     "topics": [
                       "noclip"
                     ]
@@ -16326,7 +16293,7 @@
                     "open_issues": 86,
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4252,
+                    "stars": 4254,
                     "topics": [
                       "noclip"
                     ]
@@ -16345,11 +16312,11 @@
                     "id": 127814982,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-09-05T17:50:09Z",
+                    "last_commit": "2026-09-06T23:43:34Z",
                     "open_issues": 445,
                     "owner": "FWGS",
                     "repo": "xash3d-fwgs",
-                    "stars": 2762,
+                    "stars": 2763,
                     "topics": [
                       "c-language",
                       "cross-platform",
@@ -16387,11 +16354,11 @@
                     "id": 42366054,
                     "language": "C#",
                     "license": "MIT",
-                    "last_commit": "2026-09-05T17:59:13Z",
+                    "last_commit": "2026-09-07T08:28:10Z",
                     "open_issues": 67,
                     "owner": "ValveResourceFormat",
                     "repo": "ValveResourceFormat",
-                    "stars": 2413,
+                    "stars": 2414,
                     "topics": [
                       "csharp",
                       "decompiler",
@@ -16421,10 +16388,10 @@
                     "language": "C++",
                     "license": "NOASSERTION",
                     "last_commit": "2025-11-25T03:33:03Z",
-                    "open_issues": 130,
+                    "open_issues": 131,
                     "owner": "nillerusr",
                     "repo": "source-engine",
-                    "stars": 2221,
+                    "stars": 2224,
                     "topics": [
                       "cross-platform",
                       "game-engine",
@@ -16498,7 +16465,7 @@
                     "open_issues": 46,
                     "owner": "ZeqMacaw",
                     "repo": "Crowbar",
-                    "stars": 821,
+                    "stars": 823,
                     "topics": [
                       "compile",
                       "crowbar",
@@ -16547,10 +16514,10 @@
                     "language": "C++",
                     "license": "MIT",
                     "last_commit": "2026-08-27T23:19:50Z",
-                    "open_issues": 130,
+                    "open_issues": 131,
                     "owner": "rehlds",
                     "repo": "ReGameDLL_CS",
-                    "stars": 779,
+                    "stars": 780,
                     "topics": [
                       "condition-zero",
                       "counter-strike",
@@ -16630,11 +16597,11 @@
                     "id": 52468951,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-08-27T14:47:45Z",
+                    "last_commit": "2026-09-07T07:27:18Z",
                     "open_issues": 49,
                     "owner": "FWGS",
                     "repo": "hlsdk-portable",
-                    "stars": 401,
+                    "stars": 402,
                     "topics": [
                       "crossplatform",
                       "goldsource",
@@ -16741,7 +16708,7 @@
                     "id": 331200835,
                     "language": "C++",
                     "license": "MIT",
-                    "last_commit": "2026-09-06T07:37:16Z",
+                    "last_commit": "2026-09-07T09:23:11Z",
                     "open_issues": 36,
                     "owner": "hzqst",
                     "repo": "MetaHookSv",
@@ -17118,7 +17085,7 @@
                     "id": 834902743,
                     "language": "Python",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-05T21:15:11Z",
+                    "last_commit": "2026-09-06T11:45:26Z",
                     "open_issues": 0,
                     "owner": "dertwist",
                     "repo": "Hammer5Tools",
@@ -17223,7 +17190,7 @@
                     "id": 782350076,
                     "language": "Rust",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-09-05T18:37:12Z",
+                    "last_commit": "2026-09-06T14:52:03Z",
                     "open_issues": 19,
                     "owner": "khanghugo",
                     "repo": "gchimp",
@@ -17348,7 +17315,7 @@
                     "open_issues": 0,
                     "owner": "K4ryuu",
                     "repo": "IDA-GameDataTracker",
-                    "stars": 18,
+                    "stars": 19,
                     "topics": [
                       "counter-strike",
                       "counter-strike-2",
@@ -17759,7 +17726,7 @@
                     "language": "C",
                     "license": "Unlicense",
                     "last_commit": "2026-09-05T21:16:06Z",
-                    "open_issues": 13,
+                    "open_issues": 16,
                     "owner": "wootguy",
                     "repo": "bspguy",
                     "stars": 183,
@@ -17836,7 +17803,7 @@
                     "open_issues": 84,
                     "owner": "TeamSpen210",
                     "repo": "HammerAddons",
-                    "stars": 158,
+                    "stars": 157,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -19364,11 +19331,11 @@
                     "id": 68501384,
                     "language": "C#",
                     "license": "MIT",
-                    "last_commit": "2026-09-04T16:27:45Z",
+                    "last_commit": "2026-09-07T08:03:01Z",
                     "open_issues": 0,
                     "owner": "ValveResourceFormat",
                     "repo": "ValvePak",
-                    "stars": 151,
+                    "stars": 152,
                     "topics": [
                       "csharp",
                       "dotnet",
@@ -19590,7 +19557,7 @@
                     "id": 52661787,
                     "language": "C#",
                     "license": "MIT",
-                    "last_commit": "2026-08-29T08:46:57Z",
+                    "last_commit": "2026-09-07T08:39:49Z",
                     "open_issues": 9,
                     "owner": "ValveResourceFormat",
                     "repo": "ValveKeyValue",
@@ -19811,7 +19778,7 @@
                     "open_issues": 16,
                     "owner": "REDxEYE",
                     "repo": "SourceIO",
-                    "stars": 963,
+                    "stars": 962,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -19832,7 +19799,7 @@
                     "open_issues": 33,
                     "owner": "lasa01",
                     "repo": "Plumber",
-                    "stars": 501,
+                    "stars": 503,
                     "topics": [
                       "blender",
                       "blender-addon",
@@ -20119,8 +20086,8 @@
                     "id": 1306659309,
                     "language": "JavaScript",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-09-06T09:26:58Z",
-                    "open_issues": 6,
+                    "last_commit": "2026-09-07T10:20:33Z",
+                    "open_issues": 10,
                     "owner": "TheFleece",
                     "repo": "dota2-mod-manager",
                     "stars": 25,
@@ -20154,7 +20121,7 @@
                     "id": 1328997811,
                     "language": "Rust",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-05T16:40:16Z",
+                    "last_commit": "2026-09-06T22:32:14Z",
                     "open_issues": 1,
                     "owner": "goldsrc-rs",
                     "repo": "goldsrc-rs",
@@ -20369,7 +20336,7 @@
                     "open_issues": 86,
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4252,
+                    "stars": 4254,
                     "topics": [
                       "noclip"
                     ]
@@ -20499,7 +20466,7 @@
                     "open_issues": 146,
                     "owner": "nesrak1",
                     "repo": "UABEA",
-                    "stars": 2415,
+                    "stars": 2416,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -20520,7 +20487,7 @@
                     "open_issues": 52,
                     "owner": "aelurum",
                     "repo": "AssetStudioMod",
-                    "stars": 2045,
+                    "stars": 2048,
                     "topics": [
                       "arknights",
                       "assetstudio",
@@ -20547,7 +20514,7 @@
                     "open_issues": 29,
                     "owner": "zhangjiequan",
                     "repo": "AssetStudio",
-                    "stars": 1850,
+                    "stars": 1851,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -20568,7 +20535,7 @@
                     "open_issues": 20,
                     "owner": "K0lb3",
                     "repo": "UnityPy",
-                    "stars": 1427,
+                    "stars": 1428,
                     "topics": [
                       "assetstudio",
                       "data-mining",
@@ -20598,7 +20565,7 @@
                     "open_issues": 23,
                     "owner": "Escartem",
                     "repo": "AnimeStudio",
-                    "stars": 1133,
+                    "stars": 1139,
                     "topics": [
                       "arknights-endfield",
                       "asset-studio",
@@ -20625,7 +20592,7 @@
                     "open_issues": 48,
                     "owner": "HearthSim",
                     "repo": "UnityPack",
-                    "stars": 750,
+                    "stars": 751,
                     "topics": [
                       "disunity",
                       "python",
@@ -20673,7 +20640,7 @@
                     "open_issues": 4,
                     "owner": "nesrak1",
                     "repo": "UABEANext",
-                    "stars": 392,
+                    "stars": 393,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -21172,7 +21139,7 @@
                     "open_issues": 154,
                     "owner": "Perfare",
                     "repo": "Il2CppDumper",
-                    "stars": 9370,
+                    "stars": 9374,
                     "topics": [
                       "il2cpp",
                       "reverse-engineering",
@@ -21224,7 +21191,7 @@
                     "open_issues": 44,
                     "owner": "SamboyCoding",
                     "repo": "Cpp2IL",
-                    "stars": 2615,
+                    "stars": 2617,
                     "topics": [
                       "analysis",
                       "decompiler",
@@ -21249,8 +21216,8 @@
                     "id": 337138376,
                     "language": "TypeScript",
                     "license": "MIT",
-                    "last_commit": "2026-09-05T20:12:25Z",
-                    "open_issues": 38,
+                    "last_commit": "2026-09-06T13:07:32Z",
+                    "open_issues": 37,
                     "owner": "vfsfitvnm",
                     "repo": "frida-il2cpp-bridge",
                     "stars": 1734,
@@ -21771,7 +21738,7 @@
                     "open_issues": 0,
                     "owner": "Batchhh",
                     "repo": "il2cpp-bridge-rs",
-                    "stars": 17,
+                    "stars": 18,
                     "topics": [
                       "android",
                       "cross-platform",
@@ -22036,7 +22003,7 @@
                     "open_issues": 381,
                     "owner": "BepInEx",
                     "repo": "BepInEx",
-                    "stars": 8591,
+                    "stars": 8596,
                     "topics": [
                       "bepinex",
                       "framework",
@@ -22071,7 +22038,7 @@
                     "open_issues": 447,
                     "owner": "bbepis",
                     "repo": "XUnity.AutoTranslator",
-                    "stars": 3388,
+                    "stars": 3389,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -22425,7 +22392,7 @@
                     "open_issues": 560,
                     "owner": "OldUnreal",
                     "repo": "UnrealTournamentPatches",
-                    "stars": 1479,
+                    "stars": 1480,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -22442,7 +22409,7 @@
                     "id": 317931014,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-05T23:58:24Z",
+                    "last_commit": "2026-09-06T19:36:49Z",
                     "open_issues": 11,
                     "owner": "dpjudas",
                     "repo": "SurrealEngine",
@@ -22498,7 +22465,7 @@
                     "id": 298078482,
                     "language": "C#",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-09-05T20:18:04Z",
+                    "last_commit": "2026-09-06T18:26:16Z",
                     "open_issues": 27,
                     "owner": "FabianFG",
                     "repo": "CUE4Parse",
@@ -22523,7 +22490,7 @@
                     "open_issues": 5,
                     "owner": "atenfyr",
                     "repo": "UAssetAPI",
-                    "stars": 488,
+                    "stars": 489,
                     "topics": [
                       "api",
                       "c-sharp",
@@ -22586,7 +22553,7 @@
                     "open_issues": 0,
                     "owner": "JsonAsAsset",
                     "repo": "Reflection",
-                    "stars": 373,
+                    "stars": 374,
                     "topics": [
                       "fmodel",
                       "fortnite",
@@ -22614,7 +22581,7 @@
                     "open_issues": 0,
                     "owner": "JsonAsAsset",
                     "repo": "Reflection",
-                    "stars": 373,
+                    "stars": 374,
                     "topics": [
                       "fmodel",
                       "fortnite",
@@ -22642,7 +22609,7 @@
                     "open_issues": 2,
                     "owner": "h4lfheart",
                     "repo": "UEFormat",
-                    "stars": 332,
+                    "stars": 333,
                     "topics": [
                       "b3d",
                       "cue4parse",
@@ -22807,7 +22774,7 @@
                     "open_issues": 0,
                     "owner": "JsonAsAsset",
                     "repo": "Core",
-                    "stars": 27,
+                    "stars": 28,
                     "topics": [
                       "app",
                       "avalonia",
@@ -22829,7 +22796,7 @@
                     "id": 735606109,
                     "language": "C#",
                     "license": "MIT",
-                    "last_commit": "2026-09-05T04:08:15Z",
+                    "last_commit": "2026-09-06T20:12:08Z",
                     "open_issues": 1,
                     "owner": "PedroMartinsMenezes",
                     "repo": "AssetTools",
@@ -22968,7 +22935,7 @@
                     "open_issues": 13,
                     "owner": "4sval",
                     "repo": "FModel",
-                    "stars": 3120,
+                    "stars": 3121,
                     "topics": [
                       "dotnet",
                       "explorer",
@@ -23008,7 +22975,7 @@
                     "open_issues": 25,
                     "owner": "gildor2",
                     "repo": "UEViewer",
-                    "stars": 2920,
+                    "stars": 2922,
                     "topics": [
                       "3d",
                       "actorx",
@@ -23330,7 +23297,7 @@
                     "id": 982104349,
                     "language": "C#",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-09-05T18:38:05Z",
+                    "last_commit": "2026-09-07T00:23:59Z",
                     "open_issues": 0,
                     "owner": "FModel",
                     "repo": "Snooper",
@@ -23376,8 +23343,8 @@
                     "id": 1234198605,
                     "language": "Rust",
                     "license": "MIT",
-                    "last_commit": "2026-09-03T19:21:51Z",
-                    "open_issues": 40,
+                    "last_commit": "2026-09-06T18:27:25Z",
+                    "open_issues": 39,
                     "owner": "r6e",
                     "repo": "paksmith",
                     "stars": 3,
@@ -23448,7 +23415,7 @@
                     "open_issues": 213,
                     "owner": "praydog",
                     "repo": "UEVR",
-                    "stars": 4492,
+                    "stars": 4495,
                     "topics": [
                       "cmkr",
                       "cpp",
@@ -23478,7 +23445,7 @@
                     "open_issues": 38,
                     "owner": "Encryqed",
                     "repo": "Dumper-7",
-                    "stars": 2242,
+                    "stars": 2246,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -23499,7 +23466,7 @@
                     "open_issues": 0,
                     "owner": "Spuckwaffel",
                     "repo": "UEDumper",
-                    "stars": 1391,
+                    "stars": 1392,
                     "topics": [
                       "dumper",
                       "unreal-engine",
@@ -23525,7 +23492,7 @@
                     "open_issues": 26,
                     "owner": "kp7742",
                     "repo": "UE4Dumper",
-                    "stars": 953,
+                    "stars": 954,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -23567,7 +23534,7 @@
                     "open_issues": 18,
                     "owner": "MJx0",
                     "repo": "AndUEDumper",
-                    "stars": 474,
+                    "stars": 476,
                     "topics": [
                       "android",
                       "dumper",
@@ -23616,7 +23583,7 @@
                     "open_issues": 0,
                     "owner": "Cranch-fur",
                     "repo": "UETools-GUI",
-                    "stars": 80,
+                    "stars": 81,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -24219,7 +24186,7 @@
                     "open_issues": 263,
                     "owner": "UE4SS-RE",
                     "repo": "RE-UE4SS",
-                    "stars": 2873,
+                    "stars": 2875,
                     "topics": [
                       "lua",
                       "mod-loader",
@@ -24285,7 +24252,7 @@
                     "open_issues": 0,
                     "owner": "Dmgvol",
                     "repo": "UE_Modding",
-                    "stars": 588,
+                    "stars": 590,
                     "topics": [
                       "modding",
                       "modding-guide",
@@ -25847,7 +25814,7 @@
                 "open_issues": 13,
                 "owner": "OpenAWE-Project",
                 "repo": "OpenAWE",
-                "stars": 213,
+                "stars": 214,
                 "topics": [
                   "alan-wake",
                   "alan-wakes-american-nightmare",
@@ -26026,7 +25993,7 @@
                 "open_issues": 115,
                 "owner": "NBlood",
                 "repo": "NBlood",
-                "stars": 801,
+                "stars": 802,
                 "topics": [
                   "blood",
                   "build-engine",
@@ -26585,11 +26552,11 @@
                 "id": 3297519,
                 "language": "C++",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-01T16:28:12Z",
-                "open_issues": 436,
+                "last_commit": "2026-09-06T09:55:54Z",
+                "open_issues": 434,
                 "owner": "EasyRPG",
                 "repo": "Player",
-                "stars": 1220,
+                "stars": 1221,
                 "topics": [
                   "3ds-homebrew",
                   "cross-platform",
@@ -26699,7 +26666,7 @@
                 "language": "C++",
                 "license": "GPL-3.0",
                 "last_commit": "2026-07-06T08:19:52Z",
-                "open_issues": 46,
+                "open_issues": 47,
                 "owner": "EasyRPG",
                 "repo": "Editor",
                 "stars": 426,
@@ -26787,7 +26754,7 @@
                 "open_issues": 41,
                 "owner": "EasyRPG",
                 "repo": "liblcf",
-                "stars": 139,
+                "stars": 140,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -27032,7 +26999,7 @@
                 "open_issues": 11,
                 "owner": "CensoredUsername",
                 "repo": "unrpyc",
-                "stars": 1243,
+                "stars": 1245,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -27076,7 +27043,7 @@
                 "id": 680804254,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-08-22T06:02:03Z",
+                "last_commit": "2026-09-07T08:02:09Z",
                 "open_issues": 2,
                 "owner": "cnfatal",
                 "repo": "rpycdec",
@@ -27182,7 +27149,7 @@
                 "language": "C",
                 "license": "GPL-2.0",
                 "last_commit": "2026-08-26T01:54:22Z",
-                "open_issues": 6,
+                "open_issues": 7,
                 "owner": "nunuhara",
                 "repo": "xsystem4",
                 "stars": 95,
@@ -27437,7 +27404,7 @@
                 "open_issues": 3,
                 "owner": "marcussacana",
                 "repo": "MwareStuff",
-                "stars": 97,
+                "stars": 98,
                 "topics": [
                   "modding-tools",
                   "visual-novel"
@@ -29347,7 +29314,7 @@
                 "open_issues": 0,
                 "owner": "sakarie9",
                 "repo": "pfs-rs",
-                "stars": 41,
+                "stars": 43,
                 "topics": [
                   "artemis",
                   "galgame",
@@ -29852,7 +29819,7 @@
                 "id": 755216910,
                 "language": "Rust",
                 "license": "MPL-2.0",
-                "last_commit": "2026-09-05T14:17:08Z",
+                "last_commit": "2026-09-06T18:17:29Z",
                 "open_issues": 2,
                 "owner": "xmoezzz",
                 "repo": "rfvp",
@@ -30377,7 +30344,7 @@
                 "open_issues": 3,
                 "owner": "Danar435",
                 "repo": "kanon-restoration",
-                "stars": 13,
+                "stars": 14,
                 "topics": []
               },
               "first_seen": "2026-09-05T09:09:02.141Z"
@@ -31067,7 +31034,7 @@
                 "open_issues": 2,
                 "owner": "xmoezzz",
                 "repo": "siglus_rs",
-                "stars": 70,
+                "stars": 72,
                 "topics": []
               },
               "first_seen": "2026-09-05T09:09:02.141Z"
@@ -31106,7 +31073,7 @@
                 "id": 1124464328,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-06T07:43:11Z",
+                "last_commit": "2026-09-07T06:23:46Z",
                 "open_issues": 0,
                 "owner": "Jirehlov",
                 "repo": "SiglusSceneScriptUtility",
@@ -31535,7 +31502,7 @@
                 "open_issues": 0,
                 "owner": "hiroshil",
                 "repo": "atxImageTool",
-                "stars": 2,
+                "stars": 3,
                 "topics": [
                   "catsystem2",
                   "unity"
@@ -32349,7 +32316,7 @@
                     "open_issues": 41,
                     "owner": "curiousdannii",
                     "repo": "parchment",
-                    "stars": 486,
+                    "stars": 487,
                     "topics": [
                       "emulator",
                       "interactive-fiction"
@@ -32369,8 +32336,8 @@
                     "id": 32666960,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-09-06T00:53:29Z",
-                    "open_issues": 50,
+                    "last_commit": "2026-09-07T03:54:44Z",
+                    "open_issues": 47,
                     "owner": "garglk",
                     "repo": "garglk",
                     "stars": 426,
@@ -32480,7 +32447,7 @@
                     "id": 1011345,
                     "language": "C",
                     "license": "GPL-2.0",
-                    "last_commit": "2026-08-24T11:30:36Z",
+                    "last_commit": "2026-09-06T20:37:00Z",
                     "open_issues": 6,
                     "owner": "DavidKinder",
                     "repo": "Windows-Frotz",
@@ -32505,7 +32472,7 @@
                     "open_issues": 13,
                     "owner": "curiousdannii",
                     "repo": "ifvms.js",
-                    "stars": 99,
+                    "stars": 100,
                     "topics": [
                       "emulator",
                       "interactive-fiction",
@@ -33213,11 +33180,11 @@
                 "id": 43618365,
                 "language": "C#",
                 "license": "MIT",
-                "last_commit": "2026-08-11T02:36:15Z",
+                "last_commit": "2026-09-07T03:49:17Z",
                 "open_issues": 3,
                 "owner": "YarnSpinnerTool",
                 "repo": "YarnSpinner",
-                "stars": 2835,
+                "stars": 2836,
                 "topics": [
                   "dialogue",
                   "dialogue-manager",
@@ -33658,7 +33625,7 @@
                 "open_issues": 3,
                 "owner": "adm244",
                 "repo": "AGSUnpacker",
-                "stars": 44,
+                "stars": 46,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -33675,7 +33642,7 @@
                 "id": 1285395771,
                 "language": "C",
                 "license": "CC0-1.0",
-                "last_commit": "2026-08-21T22:35:54Z",
+                "last_commit": "2026-09-07T09:59:33Z",
                 "open_issues": 0,
                 "owner": "adm244",
                 "repo": "ags2_decomp",
@@ -33782,7 +33749,7 @@
                 "open_issues": 37,
                 "owner": "xoreos",
                 "repo": "xoreos",
-                "stars": 1169,
+                "stars": 1170,
                 "topics": [
                   "aurora",
                   "bioware",
@@ -34410,11 +34377,11 @@
                 "id": 183483988,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-06T00:15:00Z",
-                "open_issues": 5632,
+                "last_commit": "2026-09-07T07:07:39Z",
+                "open_issues": 5616,
                 "owner": "ruffle-rs",
                 "repo": "ruffle",
-                "stars": 18498,
+                "stars": 18503,
                 "topics": [
                   "emulator",
                   "flash",
@@ -34491,7 +34458,7 @@
                 "open_issues": 40,
                 "owner": "GDRETools",
                 "repo": "gdsdecomp",
-                "stars": 4166,
+                "stars": 4169,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -34795,7 +34762,7 @@
                 "open_issues": 86,
                 "owner": "magcius",
                 "repo": "noclip.website",
-                "stars": 4252,
+                "stars": 4254,
                 "topics": [
                   "noclip"
                 ]
@@ -34814,11 +34781,11 @@
                 "id": 745908488,
                 "language": "C++",
                 "license": "MIT",
-                "last_commit": "2026-09-03T00:00:58Z",
+                "last_commit": "2026-09-06T21:38:43Z",
                 "open_issues": 89,
                 "owner": "rt64",
                 "repo": "rt64",
-                "stars": 1587,
+                "stars": 1588,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -34839,7 +34806,7 @@
                 "open_issues": 78,
                 "owner": "Fast-64",
                 "repo": "fast64",
-                "stars": 533,
+                "stars": 532,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -35149,7 +35116,7 @@
               "description": "Noesis plugin for Havok format.",
               "children": [],
               "repo_info": {
-                "archived": false,
+                "archived": true,
                 "description": "Noesis plugin for Havok format.",
                 "homepage": null,
                 "id": 186453103,
@@ -35381,7 +35348,7 @@
                 "open_issues": 86,
                 "owner": "magcius",
                 "repo": "noclip.website",
-                "stars": 4252,
+                "stars": 4254,
                 "topics": [
                   "noclip"
                 ]
@@ -35404,7 +35371,7 @@
                 "open_issues": 12,
                 "owner": "encounter",
                 "repo": "aurora",
-                "stars": 485,
+                "stars": 486,
                 "topics": [
                   "compatibility-layer",
                   "dawn",
@@ -36641,7 +36608,7 @@
                 "open_issues": 16,
                 "owner": "isadorasophia",
                 "repo": "murder",
-                "stars": 3320,
+                "stars": 3319,
                 "topics": [
                   "fna",
                   "game-engine",
@@ -36782,7 +36749,7 @@
                 "open_issues": 13,
                 "owner": "MMD-Blender",
                 "repo": "blender_mmd_tools",
-                "stars": 3234,
+                "stars": 3236,
                 "topics": [
                   "blender-addon",
                   "mmd"
@@ -36806,7 +36773,7 @@
                 "open_issues": 18,
                 "owner": "MMD-Blender",
                 "repo": "blender_mmd_tools_append",
-                "stars": 646,
+                "stars": 645,
                 "topics": [
                   "blender-addon",
                   "mmd"
@@ -36920,7 +36887,7 @@
                 "open_issues": 7,
                 "owner": "wang606",
                 "repo": "SpineSkeletonDataConverter",
-                "stars": 395,
+                "stars": 397,
                 "topics": [
                   "json2skel",
                   "skel2json",
@@ -37057,7 +37024,7 @@
                 "open_issues": 50,
                 "owner": "aap",
                 "repo": "librw",
-                "stars": 810,
+                "stars": 811,
                 "topics": [
                   "3d-engine",
                   "reimplementation",
@@ -37478,7 +37445,7 @@
                 "open_issues": 4,
                 "owner": "kohos",
                 "repo": "CriTools",
-                "stars": 123,
+                "stars": 124,
                 "topics": [
                   "acb",
                   "awb",
@@ -37649,7 +37616,7 @@
                 "id": 1071172611,
                 "language": "Rust",
                 "license": "GPL-3.0",
-                "last_commit": "2026-09-05T06:31:59Z",
+                "last_commit": "2026-09-06T12:11:22Z",
                 "open_issues": 0,
                 "owner": "rirurin",
                 "repo": "cri-archive-lib",
@@ -37842,7 +37809,7 @@
                 "id": 48347702,
                 "language": "C#",
                 "license": null,
-                "last_commit": "2026-09-06T03:59:54Z",
+                "last_commit": "2026-09-07T01:57:47Z",
                 "open_issues": 67,
                 "owner": "FNA-XNA",
                 "repo": "FNA",
@@ -37952,7 +37919,7 @@
                 "open_issues": 6,
                 "owner": "ipatix",
                 "repo": "agbplay",
-                "stars": 154,
+                "stars": 155,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -38562,11 +38529,11 @@
                     "id": 139088736,
                     "language": "C",
                     "license": "GPL-3.0",
-                    "last_commit": "2026-08-20T17:55:26Z",
-                    "open_issues": 90,
+                    "last_commit": "2026-09-06T13:14:19Z",
+                    "open_issues": 89,
                     "owner": "XorTroll",
                     "repo": "Goldleaf",
-                    "stars": 3033,
+                    "stars": 3035,
                     "topics": [
                       "hacktoberfest",
                       "homebrew",
@@ -38598,7 +38565,7 @@
                     "open_issues": 36,
                     "owner": "nicoboss",
                     "repo": "nsz",
-                    "stars": 2356,
+                    "stars": 2358,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -38619,7 +38586,7 @@
                     "open_issues": 25,
                     "owner": "julesontheroad",
                     "repo": "NSC_BUILDER",
-                    "stars": 2041,
+                    "stars": 2042,
                     "topics": []
                   },
                   "first_seen": "2026-09-01T10:12:56.137Z"
@@ -38640,7 +38607,7 @@
                     "open_issues": 19,
                     "owner": "DarkMatterCore",
                     "repo": "nxdumptool",
-                    "stars": 1288,
+                    "stars": 1290,
                     "topics": [
                       "dump",
                       "emmc",
@@ -38672,10 +38639,10 @@
                     "language": "Python",
                     "license": "GPL-3.0",
                     "last_commit": "2026-01-19T21:09:20Z",
-                    "open_issues": 76,
+                    "open_issues": 77,
                     "owner": "blawar",
                     "repo": "nut",
-                    "stars": 1269,
+                    "stars": 1271,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -38696,7 +38663,7 @@
                     "open_issues": 30,
                     "owner": "SciresM",
                     "repo": "hactool",
-                    "stars": 1180,
+                    "stars": 1181,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -38769,7 +38736,7 @@
                     "open_issues": 21,
                     "owner": "nadrino",
                     "repo": "SimpleModManager",
-                    "stars": 463,
+                    "stars": 464,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -39295,7 +39262,7 @@
                     "open_issues": 86,
                     "owner": "magcius",
                     "repo": "noclip.website",
-                    "stars": 4252,
+                    "stars": 4254,
                     "topics": [
                       "noclip"
                     ]
@@ -39625,7 +39592,7 @@
                         "open_issues": 8,
                         "owner": "ihaveamac",
                         "repo": "3dsconv",
-                        "stars": 640,
+                        "stars": 641,
                         "topics": [
                           "3ds",
                           "cci",
@@ -39716,7 +39683,7 @@
                         "open_issues": 2,
                         "owner": "ihaveamac",
                         "repo": "3DS-rom-tools",
-                        "stars": 440,
+                        "stars": 441,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T17:29:05.115Z"
@@ -39779,7 +39746,7 @@
                         "open_issues": 2,
                         "owner": "SabreTools",
                         "repo": "NDecrypt",
-                        "stars": 87,
+                        "stars": 88,
                         "topics": [
                           "encryption-decryption",
                           "research"
@@ -40722,7 +40689,7 @@
                         "open_issues": 30,
                         "owner": "BernardoGiordano",
                         "repo": "Checkpoint",
-                        "stars": 3070,
+                        "stars": 3071,
                         "topics": [
                           "3ds",
                           "3ds-homebrew",
@@ -40808,7 +40775,7 @@
                         "open_issues": 37,
                         "owner": "devkitPro",
                         "repo": "libctru",
-                        "stars": 957,
+                        "stars": 958,
                         "topics": [
                           "3ds",
                           "devkitarm",
@@ -41579,10 +41546,10 @@
                         "language": "C++",
                         "license": "NOASSERTION",
                         "last_commit": "2026-09-06T07:35:33Z",
-                        "open_issues": 460,
+                        "open_issues": 463,
                         "owner": "dolphin-emu",
                         "repo": "dolphin",
-                        "stars": 15487,
+                        "stars": 15492,
                         "topics": [
                           "cpp",
                           "emulation",
@@ -41609,7 +41576,7 @@
                         "open_issues": 86,
                         "owner": "magcius",
                         "repo": "noclip.website",
-                        "stars": 4252,
+                        "stars": 4254,
                         "topics": [
                           "noclip"
                         ]
@@ -41757,7 +41724,7 @@
                     "open_issues": 20,
                     "owner": "scurest",
                     "repo": "apicula",
-                    "stars": 227,
+                    "stars": 228,
                     "topics": [
                       "nds",
                       "nsbca",
@@ -41785,7 +41752,7 @@
                     "open_issues": 20,
                     "owner": "scurest",
                     "repo": "apicula",
-                    "stars": 227,
+                    "stars": 228,
                     "topics": [
                       "nds",
                       "nsbca",
@@ -41855,7 +41822,7 @@
                     "open_issues": 7,
                     "owner": "R-YaTian",
                     "repo": "TinkeDSi",
-                    "stars": 78,
+                    "stars": 79,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -41999,11 +41966,11 @@
                     "id": 686346604,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-08-17T00:31:55Z",
-                    "open_issues": 1,
+                    "last_commit": "2026-09-06T16:23:06Z",
+                    "open_issues": 0,
                     "owner": "ntrtwl",
                     "repo": "NitroSDK",
-                    "stars": 15,
+                    "stars": 16,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -42285,6 +42252,27 @@
                 },
                 {
                   "node_type": "item",
+                  "title": "NitroSystem",
+                  "description": "Nintendo DS system library.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Nintendo DS Graphics and Sound Libraries",
+                    "homepage": null,
+                    "id": 686353025,
+                    "language": "C",
+                    "license": null,
+                    "last_commit": "2026-02-26T04:33:53Z",
+                    "open_issues": 1,
+                    "owner": "ntrtwl",
+                    "repo": "NitroSystem",
+                    "stars": 3,
+                    "topics": []
+                  },
+                  "first_seen": "2026-08-28T17:29:05.115Z"
+                },
+                {
+                  "node_type": "item",
                   "title": "NitroSharp",
                   "description": "Nintendo DS file format library.",
                   "children": [],
@@ -42300,27 +42288,6 @@
                     "owner": "PlatinumMaster",
                     "repo": "NitroSharp",
                     "stars": 3,
-                    "topics": []
-                  },
-                  "first_seen": "2026-08-28T17:29:05.115Z"
-                },
-                {
-                  "node_type": "item",
-                  "title": "NitroSystem",
-                  "description": "Nintendo DS system library.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Nintendo DS Graphics and Sound Libraries",
-                    "homepage": null,
-                    "id": 686353025,
-                    "language": "C",
-                    "license": null,
-                    "last_commit": "2026-02-26T04:33:53Z",
-                    "open_issues": 1,
-                    "owner": "ntrtwl",
-                    "repo": "NitroSystem",
-                    "stars": 2,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -42543,7 +42510,7 @@
                     "language": "C",
                     "license": null,
                     "last_commit": "2026-04-19T14:02:50Z",
-                    "open_issues": 11,
+                    "open_issues": 12,
                     "owner": "decompals",
                     "repo": "ultralib",
                     "stars": 67,
@@ -42930,7 +42897,7 @@
                     "open_issues": 1,
                     "owner": "mstan",
                     "repo": "nesrecomp",
-                    "stars": 93,
+                    "stars": 95,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:29:05.115Z"
@@ -43252,8 +43219,8 @@
                         "id": 1334491829,
                         "language": "Python",
                         "license": "MIT",
-                        "last_commit": "2026-09-02T01:18:02Z",
-                        "open_issues": 1,
+                        "last_commit": "2026-09-07T06:22:08Z",
+                        "open_issues": 6,
                         "owner": "gufranco",
                         "repo": "snes-street-fighter-alpha-2-nochip",
                         "stars": 0,
@@ -43290,7 +43257,7 @@
                     "id": 1338752246,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:17:56Z",
+                    "last_commit": "2026-09-06T23:32:34Z",
                     "open_issues": 0,
                     "owner": "gufranco",
                     "repo": "snes-sdd1-python",
@@ -43332,7 +43299,7 @@
                     "id": 1340071452,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:17:44Z",
+                    "last_commit": "2026-09-06T23:16:49Z",
                     "open_issues": 1,
                     "owner": "gufranco",
                     "repo": "snes-driver-python",
@@ -43353,7 +43320,7 @@
                     "id": 1339753208,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:17:59Z",
+                    "last_commit": "2026-09-06T23:17:38Z",
                     "open_issues": 1,
                     "owner": "gufranco",
                     "repo": "snes-st-python",
@@ -43383,7 +43350,7 @@
                     "id": 1339047763,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:17:54Z",
+                    "last_commit": "2026-09-06T23:31:17Z",
                     "open_issues": 0,
                     "owner": "gufranco",
                     "repo": "snes-rtc-python",
@@ -43411,7 +43378,7 @@
                     "id": 1339574490,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:17:51Z",
+                    "last_commit": "2026-09-06T23:16:58Z",
                     "open_issues": 0,
                     "owner": "gufranco",
                     "repo": "snes-obc1-python",
@@ -43439,7 +43406,7 @@
                     "id": 1338745042,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T17:06:19Z",
+                    "last_commit": "2026-09-06T23:16:30Z",
                     "open_issues": 2,
                     "owner": "gufranco",
                     "repo": "snes-dsp-python",
@@ -43481,7 +43448,7 @@
                     "id": 1338817406,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:18:04Z",
+                    "last_commit": "2026-09-06T23:17:30Z",
                     "open_issues": 0,
                     "owner": "gufranco",
                     "repo": "sony-s-dsp-python",
@@ -43523,7 +43490,7 @@
                     "id": 1338736231,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:18:07Z",
+                    "last_commit": "2026-09-06T23:17:35Z",
                     "open_issues": 0,
                     "owner": "gufranco",
                     "repo": "sony-spc700-python",
@@ -43565,7 +43532,7 @@
                     "id": 1339586221,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:17:57Z",
+                    "last_commit": "2026-09-06T23:17:14Z",
                     "open_issues": 0,
                     "owner": "gufranco",
                     "repo": "snes-spc7110-python",
@@ -43593,7 +43560,7 @@
                     "id": 1339562780,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:17:48Z",
+                    "last_commit": "2026-09-06T23:17:29Z",
                     "open_issues": 0,
                     "owner": "gufranco",
                     "repo": "snes-graphics-python",
@@ -43621,7 +43588,7 @@
                     "id": 1338825053,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:17:50Z",
+                    "last_commit": "2026-09-06T23:15:49Z",
                     "open_issues": 0,
                     "owner": "gufranco",
                     "repo": "snes-mapper-python",
@@ -43663,7 +43630,7 @@
                     "id": 1336446869,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2026-09-02T01:17:53Z",
+                    "last_commit": "2026-09-06T23:17:02Z",
                     "open_issues": 1,
                     "owner": "gufranco",
                     "repo": "snes-rom-image-python",
@@ -43718,7 +43685,7 @@
                         "open_issues": 16,
                         "owner": "haven1433",
                         "repo": "HexManiacAdvance",
-                        "stars": 472,
+                        "stars": 474,
                         "topics": [
                           "hex-editor",
                           "pokemon-gba-games"
@@ -43742,7 +43709,7 @@
                         "open_issues": 6,
                         "owner": "arcanite24",
                         "repo": "gb-recompiled",
-                        "stars": 429,
+                        "stars": 430,
                         "topics": [
                           "recompiler"
                         ]
@@ -44178,7 +44145,7 @@
                         "open_issues": 0,
                         "owner": "JRickey",
                         "repo": "gba-recomp",
-                        "stars": 20,
+                        "stars": 21,
                         "topics": []
                       },
                       "first_seen": "2026-09-05T09:09:02.141Z"
@@ -44521,6 +44488,27 @@
                   "children": [
                     {
                       "node_type": "item",
+                      "title": "gbrom-tutorial",
+                      "description": "Tutorial for extracting the Game Boy boot ROM from die photographs.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "Tutorial for extracting the GameBoy ROM from photographs of the die.",
+                        "homepage": null,
+                        "id": 616638268,
+                        "language": null,
+                        "license": null,
+                        "last_commit": "2026-08-17T18:42:58Z",
+                        "open_issues": 0,
+                        "owner": "travisgoodspeed",
+                        "repo": "gbrom-tutorial",
+                        "stars": 1173,
+                        "topics": []
+                      },
+                      "first_seen": "2026-08-28T17:29:05.115Z"
+                    },
+                    {
+                      "node_type": "item",
                       "title": "metroboy",
                       "description": "Repository of gate-level simulators and reverse-engineering tools for the original Game Boy hardware.",
                       "children": [],
@@ -44549,27 +44537,6 @@
                     },
                     {
                       "node_type": "item",
-                      "title": "gbrom-tutorial",
-                      "description": "Tutorial for extracting the Game Boy boot ROM from die photographs.",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Tutorial for extracting the GameBoy ROM from photographs of the die.",
-                        "homepage": null,
-                        "id": 616638268,
-                        "language": null,
-                        "license": null,
-                        "last_commit": "2026-08-17T18:42:58Z",
-                        "open_issues": 0,
-                        "owner": "travisgoodspeed",
-                        "repo": "gbrom-tutorial",
-                        "stars": 1165,
-                        "topics": []
-                      },
-                      "first_seen": "2026-08-28T17:29:05.115Z"
-                    },
-                    {
-                      "node_type": "item",
                       "title": "FlashGBX",
                       "description": "Cross-platform (Windows/Linux/macOS) tool to read and write Game Boy and Game Boy Advance cartridge ROM and save data, including RTC registers, via GBxCart RW, GBFlash, Joey Jr, and Game Bub hardware.",
                       "children": [],
@@ -44584,7 +44551,7 @@
                         "open_issues": 37,
                         "owner": "Lesserkuma",
                         "repo": "FlashGBX",
-                        "stars": 860,
+                        "stars": 861,
                         "topics": []
                       },
                       "first_seen": "2026-08-31T11:39:44.707Z"
@@ -44605,7 +44572,7 @@
                         "open_issues": 0,
                         "owner": "Gekkio",
                         "repo": "gb-schematics",
-                        "stars": 698,
+                        "stars": 699,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T17:29:05.115Z"
@@ -44626,7 +44593,7 @@
                         "open_issues": 30,
                         "owner": "travisgoodspeed",
                         "repo": "maskromtool",
-                        "stars": 396,
+                        "stars": 404,
                         "topics": [
                           "maskrom",
                           "reverse-engineering",
@@ -44672,7 +44639,7 @@
                         "open_issues": 12,
                         "owner": "metroid-maniac",
                         "repo": "gba-auto-batteryless-patcher",
-                        "stars": 130,
+                        "stars": 131,
                         "topics": []
                       },
                       "first_seen": "2026-09-01T10:12:56.137Z"
@@ -44693,7 +44660,7 @@
                         "open_issues": 4,
                         "owner": "Lesserkuma",
                         "repo": "GBA_MultiMenu",
-                        "stars": 113,
+                        "stars": 114,
                         "topics": []
                       },
                       "first_seen": "2026-09-01T10:12:56.137Z"
@@ -44735,7 +44702,7 @@
                         "open_issues": 2,
                         "owner": "msinger",
                         "repo": "dmg-schematics",
-                        "stars": 48,
+                        "stars": 49,
                         "topics": [
                           "asic",
                           "chip",
@@ -44958,7 +44925,7 @@
                         "open_issues": 1,
                         "owner": "zenaror",
                         "repo": "NeoGB-Printer",
-                        "stars": 167,
+                        "stars": 168,
                         "topics": [
                           "bmp",
                           "bmp-image",
@@ -44995,7 +44962,7 @@
                             "open_issues": 0,
                             "owner": "Raphael-Boichot",
                             "repo": "GameboyPrinterPaperSimulation",
-                            "stars": 83,
+                            "stars": 84,
                             "topics": []
                           },
                           "first_seen": "2026-09-05T09:09:02.141Z"
@@ -45382,7 +45349,7 @@
                         "id": 168206692,
                         "language": "Markdown",
                         "license": null,
-                        "last_commit": "2026-08-12T15:04:40Z",
+                        "last_commit": "2026-09-07T06:42:40Z",
                         "open_issues": 2,
                         "owner": "kinnay",
                         "repo": "Nintendo-File-Formats",
@@ -46683,7 +46650,7 @@
                         "open_issues": 28,
                         "owner": "AmiiboDB",
                         "repo": "Amiibo",
-                        "stars": 2226,
+                        "stars": 2231,
                         "topics": [
                           "amiibo",
                           "nintendo",
@@ -46989,11 +46956,11 @@
                 "id": 119111364,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-09-05T18:19:34Z",
+                "last_commit": "2026-09-07T01:34:54Z",
                 "open_issues": 209,
                 "owner": "Vita3K",
                 "repo": "Vita3K",
-                "stars": 5688,
+                "stars": 5691,
                 "topics": [
                   "cpp",
                   "emulation",
@@ -47086,7 +47053,7 @@
                 "open_issues": 4,
                 "owner": "codestation",
                 "repo": "qcma",
-                "stars": 667,
+                "stars": 668,
                 "topics": [
                   "psvita",
                   "vita"
@@ -47131,7 +47098,7 @@
                 "open_issues": 17,
                 "owner": "marcussacana",
                 "repo": "DirectPackageInstaller",
-                "stars": 444,
+                "stars": 445,
                 "topics": []
               },
               "first_seen": "2026-08-31T11:39:44.707Z"
@@ -47221,11 +47188,11 @@
                 "id": 1178514664,
                 "language": "C",
                 "license": "MIT",
-                "last_commit": "2026-09-06T01:49:53Z",
-                "open_issues": 19,
+                "last_commit": "2026-09-06T19:14:53Z",
+                "open_issues": 6,
                 "owner": "sp00nznet",
                 "repo": "ps3recomp",
-                "stars": 303,
+                "stars": 305,
                 "topics": []
               },
               "first_seen": "2026-09-05T09:09:02.141Z"
@@ -47330,7 +47297,7 @@
                 "open_issues": 7,
                 "owner": "PSBrew",
                 "repo": "MkPFS",
-                "stars": 152,
+                "stars": 153,
                 "topics": []
               },
               "first_seen": "2026-08-31T11:39:44.707Z"
@@ -48619,7 +48586,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-06T09:30:38.233Z",
+    "last_updated": "2026-09-07T10:28:20.920Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of docs/tools/resources for reverse engineering and working with video game file formats.",
