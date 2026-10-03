@@ -42,7 +42,7 @@
                 "open_issues": 9,
                 "owner": "2439905184",
                 "repo": "Galgame-Engine-Collect",
-                "stars": 669,
+                "stars": 670,
                 "topics": [
                   "archive",
                   "collections",
@@ -235,7 +235,7 @@
                 "open_issues": 6,
                 "owner": "gbadev-org",
                 "repo": "awesome-gbadev",
-                "stars": 1344,
+                "stars": 1345,
                 "topics": [
                   "awesome-list",
                   "emulator-development",
@@ -329,7 +329,7 @@
                 "open_issues": 96,
                 "owner": "GerbilSoft",
                 "repo": "rom-properties",
-                "stars": 671,
+                "stars": 673,
                 "topics": [
                   "3ds",
                   "amiibo",
@@ -890,7 +890,7 @@
             "open_issues": 27,
             "owner": "ellisonleao",
             "repo": "magictools",
-            "stars": 17407,
+            "stars": 17410,
             "topics": [
               "art",
               "awesome",
@@ -1071,7 +1071,7 @@
             "open_issues": 3,
             "owner": "SamidyFR",
             "repo": "Game-Decompilations",
-            "stars": 224,
+            "stars": 226,
             "topics": [
               "awesome-list",
               "decompilations",
@@ -1144,7 +1144,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T04:47:58.536Z",
+    "last_updated": "2026-10-03T10:28:06.129Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of docs/tools/resources for reverse engineering and working with video game file formats.",
