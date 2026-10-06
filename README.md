@@ -273,7 +273,7 @@ This list is for developers and modders working with such formats. It provides t
 * [Awesome Unofficial PC Ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) ⭐ 828 | 🐛 6 | 📅 2026-10-05 - Curated list of fan-made, reverse-engineering-driven PC ports and static recompilations of console-only games.
 * [Awesome Software Reverse Engineering](https://github.com/ReversingID/Awesome-Reversing/blob/master/software-reversing.md) ⭐ 731 | 🐛 11 | 📅 2026-05-27 - Comprehensive list of reverse engineering software and tools.
 * [Awesome Game Decompilations](https://github.com/CharlotteCross1998/awesome-game-decompilations) ⭐ 630 | 🐛 4 | 📅 2026-08-02 - A curated list of awesome game decompilations.
-* [Game-Decompilations](https://github.com/SamidyFR/Game-Decompilations) ⭐ 276 | 🐛 4 | 🌐 HTML | 📅 2026-09-30 - Curated list of video game decompilation projects, documenting reverse-engineered game source code and asset parsing.
+* [Game-Decompilations](https://github.com/SamidyFR/Game-Decompilations) ⭐ 278 | 🐛 4 | 🌐 HTML | 📅 2026-09-30 - Curated list of video game decompilation projects, documenting reverse-engineered game source code and asset parsing.
 * [Awesome Modding](https://github.com/loicreynier/awesome-modding.bak) ⭐ 56 | 🐛 4 | 🌐 Nix | 📅 2025-11-24 - Resources for game modding and customization.
 * [Awesome-Game-Boy-Camera-and-Game-Boy-Printer-projects](https://github.com/Raphael-Boichot/Awesome-Game-Boy-Camera-and-Game-Boy-Printer-projects) ⭐ 43 | 🐛 0 | 🌐 Shell | 📅 2026-09-11 - Curated meta-list of Game Boy Camera and Game Boy Printer projects across the internet.
 

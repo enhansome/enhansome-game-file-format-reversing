@@ -1072,7 +1072,7 @@
             "open_issues": 4,
             "owner": "SamidyFR",
             "repo": "Game-Decompilations",
-            "stars": 276,
+            "stars": 278,
             "topics": [
               "awesome-list",
               "decompilations",
@@ -1145,7 +1145,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T10:24:41.341Z",
+    "last_updated": "2026-10-06T12:05:20.078Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of docs/tools/resources for reverse engineering and working with video game file formats.",
