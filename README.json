@@ -17,11 +17,11 @@
                 "id": 65680862,
                 "language": "JavaScript",
                 "license": null,
-                "last_commit": "2026-10-15T09:01:52Z",
-                "open_issues": 20,
+                "last_commit": "2026-10-15T22:47:30Z",
+                "open_issues": 17,
                 "owner": "RetroReversing",
                 "repo": "retroReversing",
-                "stars": 701,
+                "stars": 703,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -42,7 +42,7 @@
                 "open_issues": 9,
                 "owner": "2439905184",
                 "repo": "Galgame-Engine-Collect",
-                "stars": 673,
+                "stars": 674,
                 "topics": [
                   "archive",
                   "collections",
@@ -134,13 +134,13 @@
                 "description": "A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.",
                 "homepage": "https://gbdev.io/resources",
                 "id": 52347647,
-                "language": null,
+                "language": "JavaScript",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-14T18:01:59Z",
-                "open_issues": 24,
+                "last_commit": "2026-10-15T18:18:04Z",
+                "open_issues": 23,
                 "owner": "gbdev",
                 "repo": "awesome-gbdev",
-                "stars": 4531,
+                "stars": 4530,
                 "topics": [
                   "assembler",
                   "awesome",
@@ -392,7 +392,7 @@
                 "open_issues": 3,
                 "owner": "Gekkio",
                 "repo": "gb-ctr",
-                "stars": 438,
+                "stars": 439,
                 "topics": [
                   "game-boy",
                   "game-boy-hardware",
@@ -744,7 +744,7 @@
                 "open_issues": 4,
                 "owner": "kovidomi",
                 "repo": "game-reversing",
-                "stars": 1716,
+                "stars": 1717,
                 "topics": [
                   "assembly",
                   "game-hacking",
@@ -815,7 +815,7 @@
                     "open_issues": 10,
                     "owner": "dsasmblr",
                     "repo": "game-hacking",
-                    "stars": 5608,
+                    "stars": 5610,
                     "topics": [
                       "cheat-engine",
                       "game-hacking",
@@ -887,10 +887,10 @@
             "language": "Markdown",
             "license": "MIT",
             "last_commit": "2026-10-14T17:40:31Z",
-            "open_issues": 38,
+            "open_issues": 41,
             "owner": "ellisonleao",
             "repo": "magictools",
-            "stars": 17495,
+            "stars": 17498,
             "topics": [
               "art",
               "awesome",
@@ -928,7 +928,7 @@
             "open_issues": 19,
             "owner": "tylerha97",
             "repo": "awesome-reversing",
-            "stars": 4525,
+            "stars": 4527,
             "topics": []
           },
           "first_seen": "2026-10-02T11:10:14.434Z"
@@ -976,11 +976,11 @@
             "id": 614646577,
             "language": null,
             "license": "MIT",
-            "last_commit": "2026-10-07T04:59:03Z",
-            "open_issues": 10,
+            "last_commit": "2026-10-15T22:29:09Z",
+            "open_issues": 8,
             "owner": "Sebastrion",
             "repo": "awesome-unofficial-pc-ports",
-            "stars": 895,
+            "stars": 904,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1015,7 +1015,7 @@
             "open_issues": 14,
             "owner": "ReversingID",
             "repo": "Awesome-Reversing",
-            "stars": 743,
+            "stars": 744,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1038,10 +1038,10 @@
             "language": null,
             "license": null,
             "last_commit": "2026-10-12T21:05:49Z",
-            "open_issues": 2,
+            "open_issues": 4,
             "owner": "CharlotteCross1998",
             "repo": "awesome-game-decompilations",
-            "stars": 705,
+            "stars": 715,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1069,10 +1069,10 @@
             "language": "HTML",
             "license": null,
             "last_commit": "2026-10-13T20:21:24Z",
-            "open_issues": 9,
+            "open_issues": 14,
             "owner": "SamidyFR",
             "repo": "Game-Decompilations",
-            "stars": 531,
+            "stars": 562,
             "topics": [
               "awesome-list",
               "decompilations",
@@ -1131,7 +1131,7 @@
             "id": 846138377,
             "language": "Shell",
             "license": "GPL-3.0",
-            "last_commit": "2026-09-11T11:25:48Z",
+            "last_commit": "2026-10-16T09:34:35Z",
             "open_issues": 0,
             "owner": "Raphael-Boichot",
             "repo": "Awesome-Game-Boy-Camera-and-Game-Boy-Printer-projects",
@@ -1145,7 +1145,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-15T10:03:21.383Z",
+    "last_updated": "2026-10-16T09:55:42.126Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of docs/tools/resources for reverse engineering and working with video game file formats.",
