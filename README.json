@@ -17,11 +17,11 @@
                 "id": 65680862,
                 "language": "JavaScript",
                 "license": null,
-                "last_commit": "2026-10-15T22:47:30Z",
-                "open_issues": 17,
+                "last_commit": "2026-10-17T09:03:24Z",
+                "open_issues": 19,
                 "owner": "RetroReversing",
                 "repo": "retroReversing",
-                "stars": 703,
+                "stars": 705,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -42,7 +42,7 @@
                 "open_issues": 9,
                 "owner": "2439905184",
                 "repo": "Galgame-Engine-Collect",
-                "stars": 674,
+                "stars": 676,
                 "topics": [
                   "archive",
                   "collections",
@@ -136,11 +136,11 @@
                 "id": 52347647,
                 "language": "JavaScript",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-15T18:18:04Z",
-                "open_issues": 23,
+                "last_commit": "2026-10-16T23:32:05Z",
+                "open_issues": 12,
                 "owner": "gbdev",
                 "repo": "awesome-gbdev",
-                "stars": 4530,
+                "stars": 4531,
                 "topics": [
                   "assembler",
                   "awesome",
@@ -204,7 +204,7 @@
                 "open_issues": 0,
                 "owner": "MuxaJlbl4",
                 "repo": "Awesome-PlayStation-Vita",
-                "stars": 1846,
+                "stars": 1847,
                 "topics": [
                   "awesome",
                   "awesome-list",
@@ -265,7 +265,7 @@
                 "open_issues": 25,
                 "owner": "flipacholas",
                 "repo": "Architecture-of-consoles",
-                "stars": 1112,
+                "stars": 1113,
                 "topics": [
                   "architecture",
                   "articles",
@@ -292,8 +292,8 @@
                 "id": 234738359,
                 "language": "Markdown",
                 "license": "CC0-1.0",
-                "last_commit": "2026-10-02T22:54:22Z",
-                "open_issues": 143,
+                "last_commit": "2026-10-16T18:20:03Z",
+                "open_issues": 142,
                 "owner": "gbdev",
                 "repo": "pandocs",
                 "stars": 796,
@@ -325,11 +325,11 @@
                 "id": 99400117,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-10-12T23:07:58Z",
+                "last_commit": "2026-10-17T03:51:01Z",
                 "open_issues": 98,
                 "owner": "GerbilSoft",
                 "repo": "rom-properties",
-                "stars": 672,
+                "stars": 671,
                 "topics": [
                   "3ds",
                   "amiibo",
@@ -744,7 +744,7 @@
                 "open_issues": 4,
                 "owner": "kovidomi",
                 "repo": "game-reversing",
-                "stars": 1717,
+                "stars": 1718,
                 "topics": [
                   "assembly",
                   "game-hacking",
@@ -815,7 +815,7 @@
                     "open_issues": 10,
                     "owner": "dsasmblr",
                     "repo": "game-hacking",
-                    "stars": 5610,
+                    "stars": 5612,
                     "topics": [
                       "cheat-engine",
                       "game-hacking",
@@ -840,7 +840,7 @@
                     "open_issues": 0,
                     "owner": "realdmx",
                     "repo": "retrore",
-                    "stars": 76,
+                    "stars": 77,
                     "topics": [
                       "6502",
                       "6507",
@@ -886,11 +886,11 @@
             "id": 21958186,
             "language": "Markdown",
             "license": "MIT",
-            "last_commit": "2026-10-14T17:40:31Z",
+            "last_commit": "2026-10-16T13:08:56Z",
             "open_issues": 41,
             "owner": "ellisonleao",
             "repo": "magictools",
-            "stars": 17498,
+            "stars": 17503,
             "topics": [
               "art",
               "awesome",
@@ -928,7 +928,7 @@
             "open_issues": 19,
             "owner": "tylerha97",
             "repo": "awesome-reversing",
-            "stars": 4527,
+            "stars": 4528,
             "topics": []
           },
           "first_seen": "2026-10-02T11:10:14.434Z"
@@ -980,7 +980,7 @@
             "open_issues": 8,
             "owner": "Sebastrion",
             "repo": "awesome-unofficial-pc-ports",
-            "stars": 904,
+            "stars": 915,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1012,10 +1012,10 @@
             "language": null,
             "license": "CC0-1.0",
             "last_commit": "2026-05-27T00:55:28Z",
-            "open_issues": 14,
+            "open_issues": 13,
             "owner": "ReversingID",
             "repo": "Awesome-Reversing",
-            "stars": 744,
+            "stars": 745,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1041,7 +1041,7 @@
             "open_issues": 4,
             "owner": "CharlotteCross1998",
             "repo": "awesome-game-decompilations",
-            "stars": 715,
+            "stars": 724,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1068,11 +1068,11 @@
             "id": 1017317154,
             "language": "HTML",
             "license": null,
-            "last_commit": "2026-10-13T20:21:24Z",
-            "open_issues": 14,
+            "last_commit": "2026-10-17T04:02:56Z",
+            "open_issues": 8,
             "owner": "SamidyFR",
             "repo": "Game-Decompilations",
-            "stars": 562,
+            "stars": 578,
             "topics": [
               "awesome-list",
               "decompilations",
@@ -1145,7 +1145,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-16T09:55:42.126Z",
+    "last_updated": "2026-10-17T09:28:51.624Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of docs/tools/resources for reverse engineering and working with video game file formats.",
@@ -1157,7 +1157,7 @@
       "open_issues": 1,
       "owner": "VelocityRa",
       "repo": "awesome-game-file-format-reversing",
-      "stars": 225,
+      "stars": 226,
       "topics": [
         "awesome",
         "awesome-list",
