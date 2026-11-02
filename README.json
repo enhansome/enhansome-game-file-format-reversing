@@ -17,11 +17,11 @@
                 "id": 65680862,
                 "language": "JavaScript",
                 "license": null,
-                "last_commit": "2026-11-01T09:59:05Z",
-                "open_issues": 14,
+                "last_commit": "2026-11-02T09:01:13Z",
+                "open_issues": 15,
                 "owner": "RetroReversing",
                 "repo": "retroReversing",
-                "stars": 723,
+                "stars": 722,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -42,7 +42,7 @@
                 "open_issues": 9,
                 "owner": "2439905184",
                 "repo": "Galgame-Engine-Collect",
-                "stars": 682,
+                "stars": 685,
                 "topics": [
                   "archive",
                   "collections",
@@ -296,7 +296,7 @@
                 "open_issues": 143,
                 "owner": "gbdev",
                 "repo": "pandocs",
-                "stars": 799,
+                "stars": 802,
                 "topics": [
                   "boy",
                   "cheatsheet",
@@ -325,7 +325,7 @@
                 "id": 99400117,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-10-31T21:45:38Z",
+                "last_commit": "2026-11-02T05:17:39Z",
                 "open_issues": 99,
                 "owner": "GerbilSoft",
                 "repo": "rom-properties",
@@ -417,7 +417,7 @@
                 "open_issues": 14,
                 "owner": "TeamFAPS",
                 "repo": "PSVita-RE-tools",
-                "stars": 397,
+                "stars": 398,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -744,7 +744,7 @@
                 "open_issues": 4,
                 "owner": "kovidomi",
                 "repo": "game-reversing",
-                "stars": 1734,
+                "stars": 1733,
                 "topics": [
                   "assembly",
                   "game-hacking",
@@ -815,7 +815,7 @@
                     "open_issues": 10,
                     "owner": "dsasmblr",
                     "repo": "game-hacking",
-                    "stars": 5643,
+                    "stars": 5642,
                     "topics": [
                       "cheat-engine",
                       "game-hacking",
@@ -887,10 +887,10 @@
             "language": "Markdown",
             "license": "MIT",
             "last_commit": "2026-10-31T19:32:43Z",
-            "open_issues": 40,
+            "open_issues": 43,
             "owner": "ellisonleao",
             "repo": "magictools",
-            "stars": 17651,
+            "stars": 17665,
             "topics": [
               "art",
               "awesome",
@@ -925,7 +925,7 @@
             "language": null,
             "license": null,
             "last_commit": "2023-08-19T07:30:45Z",
-            "open_issues": 20,
+            "open_issues": 19,
             "owner": "tylerha97",
             "repo": "awesome-reversing",
             "stars": 4528,
@@ -949,7 +949,7 @@
             "open_issues": 6,
             "owner": "leomaurodesenv",
             "repo": "game-datasets",
-            "stars": 1142,
+            "stars": 1144,
             "topics": [
               "artificial-intelligence",
               "awesome",
@@ -980,7 +980,7 @@
             "open_issues": 10,
             "owner": "Sebastrion",
             "repo": "awesome-unofficial-pc-ports",
-            "stars": 977,
+            "stars": 976,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1011,8 +1011,8 @@
             "id": 694645895,
             "language": null,
             "license": null,
-            "last_commit": "2026-10-20T00:29:17Z",
-            "open_issues": 5,
+            "last_commit": "2026-11-01T22:51:49Z",
+            "open_issues": 3,
             "owner": "CharlotteCross1998",
             "repo": "awesome-game-decompilations",
             "stars": 816,
@@ -1042,11 +1042,11 @@
             "id": 1017317154,
             "language": "HTML",
             "license": null,
-            "last_commit": "2026-11-01T09:51:09Z",
-            "open_issues": 6,
+            "last_commit": "2026-11-02T00:02:08Z",
+            "open_issues": 8,
             "owner": "SamidyFR",
             "repo": "Game-Decompilations",
-            "stars": 783,
+            "stars": 793,
             "topics": [
               "awesome-list",
               "decompilations",
@@ -1076,7 +1076,7 @@
             "open_issues": 15,
             "owner": "ReversingID",
             "repo": "Awesome-Reversing",
-            "stars": 753,
+            "stars": 754,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1145,7 +1145,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-01T11:53:56.315Z",
+    "last_updated": "2026-11-02T13:38:32.589Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of docs/tools/resources for reverse engineering and working with video game file formats.",
@@ -1153,8 +1153,8 @@
       "id": 1123242354,
       "language": "Python",
       "license": "CC0-1.0",
-      "last_commit": "2026-10-25T08:12:41Z",
-      "open_issues": 3,
+      "last_commit": "2026-11-01T12:45:47Z",
+      "open_issues": 1,
       "owner": "VelocityRa",
       "repo": "awesome-game-file-format-reversing",
       "stars": 235,
@@ -1176,7 +1176,7 @@
         "video-game-engine"
       ]
     },
-    "original_repository_sha": "c6e95b3ef38023c15e57ec86ff84e6e942d2e269",
+    "original_repository_sha": "76fa29aacb4456865b43b509a181a0ed9d88c695",
     "enhanced_repository": "enhansome/enhansome-game-file-format-reversing",
     "enhanced_repository_description": null,
     "title": "🎮 Awesome Game File Format Reversing with stars"
