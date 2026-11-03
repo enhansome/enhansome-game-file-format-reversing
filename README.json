@@ -17,8 +17,8 @@
                 "id": 65680862,
                 "language": "JavaScript",
                 "license": null,
-                "last_commit": "2026-11-02T09:01:13Z",
-                "open_issues": 15,
+                "last_commit": "2026-11-03T09:05:23Z",
+                "open_issues": 13,
                 "owner": "RetroReversing",
                 "repo": "retroReversing",
                 "stars": 722,
@@ -181,7 +181,7 @@
                 "open_issues": 28,
                 "owner": "sanni",
                 "repo": "cartreader",
-                "stars": 2648,
+                "stars": 2647,
                 "topics": [
                   "arduino"
                 ]
@@ -204,7 +204,7 @@
                 "open_issues": 0,
                 "owner": "MuxaJlbl4",
                 "repo": "Awesome-PlayStation-Vita",
-                "stars": 1869,
+                "stars": 1870,
                 "topics": [
                   "awesome",
                   "awesome-list",
@@ -235,7 +235,7 @@
                 "open_issues": 6,
                 "owner": "gbadev-org",
                 "repo": "awesome-gbadev",
-                "stars": 1362,
+                "stars": 1363,
                 "topics": [
                   "awesome-list",
                   "emulator-development",
@@ -261,7 +261,7 @@
                 "id": 294536102,
                 "language": null,
                 "license": "CC-BY-4.0",
-                "last_commit": "2026-10-31T09:25:12Z",
+                "last_commit": "2026-11-02T19:51:39Z",
                 "open_issues": 27,
                 "owner": "flipacholas",
                 "repo": "Architecture-of-consoles",
@@ -296,7 +296,7 @@
                 "open_issues": 143,
                 "owner": "gbdev",
                 "repo": "pandocs",
-                "stars": 802,
+                "stars": 803,
                 "topics": [
                   "boy",
                   "cheatsheet",
@@ -325,11 +325,11 @@
                 "id": 99400117,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-11-02T05:17:39Z",
+                "last_commit": "2026-11-03T02:57:16Z",
                 "open_issues": 99,
                 "owner": "GerbilSoft",
                 "repo": "rom-properties",
-                "stars": 673,
+                "stars": 674,
                 "topics": [
                   "3ds",
                   "amiibo",
@@ -609,7 +609,7 @@
                 "open_issues": 4,
                 "owner": "hcs64",
                 "repo": "pif_rom_dumper",
-                "stars": 30,
+                "stars": 31,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -887,10 +887,10 @@
             "language": "Markdown",
             "license": "MIT",
             "last_commit": "2026-10-31T19:32:43Z",
-            "open_issues": 43,
+            "open_issues": 47,
             "owner": "ellisonleao",
             "repo": "magictools",
-            "stars": 17665,
+            "stars": 17673,
             "topics": [
               "art",
               "awesome",
@@ -980,7 +980,7 @@
             "open_issues": 10,
             "owner": "Sebastrion",
             "repo": "awesome-unofficial-pc-ports",
-            "stars": 976,
+            "stars": 979,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1011,11 +1011,11 @@
             "id": 694645895,
             "language": null,
             "license": null,
-            "last_commit": "2026-11-01T22:51:49Z",
-            "open_issues": 3,
+            "last_commit": "2026-11-02T23:07:14Z",
+            "open_issues": 2,
             "owner": "CharlotteCross1998",
             "repo": "awesome-game-decompilations",
-            "stars": 816,
+            "stars": 815,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1042,11 +1042,11 @@
             "id": 1017317154,
             "language": "HTML",
             "license": null,
-            "last_commit": "2026-11-02T00:02:08Z",
-            "open_issues": 8,
+            "last_commit": "2026-11-03T12:16:26Z",
+            "open_issues": 7,
             "owner": "SamidyFR",
             "repo": "Game-Decompilations",
-            "stars": 793,
+            "stars": 798,
             "topics": [
               "awesome-list",
               "decompilations",
@@ -1145,7 +1145,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-02T13:38:32.589Z",
+    "last_updated": "2026-11-03T12:52:39.438Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of docs/tools/resources for reverse engineering and working with video game file formats.",
@@ -1157,7 +1157,7 @@
       "open_issues": 1,
       "owner": "VelocityRa",
       "repo": "awesome-game-file-format-reversing",
-      "stars": 235,
+      "stars": 237,
       "topics": [
         "awesome",
         "awesome-list",
