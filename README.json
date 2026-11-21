@@ -168,7 +168,7 @@
             {
               "node_type": "item",
               "title": "Cart Reader (OSCR)",
-              "description": "Firmware for an Arduino Mega/Nano-based shield that backs up ROM and save data from game cartridges without a PC, natively supporting NES, SNES, N64, Game Boy/Color/Advance, Sega Mega Drive/Genesis, and Master System, plus dozens more systems (Virtual Boy, PC Engine, WonderSwan, NeoGeo Pocket, Intellivision, ColecoVision, and others) via adapters.",
+              "description": "(archived) - Firmware for an Arduino Mega/Nano-based shield that backs up ROM and save data from game cartridges without a PC, natively supporting NES, SNES, N64, Game Boy/Color/Advance, Sega Mega Drive/Genesis, and Master System, plus dozens more systems (Virtual Boy, PC Engine, WonderSwan, NeoGeo Pocket, Intellivision, ColecoVision, and others) via adapters.",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -204,7 +204,7 @@
                 "open_issues": 0,
                 "owner": "MuxaJlbl4",
                 "repo": "Awesome-PlayStation-Vita",
-                "stars": 1882,
+                "stars": 1883,
                 "topics": [
                   "awesome",
                   "awesome-list",
@@ -292,8 +292,8 @@
                 "id": 234738359,
                 "language": "Markdown",
                 "license": "CC0-1.0",
-                "last_commit": "2026-11-20T13:57:21Z",
-                "open_issues": 137,
+                "last_commit": "2026-11-20T16:02:39Z",
+                "open_issues": 138,
                 "owner": "gbdev",
                 "repo": "pandocs",
                 "stars": 809,
@@ -744,7 +744,7 @@
                 "open_issues": 4,
                 "owner": "kovidomi",
                 "repo": "game-reversing",
-                "stars": 1740,
+                "stars": 1739,
                 "topics": [
                   "assembly",
                   "game-hacking",
@@ -815,7 +815,7 @@
                     "open_issues": 11,
                     "owner": "dsasmblr",
                     "repo": "game-hacking",
-                    "stars": 5658,
+                    "stars": 5661,
                     "topics": [
                       "cheat-engine",
                       "game-hacking",
@@ -887,10 +887,10 @@
             "language": "Markdown",
             "license": "MIT",
             "last_commit": "2026-11-19T21:32:11Z",
-            "open_issues": 2,
+            "open_issues": 3,
             "owner": "ellisonleao",
             "repo": "magictools",
-            "stars": 17835,
+            "stars": 17841,
             "topics": [
               "art",
               "awesome",
@@ -949,7 +949,7 @@
             "open_issues": 10,
             "owner": "leomaurodesenv",
             "repo": "game-datasets",
-            "stars": 1145,
+            "stars": 1146,
             "topics": [
               "artificial-intelligence",
               "awesome",
@@ -980,7 +980,7 @@
             "open_issues": 10,
             "owner": "Sebastrion",
             "repo": "awesome-unofficial-pc-ports",
-            "stars": 1013,
+            "stars": 1014,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1015,7 +1015,7 @@
             "open_issues": 0,
             "owner": "SamidyFR",
             "repo": "Game-Decompilations",
-            "stars": 872,
+            "stars": 874,
             "topics": [
               "awesome-list",
               "decompilations",
@@ -1045,7 +1045,7 @@
             "open_issues": 5,
             "owner": "CharlotteCross1998",
             "repo": "awesome-game-decompilations",
-            "stars": 860,
+            "stars": 862,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1076,7 +1076,7 @@
             "open_issues": 18,
             "owner": "ReversingID",
             "repo": "Awesome-Reversing",
-            "stars": 764,
+            "stars": 765,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1145,7 +1145,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-20T14:08:13.311Z",
+    "last_updated": "2026-11-21T13:33:34.060Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of docs/tools/resources for reverse engineering and working with video game file formats.",
@@ -1153,7 +1153,7 @@
       "id": 1123242354,
       "language": "Python",
       "license": "CC0-1.0",
-      "last_commit": "2026-11-04T02:16:17Z",
+      "last_commit": "2026-11-21T02:21:02Z",
       "open_issues": 3,
       "owner": "VelocityRa",
       "repo": "awesome-game-file-format-reversing",
@@ -1176,7 +1176,7 @@
         "video-game-engine"
       ]
     },
-    "original_repository_sha": "0e18d5572de70fe3b00697234d17a72f5be1b8e6",
+    "original_repository_sha": "9911fa889d569a57ab287d24480e03856399fd26",
     "enhanced_repository": "enhansome/enhansome-game-file-format-reversing",
     "enhanced_repository_description": null,
     "title": "🎮 Awesome Game File Format Reversing with stars"
