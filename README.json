@@ -21,7 +21,7 @@
                 "open_issues": 16,
                 "owner": "RetroReversing",
                 "repo": "retroReversing",
-                "stars": 736,
+                "stars": 737,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:29:05.115Z"
@@ -140,7 +140,7 @@
                 "open_issues": 11,
                 "owner": "gbdev",
                 "repo": "awesome-gbdev",
-                "stars": 4557,
+                "stars": 4558,
                 "topics": [
                   "assembler",
                   "awesome",
@@ -204,7 +204,7 @@
                 "open_issues": 0,
                 "owner": "MuxaJlbl4",
                 "repo": "Awesome-PlayStation-Vita",
-                "stars": 1882,
+                "stars": 1883,
                 "topics": [
                   "awesome",
                   "awesome-list",
@@ -325,7 +325,7 @@
                 "id": 99400117,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-11-24T05:37:05Z",
+                "last_commit": "2026-11-26T15:12:16Z",
                 "open_issues": 101,
                 "owner": "GerbilSoft",
                 "repo": "rom-properties",
@@ -455,7 +455,7 @@
                 "id": 230430812,
                 "language": "Verilog",
                 "license": "GPL-2.0",
-                "last_commit": "2026-11-25T11:08:26Z",
+                "last_commit": "2026-11-26T11:36:20Z",
                 "open_issues": 23,
                 "owner": "furrtek",
                 "repo": "SiliconRE",
@@ -886,11 +886,11 @@
             "id": 21958186,
             "language": "Markdown",
             "license": "MIT",
-            "last_commit": "2026-11-25T14:25:26Z",
-            "open_issues": 4,
+            "last_commit": "2026-11-25T17:34:58Z",
+            "open_issues": 1,
             "owner": "ellisonleao",
             "repo": "magictools",
-            "stars": 17871,
+            "stars": 17874,
             "topics": [
               "art",
               "awesome",
@@ -928,7 +928,7 @@
             "open_issues": 20,
             "owner": "tylerha97",
             "repo": "awesome-reversing",
-            "stars": 4527,
+            "stars": 4528,
             "topics": []
           },
           "first_seen": "2026-10-02T11:10:14.434Z"
@@ -946,7 +946,7 @@
             "language": null,
             "license": "CC-BY-4.0",
             "last_commit": "2026-10-25T21:38:10Z",
-            "open_issues": 13,
+            "open_issues": 14,
             "owner": "leomaurodesenv",
             "repo": "game-datasets",
             "stars": 1146,
@@ -980,7 +980,7 @@
             "open_issues": 10,
             "owner": "Sebastrion",
             "repo": "awesome-unofficial-pc-ports",
-            "stars": 1030,
+            "stars": 1034,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1015,7 +1015,7 @@
             "open_issues": 1,
             "owner": "SamidyFR",
             "repo": "Game-Decompilations",
-            "stars": 879,
+            "stars": 880,
             "topics": [
               "awesome-list",
               "decompilations",
@@ -1102,7 +1102,7 @@
             "open_issues": 6,
             "owner": "loicreynier",
             "repo": "awesome-modding.bak",
-            "stars": 57,
+            "stars": 56,
             "topics": [
               "awesome",
               "awesome-list",
@@ -1145,7 +1145,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-25T15:45:34.831Z",
+    "last_updated": "2026-11-26T15:27:23.963Z",
     "original_repository_info": {
       "archived": false,
       "description": "Collection of docs/tools/resources for reverse engineering and working with video game file formats.",
@@ -1154,7 +1154,7 @@
       "language": "Python",
       "license": "CC0-1.0",
       "last_commit": "2026-11-25T11:20:07Z",
-      "open_issues": 0,
+      "open_issues": 1,
       "owner": "VelocityRa",
       "repo": "awesome-game-file-format-reversing",
       "stars": 249,
