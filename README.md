@@ -120,7 +120,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Knowledge Bases & Format Databases
 
 * [RetroReversing](https://github.com/RetroReversing/retroReversing) ⭐ 737 | 🐛 17 | 🌐 JavaScript | 📅 2026-11-27 - Curated list of retro game development and reverse-engineering resources, tools, and documentation, published as the RetroReversing.com website/wiki.
-* [Galgame-Engine-Collect (galWiki)](https://github.com/2439905184/Galgame-Engine-Collect) ⭐ 691 | 🐛 9 | 🌐 HTML | 📅 2026-11-20 - Extensive community knowledge base cataloging Japanese visual novel/galgame engines, their file formats, and associated extraction/translation tools.
+* [Galgame-Engine-Collect (galWiki)](https://github.com/2439905184/Galgame-Engine-Collect) ⭐ 692 | 🐛 9 | 🌐 HTML | 📅 2026-11-20 - Extensive community knowledge base cataloging Japanese visual novel/galgame engines, their file formats, and associated extraction/translation tools.
 * [arcade-docs](https://codeberg.org/shiz/arcade-docs) - Open documentation repository for arcade system hardware, network protocols, and file formats across many manufacturers. Migrated from the archived [GitHub mirror](https://github.com/shizmob/arcade-docs) ⚠️ Archived.
 * [XeNTaXBackup](https://github.com/XeNTaXBackup/XeNTaXBackup.github.io) ⭐ 75 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2024-01-21 - Public backup of the XeNTaX game file format reverse engineering forum and wiki, preserving community knowledge on game format documentation, QuickBMS scripts, and format research.
 * [oldgamescracking.github.io](https://github.com/OldGamesCracking/oldgamescracking.github.io) ⭐ 2 | 🐛 0 | 🌐 C | 📅 2026-10-13 - Community knowledge base documenting cracking and format-preservation notes for old games.
@@ -129,15 +129,15 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Platform & SDK Documentation
 
-* [awesome-gbdev](https://github.com/gbdev/awesome-gbdev) ⭐ 4,558 | 🐛 11 | 🌐 JavaScript | 📅 2026-11-19 - Curated list of Game Boy development resources, including reverse-engineering tools, hardware/format documentation, disassemblers, and emulators.
+* [awesome-gbdev](https://github.com/gbdev/awesome-gbdev) ⭐ 4,559 | 🐛 11 | 🌐 JavaScript | 📅 2026-11-19 - Curated list of Game Boy development resources, including reverse-engineering tools, hardware/format documentation, disassemblers, and emulators.
 * [Cart Reader (OSCR)](https://github.com/sanni/cartreader) ⚠️ Archived (archived) - Firmware for an Arduino Mega/Nano-based shield that backs up ROM and save data from game cartridges without a PC, natively supporting NES, SNES, N64, Game Boy/Color/Advance, Sega Mega Drive/Genesis, and Master System, plus dozens more systems (Virtual Boy, PC Engine, WonderSwan, NeoGeo Pocket, Intellivision, ColecoVision, and others) via adapters.
 * [Awesome PlayStation Vita](https://github.com/MuxaJlbl4/Awesome-PlayStation-Vita) ⭐ 1,884 | 🐛 0 | 🌐 Markdown | 📅 2026-11-07 - Comprehensive PS Vita resource list including reverse engineering tools, file format decompilers (.rco, .rcs), and RE utilities.
 * [awesome-gbadev](https://github.com/gbadev-org/awesome-gbadev) ⭐ 1,367 | 🐛 6 | 📅 2026-01-30 - Curated list of Game Boy Advance development resources, including documentation, tools, and libraries relevant to GBA file formats and homebrew.
 * [Architecture of consoles](https://github.com/flipacholas/Architecture-of-consoles) ⭐ 1,119 | 🐛 26 | 📅 2026-11-22 - Series of technical articles on console hardware architecture, covering CPU, graphics, and file/memory layout across many platforms.
 * [Pan Docs](https://github.com/gbdev/pandocs) ⭐ 810 | 🐛 139 | 🌐 Markdown | 📅 2026-11-25 - The single, most comprehensive technical reference to the Game Boy hardware available to the public, including cartridge header, memory bank controller, and save format documentation.
-* [rom-properties](https://github.com/GerbilSoft/rom-properties) ⭐ 675 | 🐛 101 | 🌐 C++ | 📅 2026-11-27 - Shell extension for Windows and Linux that shows information about ROM and disc image files. Supports over 500 game and system file formats across dozens of consoles and handhelds.
+* [rom-properties](https://github.com/GerbilSoft/rom-properties) ⭐ 675 | 🐛 101 | 🌐 C++ | 📅 2026-11-28 - Shell extension for Windows and Linux that shows information about ROM and disc image files. Supports over 500 game and system file formats across dozens of consoles and handhelds.
   * Features: Metadata viewing (title, publisher, region), icon/boxart extraction, save game management, and explorer integration.
-* [awesome-megadrive](https://github.com/And-0/awesome-megadrive) ⭐ 459 | 🐛 3 | 📅 2026-11-21 - Curated list of Sega Mega Drive/Genesis development resources, including hardware documentation, disassemblers, and format tools.
+* [awesome-megadrive](https://github.com/And-0/awesome-megadrive) ⭐ 460 | 🐛 3 | 📅 2026-11-21 - Curated list of Sega Mega Drive/Genesis development resources, including hardware documentation, disassemblers, and format tools.
 * [gb-ctr](https://github.com/Gekkio/gb-ctr) ⭐ 440 | 🐛 3 | 🌐 Typst | 📅 2026-11-23 - Game Boy: Complete Technical Reference, an in-depth document covering Game Boy console hardware internals.
 * [PSVita-RE-tools](https://github.com/TeamFAPS/PSVita-RE-tools) ⭐ 408 | 🐛 14 | 🌐 C | 📅 2023-02-20 - Collection of PlayStation Vita reverse-engineering tools.
 * [psx-guide](https://github.com/simias/psx-guide) ⭐ 314 | 🐛 8 | 🌐 TeX | 📅 2023-03-21 - In-depth guide to writing a PlayStation emulator from scratch, covering the CPU/MIPS instruction set and memory interconnect, DMA ordering tables, GPU internals and rendering, and building a debugger with breakpoints/watchpoints.
@@ -185,8 +185,8 @@ This list is for developers and modders working with such formats. It provides t
 
 #### 🎥 Video Tutorials
 
-* [dsasmblr/game-hacking](https://github.com/dsasmblr/game-hacking) ⭐ 5,662 | 🐛 11 | 📅 2024-06-20 - Large curated collection of tutorials, tools, and resources for reverse engineering video games.
-* [retrore](https://github.com/realdmx/retrore) ⭐ 79 | 🐛 0 | 📅 2026-10-09 - Curated list of original and reverse-engineered vintage 6502 game source code, tracking disassembly projects across many classic 8-bit titles.
+* [dsasmblr/game-hacking](https://github.com/dsasmblr/game-hacking) ⭐ 5,660 | 🐛 11 | 📅 2024-06-20 - Large curated collection of tutorials, tools, and resources for reverse engineering video games.
+* [retrore](https://github.com/realdmx/retrore) ⭐ 80 | 🐛 0 | 📅 2026-10-09 - Curated list of original and reverse-engineered vintage 6502 game source code, tracking disassembly projects across many classic 8-bit titles.
 * [Binary File Format Engineering and Reverse Engineering](https://www.youtube.com/watch?v=8OxtBxXfJHw) - Peter Bindels - ACCU 2023 conference talk on binary file format analysis and reverse engineering techniques.
 * [Reverse engineering game formats for fun and profit! (or just fun)](https://www.youtube.com/watch?v=MXbo6y6MCPE) - Spencer Alves - !!Con West 2020 talk on reverse engineering game file formats.
 * [What's In A Bit - Designing, Using And Reverse-engineering Binary File Formats](https://www.youtube.com/watch?v=QEIGc3tXGmM) - Peter Bindels - cpponsea talk on binary file format design and reverse engineering.
@@ -267,13 +267,13 @@ This list is for developers and modders working with such formats. It provides t
 
 ## 🔗 Related Lists
 
-* [Awesome Gamedev](https://github.com/ellisonleao/magictools) ⭐ 17,884 | 🐛 0 | 🌐 Markdown | 📅 2026-11-27 - Curated list of game development resources.
+* [Awesome Gamedev](https://github.com/ellisonleao/magictools) ⭐ 17,890 | 🐛 1 | 🌐 Markdown | 📅 2026-11-28 - Curated list of game development resources.
 * [Awesome Reverse Engineering](https://github.com/tylerha97/awesome-reversing) ⭐ 4,528 | 🐛 20 | 📅 2023-08-19 - List of reverse engineering resources.
-* [Awesome Game Datasets](https://github.com/leomaurodesenv/game-datasets) ⭐ 1,146 | 🐛 6 | 📅 2026-11-26 - Datasets and resources for game research.
-* [Awesome Unofficial PC Ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) ⭐ 1,037 | 🐛 10 | 📅 2026-11-13 - Curated list of fan-made, reverse-engineering-driven PC ports and static recompilations of console-only games.
-* [Game-Decompilations](https://github.com/SamidyFR/Game-Decompilations) ⭐ 884 | 🐛 1 | 🌐 HTML | 📅 2026-11-15 - Curated list of video game decompilation projects, documenting reverse-engineered game source code and asset parsing.
-* [Awesome Game Decompilations](https://github.com/CharlotteCross1998/awesome-game-decompilations) ⭐ 866 | 🐛 6 | 📅 2026-11-14 - A curated list of awesome game decompilations.
-* [Awesome Software Reverse Engineering](https://github.com/ReversingID/Awesome-Reversing/blob/master/software-reversing.md) ⭐ 773 | 🐛 16 | 📅 2026-05-27 - Comprehensive list of reverse engineering software and tools.
+* [Awesome Game Datasets](https://github.com/leomaurodesenv/game-datasets) ⭐ 1,147 | 🐛 7 | 📅 2026-11-26 - Datasets and resources for game research.
+* [Awesome Unofficial PC Ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) ⭐ 1,036 | 🐛 10 | 📅 2026-11-13 - Curated list of fan-made, reverse-engineering-driven PC ports and static recompilations of console-only games.
+* [Game-Decompilations](https://github.com/SamidyFR/Game-Decompilations) ⭐ 885 | 🐛 0 | 🌐 HTML | 📅 2026-11-27 - Curated list of video game decompilation projects, documenting reverse-engineered game source code and asset parsing.
+* [Awesome Game Decompilations](https://github.com/CharlotteCross1998/awesome-game-decompilations) ⭐ 869 | 🐛 6 | 📅 2026-11-14 - A curated list of awesome game decompilations.
+* [Awesome Software Reverse Engineering](https://github.com/ReversingID/Awesome-Reversing/blob/master/software-reversing.md) ⭐ 773 | 🐛 15 | 📅 2026-05-27 - Comprehensive list of reverse engineering software and tools.
 * [Awesome Modding](https://github.com/loicreynier/awesome-modding.bak) ⭐ 56 | 🐛 6 | 🌐 Nix | 📅 2025-11-24 - Resources for game modding and customization.
 * [Awesome-Game-Boy-Camera-and-Game-Boy-Printer-projects](https://github.com/Raphael-Boichot/Awesome-Game-Boy-Camera-and-Game-Boy-Printer-projects) ⭐ 46 | 🐛 0 | 🌐 Shell | 📅 2026-11-10 - Curated meta-list of Game Boy Camera and Game Boy Printer projects across the internet.
 
@@ -289,4 +289,4 @@ Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlay
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-27._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-28._
